@@ -1,0 +1,6 @@
+Gmail for Android can send and receive payments as attachments
+The Google Wallet integration used to be exclusive to Gmail for the web.
+
+The Gmail app for Android has scored what used to be a web-only feature. It now has Google Wallet integration, so you can send and request money right within your emails. Say, you need to split the bill for a dinner -- all you need to do is tap the attachment icon and click "Send money" to pay your friend. A Google Wallet pop up will ask you how much you want to send and will forward your payment as an attachment.
+
+In case you're typically the one receiving payments for group dinners, shared bills and the like, you can also tweak the feature's settings to send the money straight to your bank account. The feature works even if your friends, roommates or co-workers don't use Gmail, but only if you're all in the US. Since it's only available for users in the country and only on Android and the web, you'll probably want to keep those other payment apps on your phone.

@@ -1,0 +1,21 @@
+
+Six jobs are eliminated for every robot introduced into the workforce, a new study says
+The threat of robots taking our jobs is very real.
+
+Job-stealing robots aren’t some distant scenario that’s unlikely to cause problems for another “50 to 100 years” from now, as Donald Trump’s treasury secretary Steve Mnuchin said in an interview last week.
+
+New research released from the National Bureau of Economic Research yesterday shows that between 1990 and 2007, when one or more industrial robots were introduced into the workforce, it led to the elimination of 6.2 jobs within a local area where people commute for work.
+
+The report, which was authored by economists Daron Acemoglu of MIT and Pascual Restrepo of Boston University, found that the wages of workers also declined slightly as a result of robots entering the U.S. economy. Wages dropped between 0.25 percent and 0.50 percent per 1,000 employees when one or more robots came into the picture.
+
+Within the years studied, robots were responsible for the loss of up to 670,000 manufacturing jobs, a number that could rise as more companies are expected to turn to industrial robots in the coming years, according to the paper.
+
+Though these numbers might not seem dramatic, the definition that the authors used for a robot was rather narrow, borrowing from the International Federation of Robotics, which says a robot is “an automatically controlled, reprogrammable and multipurpose [machine].” That means that software that could be used to automate away retail and paperwork-heavy jobs, as well as machines like coffeemakers and conveyor belts, were not considered to be robots in this research.
+
+So what does this mean in the long run?
+
+Looking at projections for how many robots are set to enter the workforce in the next 10 years, one aggressive scenario from the Boston Consulting Group, as cited in the new report, estimates that the count of industrial robots across the world could quadruple by 2025. A more modest scenario from BCG foresees that industrial robots will increase by less than threefold.
+
+If the findings from this study represent a trend moving into the future, then job loss could increase as more robots are introduced into the U.S. economy. More people will have to find new ways to make ends meet, and that could mean job-retraining programs or some kind of subsidized support, like from a universal basic income system, for example.
+
+Either of those would likely entail some kind of political action. But if Mnuchin’s comments are to be taken seriously, the threat of unemployment due to technological advancements is “not even on [the Trump administration’s] radar screen.”

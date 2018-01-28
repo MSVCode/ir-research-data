@@ -1,0 +1,26 @@
+macOS 10.12.4 update brings Night Shift to the Mac and not much else
+Sierra's fourth major update imports one more feature from iOS.
+
+Apple has just released macOS 10.12.4, the fourth major update for Sierra since the operating system was released last September. In addition to the typical bug fixes and security patches, the update brings over one minor feature from iOS: Night Shift, which can subtly change your screen's color from a cooler blue tone to warmer yellow tones in an effort to help you sleep better.
+
+Night Shift was originally introduced in iOS 9.3 about a year ago. Since then, Google has added a similar feature to Android 7.0, and Microsoft is going to include a version of it in the imminent Windows 10 Creators Update. On Android, Windows, and macOS, the feature is arguably less necessary, since third-party apps like f.lux can fill the gap. Still, it's convenient to have it integrated into the OS itself and officially supported by the companies, if only because it will prevent the feature from breaking when new updates come out.
+
+The complete list of fixes, including business-specific updates, is below. For security update information, keep an eye on this page.
+
+    Adds Night Shift for automatically shifting the colors in your display to the warmer end of the spectrum after dark.
+    Adds Siri support for cricket sports scores and statistics for Indian Premier League and International Cricket Council.
+    Adds Dictation support for Shanghainese.
+    Resolves several PDF rendering and annotation issues in Preview.
+    Improves the visibility of the subject line when using Conversation View in Mail.
+    Fixes an issue that may prevent content from appearing in Mail messages.
+    Adds support for more digital camera RAW formats.
+
+Enterprise content
+
+    Adds the tethered-caching command, which optimizes certain downloads for iOS devices tethered via USB. For details, enter man tethered-caching in Terminal.
+    Updates the security command to include the delete-identity option, which deletes both a certificate and its private key from a keychain. For details, enter man security in Terminal.
+    Updates the profiles command to include the -N flag, which displays a device-enrollment notification that prompts the user to complete Mobile Device Management (MDM) enrollment. For details, enter man profiles in Terminal.
+    Fixes an issue that causes notebook computers connected to certain docking stations to display a blank screen instead of the macOS login window on the built-in display.
+    Fixes an issue that causes a newly changed user-account password to be rejected at the macOS login window, if FileVault is turned on.
+    Adds the ability to automatically renew certain certificates delivered via a configuration profile.
+    Includes numerous Xsan fixes.

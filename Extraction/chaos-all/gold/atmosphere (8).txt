@@ -1,0 +1,39 @@
+Solar activity controls Ceres’ tenuous atmosphere
+
+A new study by scientists working on NASA’s Dawn mission indicates Ceres’ atmosphere is controlled by solar activity rather than by its relative closeness to the Sun. In observations conducted since the 1990s, the dwarf planet’s tenuous atmosphere has mysteriously appeared, disappeared, and reappeared at various times.
+
+Because Dawn found evidence of water ice on the dwarf planet’s surface, scientists initially thought its atmosphere was produced in a process similar to that experienced by comets, where surface ices sublimate into gaseous form as they come closer to the Sun.
+
+While sublimation does occur on Ceres, it does not create enough gas to form the atmosphere periodically detected around the planet, said Michaela Villarreal of the University of California at Los Angeles (UCLA).
+
+Villarreal is lead author of a paper on the study published in Astrophysical Journal Letters.
+
+According to the study, Ceres’ atmosphere, also known as its exosphere, seems to return during periods of solar activity when the Sun emits high levels of energetic protons, and disappear when the Sun is quiet. The atmosphere’s presence has shown no correlation with the dwarf planet’s proximity to the Sun.
+
+This study’s findings have significance beyond Ceres.
+
+“Our results also have implications for other airless, water-rich bodies of the solar system, including the polar regions of the Moon and some asteroids,” said Dawn principal investigator Chris Russell, also of UCLA. “Atmospheric releases might be expected from their surfaces, too, when solar activity erupts.”
+
+When high-energy particles emitted by the Sun hit surface and near-surface ice on Ceres, they collide with one another and transfer energy to its water molecules. This causes the molecules to escape and form a thin atmosphere that lasts between one and two weeks.
+
+During the early 1990s, the International Ultraviolet Explorer satellite found hydroxyl (one hydrogen atom bonded with one oxygen atom) being emitted from Ceres one time but nothing another time. In 2007, researchers using the European Southern Observatory’s Very Large Telescope looked for hydroxide emission from the dwarf planet, but did not find anything.
+
+Out of four observations conducted using the European Space Agency’s Herschel Space Observatory, three revealed water in Ceres’ atmosphere while a fourth did not.
+
+When Dawn began exploring Ceres in 2015, its gamma ray and neutron detector (GRaND) found abundant hydrogen on the dwarf planet’s uppermost surface, which indicates that surface has wide regions of water ice. At higher latitudes, which have colder temperatures than the equatorial region, water ice is located closer to the surface.
+
+Many of Ceres’ craters and other surface features are those typically found on worlds that have large amounts of ice in their crusts. Dawn also found ice in Oxo Crater, which is small and bright, and in at least one other northern hemisphere crater that is perpetually in shadow.
+
+Other studies have confirmed ice is likely to be present in craters that are always shadowed.
+
+According to a 2016 study authored by Russell in the journal Science, using GRaND found that during a six-day period of increased solar activity in 2015, the solar wind infused Ceres with a high level of accelerated electrons.
+
+Now, with the Sun quiet and expected to remain so for several years, scientists predict Ceres will have either a nebulous atmosphere or none at all, in spite of the fact that the dwarf planet is headed toward perihelion.
+
+Mission engineers are moving Dawn to a new orbital plane for the purpose of measuring cosmic rays in order to identify chemical elements near Ceres’ surface.
+
+Later this month, the Sun will be exactly behind Dawn, making Ceres appear brighter than usual. Scientists hope this will help them learn more about the small world’s history and composition.
+
+The spacecraft, which entered orbit around Ceres in March 2015, is in a highly elliptical orbit about 12,300 miles (20,000 kilometers) above its surface.
+
+Read more at http://www.spaceflightinsider.com/missions/solar-system/solar-activity-controls-ceres-tenuous-atmosphere/#dEUzTgiz1ruzHR5z.99

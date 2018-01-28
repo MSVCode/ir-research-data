@@ -1,0 +1,23 @@
+Confirmed: Ceres Has a Transient Atmosphere
+
+Sometimes they see it, sometimes they don’t. That’s why scientists have never been completely sure if Ceres has an atmosphere or not. But now data from the Dawn spacecraft — in orbit of Ceres — confirms the dwarf planet really does have a very weak atmosphere, but it comes and goes.
+
+The on-again-off-again nature of Ceres’ atmosphere appears to be linked to solar activity. When energetic particles from the Sun hit exposed ice within the craters on Ceres, the ice can sublimate and create an “exosphere” that lasts for a week or so.
+
+Michaela Villarreal from UCLA, lead author of the new study, and her team wrote in their paper that the “atmosphere appeared shortly after the passage of a large enhancement in the local flux of high-energy solar protons,” and explained that when energetic particles from the Sun hit exposed ice and ice near the surface of the dwarf planet, it transfers energy to the water molecules as they collide. This frees the water molecules from the ground, allowing them to escape and create a tenuous atmosphere. 
+
+A process like this could also be taking place on the Moon, and is likely similar to the process similar to what takes place on comets.
+
+“Our results also have implications for other airless, water-rich bodies of the solar system, including the polar regions of the moon and some asteroids,” said Chris Russell, principal investigator of the Dawn mission, also at UCLA. “Atmospheric releases might be expected from their surfaces, too, when solar activity erupts.”
+
+There have been hints of an atmosphere at Ceres since the early 1990’s. In 1991, the International Ultraviolet Explorer satellite detected hydroxyl emission from Ceres, but not in 1990. Then, in 2007, the European Southern Observatory’s Very Large Telescope searched for a hydroxide emission, but came up empty. The European Space Agency’s Herschel Space Observatory detected water vapor as a possible weak atmosphere, on three occasions, but did not on a fourth attempt.
+
+The Dawn spacecraft itself saw evidence of a transient atmosphere when it arrived at Ceres in March 2015, with data from its Gamma Ray and Neutron Detector instrument. It also has found ample evidence for water in the form of ice, found just underground at higher latitudes, where temperatures are lower. Ice has been detected directly at the small bright crater called Oxo and in at least one of the craters that are persistently in shadow in the northern hemisphere. Other research has suggested that persistently shadowed craters are likely to harbor ice. Additionally, the shapes of craters and other features are consistent with significant water-ice content in the crust.
+
+The team’s research shows the atmosphere doesn’t necessarily show up when Ceres is close to the Sun or when sunlight hits the ice directly, but from energetic particles released by the Sun when its activity level is high. For example, the best detections of Ceres’ atmosphere did not occur at its closest approach to the Sun.
+
+Also, the times where no atmosphere was detected coincided with lower solar activity, so the researchers say this suggests that solar activity, rather than Ceres’ proximity to the Sun, is a more important factor in generating an exosphere.
+
+Ceres actually is now getting closer to the Sun. However, since the Sun appears to be in a very quiet period, Villarreal, Russell and team predict an atmosphere won’t show up, that the dwarf planet will have little to no atmosphere for some time. However, they said both Dawn and other observatories should keep an eye on what’s happening at Ceres.
+
+Paper: The Dependence of the Cerean Exosphere on Solar Energetic Particle Events

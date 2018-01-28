@@ -1,0 +1,12 @@
+You can now take a virtual walk on Mars in your browser, thanks to Google
+
+If you’ve ever wondered what it’s like to roam around the crannies and crevices of Mars, you can now do so directly in your computer.
+
+In partnership with NASA, Google created Access Mars for anyone to go on a virtual tour of the distant red planet, as seen through NASA’s Curiosity Rover’s eyes. The experience was built with WebVR technology, which lets you see virtual reality in any browser without an app or fancy VR equipment, Ryan Burke, interactive producer at Google’s creative lab, wrote in a blog post. You can also load it onto a headset to immerse yourself in a 360 view.
+
+The site was adapted from NASA’s Jet Propulsion Laboratory’s OnSight software, which was built in collaboration with Microsoft to simulate Mars’ surface in 3D from real rover data. After its launched on your browser, the site opens with a short intro video that retells the story of Curiosity Rover’s landing in 2012 and demonstrates how the robot captures the images that you are about to see. You’re then dropped onto the barren, harsh terrain, with NASA scientist Katie Stack Morgan as your tour guide, where you can move and pan around to explore.
+
+Hovering orbs elaborate on what you see, and clicking on parts of Curiosity unfurls details about its design. A map lets you navigate to different points along the rover’s journey, including its “Current Location.” NASA continuously refreshes that view with the most up-to-date data, so the images are never more than a few days or weeks old.
+A screenshot from NASA JPL's OnSight software.
+
+“On August 6, 2012, the Curiosity rover landed on Mars,” Burke wrote. “Ever since, it’s been searching for evidence that Mars has ever been suitable for life.” Now you can join the adventure—without moving out of your seat.

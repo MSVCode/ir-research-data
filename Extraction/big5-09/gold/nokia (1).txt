@@ -1,0 +1,34 @@
+
+Still room on the netbook bandwagon for Nokia + Linux + ARM
+
+Nokia is hinting that it may further crowd the already-packed netbook space by becoming the first phone maker to jump in. If the Finnish maker of stylish smartphones does make a netbook, it could differentiate itself and make a splash by using ARM and mobile Linux.
+
+ This whole netbook thing is rapidly getting out of hand, and we're fast approaching a situation where every last company (including ODMs) in any corner of the PC or mobile space will have jumped on the netbook bandwagon. A case in point is Nokia, which, faced with tanking revenues in its high-margin handset business, is making ever-louder noises about getting into laptops.
+
+In an interview with Finnish TV summarized by Reuters, Nokia didn't appear to use the n-word (we haven't seen a full transcript, though), but there was plenty of talk of PCs and mobiles converging, and how Nokia is "looking very actively" at this convergence. The question that the report leaves open is "what kind of 'laptop' is Nokia considering?"
+
+The obvious answer would be that Nokia plans to jump into the PC market with an Atom-based netbook, and that may well be the case. But we could just as easily see the company using a combination of ARM and Linux to squeeze itself onto the incredibly crowded netbook bandwagon. It all depends on Nokia's timing.
+
+If the planned mobile is a near-term product for 2009 or even 2010, then Atom or Intel's upcoming Moorestown makes the most sense. The only near-term ARM options could power a "netbook" device with a very lightweight, highly optimized mobile Linux stack that's basically a Web tablet (à la the N810) with a full-sized screen and keyboard. This doesn't seem that compelling, though. But if the target date is 2011, it will probably be ARM-based in order to leverage Nokia's substantial investments in ARM hardware and software, and in an ARM-based supply chain.
+
+Given Nokia's recent moves, we're leaning towards the idea that Nokia will release an ARM-based netbook in 2011, instead of (or in addition to) a more traditional Intel-based netbook. Here's why.
+Nokia's Linux push
+
+Nokia has invested considerable resources in building a robust Linux-based platform for ARM. The Maemo operating system, which is used on the company's Internet Tablet devices, provides a relatively complete stack that could easily be adapted to run on a laptop.
+
+The next generation of the Maemo platform is being built to run on OMAP3 and is designed to leverage the chip's more robust processing power. Unlike the current generation of Internet Tablet devices, the next generation will get much closer to a laptop-like experience in terms of performance. Going from an ARM-based touchscreen tablet to an ARM-based netbook isn't such a big jump when you look at the capabilities that Maemo 5 is being engineered to deliver.
+
+Another factor worth considering is the Ubuntu ARM port. Nokia sponsored a group called the Handheld Mojo team that developed an unofficial Ubuntu port for ARM processors. Canonical, the company behind Ubuntu, recently announced its own official ARM port which will be made available when Ubuntu 9.04 is released in April. Canonical has also put a lot of effort into developing user interfaces that are specifically tailored for netbooks.
+
+So Nokia could adapt Maemo to make it netbook-friendly, it could adopt the Ubuntu ARM port, or it could create a hybrid that leverages components of both. The hybrid possibility isn't as far-fetched as it sounds in this case, as there is a lot of overlap between the technologies that are used in Ubuntu and in Maemo. Both are Debian-based platforms, and they're both closely tied to the GNOME ecosystem. There are a lot of shared components at many different layers of the stack.
+The hardware possibilities
+
+In terms of the processor, the two most obvious candidates for ARM-based Nokia netbooks are the OMAP 3 and OMAP 4 processor families from TI. The OMAP 3 family is just now starting to make its way out into the market in force, and its highest-profile design win to date is Palm's forthcoming Pre. We won't describe OMAP 3 here, since we've covered it in previous Palm coverage, but it's worth noting that it's a relatively weak netbook candidate. With only one in-order Cortex A8 core, the OMAP 3 series is much more suited to phones and PMPs than it is to an actual "netbook"-caliber device. A case in point is this recent Engadget post, which shows the OMAP 3 struggling under the strain of Windows Mobile 6.5.
+
+Of course, TI will migrate the next entry in the OMAP 3 family, the 3600 series, to a 45nm fab process, and this will boost performance while cutting power consumption. The company also claims a major boost in graphics performance for this newer series, due out next year, but the degree to which it touts 720p HD video decoding in its press release indicates that most of this boost is in the video decode department. Still, they should also see some bump in overall performance, from the increase in clockspeed and from improvements to the GPU core.
+
+A much more likely candidate for a Nokia netbook is the OMAP 4 series, which was just announced earlier this month. OMAP 4 will also be 45nm, and its line sports a dual-core Cortex A9 along with a GPU by PowerVR. Clockspeeds on these parts will go above 1GHz on the top end, and they should easily be capable of powering a Linux-based netbook. 
+
+ These chips probably won't go into production until the second half of this year, and they'll start showing up in devices in 2011. By that time, rival Intel will be well into the "tock" cycle of its newly accelerated 32nm production, and should be starting on 22nm parts. Intel's 32nm Moorestown successors will be very cheap to produce and sell, and will give a 32nm OMAP 4 a run for its money.
+
+Ultimately, though we consider an ARM-based Linux netbook to be Nokia's most likely entry into the netbook market, an Intel-based product from the phonemaker remains a distinct possibility. Nokia's combination of industrial design prowess, wireless provider relationships, and manufacturing music could turn the low-cost Atom platform into a fairly compelling netbook product, albeit one that would have a hard time standing out in an increasingly crowded field. 

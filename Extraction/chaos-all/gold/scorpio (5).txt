@@ -1,0 +1,46 @@
+Xbox Scorpio: Everything we Know - Release Date, Price, Final Spec, 4K
+
+Microsoft’s next console is slated to be the most powerful thing on the market. Here’s everything we know on Project Scorpio’s release date, price, spec, and games. 
+
+Xbox Scorpio was first revealed to the world at E3 2016, shown off by Microsoft as the company attempted to gain a foothold in the modern race for native 4K gaming. The reveal happened before the release of Sony's PlayStation 4 Pro, a machine which provides a combination of native and upscaled 4K gaming. 
+Xbox Scorpio Release Date
+
+At the time of the reveal at E3 2016, Microsoft stated that Project Scorpio would be releasing in Holiday 2017. Since we haven't heard any further information from Microsoft since this announcement to contradict this initial release window, we will continue to assume that Scorpio will be released near the end of 2017.  
+Xbox Scorpio Price
+
+Microsoft is yet to price Xbox Scorpio, but it has made hints that suggest it might be on the high end of console pricing. Despite this, Phil Spencer has stated that he very much sees the Scorpio as "aiming for a console price point" when speaking to AusGamers, and that the Scorpio won't aim to compete with higher-end PC models in terms of raw computing power.  
+
+In their visit to Microsoft's Redmond campus to see the Scorpio running, Digital Foundry offered an educated guess that, due to the nature of the technology involved in bringing the Scorpio together to run games at native 4K, a price point of $499 might be likely.  
+Xbox Scorpio Spec for 4K Gaming
+
+In an article published on April 6 Digital Foundry had the full scoop on the tech specs of the upcoming Scorpio console, obtained during a visit to Microsoft's headquarters in Redmond. 
+
+Xbox Scorpio Final Spec:
+
+    CPU has eight custom x86 cores clocked at 2.3GHz
+    GPU has 40 customised compute units clocked at 1172GHz
+    A total of 12GB of GGDR5 RAM
+    1TB 2.5 inch hard drive as standard (50 percent faster than the Xbox One)
+
+Xbox Scorpio vs PlayStation 4 Pro
+
+Xbox Scorpio is said to pack in 6 teraflops of computing power compared to the PS4 Pro's 4.2 Teraflops. 
+
+PS4 Pro comes with a standard Blu-ray drive, meaning it can't play Ultra HD Blu-ray movies. Since the Xbox One S comes with an Ultra HD Blu-ray drive as standard, it's expected that the Xbox Scorpio will also feature the more modern drive needed to play 4K Blu-rays. 
+
+The exclusive deep dive from Digital Foundry on the tech specs of the Scorpio don't give us much more of an insight into how the Scorpio will compete with the PS4 Pro, but we do know that like the PS4 Pro, the Scorpio will be able to make use checkerboarding. This will be used to boost the resolution of games that fall beneath 900p on Xbox One. Xbox One games that currently render at 1080p should be able to be converted to run at native 4k without too much trouble - demonstrated by Microsoft showing Digital Foundry Forza 6 running on Scorpio at 4K.  
+Xbox Scorpio Games
+
+Although the Xbox Scorpio is many times more powerful than the current Xbox One, head of Microsoft Phil Spencer has stated that the Scorpio will have no exclusive games, meaning that any games that are made with the Scorpio in mind must also be made for the inferior computing power of the Xbox One.  
+
+In addition to this, the Scorpio will be fully backwards compatible with the Xbox 360, meaning that any current and future titles that Microsoft incorporate into the backwards compatibility scheme will be added to the library of games featured on the Scorpio.  1
+
+In the months following the initial reveal of the Xbox Scorpio, Microsoft announced that the Scorpio would be sharing a user interface with the current Xbox One, meaning apps, Cortana, and background music will all be arriving on the new console when it eventually launches. 
+
+http://www.eurogamer.net/articles/digitalfoundry-2017-scorpio-is-console-hardware-pushed-to-a-new-level we won't see existing Xbox One games running at capped 30 frames per second jumping to 60 frames on the Scorpio, but we will see a greater number of games stabilising in their frame rates at their limit without drops. Digital Foundry also revealed that the Scorpio will use dynamic resolution scaling on existing Xbox One titles, meaning that games will hit their target of 1080p without dropping res (as seen in titles such as Halo 5 and The Wticher 3). Loading times will also be cut, thanks to a faster hard drive in Scorpio. 
+
+Xbox Scorpio Virtual Reality
+
+All mention of virtual reality was recently removed entirely from the official Project Scorpio website, although Microsoft did state in a recent interview with GameSpot that the possibility or virtual reality is still very much on the roadmap for the console. 
+
+Be sure to keep checking back on this page, as we'll keep updating it with any new, relevant bits of information to do with Microsoft's Project Scorpio.  

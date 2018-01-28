@@ -1,0 +1,15 @@
+North Korea could be secretly mining cryptocurrency on your computer
+
+North Korea has a cryptocurrency infatuation. Its government has been accused of unleashing a global ransomware attack to raise bitcoin, mining the cryptocurrency within its borders, and hacking South Korean bitcoin exchanges. Now, research firm Recorded Future says there’s a strong chance Kim Jong-un’s regime is experimenting with malware that secretly mines currency using other people’s computers.
+
+Malware crypto-mining is a new global trend among hackers, says a new report (pdf) from Recorded Future, which monitors discussions among “the criminal underground” on the so-called dark web. Starting this year, hackers seem to be shifting away from high-intensity, widespread ransomware attacks, towards “long-term, low velocity” crypto-mining in the background.
+
+Recorded Future has not detected specific instances of North Korean malware mining, but believes that the regime has the knowhow, motive, and interest in cryptocurrencies to execute similar attacks. “North Korean threat actors have prior experience in assembling and managing botnets, bitcoin mining, and cryptocurrency theft, as well as in custom altering publicly available malware; three elements that would be key to effectively creating and managing a network of covert cryptocurrency miners,” Recorded Future’s report reads.
+
+Recorded Future says hackers are shifting to malware mining because ransomware attacks became too egregious, attracting law enforcement’s attention instead of generating the steady stream of income attackers had grown to expect since the method became fashionable in 2015. “Outrageous attacks on healthcare facilities and municipal transit systems culminated in the unprecedented WannaCry and NotPetya campaigns,” according to Recorded Future’s report. “Overnight, ransomware was recognized as an act of cyberterrorism.”
+
+With ransomware a hot potato, hackers turned to installing hidden crypto-miners on others’ machines. This has turned out to be a relatively stable, low-fuss way of getting cash, according to Recorded Future. One hacker on a Russian-language forum expressed surprise at how easy it was to create a network of secret cryptominers: “I’ve used ‘bots’ already under my control to upload 110 miners before going to sleep. By the time I woke up 108 were still alive, which took me by surprise. I expected half would be dead by then.“
+
+The cryptocurrencies most popularly mined in secret are monero, and zcash, says Andrei Barysevich, an author of the Recorded Future report. These cryptocurrencies require less computational resources to mine profitably compared to something like bitcoin. However, one malware mining example obtained by the firm hijacked a computer’s graphics card to mine ethereum.
+
+There’s no blanket way to detect a malware miner on your computer right now because the method is new, and the software keeps changing, Barysevich says. But a noticeable slowdown in a computer’s performance could suggest that it it’s surreptitiously churning out a cryptocurrency—possibly destined for a North Korean digital wallet.

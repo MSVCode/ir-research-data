@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" xmlns:article="http://ogp.me/ns/article#" xmlns:book="http://ogp.me/ns/book#" xmlns:product="http://ogp.me/ns/product#" xmlns:profile="http://ogp.me/ns/profile#" xmlns:video="http://ogp.me/ns/video#" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1059.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<meta name="qtx-referrer" data-searchEngine="https://www.google.com/" />
+<script>const LIFT_SEGMENTS_KEY='lift-segments';Reader={getValueFromCookie:function(key){var b=window.document.cookie.match('(^|;)\\s*'+key+'\\s*=\\s*([^;]+)');return b?decodeURIComponent(b.pop()):'';},getLiftSegments:function(){return this.getValueFromCookie(LIFT_SEGMENTS_KEY);},getReferrerMetaTag:function(){return document.head.querySelector("[name=qtx-referrer]");},isSearchEngineReferral:function(){var metaTag=this.getReferrerMetaTag();return metaTag!==null;}};var dataLayerValues={};var segments=Reader.getLiftSegments();if(segments){dataLayerValues.lftsegment=segments;}
+dataLayerValues.qtxSearchEngineReferral=Reader.isSearchEngineReferral();dataLayer=[dataLayerValues];</script>
+<meta itemprop="acquia_lift:content_title" content="Typhoon Lan Strikes Japan, Cancels Flights" />
+<meta itemprop="acquia_lift:content_type" content="article" />
+<meta itemprop="acquia_lift:page_type" content="node page" />
+<meta itemprop="acquia_lift:content_section" content="--homepage--,Destinations,Transportation" />
+<meta itemprop="acquia_lift:content_keywords" content="Adam Leposa,All Nippon Airways,American Airlines,Asia,Delta,Fukuoka,Hokkaido,Honshu,Japan Airlines,Japan Tourism,Nagoya,Osaka,Sapporo,Tokyo,Tokyo Haneda,Tokyo Narita Airport,Typhoon Lan,United Airlines" />
+<meta itemprop="acquia_lift:post_id" content="292886" />
+<meta itemprop="acquia_lift:published_date" content="1508767796" />
+<meta itemprop="acquia_lift:persona" content="" />
+<meta itemprop="acquia_lift:engagement_score" content="1" />
+<meta itemprop="acquia_lift:author" content="aleposa" />
+<meta itemprop="acquia_lift:account_id" content="FierceMarkets" />
+<meta itemprop="acquia_lift:site_id" content="travelagentcentral" />
+<meta itemprop="acquia_lift:liftAssetsURL" content="https://lift3assets.lift.acquia.com/stable" />
+<meta itemprop="acquia_lift:contentReplacementMode" content="untrusted" />
+<script src="https://lift3assets.lift.acquia.com/stable/lift.js" defer></script>
+<meta name="gtm-article" content="292886" />
+<meta name="gtm-contenttype" content="Article" />
+<meta name="gtm-keywords" content="Typhoon Lan, Japan Tourism, Tokyo, Osaka, Japan Airlines, All Nippon Airways, Honshu, Hokkaido, American Airlines, Nagoya, Sapporo, Tokyo Haneda, Tokyo Narita Airport, Delta, Fukuoka, United Airlines, Asia, Adam Leposa" />
+<meta name="gtm-topics" content="Natural Disasters, Weather, Air Travel, Train Travel, Destination Information, Travel News" />
+<meta name="title" content="Typhoon Lan Strikes Japan, Cancels Flights | Travel Agent Central" />
+<meta name="parsely-author" content="Adam Leposa" />
+<meta name="parsely-image-url" content="" />
+<meta name="parsely-link" content="http://www.travelagentcentral.com/destinations/typhoon-lan-strikes-japan-cancels-flights" />
+<meta name="parsely-metadata" content="article" />
+<meta name="parsely-pub-date" content="2017-10-23T10:03:53-0400" />
+<meta name="parsely-tags" content="Typhoon Lan, Japan Tourism, Tokyo, Osaka, Japan Airlines, All Nippon Airways, Honshu, Hokkaido, American Airlines, Nagoya, Sapporo, Tokyo Haneda, Tokyo Narita Airport, Delta, Fukuoka, United Airlines, Asia, Adam Leposa, Natural Disasters, Weather, Air Travel, Train Travel, Destination Information, Travel News" />
+<meta name="parsely-title" content="Typhoon Lan Strikes Japan, Cancels Flights" />
+<meta name="parsely-type" content="post" />
+<meta name="gtm-section" content="Destinations" />
+<meta name="description" content="The storm has killed at least seven people on Japan’s main island of Honshu. Here’s the latest." />
+<meta name="keywords" content="Typhoon Lan, Japan Tourism, Tokyo, Osaka, Japan Airlines, All Nippon Airways, Honshu, Hokkaido, American Airlines, Nagoya, Sapporo, Tokyo Haneda, Tokyo Narita Airport, Delta, Fukuoka, United Airlines, Asia, Adam Leposa Natural Disasters, Weather, Air Travel, Train Travel, Destination Information, Travel News" />
+<meta name="parsely-section" content="Destinations" />
+<meta property="og:image" content="https://qtxasset.com/Travel%20Agent%20Central-1508767771/typhoonlannewscred.jpg?BgPPJvpTM4RjDEh5DDIAiFvY.PKB5SIx" />
+<meta name="twitter:description" content="The storm has killed at least seven people on Japan’s main island of Honshu. Here’s the latest." />
+<meta name="twitter:image" content="https://qtxasset.com/Travel%20Agent%20Central-1508767771/typhoonlannewscred.jpg?BgPPJvpTM4RjDEh5DDIAiFvY.PKB5SIx" />
+<meta name="twitter:site" content="@TravelAgentMag" />
+<meta name="twitter:title" content="Typhoon Lan Strikes Japan, Cancels Flights" />
+<meta name="twitter:card" content="summary" />
+<meta name="Generator" content="Drupal 8 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="/themes/custom/tektite_tac/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="alternate" type="application/rss+xml" href="http://www.travelagentcentral.com/rss/xml" />
+<link rel="canonical" href="/destinations/typhoon-lan-strikes-japan-cancels-flights" />
+<link rel="shortlink" href="/node/292886" />
+<link rel="revision" href="/destinations/typhoon-lan-strikes-japan-cancels-flights" />
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0];var j=d.createElement(s);var dl=l!='dataLayer'?'&amp;l='+l:'';j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl+'';j.async=true;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-KZKGB7T');</script>
+<script>window.a2a_config=window.a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_config.templates=a2a_config.templates||{};a2a_config.onclick = 1;
+a2a_config.orientation = "down";
+a2a_config.icon_color = "transparent";
+a2a_config.color_link_text = "666666";
+a2a_config.color_link_text_hover = "333333";</script>
+<style>.a2a_menu, .a2a_menu_find_container { border-radius: 0 !important; }
+.a2a_menu .a2a_mini_services a span { background-color: #666666 !important; }
+.a2a_menu .a2a_mini_services a:hover span { background-color: #333333 !important; }</style>
+
+    <title>Typhoon Lan Strikes Japan, Cancels Flights | Travel Agent Central</title>
+    <link rel="stylesheet" href="/sites/travelagentcentral/files/css/css_SU4tYtYmriNajhtRxlkVqjjbKbVdHaFjVFd0gx5gDuM.css?oxmml8" media="all" />
+<link rel="stylesheet" href="/sites/travelagentcentral/files/css/css_50DnBKaDx-M6IDkx7Ti8EIm2igOhFJVzunStgkAoqE4.css?oxmml8" media="all" />
+
+
+      <script type="text/javascript">
+          /*! modernizr 3.3.1 (Custom Build) | MIT *
+ * http://modernizr.com/download/?-details-inputtypes-touchevents-addtest-prefixes-setclasses-teststyles !*/
+!function(e,t,n){function o(e,t){return typeof e===t}function i(){var e,t,n,i,s,a,r;for(var l in d)if(d.hasOwnProperty(l)){if(e=[],t=d[l],t.name&&(e.push(t.name.toLowerCase()),t.options&&t.options.aliases&&t.options.aliases.length))for(n=0;n<t.options.aliases.length;n++)e.push(t.options.aliases[n].toLowerCase());for(i=o(t.fn,"function")?t.fn():t.fn,s=0;s<e.length;s++)a=e[s],r=a.split("."),1===r.length?Modernizr[r[0]]=i:(!Modernizr[r[0]]||Modernizr[r[0]]instanceof Boolean||(Modernizr[r[0]]=new Boolean(Modernizr[r[0]])),Modernizr[r[0]][r[1]]=i),u.push((i?"":"no-")+r.join("-"))}}function s(e){var t=m.className,n=Modernizr._config.classPrefix||"";if(v&&(t=t.baseVal),Modernizr._config.enableJSClass){var o=new RegExp("(^|\\s)"+n+"no-js(\\s|$)");t=t.replace(o,"$1"+n+"js$2")}Modernizr._config.enableClasses&&(t+=" "+n+e.join(" "+n),v?m.className.baseVal=t:m.className=t)}function a(e,t){if("object"==typeof e)for(var n in e)h(e,n)&&a(n,e[n]);else{e=e.toLowerCase();var o=e.split("."),i=Modernizr[o[0]];if(2==o.length&&(i=i[o[1]]),"undefined"!=typeof i)return Modernizr;t="function"==typeof t?t():t,1==o.length?Modernizr[o[0]]=t:(!Modernizr[o[0]]||Modernizr[o[0]]instanceof Boolean||(Modernizr[o[0]]=new Boolean(Modernizr[o[0]])),Modernizr[o[0]][o[1]]=t),s([(t&&0!=t?"":"no-")+o.join("-")]),Modernizr._trigger(e,t)}return Modernizr}function r(){return"function"!=typeof t.createElement?t.createElement(arguments[0]):v?t.createElementNS.call(t,"http://www.w3.org/2000/svg",arguments[0]):t.createElement.apply(t,arguments)}function l(){var e=t.body;return e||(e=r(v?"svg":"body"),e.fake=!0),e}function f(e,n,o,i){var s,a,f,u,d="modernizr",c=r("div"),p=l();if(parseInt(o,10))for(;o--;)f=r("div"),f.id=i?i[o]:d+(o+1),c.appendChild(f);return s=r("style"),s.type="text/css",s.id="s"+d,(p.fake?p:c).appendChild(s),p.appendChild(c),s.styleSheet?s.styleSheet.cssText=e:s.appendChild(t.createTextNode(e)),c.id=d,p.fake&&(p.style.background="",p.style.overflow="hidden",u=m.style.overflow,m.style.overflow="hidden",m.appendChild(p)),a=n(c,e),p.fake?(p.parentNode.removeChild(p),m.style.overflow=u,m.offsetHeight):c.parentNode.removeChild(c),!!a}var u=[],d=[],c={_version:"3.3.1",_config:{classPrefix:"",enableClasses:!0,enableJSClass:!0,usePrefixes:!0},_q:[],on:function(e,t){var n=this;setTimeout(function(){t(n[e])},0)},addTest:function(e,t,n){d.push({name:e,fn:t,options:n})},addAsyncTest:function(e){d.push({name:null,fn:e})}},Modernizr=function(){};Modernizr.prototype=c,Modernizr=new Modernizr;var p=c._config.usePrefixes?" -webkit- -moz- -o- -ms- ".split(" "):["",""];c._prefixes=p;var h,m=t.documentElement,v="svg"===m.nodeName.toLowerCase();!function(){var e={}.hasOwnProperty;h=o(e,"undefined")||o(e.call,"undefined")?function(e,t){return t in e&&o(e.constructor.prototype[t],"undefined")}:function(t,n){return e.call(t,n)}}(),c._l={},c.on=function(e,t){this._l[e]||(this._l[e]=[]),this._l[e].push(t),Modernizr.hasOwnProperty(e)&&setTimeout(function(){Modernizr._trigger(e,Modernizr[e])},0)},c._trigger=function(e,t){if(this._l[e]){var n=this._l[e];setTimeout(function(){var e,o;for(e=0;e<n.length;e++)(o=n[e])(t)},0),delete this._l[e]}},Modernizr._q.push(function(){c.addTest=a});var y=r("input"),g="search tel url email datetime date month week time datetime-local number range color".split(" "),_={};Modernizr.inputtypes=function(e){for(var o,i,s,a=e.length,r="1)",l=0;a>l;l++)y.setAttribute("type",o=e[l]),s="text"!==y.type&&"style"in y,s&&(y.value=r,y.style.cssText="position:absolute;visibility:hidden;",/^range$/.test(o)&&y.style.WebkitAppearance!==n?(m.appendChild(y),i=t.defaultView,s=i.getComputedStyle&&"textfield"!==i.getComputedStyle(y,null).WebkitAppearance&&0!==y.offsetHeight,m.removeChild(y)):/^(search|tel)$/.test(o)||(s=/^(url|email)$/.test(o)?y.checkValidity&&y.checkValidity()===!1:y.value!=r)),_[e[l]]=!!s;return _}(g);var w=c.testStyles=f;Modernizr.addTest("touchevents",function(){var n;if("ontouchstart"in e||e.DocumentTouch&&t instanceof DocumentTouch)n=!0;else{var o=["@media (",p.join("touch-enabled),("),"heartz",")","{#modernizr{top:9px;position:absolute}}"].join("");w(o,function(e){n=9===e.offsetTop})}return n}),Modernizr.addTest("details",function(){var e,t=r("details");return"open"in t?(w("#modernizr details{display:block}",function(n){n.appendChild(t),t.innerHTML="<summary>a</summary>b",e=t.offsetHeight,t.open=!0,e=e!=t.offsetHeight}),e):!1}),i(),s(u),delete c.addTest,delete c.addAsyncTest;for(var b=0;b<Modernizr._q.length;b++)Modernizr._q[b]();e.Modernizr=Modernizr}(window,document);
+      </script>
+
+    
+<!--[if lte IE 8]>
+<script src="/sites/travelagentcentral/files/js/js_VtafjXmRvoUgAzqzYTA3Wrjkx9wcWhjP0G4ZnnqRamA.js"></script>
+<![endif]-->
+<script src="//use.typekit.net/dlu4otb.js"></script>
+<script src="/sites/travelagentcentral/files/js/js_7BBEbjQ-B6J6UK65yb8_mKovPS_gBCZbMXlf62HoNnk.js"></script>
+
+
+    <!-- Start Taboola -->
+    <script type="text/javascript">
+      window._taboola = window._taboola || [];
+      _taboola.push({article:'auto'});
+      !function (e, f, u) {
+        e.async = 1;
+        e.src = u;
+        f.parentNode.insertBefore(e, f);
+      }(document.createElement('script'),
+        document.getElementsByTagName('script')[0],
+        '//cdn.taboola.com/libtrc/questex-network/loader.js');
+    </script>
+    <!-- End Taboola -->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/themes/custom/tektite_tac/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/themes/custom/tektite_tac/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/themes/custom/tektite_tac/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/themes/custom/tektite_tac/manifest.json">
+    <link rel="mask-icon" href="/themes/custom/tektite_tac/safari-pinned-tab.svg" color="#1986d1">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+
+  <body class="sidebar-second path-node page-node-type-article">
+
+    <div class="page-container">
+      <a href="#main-content" class="visually-hidden focusable">Skip to main content</a>
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KZKGB7T" height="0" width="0"></iframe></noscript>
+      
+<div id="scrollProgress"></div>
+
+  <div id="header-top">
+    <div class="wrapper">
+        <div class="region region-header-top">
+    <div id="block-tektite-tac-tektitegenericadinterstitialblock" class="block block-tektite-generic-blocks block-tektite-generic-ad-interstitial">
+  
+    
+                      <div id='interstitial'>
+                  <script type='text/javascript'>
+                    document.addEventListener("googletagEvent", function() {
+                      googletag.cmd.push(function() { googletag.display('interstitial'); });
+                    });
+                  </script>
+                </div>
+  </div>
+<div id="block-tektite-tac-tektitegenericadwallpaperblock" class="block block-tektite-generic-blocks block-tektite-generic-ad-wallpaper">
+  
+    
+                      <div id='wallpaper'>
+                  <script type='text/javascript'>
+                    document.addEventListener("googletagEvent", function() {
+                      googletag.cmd.push(function() { googletag.display('wallpaper'); });
+                    });
+                  </script>
+                </div>
+  </div>
+<div id="block-tektite-tac-tektitegenericadheaderblock" class="block block-tektite-generic-blocks block-tektite-generic-ad-header">
+  
+    
+                      <div id='header-ad-wrapper'>
+                <div id='header-ad'>
+                  <script type='text/javascript'>
+                    document.addEventListener("googletagEvent", function() {
+                      googletag.cmd.push(function() { googletag.display('header-ad'); });
+                    });
+                  </script>
+                </div>
+                </div>
+  </div>
+<div id="block-tektitegenericmobileadhesionadblock" class="block block-tektite-generic-blocks block-tektite-generic-ad-mobile-adhesion">
+  
+    
+                      <div id='mobile-adhesion'>
+                <script type='text/javascript'>
+                document.addEventListener("googletagEvent", function() {
+                googletag.cmd.push(function() { googletag.display('mobile-adhesion'); });
+                });
+                </script>
+                </div>
+  </div>
+
+  </div>
+
+    </div>
+  </div>
+
+  <header id="header" role="banner">
+    <div class="wrapper">
+        <div class="region region-header">
+    <div id="block-tektite-tac-tektitesocialshareblock" class="block block-tektite-generic-blocks block-social-share-block">
+  
+    
+                                          <a class="icon icon-facebook-official" href='https://www.facebook.com/TravelAgentMagazine/'>Facebook</a>
+                                                <a class="icon icon-twitter" href='https://twitter.com/TravelAgentMag'>Twitter</a>
+                                            <a class="icon icon-linkedin-squared" href='https://www.linkedin.com/groups/4782086'>LinkedIn</a>
+                                                <a class="icon icon-pinterest-squared" href='https://www.pinterest.com/travelagentmag/'>Pinterest</a>
+                                                <a class="icon icon-instagram" href='https://www.instagram.com/travelagentcentral/'>Instagram</a>
+                    
+  </div>
+<div class="search-api-page-block-form block block-search-api-page block-search-api-page-form-block" data-drupal-selector="search-api-page-block-form" autocomplete="off" id="block-tektite-tac-searchapipagesearchblockform">
+  
+      <h2 class="block-title">Search Api Page search block form</h2>
+    
+      <form action="/destinations/typhoon-lan-strikes-japan-cancels-flights" method="post" id="search-api-page-block-form" accept-charset="UTF-8">
+  <div class="js-form-item form-item js-form-type-search form-type-search js-form-item-keys form-item-keys form-no-label">
+      <label for="edit-keys" class="visually-hidden">Search</label>
+        <input title="Enter the terms you wish to search for." placeholder="New Search" data-drupal-selector="edit-keys" type="search" id="edit-keys" name="keys" value="" size="15" maxlength="128" class="form-search" />
+
+        </div>
+<input data-drupal-selector="form-lis7f7esu8xyxei1riwiiamlcybsarr7aavzlehtqgw" type="hidden" name="form_build_id" value="form-liS7f7eSu8xyXei1RiWiIAMlcYBSarR7aavZlEHtqGw" />
+<input data-drupal-selector="edit-search-api-page-block-form" type="hidden" name="form_id" value="search_api_page_block_form" />
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input data-drupal-selector="edit-submit" type="submit" id="edit-submit" name="op" value="Search" class="button js-form-submit form-submit" />
+</div>
+
+</form>
+
+  </div>
+<nav role="navigation" aria-labelledby="block-tektite-tac-topmenu-menu" id="block-tektite-tac-topmenu" class="block block-menu navigation menu--top-menu">
+            
+  <h2 class="visually-hidden" id="block-tektite-tac-topmenu-menu">Top Menu</h2>
+  
+
+        
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="https://pages.questexweb.com/TAC-Newsletter-Signup.html">Newsletters</a>
+              </li>
+                <li class="menu-item">
+        <a href="http://www.travelagentmagazinedigital.com/publication?m=17816&amp;amp;l=1">Latest Issue</a>
+              </li>
+                <li class="menu-item">
+        <a href="/focus-series" data-drupal-link-system-path="node/236046">Focus Series</a>
+              </li>
+                <li class="menu-item">
+        <a href="http://www.travelagentuniversity.com/">Travel Agent University</a>
+              </li>
+                <li class="menu-item">
+        <a href="http://www.luxurytraveladvisor.com">Luxury Travel Advisor</a>
+              </li>
+                <li class="menu-item">
+        <a href="http://www.travelindustryexchange.com/">Travel Industry Exchange</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+<div id="block-tektite-tac-branding" class="block block-system block-system-branding-block">
+  
+    
+              <div class="site-logo">
+            <a href="/" title="Home" rel="home">
+                <img src="/themes/custom/tektite_tac/assets/images/theme/logo.svg" alt="Home"/>
+            </a>
+        </div>
+    
+    <div class="questex-logo">
+        <a href="http://questex.com" target="_blank" title="Questex">
+            <img src="/themes/custom/tektite/assets/images/logo-questex.svg" alt="Questex"/>
+        </a>
+    </div>
+
+    </div>
+<nav role="navigation" aria-labelledby="block-tektite-tac-mainnavigation-menu" id="block-tektite-tac-mainnavigation" class="block block-menu navigation menu--main">
+            
+  <h2 class="visually-hidden" id="block-tektite-tac-mainnavigation-menu">Main navigation</h2>
+  
+
+        
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="/destinations" data-drupal-link-system-path="taxonomy/term/16">Destinations</a>
+              </li>
+                <li class="menu-item">
+        <a href="/hotels" data-drupal-link-system-path="taxonomy/term/1336">Hotels</a>
+              </li>
+                <li class="menu-item">
+        <a href="/cruises" data-drupal-link-system-path="taxonomy/term/1756">Cruises</a>
+              </li>
+                <li class="menu-item">
+        <a href="/transportation" data-drupal-link-system-path="taxonomy/term/1421">Transportation</a>
+              </li>
+                <li class="menu-item">
+        <a href="/tours" data-drupal-link-system-path="taxonomy/term/1536">Tours</a>
+              </li>
+                <li class="menu-item">
+        <a href="/people" data-drupal-link-system-path="taxonomy/term/1071">People</a>
+              </li>
+                <li class="menu-item">
+        <a href="/running-your-business" data-drupal-link-system-path="taxonomy/term/1041">Running Your Business</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/resources" data-drupal-link-system-path="resources">Resources</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/products/webinar" data-drupal-link-system-path="products/webinar">Webinars</a>
+              </li>
+                <li class="menu-item">
+        <a href="/products/deal" data-drupal-link-system-path="products/deal">Deals</a>
+              </li>
+                <li class="menu-item">
+        <a href="/products/fam" data-drupal-link-system-path="products/fam">Fams</a>
+              </li>
+                <li class="menu-item">
+        <a href="/products/e-learning" data-drupal-link-system-path="products/e-learning">e-Learning</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+
+
+  </nav>
+<nav role="navigation" aria-labelledby="block-tektite-tac-mainnavigation-mobile-menu" id="block-tektite-tac-mainnavigation-mobile" class="block block-menu navigation menu--main">
+            
+  <h2 class="visually-hidden" id="block-tektite-tac-mainnavigation-mobile-menu">Main navigation - Mobile</h2>
+  
+
+        
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="/destinations" data-drupal-link-system-path="taxonomy/term/16">Destinations</a>
+              </li>
+                <li class="menu-item">
+        <a href="/hotels" data-drupal-link-system-path="taxonomy/term/1336">Hotels</a>
+              </li>
+                <li class="menu-item">
+        <a href="/cruises" data-drupal-link-system-path="taxonomy/term/1756">Cruises</a>
+              </li>
+                <li class="menu-item">
+        <a href="/transportation" data-drupal-link-system-path="taxonomy/term/1421">Transportation</a>
+              </li>
+                <li class="menu-item">
+        <a href="/tours" data-drupal-link-system-path="taxonomy/term/1536">Tours</a>
+              </li>
+                <li class="menu-item">
+        <a href="/people" data-drupal-link-system-path="taxonomy/term/1071">People</a>
+              </li>
+                <li class="menu-item">
+        <a href="/running-your-business" data-drupal-link-system-path="taxonomy/term/1041">Running Your Business</a>
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <a href="/resources" data-drupal-link-system-path="resources">Resources</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/products/webinar" data-drupal-link-system-path="products/webinar">Webinars</a>
+              </li>
+                <li class="menu-item">
+        <a href="/products/deal" data-drupal-link-system-path="products/deal">Deals</a>
+              </li>
+                <li class="menu-item">
+        <a href="/products/fam" data-drupal-link-system-path="products/fam">Fams</a>
+              </li>
+                <li class="menu-item">
+        <a href="/products/e-learning" data-drupal-link-system-path="products/e-learning">e-Learning</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+  </div>
+
+    </div>
+  </header>
+
+  <div id="help">
+    <div class="wrapper">
+        <div class="region region-help">
+    
+
+
+  </div>
+
+    </div>
+  </div>
+
+<main id="main" role="main">
+  
+  <div id="content">
+    <div class="taxonomy-primary"><div about="/destinations" id="taxonomy-term-16" class="taxonomy-term vocabulary-taxonomy">
+  
+      <h2><a href="/destinations">
+            <div>Destinations</div>
+      </a></h2>
+    
+  <div class="content">
+    
+  </div>
+</div>
+</div>
+    <a id="main-content" tabindex="-1"></a>      <div class="region region-content">
+    <div id="block-tektite-tac-page-title" class="block block-core block-page-title-block">
+  
+    
+      
+            <h1 class="page-title"><span property="schema:name">Typhoon Lan Strikes Japan, Cancels Flights</span>
+</h1>
+    
+
+  </div>
+<div id="block-tektite-tac-content" class="block block-system block-system-main-block">
+  
+    
+      
+
+<article role="article" about="/destinations/typhoon-lan-strikes-japan-cancels-flights" typeof="schema:Article" class="node node--type-article node--promoted node--view-mode-full">
+    <div id="nodeid" data-nid="292886" style="display:none"></div>
+
+    
+          <span property="schema:name" content="Typhoon Lan Strikes Japan, Cancels Flights" class="rdf-meta hidden"></span>
+
+
+    <footer class="node__meta">
+        <div class="node__submitted">
+                            by                                    <a href="/author/adam-leposa-0">Adam Leposa</a>                                | 
+            <div><time datetime="2017-10-23T14:03:53Z" property="schema:datePublished">Oct 23, 2017 10:03am</time>
+</div>
+      
+                    </div>
+    </footer>
+
+    <div class="thumbnail-image">
+                                            
+            <div>
+            <div>    <img srcset="https://qtxasset.com/styles/breakpoint_md_448px_w/s3fs/Travel%20Agent%20Central-1508767771/typhoonlannewscred.jpg?BfeXwUW6RgcYtmT6r9sqOnxB.JZGDwHj&amp;itok=13GjsFs1 448w, https://qtxasset.com/styles/breakpoint_l_640px_w/s3fs/Travel%20Agent%20Central-1508767771/typhoonlannewscred.jpg?kQhbh3RhOZmYf2FylBrjy85jLZ4yNCrx&amp;itok=Q0OR2B-j 640w, https://qtxasset.com/styles/breakpoint_xl_880px_w/s3fs/Travel%20Agent%20Central-1508767771/typhoonlannewscred.jpg?UNMGwTPW4GAmGeKSBayS55C8R6s04z7j&amp;itok=MHM3XbtG 800w" sizes="(min-width:1220px) 880px, (min-width: 980px) and (max-width: 1219px) 640px, (min-width: 788px) 448px, min-width: 481px) 800px" src="https://qtxasset.com/styles/breakpoint_sm_default_480px_w/s3fs/Travel Agent Central-1508767771/typhoonlannewscred.jpg?JMVvaCRpnjxHF.cjL8s6SiLkhlNPXVzw&amp;itok=WgolTS7h" alt="" typeof="foaf:Image" />
+
+
+</div>
+      </div>
+      
+            
+            <div class="caption">
+                            
+            <div>This aerial photo shows a collapsed road in Kishiwada, Osaka, western Japan Monday, Oct. 23, 2017 after heavy rain brought by a powerful typhoon. // Photo by Yuki Sato/Kyodo News via AP, Newscred</div>
+      
+                </div>
+                        </div>
+
+    <div class="node__container">
+                    <div class="social-container stickem-container">
+                <div class="social-share stickem"><span class="a2a_kit a2a_kit_size_32 addtoany_list" data-a2a-url="http://www.travelagentcentral.com/destinations/typhoon-lan-strikes-japan-cancels-flights" data-a2a-title="Typhoon Lan Strikes Japan, Cancels Flights"><a class="a2a_dd addtoany_share_save" href="https://www.addtoany.com/share#url=http%3A%2F%2Fwww.travelagentcentral.com%2Fdestinations%2Ftyphoon-lan-strikes-japan-cancels-flights&amp;title=Typhoon%20Lan%20Strikes%20Japan%2C%20Cancels%20Flights"></a><a class="a2a_button_facebook"></a>
+<a class="a2a_button_twitter"></a>
+<a class="a2a_button_linkedin"></a>
+<a class="a2a_button_email"></a>
+<a class="a2a_button_print"></a></span>
+</div>
+            </div>
+        
+        <div class="node__content">
+            
+            <div property="schema:articleBody"><p>The deadly <strong>Typhoon Lan</strong> struck <strong>Japan</strong> over the weekend, bringing heavy rain and strong wind to the island of <strong>Honshu</strong> and disrupting flights throughout the region.</p>                <div id="ad-slot_1__mobile">
+                  <script type="text/javascript">
+<!--//--><![CDATA[// ><!--
+
+                    document.addEventListener("googletagEvent", function() {
+                      googletag.cmd.push(function() { googletag.display('ad-slot_1__mobile'); });
+                    });
+                  
+//--><!]]>
+</script></div><p><a href="https://www.japantimes.co.jp/news/2017/10/23/national/powerful-typhoon-lan-lashes-tokyo-snarling-morning-commute-least-two-dead/#.We3ztRNSwl4"><strong>The Japan Times</strong></a> reports that the storm killed at least seven people, disrupting train and air travel across the country. The storm made landfall at around 3 a.m. Monday morning local time, disrupting train service between <strong>Tokyo</strong> and <strong>Osaka</strong> and causing <strong>Japan Airlines</strong> and <strong>ANA</strong> to cancel over 100 flights.</p><p>According to the latest forecast from <a href="https://www.accuweather.com/en/weather-news/super-typhoon-lan-to-approach-japan-this-weekend/70003024"><strong>Accuweather</strong></a>, the storm is expected to continue farther north, causing rain and wind to taper off across southern and central Honshu, but potentially bringing flooding rain and damaging wind to northern Honshu and eastern <strong>Hokkaido</strong>. Windy conditions are expected to persist in Tokyo even after the rain stops.</p><div data-oembed-url="https://twitter.com/JALFlightInfo_e/status/922410540558716934">
+<blockquote align="center" class="twitter-tweet">
+<p dir="ltr" lang="en" xml:lang="en">【Domestic,Intl/19:30】Good evening. Normal operation is expected for Oct 24. ［Domestic］<a href="https://t.co/IX8PZyxYud">https://t.co/IX8PZyxYud</a>　［Intl］<a href="https://t.co/RQI5YxEqOv">https://t.co/RQI5YxEqOv</a></p>
+— JAL Flight Info (@JALFlightInfo_e) <a href="https://twitter.com/JALFlightInfo_e/status/922410540558716934?ref_src=twsrc%5Etfw">October 23, 2017</a></blockquote>
+<script async="" charset="utf-8" src="//platform.twitter.com/widgets.js"></script></div><p>On its official <strong>Twitter</strong> account Japan Airlines reports that it expects to resume normal operations October 24, local time.</p><p><a href="https://www.aa.com/i18n/travel-info/travel-alerts.jsp"><strong>American Airlines</strong></a> has issued a change waiver for customers traveling through <strong>Nagoya, Sapporo, Tokyo – Haneda</strong> and <strong>Tokyo – Narita</strong> through October 23. Customers must rebook through October 24 between the same city pair in the same cabin (or pay the difference). Customers can change their origin or destination city, but a difference in fare will apply.</p>                <div id="ad-slot_2__mobile">
+                  <script type="text/javascript">
+<!--//--><![CDATA[// ><!--
+
+                    document.addEventListener("googletagEvent", function() {
+                      googletag.cmd.push(function() { googletag.display('ad-slot_2__mobile'); });
+                    });
+                  
+//--><!]]>
+</script></div><p><a href="https://www.delta.com/content/www/en_US/traveling-with-us/advisories/typhoon-lan.html"><strong>Delta</strong></a> has issued a travel waiver for customers flying through <strong>Fukuoka</strong>, Nagoya, <strong>Osaka</strong>, and the two Tokyo airports through October 24. The new ticket must be reissued on or before October 27, with rebooked travel to begin no later than that date.</p><p><a href="https://www.united.com/CMS/en-US/travel/news/Pages/travelnotices.aspx#ExceptionPolicies"><strong>United Airlines</strong></a> will waive the change fee and any difference in fare for customers scheduled to fly through the above airports through October 24 for new flights departing through October 31 in the originally ticketed cabin between the same city pair. For travel departing after October 31, or for a change in departure or destination city, the airline will waive the change fee, but a difference in fare may apply. Rescheduled travel must be completed within one year from the date when the ticket was issued.</p><h2>Related Stories</h2><p><a href="http://www.travelagentcentral.com/transportation/typhoon-lan-to-disrupt-flights-to-japan-weekend">Typhoon Lan to Disrupt Flights to Japan This Weekend</a></p><p><a href="http://www.travelagentcentral.com/destinations/kyoto-japan">What to See and Do in Kyoto, Japan</a></p><p><a href="http://www.travelagentcentral.com/transportation/hawaiian-airlines-japan-airlines-announce-new-code-share-agreement">Hawaiian Airlines, Japan Airlines Announce New Code Share Agreement</a></p><p><a href="http://www.travelagentcentral.com/destinations/eight-strange-but-true-facts-skiers-should-know-about-japan">Eight Strange But True Facts Skiers Should Know About Japan</a></p></div>
+      
+
+                            <div class="keywords-topics">
+                    <strong>Read more on</strong>
+                    <div class="item-list--comma-list">
+                        <a href="/topic/natural-disasters" hreflang="en">Natural Disasters</a>,                    <a href="/topic/weather" hreflang="en">Weather</a>,                    <a href="/topic/air-travel" hreflang="und">Air Travel</a>,                    <a href="/topic/train-travel" hreflang="en">Train Travel</a>,                    <a href="/topic/destination-information" hreflang="und">Destination Information</a>,                    <a href="/topic/travel-news" hreflang="en">Travel News</a>,                    <a href="/keyword/typhoon-lan" hreflang="en">Typhoon Lan</a>,                    <a href="/keyword/japan-tourism" hreflang="en">Japan Tourism</a>,                    <a href="/keyword/tokyo" hreflang="en">Tokyo</a>,                    <a href="/keyword/osaka" hreflang="en">Osaka</a>,                    <a href="/keyword/japan-airlines" hreflang="en">Japan Airlines</a>,                    <a href="/keyword/all-nippon-airways" hreflang="en">All Nippon Airways</a>,                    <a href="/keyword/honshu" hreflang="en">Honshu</a>,                    <a href="/keyword/hokkaido" hreflang="en">Hokkaido</a>,                    <a href="/keyword/american-airlines" hreflang="en">American Airlines</a>,                    <a href="/keyword/nagoya" hreflang="en">Nagoya</a>,                    <a href="/keyword/sapporo" hreflang="en">Sapporo</a>,                    <a href="/keyword/tokyo-haneda" hreflang="en">Tokyo Haneda</a>,                    <a href="/keyword/tokyo-narita-airport" hreflang="en">Tokyo Narita Airport</a>,                    <a href="/keyword/delta" hreflang="en">Delta</a>,                    <a href="/keyword/fukuoka" hreflang="en">Fukuoka</a>,                    <a href="/keyword/united-airlines" hreflang="en">United Airlines</a>,                    <a href="/keyword/asia" hreflang="en">Asia</a>,                    <a href="/keyword/adam-leposa" hreflang="en">Adam Leposa</a>            </div>
+
+                </div>
+            
+        </div>
+    </div>
+
+</article>
+
+  </div>
+<div id="block-tektitegenericarticlebottomadblock" class="block block-tektite-generic-blocks block-tektite-generic-ad-article-bottom">
+  
+    
+                      <div id='article-bottom'>
+                <script type='text/javascript'>
+                document.addEventListener("googletagEvent", function() {
+                googletag.cmd.push(function() { googletag.display('article-bottom'); });
+                });
+                </script>
+                </div>
+  </div>
+<div id="block-tektitetaboolablock" class="block block-tektite-taboola block-tektite-taboola-block">
+  
+    
+                      <div id='taboola-block'>
+                
+                
+                <div id="taboola-below-article-thumbnails-internal"></div>
+                <script type="text/javascript">
+                window._taboola = window._taboola || [];
+                _taboola.push({
+                mode: 'organic-thumbnails-b',
+                container: 'taboola-below-article-thumbnails-internal',
+                placement: 'Below Article Thumbnails-internal',
+                target_type: 'mix'
+                });
+                 </script>
+
+                <div id="taboola-below-article-thumbnails"></div>
+                <script type="text/javascript">
+                window._taboola = window._taboola || [];
+                _taboola.push({
+                mode: 'thumbnails-b',
+                container: 'taboola-below-article-thumbnails',
+                placement: 'Below Article Thumbnails',
+                target_type: 'mix'
+                });
+                </script>
+
+                
+                </div>
+  </div>
+
+  </div>
+
+
+      </div>
+
+      <aside id="sidebar-second" role="complimentary">
+      <section class="sidebar-container">
+          <div class="region region-sidebar-second">
+    <div id="block-tektite-tac-tektitegenericadsidebarblock" class="block block-tektite-generic-blocks block-tektite-generic-ad-sidebar">
+  
+    
+                      <div id='sidebar-ad'>
+                  <script type='text/javascript'>
+                    document.addEventListener("googletagEvent", function() {
+                      googletag.cmd.push(function() { googletag.display('sidebar-ad'); });
+                    });
+                  </script>
+                </div>
+  </div>
+<div id="block-tektite-tac-tektitegenericnewsletterblock" class="block block-tektite-generic-blocks block-tektite-generic-newsletter-multi">
+  
+    
+      <script src="//app-sj10.marketo.com/js/forms2/js/forms2.min.js" defer></script><form id='mktoForm_14622'></form><script src='/themes/custom/tektite_tac/assets/js/lift.js' defer></script>
+  </div>
+
+  </div>
+
+
+                  <div class="bottom">
+              <div class="region region-sidebar-bottom">
+    <div id="block-tektite-tac-tektitegenericadsidebarblock2" class="block block-tektite-generic-blocks block-tektite-generic-ad-sidebar2">
+  
+    
+                      <div id='sidebar-ad2'>
+                  <script type='text/javascript'>
+                    document.addEventListener("googletagEvent", function() {
+                      googletag.cmd.push(function() { googletag.display('sidebar-ad2'); });
+                    });
+                  </script>
+                </div>
+  </div>
+<div id="block-tektite-tac-popularcontentfromparsely" class="block block-tektite-generic-blocks block-popular-content-from-parsely">
+  
+      <h2 class="block-title">Popular Content</h2>
+    
+      
+  <ul>
+         
+      
+      	<li><h3 class="list-title"><a href="http://www.travelagentcentral.com/destinations/typhoon-lan-strikes-japan-cancels-flights">Typhoon Lan Strikes Japan, Cancels Flights</a></h3> 
+      		
+      		Oct 23, 2017 
+     		</li>
+      	
+
+    	      
+      
+      	<li><h3 class="list-title"><a href="http://www.travelagentcentral.com/destinations/everything-you-need-to-know-about-puerto-rico-post-maria">Status Update on Puerto Rico After Hurricane</a></h3> 
+      		
+      		Sep 28, 2017 
+     		</li>
+      	
+
+    	      
+      
+      	<li><h3 class="list-title"><a href="http://www.travelagentcentral.com/destinations/barcelona-travel-falls-spain-could-impose-direct-rule">Barcelona Travel Falls; Spain Could Impose Direct Rule</a></h3> 
+      		
+      		Oct 20, 2017 
+     		</li>
+      	
+
+    	      
+      
+      	<li><h3 class="list-title"><a href="http://www.travelagentcentral.com/destinations/what-to-do-las-vegas-during-thanksgiving-weekend">What to Do in Las Vegas During Thanksgiving Weekend</a></h3> 
+      		
+      		Nov 02, 2016 
+     		</li>
+      	
+
+    	      
+      
+      	<li><h3 class="list-title"><a href="http://www.travelagentcentral.com/destinations/lee-county-fl-post-hurricane-irma-update">Fort Myers, Sanibel Island Reopen After Hurricane Irma</a></h3> 
+      		
+      		Sep 22, 2017 
+     		</li>
+      	
+
+    	 
+
+  </ul>
+
+
+  </div>
+<div class="views-element-container block block-views block-views-blockauthor-block-1" id="block-tektite-tac-views-block-author-block-1">
+  
+      <h2 class="block-title">About the Author</h2>
+    
+      <div><div class="js-view-dom-id-b935d5e1e9ad6d1da671572aa9c112936c1268de92438992d2d140475863ae99">
+  
+  
+  
+
+  
+  
+  
+
+      <div class="views-row">
+    <div class="views-field views-field-field-author-image"><div class="field-content"></div></div><div class="views-field views-field-title"><span class="field-content"><div class="author-block-info">
+<div class="title"><a href="/author/adam-leposa-0" hreflang="en">Adam Leposa</a></div>
+<div class="job">Online Managing Editor</div>
+<div class="email"><a href="/cdn-cgi/l/email-protection#ea8b868f9a85998baa9b9f8f999e8f92c4898587"><span class="__cf_email__" data-cfemail="7d1c11180d120e1c3d0c08180e091805531e1210">[email&#160;protected]</span></a></div>
+<div class="twitter"></div>
+<div class="linkedin"></div>
+<div class="facebook"><a href="https://www.facebook.com/adam.leposa" target="_blank">https://www.facebook.com/adam.leposa</a></div>
+<div class="instagram"></div>
+</div></span></div>
+  </div>
+
+  
+  
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+  </div>
+<div id="block-tektite-tac-tektitegenericadhouseblock" class="block block-tektite-generic-blocks block-tektite-generic-ad-house">
+  
+    
+                      <div id='sidebar-ad3'>
+                  <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/78d64697/cloudflare-static/email-decode.min.js"></script><script type='text/javascript'>
+                    document.addEventListener("googletagEvent", function() {
+                      googletag.cmd.push(function() { googletag.display('sidebar-ad3'); });
+                    });
+                  </script>
+                </div>
+  </div>
+
+  </div>
+
+          </div>
+              </section>
+    </aside>
+  </main>
+
+
+
+  <footer id="footer" role="contentinfo">
+    <div class="wrapper">
+        <div class="region region-footer">
+    <div id="block-tektite-tac-tektitefooterblock" class="block block-tektite-generic-blocks block-generic-footer-block">
+  
+    
+      <div id="questex">
+    <div class="footer-logo">
+        <a class="logo" href="http://questex.com">
+            <img alt="" src="/themes/custom/tektite/assets/images/footer-questex.svg" />
+        </a>
+    </div>
+    <div class="social-icons">
+        <a class="icon icon-facebook-official" href='https://www.facebook.com/Questex-LLC-514978955241030/'></a>
+        <a class="icon icon-twitter" href='https://twitter.com/QuestexLLC'></a>
+        <a class="icon icon-linkedin-squared" href='https://www.linkedin.com/company/questex-media-group?trk=top_nav_home'></a>
+    </div>​
+</div>
+
+
+    <ul class="menu">
+                    <li><a href="/">
+                    Home</a></li>
+
+                    <li><a href="https://pages.questexweb.com/TAC-Newsletter-Signup.html">
+                    Newsletters</a></li>
+
+                    <li><a href="/subscribe-to-our-print-editions">
+                    Subscribe</a></li>
+
+                    <li><a href="http://www.questex.com/privacy-policy">
+                    Privacy</a></li>
+
+                    <li><a href="/about-us">
+                    About Us</a></li>
+
+                    <li><a href="/advertise">
+                    Advertise</a></li>
+
+                    <li><a href="/rss-feeds">
+                    RSS</a></li>
+
+        
+    </ul>
+
+<p>
+  <span>© 2017 Questex LLC. All rights reserved.</span>
+  <span>275 Grove Street, Suite 2-130 Newton, MA 02466</span>
+  <span>Reproduction in whole or part is prohibited.</span>
+</p>
+
+  </div>
+
+  </div>
+
+    </div>
+  </footer>
+
+      
+    </div>
+
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/292886","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","ajaxPageState":{"libraries":"addtoany\/addtoany,core\/html5shiv,core\/picturefill,qtx_tracking\/recorder,system\/base,tektite\/global-css,tektite\/global-js,tektite\/theme-fonts,tektite\/webfont.js,tektite_tac\/GTMscripts,tektite_tac\/fonts-js,tektite_tac\/override-css,tektite_tac\/override-js,views\/views.module","theme":"tektite_tac","theme_token":null},"ajaxTrustedUrl":{"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM":true},"qtx_tracking":{"referral":{"comesFromSearchEngine":true,"searchEngine":"https:\/\/www.google.com\/"}},"user":{"uid":0,"permissionsHash":"6446eeb4e990269fea78209b1c84490a84220bfaac8081e1f09a5f39bce79aac"}}</script>
+<script src="/sites/travelagentcentral/files/js/js_DdXIKt68jGany_F78Mxy_6Rv5aLF94bA6_npMbGnkV4.js"></script>
+<script src="/sites/travelagentcentral/files/js/js_6SxFr4aIhgKohVfyrde3jqgRAW8Kh8W1BssGCeBTsVc.js"></script>
+<script src="//static.addtoany.com/menu/page.js" async></script>
+<script src="/sites/travelagentcentral/files/js/js_80Ouk0YNlSUiJT2uiui0bGbFdqckdiL2W-iKYEfv-e8.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" async></script>
+<script src="/sites/travelagentcentral/files/js/js_il4w4PXBT_yUCnHHsOGSquDS5MNZ1nGOqb3GWZMG2Bo.js" defer></script>
+
+
+    <!-- Start Parse.ly Include: Standard -->
+    <div id="parsely-root" style="display: none">
+      <div id="parsely-cfg" data-parsely-site="travelagentcentral.com"></div>
+    </div>
+    <script>
+    (function(s, p, d) {
+      var h=d.location.protocol, i=p+"-"+s,
+          e=d.getElementById(i), r=d.getElementById(p+"-root"),
+          u=h==="https:"?"d1z2jf7jlzjs58.cloudfront.net"
+          :"static."+p+".com";
+      if (e) return;
+      e = d.createElement(s); e.id = i; e.async = true;
+      e.src = h+"//"+u+"/p.js"; r.appendChild(e);
+    })("script", "parsely", document);
+    </script>
+    <!-- End Parse.ly Include -->
+
+    <!-- Start Taboola -->
+    <script type="text/javascript">
+      window._taboola = window._taboola || [];
+      _taboola.push({flush: true});
+    </script>
+    <!-- End Taboola -->
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"44925d6b58","applicationID":"51794171","transactionName":"NFBaMhZVDRIHABUPCg0aeQUQXQwPSRMAAQA8VlkFDFE=","queueTime":0,"applicationTime":37,"atts":"GBdZRF5PHhw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

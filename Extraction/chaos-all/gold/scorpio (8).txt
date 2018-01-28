@@ -1,0 +1,20 @@
+Microsoft reveals full technical details on the Xbox “Project Scorpio”
+
+
+Last E3, Microsoft announced “Project Scorpio,” the next iteration of their Xbox game console. It promised to be the “most powerful console ever,” and, this week, Microsoft finally revealed the numbers to back that claim.
+
+Microsoft invited the tech enthusiasts at Eurogamer’s Digital Foundry to meet with Xbox engineers to unveil the specs of Microsoft’s new gaming machine. In Digital Foundry’s report, you’ll find their passionate recitation of incredible technical jargon and impressively high numbers.
+
+The Scorpio Engine, the System-on-a-Chip that powers the console, impresses with a major step up from the original Xbox One system. The new CPU is made up of 8 custom x86 cores running at 2.3 GHz, an “evolved” version of the Xbox One’s 8 1.75 GHz Jaguar cores. The 6.0 teraflop GPU is a marked improvement over the Xbox One’s 1.3 teraflops, and even the 4.2 teraflops for the PlayStation 4 Pro.
+
+The memory situation is also a huge upgrade, going from 8 GB DDR3 on the Xbox One to a staggering 12 GB GDDR5 on Scorpio. This offers a 60 percent increase in memory over the original Xbox One. Game developers will have access to 8 GB, and 4 GB will be dedicated strictly to the machine’s operating system, which will hopefully result in snappier performance over the sluggish UI we’ve become accustomed to on the Xbox One.
+
+There are a lot of technical terms that is above even my level of understanding, but it’s basically summed up as “native 4K gaming” and backs up the idea of Project Scorpio as the “most powerful console ever.” Microsoft showed off a demo of the latest Forza racing game running at a native 4K resolution and a full 60 frames-per-second.
+
+Most excitingly, not only will the Scorpio be capable of playing any game already playable on Xbox One (which includes Xbox 360 backwards compatible titles), but these games will automatically take advantage of Scorpio’s more powerful hardware without the need for a software update. Xbox One and Xbox 360 titles will see improved performance, better texture filtering, and faster load times. Some games on Xbox One utilize dynamic resolution scaling, meaning the game’s resolution will drop to keep a consistent framerate. With Scorpio’s power, these games will consistently run at the higher resolution. Developers also have the option of implementing software updates on these older titles to take even further advantage of the upgraded hardware.
+
+The final physical design of Project Scorpio has yet to be revealed, but the port conifguration on the system should be identical to that of the Xbox One S. The Scorpio will retain an internal power supply, so you won’t have to worry about a large external power brick, and the HDMI input for cable boxes and other media consoles will remain as well.
+
+Full release details are still unknown, but the final design, price, release date, and official name for Project Scorpio will be fully unveiled at E3 this year. With such a huge upgrade over the original Xbox One, you might as well treat Scorpio as a brand-new console launch rather than a simple iteration like the Xbox One S, so expect it to be priced accordingly.
+
+If you would like a full technical breakdown of Scorpio’s specs, I recommend watching Digital Foundry’s video on the machine, though expect the level of technical jargon to be high!

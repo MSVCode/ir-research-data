@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<title>A tour of iOS 10.3: Checking out APFS, the Settings app, and other tweaks | Ars Technica</title>
+    <script type="text/javascript">
+    ars = {"ASSETS":"https:\/\/cdn.arstechnica.net\/wp-content\/themes\/ars\/assets","HOME_URL":"https:\/\/arstechnica.com","LOGIN_URL":"https:\/\/arstechnica.com\/services\/login-desktop.html?v=1","CIVIS":"\/civis","THEME":"light","VIEW":"grid","MOBILE":false,"PREMIER":false,"LOGGED":false,"ENV":"production","AD":{"kw":["section_apple","discipline","ios-idevices","software","apple","consumer"],"zone":"consumer","queue":[]},"TOTAL":79492,"UNREAD":0,"RECENT":[1066481,1066467,1066403,1066047,1066377,1066145,1066271,1066139,1066129,1065997,1066019,1066029,1065783,1065937,1065933,1065833,1065863,1065861,1065867,1065567,1065655,1059005,1065353,1064747,1065697],"LOGINS":true,"CROSS":false,"GEOALERTS":true,"PARSELY":"arstechnica.com","COMMENTS":false,"HOMEPAGE":false,"COUNTRY":"us","SITE":1,"READY":[],"SHOW_ADS":true,"IMG_PROXY":"https:\/\/cdn.arstechnica.net\/i\/","CATEGORY":"apple","PAGETITLE":""};
+  </script>
+
+  <link rel="stylesheet" type="text/css" media="all" href="https://cdn.arstechnica.net/wp-content/themes/ars/assets/css/main-1d4e0acfcd.css" />
+      <link rel="alternate" type="application/rss+xml" href="http://feeds.arstechnica.com/arstechnica/index/" />
+  <link rel="shortcut icon" href="https://cdn.arstechnica.net/favicon.ico" />
+  <link rel="icon" type="image/x-icon" href="https://cdn.arstechnica.net/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.arstechnica.net/wp-content/themes/ars/assets/img/ars-ios-icon-d9a45f558c.png" />
+  <link rel="icon" sizes="192x192" href="https://cdn.arstechnica.net/wp-content/themes/ars/assets/img/material-ars-db41652381.png" />
+
+    <meta name="application-name" content="Ars Technica"/>
+  <meta name="msapplication-starturl" content="http://arstechnica.com/"/>
+  <meta name="msapplication-tooltip" content="Ars Technica: Serving the technologist for 1.2 decades"/>
+  <meta name="msapplication-task" content="name=News;action-uri=http://arstechnica.com/;icon-uri=https://cdn.arstechnica.net/favicon.ico"/>
+  <meta name="msapplication-task" content="name=Features;action-uri=http://arstechnica.com/features/;icon-uri=https://cdn.arstechnica.net/ie-jump-menu/jump-features.ico"/>
+  <meta name="msapplication-task" content="name=OpenForum;action-uri=http://arstechnica.com/civis/;icon-uri=https://cdn.arstechnica.net/ie-jump-menu/jump-forum.ico"/>
+  <meta name="msapplication-task" content="name=Subscribe;action-uri=http://arstechnica.com/subscriptions/;icon-uri=https://cdn.arstechnica.net/ie-jump-menu/jump-subscribe.ico"/>
+
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="advertising" content="ask" />
+  <meta property="fb:admins" content="592156917" />
+  <meta property="fb:admins" content="108943" />
+  <meta property="fb:admins" content="10103365229664579" />
+
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="theme-color" content="#000000" />
+
+  
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <!-- cache hit 517:single/meta:b38d70b7120790e18e883e8dc6aae731 -->
+<meta name='parsely-page' content='{"title":"A tour of iOS 10.3: Checking out APFS, the Settings app, and other tweaks","link":"https:\/\/arstechnica.com\/apple\/2017\/03\/a-tour-of-ios-10-3-checking-out-apfs-the-settings-app-and-other-tweaks\/","type":"post","author":"Andrew Cunningham","post_id":1066145,"pub_date":"2017-03-27T19:30:21Z","section":"Infinite Loop","tags":["ios-10-3","type: report"],"image_url":"https:\/\/cdn.arstechnica.net\/wp-content\/uploads\/2017\/03\/IMG_0250-150x150.jpg"}'>
+<meta name='parsely-metadata' content='{"type":"report","title":"A tour of iOS 10.3: Checking out APFS, the Settings app, and other tweaks","post_id":1066145,"lower_deck":"New update is likely to be iOS 10&apos;s last hurrah.","image_url":"https:\/\/cdn.arstechnica.net\/wp-content\/uploads\/2017\/03\/IMG_0250-150x150.jpg","listing_image_url":"https:\/\/cdn.arstechnica.net\/wp-content\/uploads\/2017\/03\/IMG_0250-360x200.jpg"}'>
+
+<link rel="canonical" href="https://arstechnica.com/apple/2017/03/a-tour-of-ios-10-3-checking-out-apfs-the-settings-app-and-other-tweaks/" />
+
+<link rel="amphtml" href="https://arstechnica.com/apple/2017/03/a-tour-of-ios-10-3-checking-out-apfs-the-settings-app-and-other-tweaks/?amp=1">
+
+
+
+<link rel="shorturl" href="https://arstechnica.com/?p=1066145" />
+
+<meta name="description" content="New update is likely to be iOS 10&#39;s last hurrah." />
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://arstechnica.com/apple/2017/03/a-tour-of-ios-10-3-checking-out-apfs-the-settings-app-and-other-tweaks/">
+<meta name="twitter:title" content="A tour of iOS 10.3: Checking out APFS, the Settings app, and other tweaks">
+<meta name="twitter:description" content="New update is likely to be iOS 10&#39;s last hurrah.">
+
+<meta name="twitter:site" content="@arstechnica">
+<meta name="twitter:domain" content="arstechnica.com">
+
+<meta property="og:site_name" content="Ars Technica" />
+
+<meta name="twitter:image:src" content="https://cdn.arstechnica.net/wp-content/uploads/2017/03/IMG_0250-760x380.jpg">
+<meta name="twitter:image:width" content="760">
+<meta name="twitter:image:height" content="380">
+
+<meta name="twitter:creator" content="@AndrewWrites">
+
+<meta property="og:url" content="https://arstechnica.com/apple/2017/03/a-tour-of-ios-10-3-checking-out-apfs-the-settings-app-and-other-tweaks/" />
+<meta property="og:title" content="A tour of iOS 10.3: Checking out APFS, the Settings app, and other tweaks" />
+<meta property="og:image" content="https://cdn.arstechnica.net/wp-content/uploads/2017/03/IMG_0250-760x380.jpg" />
+<meta property="og:description" content="New update is likely to be iOS 10&#39;s last hurrah." />
+<meta property="og:type" content="article" />
+
+<script type="text/javascript">var digitalData = {"contributor":"Andrew Cunningham","contentID":1066145,"contentLength":1950,"display":"A tour of iOS 10.3: Checking out APFS, the Settings app, and other tweaks","pageType":"report","keywords":{"display":"ios-10-3|type: report"},"canonical":"https:\/\/arstechnica.com\/apple\/2017\/03\/a-tour-of-ios-10-3-checking-out-apfs-the-settings-app-and-other-tweaks\/","pageValue":1,"publishDate":"2017-03-27T19:30:21+00:00","section":"Infinite Loop"};</script>
+  <!-- cache hit 517:single/header:b38d70b7120790e18e883e8dc6aae731 -->
+        
+  
+  
+  
+<script>
+!function(b,c,d){"use strict";var e=b.location.hostname,f=""!==b.location.port?":"+b.location.port:"",g=location.search.match(/CNS_SB=([^&\s]+)[&\s]?/)||[],h=e+f+"/cns"+(g.length?"-sandbox/"+g[1]:"")+"/services.min.js",i=d||"//"+h;b.cns=b.cns||{async:function(b,c){this.queue[b]||(this.queue[b]=[]),"function"==typeof c&&this.queue[b].push(c)},queue:{},embed:{backup:d}};var j;j=c.createElement("script"),j.async=!0,j.src=i,c.head.appendChild(j)}(window,document,'https://cdn.arstechnica.net/cns/services.min.js');
+</script>
+
+  </head>
+<body class="post-template-default single single-post postid-1066145 single-format-standard grid-view light blog-us">
+
+  <aside class="ad ad_crown" id="ad_crown_top"></aside>
+
+<div class="site-wrapper">
+  <header class="site-header">
+    <div class="header-left">
+      <a href="https://arstechnica.com" id="header-logo" title="Ars Technica Homepage">
+      <span class="icon icon-logo-ars-us"></span>
+  </a>
+      <div class="dropdown" id="header-search">
+        <a href="/search/" class="dropdown-toggle">
+          <span class="icon icon-search-mag-glass"></span>
+        </a>
+        <div class="dropdown-content">
+          <form action="/search/" method="GET" id="search_form">
+  <input type="hidden" name="ie" value="UTF-8">
+  <input type="text" name="q" id="hdr_search_input" value="" placeholder="Search..." tabindex="10">
+</form>
+<a class="nav-search-close">Close</a>
+        </div>
+      </div>
+      <nav id="header-nav-primary">
+        <ul>
+          
+  <li><a class="" href="/information-technology/">Biz &amp; IT</a></li>
+  <li><a class="active" href="/gadgets/">Tech</a></li>
+  <li><a class="" href="/science/">Science</a></li>
+  <li><a class="" href="/tech-policy/">Policy</a></li>
+  <li><a class="" href="/cars/">Cars</a></li>
+  <li><a class="" href="/gaming/">Gaming &amp; Culture</a></li>
+  <li><a href="/civis/">Forums</a></li>        </ul>
+      </nav>
+      <div class="dropdown dropdown-mega" id="header-burger">
+        <a href="#site-footer" class="dropdown-toggle">
+          <span></span>
+        </a>
+        <div class="dropdown-content">
+          <section class="burger-navigate">
+  <h3>
+    <span class="icon icon-half-target"></span>
+    Navigate
+  </h3>
+  <ul>
+    <li><a href="http://video.arstechnica.com/">Videos</a></li>
+    <li><a href="/features/">Features</a></li>
+    <li><a href="/reviews/">Reviews</a></li>
+    <li><a href="/tag/ars-approved/">Ars Approved</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="/rss-feeds/">RSS Feeds</a></li>
+    <li><a href="/?view=mobile">Mobile Site</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="/about-us/">About Ars</a></li>
+    <li><a href="/staff-directory/">Staff Directory</a></li>
+    <li><a href="/contact-us/">Contact Us</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="/advertise-with-us/">Advertise with Ars</a></li>
+    <li><a href="/reprints/">Reprints</a></li>
+  </ul>
+</section>
+
+<section class="burger-filter">
+  <h3>
+    <span class="icon icon-half-mag"></span>
+    Filter by topic
+  </h3>
+  <ul id="burger-nav-primary">
+    
+  <li><a class="" href="/information-technology/">Biz &amp; IT</a></li>
+  <li><a class="active" href="/gadgets/">Tech</a></li>
+  <li><a class="" href="/science/">Science</a></li>
+  <li><a class="" href="/tech-policy/">Policy</a></li>
+  <li><a class="" href="/cars/">Cars</a></li>
+  <li><a class="" href="/gaming/">Gaming &amp; Culture</a></li>
+  <li><a href="/civis/">Forums</a></li>  </ul>
+</section>
+
+<section class="burger-settings">
+  <h3>
+    <span class="icon icon-half-gear"></span>
+    Settings
+  </h3>
+  <div>
+    <div class="burger-layout">
+      
+<p>Front page layout</p>
+<div class="burger-layout-grid">
+  <a rel="nofollow" href="http://arstechnica.com/apple/2017/03/a-tour-of-ios-10-3-checking-out-apfs-the-settings-app-and-other-tweaks/?view=grid" class="">
+    <span class="icon icon-grid"></span><br>
+    Grid
+    <div class="faux-radio active"></div>
+      </a>
+</div>
+
+<div class="burger-layout-list">
+  <a rel="nofollow" href="http://arstechnica.com/apple/2017/03/a-tour-of-ios-10-3-checking-out-apfs-the-settings-app-and-other-tweaks/?view=archive" class="">
+    <span class="icon icon-list"></span><br>
+    List
+    <div class="faux-radio "></div>
+      </a>
+</div>
+
+<div class="burger-layout-unified">
+  <a rel="nofollow" href="http://arstechnica.com/apple/2017/03/a-tour-of-ios-10-3-checking-out-apfs-the-settings-app-and-other-tweaks/?view=unified" class="">
+    <span class="icon icon-hybrid-view"></span><br>
+    Unified
+    <div class="faux-radio "></div>
+      </a>
+</div>
+
+  <div class="burger-layout-wide" style="display: none;">
+    <a rel="nofollow" href="http://arstechnica.com/apple/2017/03/a-tour-of-ios-10-3-checking-out-apfs-the-settings-app-and-other-tweaks/?view=full" class="">
+      <span class="icon icon-wide"></span><br>
+      Wide
+      <div class="faux-radio "></div>
+          </a>
+  </div>
+    </div>
+    <div class="burger-theme">
+      
+<p>Site theme</p>
+<div class="burger-theme-light">
+  <a rel="nofollow" href="http://arstechnica.com/apple/2017/03/a-tour-of-ios-10-3-checking-out-apfs-the-settings-app-and-other-tweaks/?theme=light" class="">
+    <span><span>Black on white</span></span>
+    <div class="faux-radio active"></div>
+      </a>
+</div>
+
+<div class="burger-theme-dark">
+  <a rel="nofollow" href="http://arstechnica.com/apple/2017/03/a-tour-of-ios-10-3-checking-out-apfs-the-settings-app-and-other-tweaks/?theme=dark" class="">
+    <span><span>White on black</span></span>
+    <div class="faux-radio "></div>
+      </a>
+</div>
+    </div>
+  </div>
+</section>
+        </div>
+      </div>
+      <div class="dropdown dropdown-mega" id="header-account">
+      <a href="https://arstechnica.com/civis/ucp.php?mode=login&return_to=%2Fapple%2F2017%2F03%2Fa-tour-of-ios-10-3-checking-out-apfs-the-settings-app-and-other-tweaks%2F" class="dropdown-toggle">
+      Sign in
+      <span class="icon dropdown-indicator icon-drop-indicator"></span>
+    </a>
+    <div class="dropdown-content">
+    <section class="profile-activity">
+      <h3>
+        <span class="icon icon-half-bubble-up"></span>
+        Comment activity
+      </h3>
+              <p>Sign up or login to join the discussions!</p>
+          </section>
+
+    <section class="profile-settings">
+              <form id="login-form" action="https://arstechnica.com/civis/ucp.php?mode=login" method="post">
+  <input type="text" name="username" id="username" placeholder="Username or Email" />
+  <input type="password" name="password" id="password"  placeholder="Password" />
+  <input type="submit" value="Submit" class="button button-orange button-wide" name="login" />
+  <label id="remember-label">
+    <input type="checkbox" name="autologin" id="autologin" />
+  Stay logged in</label> <span>|</span> <a href="/civis/ucp.php?mode=sendpassword">Having trouble?</a>
+
+  <input type="hidden" name="redirect" value="./ucp.php?mode=login&amp;return_to=%2Fservices%2Fx%2Fa.php%3Fpath%3D%2Fapple%2F2017%2F03%2Fa-tour-of-ios-10-3-checking-out-apfs-the-settings-app-and-other-tweaks%2F%26s%3D1" />
+  <input type="hidden" name="return_to" value="/services/x/a.php?path=%2Fapple%2F2017%2F03%2Fa-tour-of-ios-10-3-checking-out-apfs-the-settings-app-and-other-tweaks%2F&amp;s=1" />
+</form>
+<div class="register-account">
+  <span>Sign up to comment and more</span>
+  <a href="https://arstechnica.com/civis/ucp.php?mode=register" class="signup-btn button button-wide">Sign up</a>
+</div>
+      
+    </section>
+  </div>
+</div>
+    </div>
+    <div class="header-right">
+            <!-- cache hit 517:header/site-toggle:517d9f47cde01ccfd255765092ec6a7f -->
+  <div class="dropdown dropdown-right" id="header-sites">
+                        <a href="https://arstechnica.com/?return" class="dropdown-toggle">
+          <span class="icon header-flag icon-flag-us"></span>
+          <span class="icon dropdown-indicator icon-drop-indicator"></span>
+        </a>
+                                  
+    <div class="dropdown-content">
+                        <a href="https://arstechnica.co.uk">
+            <span class="icon header-flag icon-flag-uk"></span>
+            Ars Technica UK          </a>
+          </div>
+  </div>
+          </div>
+  </header>
+
+            
+  <div class="content-wrapper">
+
+<script type="text/javascript">
+  ars.ARTICLE = {"url":"https:\/\/arstechnica.com\/apple\/2017\/03\/a-tour-of-ios-10-3-checking-out-apfs-the-settings-app-and-other-tweaks\/","short_url":"https:\/\/arstechnica.com\/?p=1066145","title":"A tour of iOS 10.3: Checking out APFS, the Settings app, and other tweaks","author":332715,"id":1066145,"topic":1378501,"pages":2,"current_page":1,"superscroll":true,"promoted":[],"single_page":false,"comments":79,"fullwidth":false,"slug":"a-tour-of-ios-10-3-checking-out-apfs-the-settings-app-and-other-tweaks","arsStaff":{"104481":{"name":"Aaron Zimmerman","title":"Copyeditor","staff":true},"332715":{"name":"Andrew Cunningham","title":"Senior Products Editor","staff":true},"520255":{"name":"Annalee Newitz","title":"Tech Culture Editor","staff":true},"509873":{"name":"Beth Mole","title":"Health Reporter","staff":true},"335607":{"name":"Cyrus Farivar","title":"Senior Business Editor","staff":true},"329388":{"name":"Dan Goodin","title":"Security Editor","staff":true},"427993":{"name":"David Kravets","title":"Senior Editor","staff":true},"512413":{"name":"Eric Berger","title":"Senior Space Editor","staff":true},"55943":{"name":"Jacqui Cheng","title":"Editor at Large","staff":false},"439519":{"name":"Jennifer Hahn","title":"Video Producer\/Editor","staff":true},"334677":{"name":"Joe Mullin","title":"Tech Policy Editor","staff":true},"52979":{"name":"John Timmer","title":"Senior Science Editor","staff":true},"312082":{"name":"Jon Brodkin","title":"Senior IT Reporter","staff":true},"14317":{"name":"Jonathan M. Gitlin","title":"Automotive Editor","staff":true},"338374":{"name":"Kathleen DeVries","title":"","staff":false},"522745":{"name":"Kelly Fiveash","title":"News Editor","staff":true},"440179":{"name":"Kerry Staurseth","title":"Associate Copyeditor","staff":true},"328283":{"name":"Kyle Orland","title":"Senior Gaming Editor","staff":true},"483933":{"name":"Mark Walton","title":"Consumer Editor","staff":true},"331051":{"name":"Megan Geuss","title":"Staff editor","staff":true},"1169":{"name":"Peter Bright","title":"Technology Editor","staff":true},"391727":{"name":"Ron Amadeo","title":"Reviews Editor","staff":true},"348927":{"name":"Sam Machkovech","title":"Culture Reporter","staff":true},"314884":{"name":"Sean Gallagher","title":"IT Editor","staff":true},"466481":{"name":"Sebastian Anthony","title":"Editor of Ars Technica UK","staff":true},"505571":{"name":"Valentina Palladino","title":"Associate Reviewer","staff":true},"369205":{"name":"Akshat Rathi","title":"Associate Writer","staff":false},"325040":{"name":"Allie Wilkinson","title":"","staff":false},"505703":{"name":"Cassandra Khaw","title":"Contributing Reporter ","staff":true},"453791":{"name":"Cathleen O'Grady","title":"Contributing science reporter","staff":true},"102179":{"name":"Chris Lee","title":"Associate writer","staff":true},"332078":{"name":"Curt Hopkins","title":"Associate Writer","staff":false},"6978":{"name":"Dave Girard","title":"Associate Writer","staff":false},"332434":{"name":"Dave Klingler","title":"Associate Writer","staff":false},"129513":{"name":"David Kanter","title":"","staff":false},"254631":{"name":"Diana Gitig","title":"Associate Writer","staff":false},"52335":{"name":"edgar","title":"","staff":false},"172426":{"name":"egosumliber","title":"","staff":false},"480857":{"name":"Glyn Moody","title":"Contributing Policy Editor","staff":true},"46707":{"name":"Iljitsch van Beijnum","title":"Associate Writer","staff":true},"332336":{"name":"James Holloway","title":"Associate Writer","staff":false},"217531":{"name":"Jeremy Jacquot","title":"","staff":false},"15365":{"name":"Jeremy Reimer","title":"Senior Niche Technology Historian","staff":false},"4086":{"name":"Jim Salter","title":"Contributor","staff":false},"8996":{"name":"John Siracusa","title":"Associate writer","staff":false},"375641":{"name":"Kate Prengaman","title":"","staff":false},"251816":{"name":"Kate Shaw Yoshida","title":"Associate Writer","staff":false},"133411":{"name":"Knadles","title":"","staff":false},"37509":{"name":"Matt Ford","title":"Associate writer","staff":false},"300066":{"name":"Matthew Braga","title":"Associate writer","staff":true},"323078":{"name":"Matthew Francis","title":"Associate Writer","staff":false},"173191":{"name":"Matthew Lasar","title":"Associate writer","staff":true},"336278":{"name":"Melissae Fellet","title":"Associate Writer","staff":false},"1991":{"name":"Ohrmazd","title":"","staff":false},"445261":{"name":"Robert Lemos","title":"","staff":false},"66380":{"name":"Ryan Paul","title":"Ars Editor Emeritus ","staff":false},"17480":{"name":"SBD","title":"","staff":false},"294205":{"name":"Scott K. Johnson","title":"Associate Writer","staff":true},"451673":{"name":"Shalini Saxena","title":"Science Writer","staff":false},"163185":{"name":"Tim De Chant","title":"","staff":false},"173910":{"name":"Tim Lee","title":"","staff":false},"181333":{"name":"vansau","title":"","staff":false},"445789":{"name":"Xaq Rzetelny","title":"","staff":false},"6021":{"name":"Yaz","title":"","staff":false},"417641":{"name":"Yogi Patel","title":"","staff":false},"513703":{"name":"Forrest Marvez","title":"Web Developer","staff":false},"316010":{"name":"Jason Marlin","title":"Technical Director","staff":true},"998":{"name":"Ken Fisher","title":"Editor in Chief","staff":true},"1002":{"name":"Aurich Lawson","title":"Creative Director","staff":true},"25862":{"name":"Eric Bangeman","title":"Managing Editor","staff":true},"10243":{"name":"Lee Hutchinson","title":"Senior Technology Editor","staff":true},"182268":{"name":"Nate Anderson","title":"Deputy Editor","staff":true},"330533":{"name":"Nathan Mattise","title":"Features Editor","staff":true},"495539":{"name":"S.I. Newhouse","title":"","staff":true},"547195":{"name":"Tom Mendelsohn","title":"Contributing Sub Editor","staff":true},"513593":{"name":"Andrii Degeler","title":"Contributing reporter","staff":true},"549735":{"name":"Jennifer Baker","title":"Contributing Europe Correspondent","staff":true},"566299":{"name":"J.M. Porup","title":"Contributing Security Reporter","staff":true},"100955":{"name":"Lee Aylward","title":"Lead Developer","staff":false}}};
+</script>
+
+<article itemscope itemtype="http://schema.org/NewsArticle" class="article-single standalone intro-standard ">
+
+  <div class="column-wrapper">
+
+    <div class="left-column">
+      <header class="article-header">
+        <h4 class="post-upperdek">
+      Infinite Loop    &mdash;
+</h4>
+        <h1 itemprop="headline">A tour of iOS 10.3: Checking out APFS, the Settings app, and other tweaks</h1>
+        <h2 itemprop="description">New update is likely to be iOS 10's last hurrah.</h2>
+        <section class="post-meta">
+
+  
+  <p class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person">
+      <a itemprop="url" href="https://arstechnica.com/author/andrew_cunningham/" rel="author"><span itemprop="name">Andrew Cunningham</span></a>
+      -  <time class="date" data-time="1490643021" datetime="2017-03-27T19:30:21+00:00">Mar 27, 2017 7:30 pm UTC</time>
+  </p>
+
+
+  
+</section>      </header>
+
+      <section class="article-guts">
+        <div itemprop="articleBody" class="article-content post-page">
+          
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2017/03/IMG_0250-800x533.jpg"/>
+      <figcaption class="caption"><div class="caption-text"><a href="https://cdn.arstechnica.net/wp-content/uploads/2017/03/IMG_0250.jpg" class="enlarge-link" data-height="1707" data-width="2560">Enlarge</a> <span class="sep">/</span> An iPhone 5 running iOS 10. Version 10.3 is likely to be its last big update.</div><div class="caption-credit">Andrew Cunningham</div></figcaption>  </figure>
+
+  <aside id="social-left"><a title="57 posters participating" class="comment-count icon-comment-bubble-down" href="https://arstechnica.com/apple/2017/03/a-tour-of-ios-10-3-checking-out-apfs-the-settings-app-and-other-tweaks/?comments=1">
+      <span class="comment-count-before">reader comments</span>
+    <span class="comment-count-number">79</span>
+  </a>  
+
+<div class="share-links">
+  <span>Share this story</span>
+  <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Farstechnica.com%2F%3Fpost_type%3Dpost%26p%3D1066145" target="_blank" class="social-icon share-facebook" title="Share on Facebook"></a>
+  <a href="https://twitter.com/share?text=A+tour+of+iOS+10.3%3A+Checking+out+APFS%2C+the+Settings+app%2C+and+other+tweaks&url=https%3A%2F%2Farstechnica.com%2F%3Fpost_type%3Dpost%26p%3D1066145" target="_blank" class="social-icon share-twitter" title="Share on Twitter"></a>
+  <a href="https://www.reddit.com/submit?url=https%3A%2F%2Farstechnica.com%2F%3Fpost_type%3Dpost%26p%3D1066145&title=A+tour+of+iOS+10.3%3A+Checking+out+APFS%2C+the+Settings+app%2C+and+other+tweaks" target="_blank" class="social-icon share-reddit" title="Share on Reddit"></a>
+  <a href="https://plus.google.com/share?url=https%3A%2F%2Farstechnica.com%2F%3Fpost_type%3Dpost%26p%3D1066145" target="_blank" class="social-icon share-gplus" title="Share on Google+"></a>
+</div>
+</aside>
+
+
+
+
+<!-- cache hit 517:single/related:b38d70b7120790e18e883e8dc6aae731 --><!-- empty -->
+<p>Apple has just released iOS 10.3 to the general public, an update which is likely to be the last major release of iOS 10; at this point in the year, work usually begins in earnest on the next major release of iOS, which will be revealed at WWDC in June. The update is available for everything that runs iOS 10: the iPhone 5 and newer, the fourth-generation iPad and newer, the iPad Mini 2 and newer, both iPad Pros, and the sixth-generation iPod Touch.</p>
+<p>The update has been going through the beta process for a couple of months now, and since it’s likely to be iOS 10’s last major update, we’ll spend some extra time with a few of the high-profile features. I’ve also spent a tiny bit of time with the new APFS filesystem, which won’t change much for most people but does seem to free up a small amount of local storage space.</p>
+<h2>Change is afoot… in the Settings app</h2>
+      <div class="gallery shortcode-gallery">
+      <ul>
+                  <li data-thumb="https://cdn.arstechnica.net/wp-content/uploads/2017/03/IMG_0569-150x150.jpg" data-src="https://cdn.arstechnica.net/wp-content/uploads/2017/03/IMG_0569.jpg" data-responsive="https://cdn.arstechnica.net/wp-content/uploads/2017/03/IMG_0569-980x735.jpg 1080, https://cdn.arstechnica.net/wp-content/uploads/2017/03/IMG_0569-1440x1080.jpg 2560" data-sub-html="#caption-1066259">
+            <figure style="height:735px;">
+              <div class="image" style="background-image:url('https://cdn.arstechnica.net/wp-content/uploads/2017/03/IMG_0569-980x735.jpg'); background-color:#000"></div>
+                              <figcaption id="caption-1066259">
+                  <span class="icon caption-arrow icon-drop-indicator"></span>
+                                      <div class="caption">
+                      iCloud account settings are front and center in the Settings app now.                     </div>
+                                                        <div class="credit">
+                      <span class="icon icon-camera"></span>
+                                              Andrew Cunningham                                          </div>
+                                  </figcaption>
+                          </figure>
+          </li>
+                  <li data-thumb="https://cdn.arstechnica.net/wp-content/uploads/2017/03/IMG_0242-150x150.jpg" data-src="https://cdn.arstechnica.net/wp-content/uploads/2017/03/IMG_0242.jpg" data-responsive="https://cdn.arstechnica.net/wp-content/uploads/2017/03/IMG_0242-980x735.jpg 1080, https://cdn.arstechnica.net/wp-content/uploads/2017/03/IMG_0242-1440x1080.jpg 2560" data-sub-html="#caption-1066225">
+            <figure style="height:735px;">
+              <div class="image" style="background-image:url('https://cdn.arstechnica.net/wp-content/uploads/2017/03/IMG_0242-980x735.jpg'); background-color:#000"></div>
+                              <figcaption id="caption-1066225">
+                  <span class="icon caption-arrow icon-drop-indicator"></span>
+                                      <div class="caption">
+                      The older iCloud settings screen is tweaked but still available.                    </div>
+                                                        <div class="credit">
+                      <span class="icon icon-camera"></span>
+                                              Andrew Cunningham                                          </div>
+                                  </figcaption>
+                          </figure>
+          </li>
+                  <li data-thumb="https://cdn.arstechnica.net/wp-content/uploads/2017/03/IMG_0241-150x150.jpg" data-src="https://cdn.arstechnica.net/wp-content/uploads/2017/03/IMG_0241.jpg" data-responsive="https://cdn.arstechnica.net/wp-content/uploads/2017/03/IMG_0241-980x735.jpg 1080, https://cdn.arstechnica.net/wp-content/uploads/2017/03/IMG_0241-1440x1080.jpg 2560" data-sub-html="#caption-1066223">
+            <figure style="height:735px;">
+              <div class="image" style="background-image:url('https://cdn.arstechnica.net/wp-content/uploads/2017/03/IMG_0241-980x735.jpg'); background-color:#000"></div>
+                              <figcaption id="caption-1066223">
+                  <span class="icon caption-arrow icon-drop-indicator"></span>
+                                      <div class="caption">
+                      You can easily see every device connected to your Apple ID.                    </div>
+                                                        <div class="credit">
+                      <span class="icon icon-camera"></span>
+                                              Andrew Cunningham                                          </div>
+                                  </figcaption>
+                          </figure>
+          </li>
+                  <li data-thumb="https://cdn.arstechnica.net/wp-content/uploads/2017/03/IMG_0561-150x150.jpg" data-src="https://cdn.arstechnica.net/wp-content/uploads/2017/03/IMG_0561.jpg" data-responsive="https://cdn.arstechnica.net/wp-content/uploads/2017/03/IMG_0561-980x735.jpg 1080, https://cdn.arstechnica.net/wp-content/uploads/2017/03/IMG_0561-1440x1080.jpg 2560" data-sub-html="#caption-1066221">
+            <figure style="height:735px;">
+              <div class="image" style="background-image:url('https://cdn.arstechnica.net/wp-content/uploads/2017/03/IMG_0561-980x735.jpg'); background-color:#000"></div>
+                              <figcaption id="caption-1066221">
+                  <span class="icon caption-arrow icon-drop-indicator"></span>
+                                      <div class="caption">
+                      The Device Info screen for an iPhone.                    </div>
+                                                        <div class="credit">
+                      <span class="icon icon-camera"></span>
+                                              Andrew Cunningham                                          </div>
+                                  </figcaption>
+                          </figure>
+          </li>
+                  <li data-thumb="https://cdn.arstechnica.net/wp-content/uploads/2017/03/IMG_0564-150x150.jpg" data-src="https://cdn.arstechnica.net/wp-content/uploads/2017/03/IMG_0564.jpg" data-responsive="https://cdn.arstechnica.net/wp-content/uploads/2017/03/IMG_0564-980x735.jpg 1080, https://cdn.arstechnica.net/wp-content/uploads/2017/03/IMG_0564-1440x1080.jpg 2560" data-sub-html="#caption-1066253">
+            <figure style="height:735px;">
+              <div class="image" style="background-image:url('https://cdn.arstechnica.net/wp-content/uploads/2017/03/IMG_0564-980x735.jpg'); background-color:#000"></div>
+                              <figcaption id="caption-1066253">
+                  <span class="icon caption-arrow icon-drop-indicator"></span>
+                                      <div class="caption">
+                      The Device Info screen for an iPad.                    </div>
+                                                        <div class="credit">
+                      <span class="icon icon-camera"></span>
+                                              Andrew Cunningham                                          </div>
+                                  </figcaption>
+                          </figure>
+          </li>
+                  <li data-thumb="https://cdn.arstechnica.net/wp-content/uploads/2017/03/IMG_0570-150x150.jpg" data-src="https://cdn.arstechnica.net/wp-content/uploads/2017/03/IMG_0570.jpg" data-responsive="https://cdn.arstechnica.net/wp-content/uploads/2017/03/IMG_0570-980x735.jpg 1080, https://cdn.arstechnica.net/wp-content/uploads/2017/03/IMG_0570-1440x1080.jpg 2560" data-sub-html="#caption-1066261">
+            <figure style="height:735px;">
+              <div class="image" style="background-image:url('https://cdn.arstechnica.net/wp-content/uploads/2017/03/IMG_0570-980x735.jpg'); background-color:#000"></div>
+                              <figcaption id="caption-1066261">
+                  <span class="icon caption-arrow icon-drop-indicator"></span>
+                                      <div class="caption">
+                      The Device Info screen for a Mac.                    </div>
+                                                        <div class="credit">
+                      <span class="icon icon-camera"></span>
+                                              Andrew Cunningham                                          </div>
+                                  </figcaption>
+                          </figure>
+          </li>
+                  <li data-thumb="https://cdn.arstechnica.net/wp-content/uploads/2017/03/IMG_0567-150x150.jpg" data-src="https://cdn.arstechnica.net/wp-content/uploads/2017/03/IMG_0567.jpg" data-responsive="https://cdn.arstechnica.net/wp-content/uploads/2017/03/IMG_0567-980x735.jpg 1080, https://cdn.arstechnica.net/wp-content/uploads/2017/03/IMG_0567-1440x1080.jpg 2560" data-sub-html="#caption-1066257">
+            <figure style="height:735px;">
+              <div class="image" style="background-image:url('https://cdn.arstechnica.net/wp-content/uploads/2017/03/IMG_0567-980x735.jpg'); background-color:#000"></div>
+                              <figcaption id="caption-1066257">
+                  <span class="icon caption-arrow icon-drop-indicator"></span>
+                                      <div class="caption">
+                      The Device Info screen for an Apple Watch.                    </div>
+                                                        <div class="credit">
+                      <span class="icon icon-camera"></span>
+                                              Andrew Cunningham                                          </div>
+                                  </figcaption>
+                          </figure>
+          </li>
+                  <li data-thumb="https://cdn.arstechnica.net/wp-content/uploads/2017/03/IMG_0565-150x150.jpg" data-src="https://cdn.arstechnica.net/wp-content/uploads/2017/03/IMG_0565.jpg" data-responsive="https://cdn.arstechnica.net/wp-content/uploads/2017/03/IMG_0565-980x735.jpg 1080, https://cdn.arstechnica.net/wp-content/uploads/2017/03/IMG_0565-1440x1080.jpg 2560" data-sub-html="#caption-1066255">
+            <figure style="height:735px;">
+              <div class="image" style="background-image:url('https://cdn.arstechnica.net/wp-content/uploads/2017/03/IMG_0565-980x735.jpg'); background-color:#000"></div>
+                              <figcaption id="caption-1066255">
+                  <span class="icon caption-arrow icon-drop-indicator"></span>
+                                      <div class="caption">
+                      The Device Info screen for an Apple TV.                    </div>
+                                                        <div class="credit">
+                      <span class="icon icon-camera"></span>
+                                              Andrew Cunningham                                          </div>
+                                  </figcaption>
+                          </figure>
+          </li>
+              </ul>
+    </div>
+  
+
+<p>Many of iOS 10.3’s most noticeable tweaks are in the most exciting part of any operating system: the Settings app!</p>
+<p>The most obvious of the changes moves the iCloud settings screen from about halfway down the list to its own prominent position at the top of the stack. There isn’t a ton of stuff here that doesn’t already exist in iOS 10.2.1, but given that the first thing most people do with their iPhones and iPads is sign in to their iCloud accounts, it makes sense to move this stuff front and center.</p>
+<p>Particularly useful is a big “Password &amp; Security” section right at the top of the new screen, which lets you change your iCloud password and set up two-factor authentication. This was available before, it was just buried in a non-obvious place (go to the iCloud settings page, then tap your Apple ID, then tap Password &amp; Security).</p>
+<p>You also get a list of every single device signed in to your Apple ID, including iOS devices, Macs, Apple TVs, and Apple Watches. This provides easy access to serial numbers, Find my iPhone/iPad/Mac info for the OSes that support it, as well as iDevice backup status, iPhone phone number and IMEI information, and Apple Pay information. If a device is lost or destroyed or traded in, you can use this screen to easily remove it from your account, and if you spot a device that doesn’t belong, you can change your password quickly to lock it out.</p>
+<p>Tapping the iCloud badge here opens a screen that looks mostly like the top level of the old iCloud settings screen looked. This is where you toggle whether to sync photos, mail, calendars, and other things, and it’s also where you turn device backups and Find My iPhone on and off. Keep scrolling down and you’ll get a complete list (with toggles) of every app using iCloud Drive storage; this was previously hidden in a separate iCloud Drive page. There’s a nice storage bar at the top of the screen that tells you how your iCloud storage is being used, but you still have to find the Manage Storage screen to see how much space each individual app and device is using.</p>
+<h2>APFS</h2>
+<aside class="pullbox sidebar story-sidebar right"><div class="story-sidebar-part"><a href="https://arstechnica.com/apple/2016/06/a-zfs-developers-analysis-of-the-good-and-bad-in-apples-new-apfs-file-system/" class="story-sidebar-part-img" style="background-image:url('https://cdn.arstechnica.net/wp-content/uploads/2016/06/apfslisting-300x100.png');"></a><div class="story-sidebar-part-content"><h3>Further Reading</h3><a href="https://arstechnica.com/apple/2016/06/a-zfs-developers-analysis-of-the-good-and-bad-in-apples-new-apfs-file-system/">A ZFS developer’s analysis of the good and bad in Apple’s new APFS file system</a></div></div></aside>
+<p>iOS 10.3 will automatically convert your iDevice’s filesystem from HFS+ to APFS when you install it, making it the first Apple operating system to ship with APFS as a non-beta default filesystem.</p>
+<p>As we’ve written, it feels pretty brave of Apple (brave in the “possibly foolhardy” sense) to ship a brand-new filesystem on its biggest platform first, where it could cause the most problems if something went wrong. But it also makes a certain kind of sense. iDevices will have predictable and uniform partition maps that Apple already knows all about, since users can’t access the filesystem directly and mess with things. Testing the APFS conversion on every single device that supports iOS 10 (and maybe even every single storage capacity option for every one of those devices) is a lot of work, but there are still a finite number of configurations to test.<aside class="pullbox sidebar story-sidebar right"><div class="story-sidebar-part"><a href="https://arstechnica.com/apple/2017/02/testing-out-snapshots-in-apples-next-generation-apfs-file-system/" class="story-sidebar-part-img" style="background-image:url('https://cdn.arstechnica.net/wp-content/uploads/2017/02/hard-drive-in-space-300x100.jpg');"></a><div class="story-sidebar-part-content"><h3>Further Reading</h3><a href="https://arstechnica.com/apple/2017/02/testing-out-snapshots-in-apples-next-generation-apfs-file-system/">Testing out snapshots in Apple’s next-generation APFS file system</a></div></div></aside></p>
+<p>On the Mac, by contrast, people's system partitions could be set up in all kinds of weird and unpredictable ways, making it more difficult to account for edge cases in the conversion process. So iOS gets to be the guinea pig, and macOS (as well as watchOS and tvOS) will likely pick up APFS support in the new major OS updates we see at WWDC this year.</p>
+<p>iOS doesn’t and has never exposed its filesystem directly to its users, so unlike in macOS where you can pull back the curtain to see how it’s working, the change in iOS will effectively be invisible to users (except insofar as a filesystem that is quietly more modern and robust is a good thing in the long run). User-facing benefits like directory size calculation and cloning files in multiple locations, easily noticeable in macOS, have little bearing in the more locked-down world of iOS.</p>
+<p>Rumor sites covering the iOS 10.3 betas usually do some hand-waving here, claiming that APFS may be faster or save disk space. I can’t speak to the filesystem’s speed except to say that boot times on three devices I tested under iOS 10.2.1 and iOS 3 beta 7 (a late build that, bug fixes aside, should be more-or-less identical to today’s release build) were the same. But iDevices with iOS 10.3 installed do consistently seem to show larger amounts of space available, as well as larger capacities, suggesting that the conversion to APFS is reducing the size needed for the OS partition.</p>
+<table width="640px">
+<tbody>
+<tr>
+<th>Device</th>
+<th>Total capacity (iOS 10.2.1)</th>
+<th>Total capacity (iOS 10.3)</th>
+<th>Available (iOS 10.2.1)</th>
+<th>Available (iOS 10.3)</th>
+</tr>
+<tr>
+<td>iPhone 5S, 64GB</td>
+<td>59.26GB</td>
+<td>60.46GB</td>
+<td>57.93GB</td>
+<td>58.89GB</td>
+</tr>
+<tr>
+<td>iPhone 6 Plus, 16GB</td>
+<td>11.87GB</td>
+<td>12.18GB</td>
+<td>10.91GB</td>
+<td>11.25GB</td>
+</tr>
+<tr>
+<td>9.7" iPad Pro, 256GB</td>
+<td>248.84GB</td>
+<td>252.50GB</td>
+<td>247.14GB</td>
+<td>250.68GB</td>
+</tr>
+</tbody>
+</table>
+<p>These are small gains in usable capacity, just a few hundred megabytes (the more storage you have, the more you seem to gain). These are also far from real-world conditions—the tests were all done on freshly reset devices that have been allowed to build their Spotlight indexes but had no apps, photos, or browser data on them and hadn’t been connected to iCloud. And without more information, it’s not possible to attribute the space savings exclusively to APFS; it’s merely the most likely of all possible options. Your mileage may vary, but it does look like iOS 10.3 and APFS will help you reclaim a little space.</p>
+
+        </div>
+
+        
+                  <nav class="page-numbers">Page: <span class="numbers">1 <a href="https://arstechnica.com/apple/2017/03/a-tour-of-ios-10-3-checking-out-apfs-the-settings-app-and-other-tweaks/2/">2</a> <a href="https://arstechnica.com/apple/2017/03/a-tour-of-ios-10-3-checking-out-apfs-the-settings-app-and-other-tweaks/2/"><span class="next">Next <span class="arrow">&rarr;</span></span></a></span></nav>
+        
+      </section>
+
+    </div>
+
+    <div class="xrail">
+      <div class="xrail-content">
+                
+        
+                  <aside class="ad ad_xrail ad_xrail_top" id="ad_xrail_top"></aside>
+          <aside class="ad_native" id="ad_xrail_native"></aside>
+        
+      </div>
+    </div>
+
+  </div>
+
+  <div class="column-wrapper">
+    <div class="left-column">
+              <!-- cache hit 517:single/author:e0bc6b7f60590b910b5433dc2fe18473 --><section class="article-author">
+      <a style="background-image:url('https://cdn.arstechnica.net/wp-content/uploads/2016/05/a.cunningham-45-1.jpg');" class="author-photo" href="/author/andrew_cunningham"></a>
+  
+  <div class="author-bio">
+    <section class="author-bio-top">
+      <a href="/author/andrew_cunningham" class="author-name">Andrew Cunningham</a>
+      Andrew has a B.A. in Classics from Kenyon College and has over five years of experience in IT. His work has appeared on Charge Shot!!! and AnandTech, and he records a weekly book podcast called <a href="http://overduepodcast.com/">Overdue</a>.     </section>
+    <section class="author-social">
+              <strong>Email</strong> <a href="mailto:andrew.cunningham@arstechnica.com">andrew.cunningham@arstechnica.com</a>
+                    <span class="slashes">//</span>
+                    <strong>Twitter</strong> <a href="https://www.twitter.com/AndrewWrites" target="_blank">@AndrewWrites</a>
+          </section>
+    
+  </div>
+
+</section>
+      
+      <aside id="social-footer">
+        <a title="57 posters participating" class="comment-count icon-comment-bubble-down" href="https://arstechnica.com/apple/2017/03/a-tour-of-ios-10-3-checking-out-apfs-the-settings-app-and-other-tweaks/?comments=1">
+      <span class="comment-count-before">reader comments</span>
+    <span class="comment-count-number">79</span>
+  </a>  
+
+<div class="share-links">
+  <span>Share this story</span>
+  <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Farstechnica.com%2F%3Fpost_type%3Dpost%26p%3D1066145" target="_blank" class="social-icon share-facebook" title="Share on Facebook"></a>
+  <a href="https://twitter.com/share?text=A+tour+of+iOS+10.3%3A+Checking+out+APFS%2C+the+Settings+app%2C+and+other+tweaks&url=https%3A%2F%2Farstechnica.com%2F%3Fpost_type%3Dpost%26p%3D1066145" target="_blank" class="social-icon share-twitter" title="Share on Twitter"></a>
+  <a href="https://www.reddit.com/submit?url=https%3A%2F%2Farstechnica.com%2F%3Fpost_type%3Dpost%26p%3D1066145&title=A+tour+of+iOS+10.3%3A+Checking+out+APFS%2C+the+Settings+app%2C+and+other+tweaks" target="_blank" class="social-icon share-reddit" title="Share on Reddit"></a>
+  <a href="https://plus.google.com/share?url=https%3A%2F%2Farstechnica.com%2F%3Fpost_type%3Dpost%26p%3D1066145" target="_blank" class="social-icon share-gplus" title="Share on Google+"></a>
+</div>
+      </aside>
+    </div>
+    <div class="xrail">
+    </div>
+  </div>
+
+
+  <div id="article-footer-wrap">
+          <div class="row comments-row">
+  <section id="comments-area">
+    <a name="comments-bar"></a>
+          <div id="comments-container"></div>
+      <div id="comments-posting-container" class="thick-divide-bottom">
+        <p id="reply">You must <a href="https://arstechnica.com/civis/ucp.php?mode=login&return_to/apple/2017/03/a-tour-of-ios-10-3-checking-out-apfs-the-settings-app-and-other-tweaks/" class="vote_login">login or create an account</a> to comment.</p>
+      </div>
+      <section>
+</div>
+      <div class="prev-next-links">
+  <a href="https://arstechnica.com/apple/2017/03/macos-10-12-4-update-brings-night-shift-to-the-mac-and-not-much-else/" rel="prev"><span class="arrow">&larr;</span> Previous story</a>  <a href="https://arstechnica.com/tech-policy/2017/03/group-sues-dhs-ic-over-digital-device-border-search-records/" rel="next">Next story <span class="arrow">&rarr;</span></a></div>      <footer id="article-footer">
+  <div id="recommendations-footer">
+    <aside id="story-recommendations">
+  <div class="heading-column">
+    <h3>Related Stories</h3>
+  </div>
+  <div id="story-recs" class="rec-wrap"></div>
+</aside>
+        <aside id="sponsored-recommendations">
+  <div class="heading-column">
+    <h3>Sponsored Stories</h3>
+    <a href="http://www.outbrain.com/what-is/default/en" target="_blank">Powered by <span class="icon outbrain-logo icon-logo-outbrain"></span></a>
+  </div>
+  <div id="outbrain-recs">
+  </div>
+</aside>
+        <aside id="latest-stories">
+  <div class="heading-column">
+    <h3>Today on Ars</h3>
+  </div>
+  <div id="latest-recs" class="rec-wrap listing-earlier"></div>
+</aside>
+  </div>
+</footer>
+    
+  </div>
+</article>
+  </div>
+
+  <footer class="site-footer">
+    <nav class="nav-footer">
+
+	<section>
+		<ul>
+			<li><a href="/rss-feeds/">RSS Feeds</a></li>
+			<li><a rel="nofollow" href="http://arstechnica.com/apple/2017/03/a-tour-of-ios-10-3-checking-out-apfs-the-settings-app-and-other-tweaks/?view=mobile">View Mobile Site</a></li>
+			<li><a href="http://arstechnica.co.uk/">Visit Ars Technica UK</a></li>
+			<li><a href="/about-us/">About Us</a></li>
+		</ul>
+	</section>
+
+	<section>
+		<ul>
+			<li><a href="/contact-us/">Contact Us</a></li>
+			<li><a href="/staff-directory/">Staff</a></li>
+			<li><a href="/advertise-with-us/">Advertise with us</a></li>
+			<li><a href="/reprints/">Reprints</a></li>
+		</ul>		
+	</section>
+
+</nav>
+
+<section class="footer-terms-logo">
+	<div class="cn-logo">
+		<a href="http://condenast.com/" class="icon icon-logo-cn-us" title="Visit Condé Nast"></a>
+	</div>
+
+	<div id="copyright-terms">
+  WIRED Media Group<br>
+  Use of this Site constitutes acceptance of our <a href="http://www.condenast.com/privacy-policy" target="_blank">User Agreement</a> (effective 1/2/14) and <a href="http://www.condenast.com/privacy-policy#privacypolicy">Privacy Policy</a> (effective 1/2/14), and <a href="/amendment-to-conde-nast-user-agreement-privacy-policy/">Ars Technica Addendum (effective 5/17/2012)</a>. <a href="http://www.condenast.com/privacy-policy#privacypolicy-california">Your California Privacy Rights</a>. The material on this site may not be reproduced, distributed, transmitted, cached or otherwise used, except with the prior written <a href="https://www.condenast.com/reprints-permissions">permission of Condé Nast</a>.
+</div>
+</section>  </footer>
+</div>
+
+<script type="text/javascript" src="https://cdn.arstechnica.net/wp-content/themes/ars/assets/js/main-d07bd2c2cd.js"></script>
+
+
+<!-- cache hit 517:single/javascript-footer:b38d70b7120790e18e883e8dc6aae731 -->
+        
+
+
+
+  <script type="text/javascript" src="https://cdn.arstechnica.net/wp-content/themes/ars/assets/js/ars-3242ac754b.ads.us.js"></script>
+    <!-- Google Analytics start -->
+	<script type="text/javascript">
+	var _gaq = _gaq || [];
+  _gaq.push(
+    ['_setAccount', 'UA-31997-1'],
+    ['_setCustomVar', 1, 'view', "grid"],
+    ['_setCustomVar', 2, 'theme', "light"],
+    ['_setCustomVar', 3, 'logged_in', "false"],
+    ['_setCustomVar', 4, 'show_comments', "false"],
+    ['_setCustomVar', 5, 'is_premier', "false"],
+    ['_trackPageview']
+  );
+	(function() {
+	  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	</script>
+  <!-- Google Analytics end -->
+
+  <!-- Parse.ly start -->
+	<script type="text/javascript">
+  (function(d) {
+    var site = "arstechnica.com",
+    b = d.body,
+    e = d.createElement("div");
+    e.innerHTML = '<span id="parsely-cfg" data-parsely-site="'+site+'"></span>';
+    e.id = "parsely-root";
+    e.style.display = "none";
+    b.appendChild(e);
+  })(document);
+
+  (function(s, p, d) {
+    var h=d.location.protocol, i=p+"-"+s,
+    e=d.getElementById(i), r=d.getElementById(p+"-root"),
+    u=h==="https:"?"d1z2jf7jlzjs58.cloudfront.net"
+      :"static."+p+".com";
+    if (e) return;
+    e = d.createElement(s); e.id = i; e.async = true;
+    e.src = h+"//"+u+"/p.js"; r.appendChild(e);
+  })("script", "parsely", document);
+	</script>
+  <!-- Parse.ly end -->
+
+  <!-- Adobe Tag Mgr. -->
+  <script src="//assets.adobedtm.com/6372cf21ef88ee60bc2977a4898dcb5c7945a212/satelliteLib-56a425e07376b6977c987d46ef46ba636a6e2036.js"></script>
+
+  <script type="text/javascript">_satellite.pageBottom();</script>
+
+
+
+
+
+</body>
+</html>

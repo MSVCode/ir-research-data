@@ -1,0 +1,11 @@
+Microsoft debuts new smart thermostat powered by Cortana, Windows 10, and Azure
+
+Microsoft unveiled a new smart thermostat on Wednesday in partnership with Johnson Controls, the inventor of the first thermostat.
+
+As spotted by The Verge, the new device called GLAS runs on Windows 10 IoT Core, Cortana voice service, and Azure. It lets users control room temperatures, check calendars and energy usage, monitor air quality, and “knows when you’re in the room,” according to the promo video.
+
+In December, Microsoft announced it would add Cortana voice capabilities to Windows 10 IoT Core devices with screens. The company is also marketing Azure for IoT devices and technology.
+
+Amazon’s Alexa voice assistant is also appearing in home appliances; the company announced a partnership with LG in January to put Alexa in its new Smart InstaView refrigerator. Amazon also invested in smart thermostat maker ecobee, a startup that created the first thermostat to work with with Amazon Echo and other Alexa-powered products through the Alexa Smart Home Skill API.
+
+Microsoft is reportedly working on a new feature that turns Windows 10 PCs into a competitor to Amazon Echo.

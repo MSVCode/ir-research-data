@@ -1,0 +1,22 @@
+Spinach leaf transforms into sheet of beating human heart cells
+With seeded cells, tissue engineers hope to harvest flesh from plants.
+
+To create artificial tissue with functioning vasculature, tissue engineers looked no further than their salad bowls.
+
+By peeling away the cells from a spinach leaf and seeding the cellulose matrix left behind with heart cells, researchers were able to create a beating sheet of human heart tissue—complete with a functional vascular system. The proof-of-concept experiment, appearing in the May issue of Biomaterials, provides an intriguing plant-based approach to generating realistic tissues for grafts and transplants.
+
+Vasculature has been a sticking point for bioengineers. Modern methods for creating artificial tissues and organs, such as 3D printing, haven’t included a good way to recreate the vital conduits. Yet the success (and survival) of any bioengineered tissue or organ hinges on whether it’s equipped with an extensive network of blood-carrying vessels, which drop off oxygen and critical nutrients to cells while flushing away molecular garbage.
+
+Though the vasculature of plants is fundamentally different from that of animals, the structures and cell access are similar. Plus, cellulose—the main organic polysaccharide left standing in de-celled leaves—is known to be biocompatible, that is, it’s safe in humans and already used in other tissue-engineering applications, such as wound healing. This sparked ideas in the study's authors, led by bioengineers at Worcester Polytechnic Institute in Massachusetts.
+
+“When I looked at the spinach leaf, its stem reminded me of an aorta,” Joshua Gershlak, first author on the study and a researcher at WPI, said in a press release. “So I thought, let’s perfuse right through the stem. We weren’t sure it would work, but it turned out to be pretty easy and replicable. It’s working in many other plants."
+
+Basically, the researchers first pumped a detergent solution through the leaves’ veins, which stripped away the plant cells over several days. Then, the researchers pumped in cells that blanket human blood vessels so they could re-line the leaves' pipes. Lastly, the researchers seeded the outside of the leaves with human heart cells, which took to their plant-based skeleton.
+
+Over the course of a 21-day experiment, the heart cells started spontaneously beating, like normal heart tissue. The researchers also found that mock-blood could flow through the system. The researchers did similar experiments with parts of parsley and peanut plants.
+
+This study is simply a first step. The whole process needs optimization and further development to create viable, resilient tissue for transplants. And it’s currently unclear how leaf-shaped tissue sheets could work as graft tissue or combine to create an artificial organ. Still, the researchers are optimistic and are forging ahead with the idea.
+
+“Although further investigation is needed to understand future applications of this new technology, we believe it has the potential to develop into a “green” solution pertinent to a myriad of regenerative medicine applications,” they conclude.
+
+Biomaterials, 2017. DOI: 10.1016/j.biomaterials.2017.02.011  (About DOIs).

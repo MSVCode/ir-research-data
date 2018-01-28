@@ -1,0 +1,1594 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <!-- META TAGS -->
+        <meta charset="UTF-8"/>
+        <meta name="description" content="It&#039;s official: Microsoft has ended Windows 10 support for PCs with older Intel Atom Clover Trails CPUs, but they&#039;ll still get security patches.">
+
+        <title>Microsoft Smashes Windows 10 Support for These CPUs</title>
+
+        <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VQcFVl5SDhABUVNXAwgGUQ=="};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,n,e)])}catch(s){try{i("ierr",[s,c.now(),!0])}catch(u){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t){i("err",[t,c.now()])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),u=!0)}s.on("fn-start",function(t,n,e){u&&(d+=1)}),s.on("fn-err",function(t,n,e){u&&(this.thrown=!0,o(e))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(w,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(18)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(18)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(18)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(18)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):w?w(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(18)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,w=l.SI,v="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(v,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!w&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===v||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}finally{c.emit("fn-end",[f.now()],e)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],16:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],17:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],18:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=h(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[y[e]];return d&&d.push([g,e,r,a]),a}}function p(t,n){v[t]=h(t).concat(n)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",y[e]=n,n in u||(u[n]=[])})}var v={},y={},g={on:p,emit:e,get:m,listeners:h,context:n,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(15),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!x++){var t=b.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(y,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=l.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===l.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(15),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,w=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1039.min.js"},g=m&&w&&w[p]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:v,features:{},xhrWrappable:g};t(12),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),c("mark",["firstbyte",s],null,"api");var x=0,E=t(17)},{}]},{},["loader",2,10,4,3]);</script>
+
+                    <meta name="viewport" content="width=device-width">
+        
+        <!--[if IE ]>
+
+        <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+
+        <![endif]-->
+
+                    <meta name="robots" content="index, follow">
+        
+        
+        <link rel="canonical" href="https://www.laptopmag.com/articles/windows-10-support-atom-cpus">
+
+                
+        <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
+        
+                    <script type="text/javascript">
+                var image_server = 'https://www.laptopmag.com';
+                var device_detector =  null;
+            </script>
+        
+                        <link rel="stylesheet" href="https://www.laptopmag.com/resources/css/main_master.css?95f3a79f"/>
+
+<link rel="stylesheet" href="https://www.laptopmag.com/resources/css/pages/homepage.css?95f3a79f"/>
+
+<link rel="stylesheet" href="https://www.laptopmag.com/resources/css/pages/latest-news.css?95f3a79f"/>
+
+
+
+        
+
+            
+        <link rel="stylesheet" href="https://www.laptopmag.com/resources/css/pages/comments.css?95f3a79f"/>
+    
+    
+        
+                <script src="https://www.laptopmag.com/resources/js/laptopmag_jquery_base.js?95f3a79f"></script>
+
+<script src="https://www.laptopmag.com/resources/js/laptopmag_base.js?95f3a79f"></script>
+
+    <script type="text/javascript" src="https://www.laptopmag.com/resources/js/require.js?95f3a79f"></script>
+
+        
+
+    
+        <script type="text/javascript" src="https://www.laptopmag.com/resources/js/sticky_share_tools.js?95f3a79f"></script>
+    
+        <script type="text/javascript" src="https://www.laptopmag.com/resources/js/PURCH/Omniture/bb-tracking.js?95f3a79f"></script>
+    
+        <script type="text/javascript" src="https://www.laptopmag.com/resources/js/article.js?95f3a79f"></script>
+        <script type="text/javascript">
+        $(document).ready(function () {
+            new Article();
+        });
+    </script>
+
+            <script type='text/javascript'>
+        var ad_placement = '2225';
+        var ad_keywords = 'Windows 10';
+                var ad_category = "windows 10";        var ad_account = "/blog/windows10";
+    </script>
+                <script>
+            var ooValue = "0";
+    var tmntag = tmntag || {};
+    tmntag.cmd = tmntag.cmd || [];
+    (function () {
+        var tmnhead = document.createElement('script');
+        tmnhead.async = true;
+        tmnhead.type = 'text/javascript';
+        tmnhead.src = 'https://ads.servebom.com/tmnhead.js';
+        var node = document.getElementsByTagName('script')[0];
+        node.parentNode.insertBefore(tmnhead, node);
+    })();
+    tmntag.cmd.push(function () {
+
+        if (document.location.hash.indexOf('#xtor=') != -1) tmntag.target(
+                {'xtor': document.location.hash.substr((document.location.hash.indexOf('#xtor=') + 6), document.location.hash.length)}
+        );
+
+        if (typeof ad_location != 'undefined') {
+            tmntag.location(ad_location);
+        }
+
+        if (typeof ad_keywords == 'undefined') {
+            ad_keywords = [];
+        }
+
+        if (typeof ad_category == 'undefined') {
+            ad_category = null;
+        }
+
+        if (typeof ad_account != 'undefined') {
+            tmntag.account(ad_account);
+        }
+
+        tmntag.target({"kw": ad_keywords, "ccat1": ad_category, "_oo": ooValue});
+
+        tmntag.placement(ad_placement);
+
+        tmntag.start();
+    }); </script>        
+
+                <!--[if IE 8]>
+                <link rel="stylesheet" href="https://www.laptopmag.com/resources/css/pages/ie-styles.css?95f3a79f"/>
+        
+                <script type="text/javascript" src="https://www.laptopmag.com/resources/js/ie8.js?95f3a79f"></script>
+        
+        <![endif]-->
+
+            <script type="text/javascript">
+    var channel_id = '9986241491';
+    var currentURL = 'https://www.laptopmag.com/articles/windows-10-support-atom-cpus';
+    var IS_REVIEW = false;
+</script>
+        <meta property="fb:app_id" content="346246512129983">
+
+                    <script type="text/javascript">
+    <!--
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-5829575-1'], ['_setDomainName', '.laptopmag.com'], ['_trackPageview']);
+
+    (function () {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
+    //-->
+</script>        
+            <meta property="og:type" content="article"/>
+    <meta property="og:title" content="Microsoft Smashes Windows 10 Support for These CPUs"/>
+    <meta property="og:description" content="It&#039;s official: Microsoft has ended Windows 10 support for PCs with older Intel Atom Clover Trails CPUs, but they&#039;ll still get security patches."/>
+    <meta property="og:image" content="http://www.laptopmag.com/images/wp/laptop-landing/thumb/314768.jpg"/>
+    <meta property="og:url" content="https://www.laptopmag.com/articles/windows-10-support-atom-cpus"/>
+
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@laptopmag"/>
+    <meta name="twitter:creator" content="@laptopmag"/>
+    <meta name="twitter:title" content="Microsoft Smashes Windows 10 Support for These CPUs"/>
+    <meta name="twitter:description" content="It&#039;s official: Microsoft has ended Windows 10 support for PCs with older Intel Atom Clover Trails CPUs, but they&#039;ll still get security patches."/>
+    <meta name="twitter:image" content="http://www.laptopmag.com/images/wp/laptop-landing/thumb/314768.jpg"/>
+
+                                                <script language="JavaScript" type="text/javascript">
+                if (typeof s == "undefined") {
+                    var s = {};
+                }
+            </script>
+        
+
+            <script language="JavaScript" type="text/javascript">
+    s.pageName="lpt:blog:article";
+    s.server="";
+    s.channel="blog"; //Channel
+    s.prop1=""; //Sub Channels
+    s.prop2="lpt"; //Sites
+    s.prop3=""; //Categories
+    s.prop16=""; //Sub Categories
+    s.prop18=""; //Product
+    s.prop4="article"; //Content Type
+    s.prop17=""; //Content Type 2
+    s.prop5="microsoft smashes windows 10 support for these cpus"; //Content Title
+    s.prop6="314768"; //Content ID
+    s.prop15=""; //Logged in status
+
+    /* Hierarchy Variables */
+    s.hier1="";
+    s.eVar15=s.prop15;
+    s.eVar16=s.prop16;
+    s.eVar17=s.prop17;
+    s.eVar18=s.prop18;
+
+    s.pageURL = window.location.href;
+</script>
+        
+                                    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Laptop Mag",
+        "url": "http://www.laptopmag.com"
+    }
+</script>
+
+
+
+
+                    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.laptopmag.com/articles/windows-10-support-atom-cpus"
+    },
+    "headline": "Microsoft Smashes Windows 10 Support for These CPUs",
+    "image": {
+        "@type": "ImageObject",
+        "url": "http://www.laptopmag.com/images/wp/laptop-landing/thumb/314768.jpg",
+        "height": "194",
+        "width": "300"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Andrew E. Freedman"
+    },
+            "articleSection": "Articles",
+        "keywords": ["Windows 10"],
+    "datePublished": "2017-07-20T12:44:35+00:00",
+    "dateModified": "2017-07-20T07:54:13+00:00",
+    "description": "It&#039;s official: Microsoft has ended Windows 10 support for PCs with older Intel Atom Clover Trail CPUs. Specifically, machines with those chips can&#039;t upgrade to the Creators Update.“Recognizing that ...",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Laptop Mag",
+        "url": "https://www.laptopmag.com",
+                    "logo": {
+                "@type": "ImageObject",
+                "url": "//2.assets.laptopmag.com/2/j/X-G1OXB6A.webp",
+                "width": "227",
+                "height": "98"
+            }
+            }
+}</script>
+
+                                                                
+<link rel="standout" href="https://www.laptopmag.com/articles/windows-10-support-atom-cpus"/>
+<script>
+(function() {
+  var init = function() {
+    /* ftc-pixel */
+    var soConf = {
+      "insertMethod": "afterend",
+      "sentence": "Laptop Mag reviews products independently. When you click links to buy products we may earn money that supports <a href='http://www.laptopmag.com/articles/about-us' target='_blank'>our work</a>.",
+      "targetSlot": ".leaderBoard",
+      "productsCond": typeof Purch !== "undefined" &&
+        typeof Purch.obfCssMap !== "undefined" &&
+        document.querySelector("." + Purch.obfCssMap["shop-btn-tracking"]) !== null ||
+        window.raasOffers && Object.keys(window.raasOffers).length > 0 ||
+        document.querySelector(".buyBtn") !== null ||
+        document.querySelector(".ntShoppingWidget") !== null ||
+        document.querySelector(".otm-buy-block") !== null ||
+        window.ad_keywords === "laptop-finder"
+    };
+
+    if (soConf.targetSlot.indexOf("${") >= 0) {
+      soConf.targetSlot = ".page-top-promo";
+    }
+    if (soConf.insertMethod.indexOf("${") >= 0) {
+      soConf.insertMethod = "beforeend";
+    }
+
+    var styles = [
+      "<style>",
+      ".fct-text{font-size:11px;text-align:center;font-style:italic;padding:10px;line-height:13px;}",
+      ".center-content .fct-text {width:100%;margin:-10px 0 5px;}", // space|ls,
+      ".topic_menu ~ .fct-text {margin-bottom:0;}", // anandtech
+      "</style>"
+    ].join("");
+
+    var slot = document.querySelector(soConf.targetSlot);
+    if (slot && soConf.productsCond === true) {
+      try {
+        slot.insertAdjacentHTML(soConf.insertMethod, styles + "<div class='fct-text'>" + soConf.sentence + "</div>");
+      } catch (e) {}
+    }
+  }
+
+  document.addEventListener('readystatechange', function() {
+    if (document.readyState === "interactive") {
+      init();
+    }
+  });
+})();
+</script>
+<style>
+.flexContainer{
+  width: 270px;
+}
+
+.subHeading {
+  font-family: "Oswald", Impact, sans-serif;
+  margin: 0;
+ color: #999;
+}
+</style>
+<style>  #leaderboard{min-height:0px} @media only screen and (min-width:728px) {#leaderboard{min-height:100px}}  #rightcol_top{min-height:0px} @media only screen and (min-width:300px) {#rightcol_top{min-height:260px}}</style>
+
+    
+                                            
+
+                    <script type="text/javascript">
+            
+        </script>
+                </head>
+
+    <body class="">
+                    <script>
+var omnVars = {};
+for (var key in s) {
+    if (!s.hasOwnProperty(key)) continue;
+    var obj = s[key];
+    if (key.indexOf('prop') == 0 || key.indexOf('eVar') == 0 || key.indexOf('pageName') == 0 || key.indexOf('channel') == 0 || key.indexOf('pageType') == 0) {
+        omnVars[key] = typeof s[key] !== 'undefined' ? s[key] : '';
+    }
+}
+</script>
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P9KLLJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-P9KLLJ');
+
+    if (dataLayer) {
+        dataLayer.push({'PurchOmnitureVars': omnVars });
+    }
+</script>
+<!-- End Google Tag Manager -->        
+                <script>var __uzdbm_a = "722cf575-acd3-ccda-d9c7-92297ef0ae81";</script><div id="ss_098786_234239_238479_190541"></div><script src ="https://cdn.perfdrive.com/static/jscall_min.js" async="true"></script>
+        
+                                <script type="text/javascript" src="https://www.laptopmag.com/resources/js/Purch/UI/media-queries.js?95f3a79f"></script>
+                    
+        
+                                <header class="masthead cf">
+		<div class="wrap mqMedOn">
+		    <div class="logo unit">
+		        		        		            <a title="LAPTOP" href="https://www.laptopmag.com/">
+		                		                <img alt="LAPTOP" src="https://www.laptopmag.com/resources/img/laptop-logo-retina-sprite.png?95f3a79f" width="227">
+		                		            </a>
+		        		    </div>
+		    <nav class="mblConsole">
+		        <div class="mblMenu unitExt" data-checkbox>
+		            <input class="menuToggle1" type="checkbox" id="menuTitle1">
+		            <label for="menuTitle1" class="menuAll"></label>
+		            <ul class="menuPanel panel1">
+		                <li class="navSearch">
+		                    <form action="https://www.laptopmag.com/search" class="">
+		                        <div class="searchBox">
+		                            <input class="" type="text" name="q" required>
+		                        </div>
+		                    </form>
+		                </li>
+		                		                    <li class="catItem">
+                                <a class="catLink" href="https://www.laptopmag.com/t/laptops">Laptops</a>
+                                                                                                <ol class="mblSubNav innerR10 innerL10 innerT10 innerB10 line">
+                                                                                                            <li class="catSubItem"><a class="subLink" href="https://www.laptopmag.com/best-laptops">Best Laptops</a></li>
+                                                                        <li class="catSubItem"><a class="subLink" href="https://www.laptopmag.com/best-laptops-under-500">Under $500</a></li>
+                                                                        <li class="catSubItem"><a class="subLink" href="https://www.laptopmag.com/gaming-laptops">For Gaming</a></li>
+                                                                        <li class="catSubItem"><a class="subLink" href="https://www.laptopmag.com/best-business-laptops">For Business</a></li>
+                                                                        <li class="catSubItem"><a class="subLink" href="https://www.laptopmag.com/college-laptops">For College</a></li>
+                                                                        <li class="catSubItem"><a class="subLink" href="https://www.laptopmag.com/best-chromebooks">Chromebooks</a></li>
+                                                                        <li class="catSubItem"><a class="subLink" href="https://www.laptopmag.com/articles/cpu-comparison">CPU Guide</a></li>
+                                                                        <li class="catSubItem"><a class="subLink" href="https://www.laptopmag.com/articles/gpu-comparison">GPU Guide</a></li>
+                                                                    </ol>
+                            </li>
+		                		                    <li class="catItem">
+                                <a class="catLink" href="https://www.laptopmag.com/t/tablets">Tablets</a>
+                                                                                                <ol class="mblSubNav innerR10 innerL10 innerT10 innerB10 line">
+                                                                                                            <li class="catSubItem"><a class="subLink" href="https://www.laptopmag.com/best-tablets">Best Overall</a></li>
+                                                                        <li class="catSubItem"><a class="subLink" href="https://www.laptopmag.com/best-2-in-1s">Best 2-in-1s</a></li>
+                                                                        <li class="catSubItem"><a class="subLink" href="https://www.laptopmag.com/articles/kids-tablet-reviews">Kids&#039; Tablets</a></li>
+                                                                        <li class="catSubItem"><a class="subLink" href="https://www.laptopmag.com/articles/best-cheap-tablets">Under $200</a></li>
+                                                                        <li class="catSubItem"><a class="subLink" href="https://www.laptopmag.com/samsung-tablets">Samsung Tablets</a></li>
+                                                                        <li class="catSubItem"><a class="subLink" href="https://www.laptopmag.com/articles/long-lasting-tablets">Longest Battery Life</a></li>
+                                                                        <li class="catSubItem"><a class="subLink" href="https://www.laptopmag.com/articles/tablet-buying-guide">Buying Guide</a></li>
+                                                                    </ol>
+                            </li>
+		                		                    <li class="catItem">
+                                <a class="catLink" href="https://www.laptopmag.com/t/windows">Windows 10</a>
+                                                                                                <ol class="mblSubNav innerR10 innerL10 innerT10 innerB10 line">
+                                                                                                            <li class="catSubItem"><a class="subLink" href="https://www.laptopmag.com/reviews/software/windows-10">Win 10 Review</a></li>
+                                                                        <li class="catSubItem"><a class="subLink" href="https://www.laptopmag.com/articles/how-to-upgrade-windows-10">How to Upgrade</a></li>
+                                                                        <li class="catSubItem"><a class="subLink" href="https://www.laptopmag.com/articles/windows-10-should-you-upgrade">Should You Wait?</a></li>
+                                                                        <li class="catSubItem"><a class="subLink" href="https://www.laptopmag.com/articles/windows-10-vs-os-x">versus El Capitan</a></li>
+                                                                        <li class="catSubItem"><a class="subLink" href="https://www.laptopmag.com/articles/windows-10-wake-speeds-tested">Test Results</a></li>
+                                                                    </ol>
+                            </li>
+		                		                    <li class="catItem">
+                                <a class="catLink" href="https://www.laptopmag.com/t/ultrabooks">Ultrabooks</a>
+                                                                                                <ol class="mblSubNav innerR10 innerL10 innerT10 innerB10 line">
+                                                                                                            <li class="catSubItem"><a class="subLink" href="https://www.laptopmag.com/best-ultrabooks">Best Ultrabooks</a></li>
+                                                                        <li class="catSubItem"><a class="subLink" href="https://www.laptopmag.com/best-laptops">Best Laptops Overall</a></li>
+                                                                        <li class="catSubItem"><a class="subLink" href="https://www.laptopmag.com/college-laptops">Best College Laptops</a></li>
+                                                                        <li class="catSubItem"><a class="subLink" href="https://www.laptopmag.com/best-2-in-1s">Laptop-Tablet Hybrids</a></li>
+                                                                        <li class="catSubItem"><a class="subLink" href="https://www.laptopmag.com/articles/laptop-buying-guide">Buying Guide</a></li>
+                                                                    </ol>
+                            </li>
+		                		                    <li class="catItem">
+                                <a class="catLink" href="https://www.laptopmag.com/articles/best-deals">Deals</a>
+                                                                                                <ol class="mblSubNav innerR10 innerL10 innerT10 innerB10 line">
+                                                                                                            <li class="catSubItem"><a class="subLink" href="http://www.laptopmag.com/articles/best-refurbished-laptop-deals">Refurbished Laptop Deals</a></li>
+                                                                        <li class="catSubItem"><a class="subLink" href="https://www.laptopmag.com/best-laptops-under-500">Best Laptops Under $500</a></li>
+                                                                        <li class="catSubItem"><a class="subLink" href="https://www.laptopmag.com/articles/when-to-buy-a-laptop">Best Times to Buy</a></li>
+                                                                    </ol>
+                            </li>
+		                		                    <li class="catItem">
+                                <a class="catLink" href="https://www.laptopmag.com/benchmarks">Benchmarks</a>
+                                                                                                <ol class="mblSubNav innerR10 innerL10 innerT10 innerB10 line">
+                                                                                                            <li class="catSubItem"><a class="subLink" href="https://www.laptopmag.com/benchmarks/resolution">Resolution</a></li>
+                                                                        <li class="catSubItem"><a class="subLink" href="https://www.laptopmag.com/benchmarks/weight">Weight</a></li>
+                                                                        <li class="catSubItem"><a class="subLink" href="https://www.laptopmag.com/benchmarks/battery-life">Battery</a></li>
+                                                                        <li class="catSubItem"><a class="subLink" href="https://www.laptopmag.com/benchmarks/graphics-performance">Graphics</a></li>
+                                                                        <li class="catSubItem"><a class="subLink" href="https://www.laptopmag.com/benchmarks/hard-drive-speed">Storage</a></li>
+                                                                        <li class="catSubItem"><a class="subLink" href="https://www.laptopmag.com/benchmarks/overall-performance">Speed</a></li>
+                                                                        <li class="catSubItem"><a class="subLink" href="https://www.laptopmag.com/benchmarks/cpu-performance">CPU</a></li>
+                                                                        <li class="catSubItem"><a class="subLink" href="https://www.laptopmag.com/benchmarks/display-brightness">Brightness</a></li>
+                                                                        <li class="catSubItem"><a class="subLink" href="https://www.laptopmag.com/benchmarks/color-gamut">Color</a></li>
+                                                                    </ol>
+                            </li>
+		                		                    <li class="catItem">
+                                <a class="catLink" href="https://www.laptopmag.com/reviews">Reviews</a>
+                                                                                                <ol class="mblSubNav innerR10 innerL10 innerT10 innerB10 line">
+                                                                        <li class="catSubLabel">Popular Searches:</li>
+                                                                                                            <li class="catSubItem"><a class="subLink" href="https://www.laptopmag.com/advsearch?product_type=product_type%5Elaptops&amp;product_sub_type=&amp;price=1000&amp;brand=&amp;rating=3.5&amp;screen_size=&amp;resolution=&amp;weight_range=">Laptops Under $1,000</a></li>
+                                                                        <li class="catSubItem"><a class="subLink" href="https://www.laptopmag.com/advsearch?product_type=product_type%5Etablets&amp;brand=&amp;price=300&amp;rating=3.5&amp;screen_size=">Tablets Under $300</a></li>
+                                                                    </ol>
+                            </li>
+		                		                    <li class="catItem">
+                                <a class="catLink" href="https://www.laptopmag.com/latest">News</a>
+                                                                                                <ol class="mblSubNav innerR10 innerL10  line">
+                                                                                                        </ol>
+                            </li>
+		                		                    <li class="catItem">
+                                <a class="catLink" href="https://www.laptopmag.com/t/tips">Tips</a>
+                                                                                                <ol class="mblSubNav innerR10 innerL10  line">
+                                                                                                        </ol>
+                            </li>
+		                
+		                <li class="mblSocial">
+		                    <span class="innerL10">Follow Us:  </span>
+		                    <a href="https://www.facebook.com/laptopmag?cmpid=556873"><i class="fa fa-facebook"></i></a>
+		                    <a href="https://twitter.com/laptopmag?cmpid=556874"><i class="fa fa-twitter"></i></a>
+		                    <a href="https://www.linkedin.com/company/laptop-magazine-laptopmag-com?trk=biz-companies-cym"><i class="fa fa-linkedin"></i></a>
+		                    <a href="https://plus.google.com/+laptopmagazine/posts?cmpid=556876" rel="publisher"><i class="fa fa-google-plus"></i></a>
+		                    <a href="https://feeds.feedburner.com/laptopmag"><i class="fa fa-rss"></i></a>
+		                </li>
+		            </ul>
+		        </div>
+		    </nav>
+		</div>
+		<div class="wrap mobOff">
+		    <div class="logo unit">
+		        		        		            <a title="LAPTOP" href="https://www.laptopmag.com/">
+		                		                <img alt="LAPTOP" src="https://www.laptopmag.com/resources/img/laptop-logo.png?95f3a79f">
+		                		            </a>
+		        		    </div>
+		    <div class="console lastUnit">
+		        <div class="topRow">
+		            <div class="headerSearch">
+		                <span class="fa fa-search fa-lg"></span>
+		
+		                <form action="https://www.laptopmag.com/search" class="">
+		                    <input class="formBox unit" type="text" name="q" placeholder="" required>
+		                    <button class="btn searchBtn unit">SEARCH</button>
+		                </form>
+		            </div>
+		            <div class="headerSocial">
+		                <a href="https://www.facebook.com/laptopmag?cmpid=556873"><i class="fa fa-facebook"></i></a>
+		                <a href="https://twitter.com/laptopmag?cmpid=556874"><i class="fa fa-twitter"></i></a>
+		                <a href="https://www.linkedin.com/company/laptop-magazine-laptopmag-com?trk=biz-companies-cym"><i class="fa fa-linkedin"></i></a>
+		                <a href="https://plus.google.com/+laptopmagazine/posts?cmpid=556876" rel="publisher"><i class="fa fa-google-plus"></i></a>
+		                <a href="https://feeds.feedburner.com/laptopmag"><i class="fa fa-rss"></i></a>
+		            </div>
+		        </div>
+		        <nav class="topNav">
+		            <ul class="unitR">
+		                		                    <li class="unit item"><a href="https://www.laptopmag.com/t/laptops">Laptops</a></li>
+		                		                    <li class="unit item"><a href="https://www.laptopmag.com/t/tablets">Tablets</a></li>
+		                		                    <li class="unit item selected"><a href="https://www.laptopmag.com/t/windows">Windows 10</a></li>
+		                		                    <li class="unit item"><a href="https://www.laptopmag.com/t/ultrabooks">Ultrabooks</a></li>
+		                		                    <li class="unit item"><a href="https://www.laptopmag.com/articles/best-deals">Deals</a></li>
+		                		                    <li class="unit item"><a href="https://www.laptopmag.com/benchmarks">Benchmarks</a></li>
+		                		                    <li class="unit item"><a href="https://www.laptopmag.com/reviews">Reviews</a></li>
+		                		                    <li class="unit item"><a href="https://www.laptopmag.com/latest">News</a></li>
+		                		                    <li class="unit item"><a href="https://www.laptopmag.com/t/tips">Tips</a></li>
+		                		            </ul>
+		        </nav>
+		    </div>
+		</div>
+
+		<div class="subNavWrap mqMedOff" id="sticky-header" data-stickya="sticky-header" data-stickya-options='{"zindex":10002,"maxHeightContainer": ".overAll"}'>
+        <nav class="wrap subNav">
+            <ul>
+				                                	                		<li class="unit item"><a href="https://www.laptopmag.com/reviews/software/windows-10">Win 10 Review</a></li>
+                	                                	                		<li class="unit item"><a href="https://www.laptopmag.com/articles/how-to-upgrade-windows-10">How to Upgrade</a></li>
+                	                                	                		<li class="unit item"><a href="https://www.laptopmag.com/articles/windows-10-should-you-upgrade">Should You Wait?</a></li>
+                	                                	                		<li class="unit item"><a href="https://www.laptopmag.com/articles/windows-10-vs-os-x">versus El Capitan</a></li>
+                	                                	                		<li class="unit item"><a href="https://www.laptopmag.com/articles/windows-10-wake-speeds-tested">Test Results</a></li>
+                	                                                <li class="unit item moreMenu">
+                    <a href="#" class="moreBtn">How-tos</a>
+                    <ul class="moreList">
+                    	                    		                    			<li class="item"><a href="https://www.laptopmag.com/articles/make-windows-10-like-windows-7">Look Like Windows 7</a></li>
+                    		                                          		                    			<li class="item"><a href="https://www.laptopmag.com/articles/create-keyboard-shortcuts-windows-10">Create Keyboard Shortcuts</a></li>
+                    		                                          		                    			<li class="item"><a href="https://www.laptopmag.com/articles/capture-screenshots-windows-10">Take Screenshots</a></li>
+                    		                                          		                    			<li class="item"><a href="https://www.laptopmag.com/articles/mirror-screen-windows-10">Mirror Your Screen</a></li>
+                    		                                          		                    			<li class="item"><a href="https://www.laptopmag.com/articles/change-cortanas-voice-windows-10">Change Cortana&#039;s Voice</a></li>
+                    		                                          		                    			<li class="item"><a href="https://www.laptopmag.com/articles/enable-tablet-mode-windows-10">Switch to Tablet Mode</a></li>
+                    		                                          </ul>
+                </li>
+                            </ul>
+                    </nav>
+    </div>
+</header>
+
+        
+        <div id="ctBoc">
+                        <div class="overAll"><!-- Start overAll -->
+
+                
+                    <div id="out-of-page"><script type='text/javascript'>tmntag.cmd.push(function(){tmntag.adTag('out-of-page', false);});</script></div>
+
+    <div class="leaderBoard">
+        <div id="leaderboard">
+            <script type='text/javascript'>tmntag.cmd.push(function(){tmntag.adTag('leaderboard', false);});</script>
+        </div>
+    </div>
+
+    <div class="main wrap">
+        <div class="leftCol stickyGuide">
+            <div class="content">
+                <article class="article line">
+
+                    <h1 class="h1">Microsoft Smashes Windows 10 Support for These CPUs</h1>
+
+                    <div class="byline">
+                                                    By
+                                                            <a href="https://plus.google.com/u/0/106760046555672776402/" rel="author">
+	                            	<span>
+	                            		Andrew E. Freedman	                            	</span>
+                                </a>
+                                                        |
+                                                <time datetime="July 20, 2017 08:44 am">July 20, 2017 08:44 am</time>
+                    </div>
+
+                    <!-- Share Tools -->
+<div id="stickyShare" class="gtmStickyShare static">
+    <ul>
+        <li class="st_facebook_custom fa fa-facebook">
+            <span id="fbCount" class="count"></span>
+        </li>
+        <li class="st_twitter_custom fa fa-twitter">
+            <span id="twtrCount" class="count"></span>
+        </li>
+        <li class="st_flipboard_custom svg-flipboard fa">
+            <svg version="1.1"  xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px" width="40px" height="40px"
+     viewBox="-16.531 -10 40 40" xml:space="preserve">
+    <polygon points="-16.531,-10 -16.531,3.301 -16.531,16.579 -16.531,29.879 -3.23,29.879 -3.23,16.579
+		-3.23,3.301 -3.23,-10 	"/>
+    <rect x="-3.23" y="3.301" width="13.278" height="13.278"/>
+    <polygon  points="10.048,-10 -3.23,-10 -3.23,3.301 10.048,3.301 23.348,3.301 23.348,-10 	"/>
+</svg>            <span id="flipboardCount" class="count"></span>
+        </li>
+        <li class="st_reddit_custom fa fa-reddit">
+            <span id="redditCount" class="count"></span>
+        </li>
+        <li class="st_stumbleupon_custom fa fa-stumbleupon">
+            <span id="stumbleCount" class="count"></span>
+        </li>
+        <li class="st_sharethis_custom stMore">MORE</li>
+    </ul>
+</div>
+
+
+
+
+
+                    <section class="mod cf laptop_review_stats">
+
+                        <div class="tabContent reviewContent articleContent">
+
+                            <p>It's official: Microsoft has ended Windows 10 support for PCs with older Intel Atom Clover Trail CPUs. Specifically, machines with those chips can't upgrade to the <a href="https://www.laptopmag.com/articles/windows-10-creators-update-available">Creators Update</a>.</p>
+<p><img class="aligncenter size-full wp-image-314776" src="https://www.laptopmag.com/images/wp/purch-api/incontent/2017/07/desktop-670x375.png" alt="desktop" width="670" height="375" /></p>
+<p>“Recognizing that a combination of hardware, driver and firmware support is required to have a good Windows 10 experience, we updated our support lifecycle policy to align with the hardware support period for a given device,” Microsoft told multiple outlets in a statement. “If a hardware partner stops supporting a given device or one of its key components and stops providing driver updates, firmware updates, or fixes, it may mean that device will not be able to properly run a future Windows 10 feature update.”</p>
+<p>Atom Clover Trail CPUs are from the tablet-based days of Windows 8 (they all launched in 2012 and 2013), but they were able to update to Windows 10 when it launched. The <a href="https://ark.intel.com/products/codename/53606/Cloverview">four processors</a>, (Z2760, Z2580, Z2560 and Z2520) are no longer supported by Intel, and Microsoft suggests that without support and new drivers that they won't be able to handle upgrades without a performance hit.</p>
+<p>Laptops with these chips will get the Windows 10 Anniversary update and security patches through January 2023.</p>
+<p>The big question here is if this will be specific to these Atom CPUs, or if other chips will also be booted off of the upgrade cycle as Intel or AMD drop support. Microsoft's statement also mentions a broad "key components," so it's unclear what happens if you stop getting drivers for something like your webcam. But if Windows 10 truly is the final version of Windows, we do have to expect it to leave older machines in the dust eventually.</p>
+<p><em>Photo Credit: Microsoft</em></p>
+<p><div class="tocside">
+	<div class="tocsidetopbar">
+		<div class="tocsidexoff">✖</div>
+	</div>
+	<div class="tocsidecontent">
+		<div class="tocsidetitle">
+			<h4>Windows 10 Basics</h4>
+		</div>
+		<div class="tocsidelinks">
+							<p>
+					<a onclick="_gaq.push(['_trackEvent', 'toc', 'TOC side nav click', 'Galaxy S5 Tips and Tricks']);" href="https://www.laptopmag.com/articles/how-to-upgrade-windows-10">Upgrade to Windows 10 From Windows 7 or 8</a>
+				</p>
+							<p>
+					<a onclick="_gaq.push(['_trackEvent', 'toc', 'TOC side nav click', 'Galaxy S5 Tips and Tricks']);" href="https://www.laptopmag.com/articles/windows-10-settings-to-change">7 Settings to Change Right Away</a>
+				</p>
+							<p>
+					<a onclick="_gaq.push(['_trackEvent', 'toc', 'TOC side nav click', 'Galaxy S5 Tips and Tricks']);" href="https://www.laptopmag.com/articles/windows-10-keyboard-shortcuts">Windows 10 Keyboard Shortcuts to Save You Clicks</a>
+				</p>
+							<p>
+					<a onclick="_gaq.push(['_trackEvent', 'toc', 'TOC side nav click', 'Galaxy S5 Tips and Tricks']);" href="https://www.laptopmag.com/articles/capture-screenshots-windows-10">5 Ways to Take Screenshots</a>
+				</p>
+							<p>
+					<a onclick="_gaq.push(['_trackEvent', 'toc', 'TOC side nav click', 'Galaxy S5 Tips and Tricks']);" href="https://www.laptopmag.com/articles/change-password-windows-10">Change Your Password in Windows 10</a>
+				</p>
+							<p>
+					<a onclick="_gaq.push(['_trackEvent', 'toc', 'TOC side nav click', 'Galaxy S5 Tips and Tricks']);" href="https://www.laptopmag.com/articles/uninstall-programs-windows-10">Uninstall Programs in Windows 10</a>
+				</p>
+							<p>
+					<a onclick="_gaq.push(['_trackEvent', 'toc', 'TOC side nav click', 'Galaxy S5 Tips and Tricks']);" href="https://www.laptopmag.com/articles/enable-tablet-mode-windows-10">Enable or Disable Tablet Mode</a>
+				</p>
+							<p>
+					<a onclick="_gaq.push(['_trackEvent', 'toc', 'TOC side nav click', 'Galaxy S5 Tips and Tricks']);" href="https://www.laptopmag.com/articles/add-user-windows-10">Add a User (Child or Adult)</a>
+				</p>
+							<p>
+					<a onclick="_gaq.push(['_trackEvent', 'toc', 'TOC side nav click', 'Galaxy S5 Tips and Tricks']);" href="https://www.laptopmag.com/articles/change-screen-resolution-in-windows-10">Change the Screen Resolution</a>
+				</p>
+							<p>
+					<a onclick="_gaq.push(['_trackEvent', 'toc', 'TOC side nav click', 'Galaxy S5 Tips and Tricks']);" href="https://www.laptopmag.com/articles/sync-settings-windows-10">Sync Your Settings Across Devices</a>
+				</p>
+							<p>
+					<a onclick="_gaq.push(['_trackEvent', 'toc', 'TOC side nav click', 'Galaxy S5 Tips and Tricks']);" href="https://www.laptopmag.com/articles/sync-iphone-windows-10">Sync iPhone with Windows 10</a>
+				</p>
+							<p>
+					<a onclick="_gaq.push(['_trackEvent', 'toc', 'TOC side nav click', 'Galaxy S5 Tips and Tricks']);" href="https://www.laptopmag.com/articles/how-to-use-windows-10">All Windows 10 Tips</a>
+				</p>
+							<p>
+					<a onclick="_gaq.push(['_trackEvent', 'toc', 'TOC side nav click', 'Galaxy S5 Tips and Tricks']);" href="https://www.laptopmag.com/articles/how-to-upgrade-windows-10">Upgrade to Windows 10 From Windows 7 or 8</a>
+				</p>
+							<p>
+					<a onclick="_gaq.push(['_trackEvent', 'toc', 'TOC side nav click', 'Galaxy S5 Tips and Tricks']);" href="https://www.laptopmag.com/articles/windows-10-settings-to-change">7 Settings to Change Right Away</a>
+				</p>
+							<p>
+					<a onclick="_gaq.push(['_trackEvent', 'toc', 'TOC side nav click', 'Galaxy S5 Tips and Tricks']);" href="https://www.laptopmag.com/articles/windows-10-keyboard-shortcuts">Windows 10 Keyboard Shortcuts to Save You Clicks</a>
+				</p>
+							<p>
+					<a onclick="_gaq.push(['_trackEvent', 'toc', 'TOC side nav click', 'Galaxy S5 Tips and Tricks']);" href="https://www.laptopmag.com/articles/capture-screenshots-windows-10">5 Ways to Take Screenshots</a>
+				</p>
+							<p>
+					<a onclick="_gaq.push(['_trackEvent', 'toc', 'TOC side nav click', 'Galaxy S5 Tips and Tricks']);" href="https://www.laptopmag.com/articles/change-password-windows-10">Change Your Password in Windows 10</a>
+				</p>
+							<p>
+					<a onclick="_gaq.push(['_trackEvent', 'toc', 'TOC side nav click', 'Galaxy S5 Tips and Tricks']);" href="https://www.laptopmag.com/articles/uninstall-programs-windows-10">Uninstall Programs in Windows 10</a>
+				</p>
+							<p>
+					<a onclick="_gaq.push(['_trackEvent', 'toc', 'TOC side nav click', 'Galaxy S5 Tips and Tricks']);" href="https://www.laptopmag.com/articles/enable-tablet-mode-windows-10">Enable or Disable Tablet Mode</a>
+				</p>
+							<p>
+					<a onclick="_gaq.push(['_trackEvent', 'toc', 'TOC side nav click', 'Galaxy S5 Tips and Tricks']);" href="https://www.laptopmag.com/articles/add-user-windows-10">Add a User (Child or Adult)</a>
+				</p>
+							<p>
+					<a onclick="_gaq.push(['_trackEvent', 'toc', 'TOC side nav click', 'Galaxy S5 Tips and Tricks']);" href="https://www.laptopmag.com/articles/change-screen-resolution-in-windows-10">Change the Screen Resolution</a>
+				</p>
+							<p>
+					<a onclick="_gaq.push(['_trackEvent', 'toc', 'TOC side nav click', 'Galaxy S5 Tips and Tricks']);" href="https://www.laptopmag.com/articles/sync-settings-windows-10">Sync Your Settings Across Devices</a>
+				</p>
+							<p>
+					<a onclick="_gaq.push(['_trackEvent', 'toc', 'TOC side nav click', 'Galaxy S5 Tips and Tricks']);" href="https://www.laptopmag.com/articles/sync-iphone-windows-10">Sync iPhone with Windows 10</a>
+				</p>
+							<p>
+					<a onclick="_gaq.push(['_trackEvent', 'toc', 'TOC side nav click', 'Galaxy S5 Tips and Tricks']);" href="https://www.laptopmag.com/articles/how-to-use-windows-10">All Windows 10 Tips</a>
+				</p>
+					</div>
+				<div class="tocbutton">
+			<a onclick="_gaq.push(['_trackEvent', 'toc', 'Next Button Click', 'Galaxy S5 Tips and Tricks']);" href="https://www.laptopmag.com/articles/windows-10-keyboard-shortcuts">Next How-to »»</a>
+		</div>
+			</div>
+</div>
+
+<div class="bottomtoc">
+	<div class="tocnextprev">
+					<div style="float: left;" class="tocbutton">
+				<a onclick="_gaq.push(['_trackEvent', 'toc', 'Prev Button Click', 'Upgrade to Windows 10 From Windows 7 or 8']);" href="https://www.laptopmag.com/articles/how-to-upgrade-windows-10">«« Previous Tip</a>
+			</div>
+							<div style="float: right;" class="tocbutton">
+				<a onclick="_gaq.push(['_trackEvent', 'toc', 'Next Button Click', 'Windows 10 Keyboard Shortcuts to Save You Clicks']);" href="https://www.laptopmag.com/articles/windows-10-keyboard-shortcuts">Next Tip »»</a>
+			</div>
+				<div class="bottomtoctitle">
+			<h4>Windows 10 Basics</h4>
+		</div>
+	</div>
+	<div class="tocimagesbullets">
+		<div class="tocimages">
+							<div class="tocimage" onclick="location.href='https://www.laptopmag.com/articles/how-to-upgrade-windows-10'" style="background-image:url('https://www.laptopmag.com/images/wp/laptop-landing/thumb/275796.jpg');">
+					<div class="tocshade">
+						<a onclick="_gaq.push(['_trackEvent', 'toc', 'TOCgimage click', 'Upgrade to Windows 10 From Windows 7 or 8']);" href="https://www.laptopmag.com/articles/how-to-upgrade-windows-10">
+							Upgrade to Windows 10 From Windows 7 or 8
+						</a>
+					</div>
+				</div>
+										<div class="tocimage" onclick="location.href='https://www.laptopmag.com/articles/windows-10-settings-to-change'" style="background-image:url('https://www.laptopmag.com/images/wp/laptop-landing/thumb/276148.jpg');">
+					<div class="tocshade">
+						<a onclick="_gaq.push(['_trackEvent', 'toc', 'TOCgimage click', '7 Settings to Change Right Away']);" href="https://www.laptopmag.com/articles/windows-10-settings-to-change">
+							7 Settings to Change Right Away
+						</a>
+					</div>
+				</div>
+										<div class="tocimage" onclick="location.href='https://www.laptopmag.com/articles/windows-10-keyboard-shortcuts'" style="background-image:url('https://www.laptopmag.com/images/wp/laptop-landing/thumb/275303.jpg');">
+					<div class="tocshade">
+						<a onclick="_gaq.push(['_trackEvent', 'toc', 'TOCgimage click', 'Windows 10 Keyboard Shortcuts to Save You Clicks']);" href="https://www.laptopmag.com/articles/windows-10-keyboard-shortcuts">
+							Windows 10 Keyboard Shortcuts to Save You Clicks
+						</a>
+					</div>
+				</div>
+					</div>
+		<blockquote>
+			<h4>More Tips</h4>
+		</blockquote>
+		<ul class="toclink">
+			 
+				<li>
+					<a onclick="_gaq.push(['_trackEvent', 'toc', 'TOC bullet click', 'Upgrade to Windows 10 From Windows 7 or 8']);" href="https://www.laptopmag.com/articles/how-to-upgrade-windows-10">Upgrade to Windows 10 From Windows 7 or 8</a>
+				</li>
+			 
+				<li>
+					<a onclick="_gaq.push(['_trackEvent', 'toc', 'TOC bullet click', '7 Settings to Change Right Away']);" href="https://www.laptopmag.com/articles/windows-10-settings-to-change">7 Settings to Change Right Away</a>
+				</li>
+			 
+				<li>
+					<a onclick="_gaq.push(['_trackEvent', 'toc', 'TOC bullet click', 'Windows 10 Keyboard Shortcuts to Save You Clicks']);" href="https://www.laptopmag.com/articles/windows-10-keyboard-shortcuts">Windows 10 Keyboard Shortcuts to Save You Clicks</a>
+				</li>
+			 
+				<li>
+					<a onclick="_gaq.push(['_trackEvent', 'toc', 'TOC bullet click', '5 Ways to Take Screenshots']);" href="https://www.laptopmag.com/articles/capture-screenshots-windows-10">5 Ways to Take Screenshots</a>
+				</li>
+			 
+				<li>
+					<a onclick="_gaq.push(['_trackEvent', 'toc', 'TOC bullet click', 'Change Your Password in Windows 10']);" href="https://www.laptopmag.com/articles/change-password-windows-10">Change Your Password in Windows 10</a>
+				</li>
+			 
+				<li>
+					<a onclick="_gaq.push(['_trackEvent', 'toc', 'TOC bullet click', 'Uninstall Programs in Windows 10']);" href="https://www.laptopmag.com/articles/uninstall-programs-windows-10">Uninstall Programs in Windows 10</a>
+				</li>
+			 
+				<li>
+					<a onclick="_gaq.push(['_trackEvent', 'toc', 'TOC bullet click', 'Enable or Disable Tablet Mode']);" href="https://www.laptopmag.com/articles/enable-tablet-mode-windows-10">Enable or Disable Tablet Mode</a>
+				</li>
+			 
+				<li>
+					<a onclick="_gaq.push(['_trackEvent', 'toc', 'TOC bullet click', 'Add a User (Child or Adult)']);" href="https://www.laptopmag.com/articles/add-user-windows-10">Add a User (Child or Adult)</a>
+				</li>
+			 
+				<li>
+					<a onclick="_gaq.push(['_trackEvent', 'toc', 'TOC bullet click', 'Change the Screen Resolution']);" href="https://www.laptopmag.com/articles/change-screen-resolution-in-windows-10">Change the Screen Resolution</a>
+				</li>
+			 
+				<li>
+					<a onclick="_gaq.push(['_trackEvent', 'toc', 'TOC bullet click', 'Sync Your Settings Across Devices']);" href="https://www.laptopmag.com/articles/sync-settings-windows-10">Sync Your Settings Across Devices</a>
+				</li>
+			 
+				<li>
+					<a onclick="_gaq.push(['_trackEvent', 'toc', 'TOC bullet click', 'Sync iPhone with Windows 10']);" href="https://www.laptopmag.com/articles/sync-iphone-windows-10">Sync iPhone with Windows 10</a>
+				</li>
+			 
+				<li>
+					<a onclick="_gaq.push(['_trackEvent', 'toc', 'TOC bullet click', 'All Windows 10 Tips']);" href="https://www.laptopmag.com/articles/how-to-use-windows-10">All Windows 10 Tips</a>
+				</li>
+					</ul>
+	</div>
+</div></p>
+
+                            <div class="mod line">
+                                <div id="content_bottom">
+                                    <script type='text/javascript'>tmntag.cmd.push(function(){tmntag.adTag('content_bottom', false);});</script>
+                                </div>
+                            </div>
+                            
+                                                        <div id="rcjsload_laptopmagba"></div>
+
+
+                                                                <section class="mod" id="nointelliTXT">
+        <header class="modHeader"><span class="modTitle">Author Bio</span></header>
+        <div class="line authorBio">
+                            <img class="thumbLeft" src="https://www.laptopmag.com/images/wp/purch-api/author-257.jpg" alt="Andrew E. Freedman"/>
+            
+            <dl class="lastUnit">
+                <dt class="authorName">Andrew E. Freedman, </dt>
+                <dd class="authorDesc">
+                    Andrew joined Laptopmag.com in 2015, reviewing computers and keeping up with the latest news. He holds a M.S. in Journalism (Digital Media) from Columbia University. A lover of all things gaming and tech, his previous work has shown up in Kotaku, PCMag and Complex, among others. Follow him on Twitter @FreedmanAE.
+                </dd>
+                <dd class="socialByline">
+                    <strong>Andrew E. Freedman, </strong> 
+                                        		on
+		                    		
+		                    		                        <a href="https://twitter.com/freedmanae" class="authorSocial twttr"></a>
+		                    		
+		                    		                        <a href="https://plus.google.com/u/0/106760046555672776402/" class="authorSocial gplus"></a>
+		                                                        </dd>
+            </dl>
+        </div>
+    </section>
+                            
+                        </div>
+
+                    </section>
+                </article>
+                                    
+
+<div class="comments" id="comment-creation-form-container">
+    <header class="modHeaderAlt">Add a comment</header>
+    
+    <form name="comment" method="post" action="https://www.laptopmag.com/comments/comment/create" id="comment-creation-form">
+    
+
+    <ul>
+                    <li>        
+    <label class="required" for="comment_9bedcafdc76bb458408fdb37d7">Email</label>
+    
+    <input type="email" id="comment_9bedcafdc76bb458408fdb37d7" name="comment[9bedcafdc76bb458408fdb37d7]" required="required" class="formBox wide bdr " />
+</li>
+                    <li>        
+    <label class="required" for="comment_efcc5e967228e4204fdb78eb6e">Name</label>
+    
+    <input type="text" id="comment_efcc5e967228e4204fdb78eb6e" name="comment[efcc5e967228e4204fdb78eb6e]" required="required" class="formBox wide bdr " />
+</li>
+                    <li>        
+    <label class="required" for="comment_3eb51b45f81a4038abee034496">Comment</label>
+    
+    <textarea id="comment_3eb51b45f81a4038abee034496" name="comment[3eb51b45f81a4038abee034496]" required="required" class="formBox wide bdr "></textarea>
+</li>
+                    <li>                    
+    <label class="mandatory" for="comment_3bf4c59bf561b43227c5f7db70">Firstname</label>
+    
+    <input type="text" id="comment_3bf4c59bf561b43227c5f7db70" name="comment[3bf4c59bf561b43227c5f7db70]" class="formBox wide bdr mandatory" />
+</li>
+                    <li><input type="hidden" id="comment_b4d2f51067a1efa3b92ead9455" name="comment[b4d2f51067a1efa3b92ead9455]" value="windows-10-support-atom-cpus" /></li>
+                    <li>        <input type="submit" class="btn btnDark" value="submit" id="comment_submit" name="comment[submit]" />
+
+</li>
+                    <li><input type="hidden" id="comment__token" name="comment[_token]" value="8f24f73e090726dd5f0c475cba9351050153715e" /></li>
+            </ul>
+
+    </form>
+</div>
+                
+                                    
+<div id="comments-widget">
+    <a name="comment-list"></a>
+    
+    <ul class="comments-list">
+            </ul>
+
+    
+    <a class="back-to-top-comments" href="#comment-creation-form-container">Back to top<i class="fa fa-caret-up"></i></a>
+</div>
+                            </div>
+        </div>
+
+        <aside class="rightCol">
+
+                            
+
+
+    
+    
+        
+            
+            
+                                        
+            
+            
+            
+            
+            
+            
+            
+        
+            
+                                        
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+                                        
+            
+            
+            
+            
+            
+        
+            
+            
+            
+                                        
+            
+            
+            
+            
+            
+            
+        
+            
+            
+            
+            
+            
+                                        
+            
+            
+            
+            
+            
+<!-- FIND A REVIEW -->
+<div class="mod topMod mobOff">
+    <header class="modHeaderAlt">Find a Review</header>
+    <form class="reviewFinder" name="asearch" action="https://www.laptopmag.com/advsearch" method="GET" style="display: table-cell;">
+
+                <div class="line">
+            <div class="asearchform">
+                <label class="unit spaceR10 dropDown">
+    <select class="findSubcats unit" name="product_type">
+        <option  value="">All Categories</option>
+        <option value="product_type^laptops" selected>Laptops</option>
+        <option value="product_type^tablets" >Tablets</option>
+        <option value="product_type^accessories" >Accessories</option>
+    </select>
+</label>
+
+
+                                                                    <input type="text" class="keyword" name="q" size="12" placeholder="Keyword" value="">
+
+            </div>
+
+            <div class="asearchform">
+                                                    <label class="unit spaceR10 dropDown">
+                    <select class="findSubcats unit" name="product_sub_type">
+                        <option selected value="">All Subcategories</option>
+                                                    <option value="product_sub_type^Business" >Business</option>
+                                                    <option value="product_sub_type^Desktop Replacement" >Desktop Replacement</option>
+                                                    <option value="product_sub_type^Gaming" >Gaming</option>
+                                                    <option value="product_sub_type^Student" >Student</option>
+                                            </select>
+                </label>
+                
+                
+                                                    
+                <input type="text" class="maxPrice" name="price" size="4" placeholder="Max Price" value="">
+
+            </div>
+        </div>
+
+        <div class="formOptions expand-options h">
+
+                                            <label class="unit spaceR10 dropDown">
+                    <select class="findSubcats unit" name="brand">
+
+                                                                            
+                        <option selected value="">Brand</option>
+                                                    <option value="brand^ASUS" >ASUS</option>
+                                                    <option value="brand^Acer" >Acer</option>
+                                                    <option value="brand^Alienware" >Alienware</option>
+                                                    <option value="brand^Aorus" >Aorus</option>
+                                                    <option value="brand^Apple" >Apple</option>
+                                                    <option value="brand^CTL Corp." >CTL Corp.</option>
+                                                    <option value="brand^Cybertron PC" >Cybertron PC</option>
+                                                    <option value="brand^Dell" >Dell</option>
+                                                    <option value="brand^Digital Storm" >Digital Storm</option>
+                                                    <option value="brand^Getac" >Getac</option>
+                                                    <option value="brand^Gigabyte" >Gigabyte</option>
+                                                    <option value="brand^HP" >HP</option>
+                                                    <option value="brand^Huawei" >Huawei</option>
+                                                    <option value="brand^Intel" >Intel</option>
+                                                    <option value="brand^Kangaroo" >Kangaroo</option>
+                                                    <option value="brand^Kurio" >Kurio</option>
+                                                    <option value="brand^LG Electronics" >LG Electronics</option>
+                                                    <option value="brand^Lenovo" >Lenovo</option>
+                                                    <option value="brand^MSI" >MSI</option>
+                                                    <option value="brand^Microsoft" >Microsoft</option>
+                                                    <option value="brand^Nextbook" >Nextbook</option>
+                                                    <option value="brand^Origin" >Origin</option>
+                                                    <option value="brand^Razer" >Razer</option>
+                                                    <option value="brand^Samsung" >Samsung</option>
+                                                    <option value="brand^Toshiba" >Toshiba</option>
+                                                    <option value="brand^Vaio" >Vaio</option>
+                                                    <option value="brand^Xotic PC" >Xotic PC</option>
+                                                    <option value="brand^iRULU" >iRULU</option>
+                                            </select>
+                </label>
+                
+            
+                            <label class="labelSubcats unit dropDown">
+                    <select name="rating" class="unit findSubcats">
+
+                                                                            
+                        <option selected value="">Minimum Rating</option>
+                                                                                    <option value="1.5" >1.5 Stars</option>
+                                                                                                                <option value="2.0" >2.0 Stars</option>
+                                                                                                                <option value="2.5" >2.5 Stars</option>
+                                                                                                                <option value="3.0" >3.0 Stars</option>
+                                                                                                                <option value="3.5" >3.5 Stars</option>
+                                                                                                                <option value="4.0" >4.0 Stars</option>
+                                                                                                                <option value="4.5" >4.5 Stars</option>
+                                                                        </select>
+                </label>
+            
+                            <label class="unit spaceR10 dropDown">
+                    <select class="findSubcats unit" name="screen_size">
+                        <option selected value="">Screen Size</option>
+                                                    <option value="screen_size^10" >10</option>
+                                                    <option value="screen_size^11" >11</option>
+                                                    <option value="screen_size^12" >12</option>
+                                                    <option value="screen_size^13" >13</option>
+                                                    <option value="screen_size^14" >14</option>
+                                                    <option value="screen_size^15" >15</option>
+                                                    <option value="screen_size^16" >16</option>
+                                                    <option value="screen_size^17" >17</option>
+                                                    <option value="screen_size^18" >18</option>
+                                                    <option value="screen_size^21" >21</option>
+                                            </select>
+                </label>
+                
+                            <label class="unit spaceR10 dropDown">
+                    <select class="findSubcats unit" name="resolution">
+                        <option selected value="">Resolution</option>
+                                                    <option value="resolution^1200X800" >1200X800</option>
+                                                    <option value="resolution^1280x800" >1280x800</option>
+                                                    <option value="resolution^1366x678" >1366x678</option>
+                                                    <option value="resolution^1366x768" >1366x768</option>
+                                                    <option value="resolution^1600x900" >1600x900</option>
+                                                    <option value="resolution^1900x1080" >1900x1080</option>
+                                                    <option value="resolution^1920x1080" >1920x1080</option>
+                                                    <option value="resolution^1920x1200" >1920x1200</option>
+                                                    <option value="resolution^2150x1440" >2150x1440</option>
+                                                    <option value="resolution^2160 x 1440" >2160 x 1440</option>
+                                                    <option value="resolution^2256 x 1504" >2256 x 1504</option>
+                                                    <option value="resolution^2304 x 1440" >2304 x 1440</option>
+                                                    <option value="resolution^2560 x 1080" >2560 x 1080</option>
+                                                    <option value="resolution^2560 x 1440" >2560 x 1440</option>
+                                                    <option value="resolution^2560 x 1600" >2560 x 1600</option>
+                                                    <option value="resolution^2736 x 1824" >2736 x 1824</option>
+                                                    <option value="resolution^2800x1800" >2800x1800</option>
+                                                    <option value="resolution^2880 x 1620" >2880 x 1620</option>
+                                                    <option value="resolution^2880 x 1920" >2880 x 1920</option>
+                                                    <option value="resolution^3000 x 2000" >3000 x 2000</option>
+                                                    <option value="resolution^3200 x 1800" >3200 x 1800</option>
+                                                    <option value="resolution^3840 x 2160" >3840 x 2160</option>
+                                            </select>
+                </label>
+                
+                            <label class="unit spaceR10 dropDown">
+                    <select class="findSubcats unit" name="weight_range">
+                        <option selected value="">Weight Range</option>
+                                                    <option value="weight_range^2 pounds and under" >2 pounds and under</option>
+                                                    <option value="weight_range^2.1 - 4.0 pounds" >2.1 - 4.0 pounds</option>
+                                                    <option value="weight_range^4.1 - 6.0 pounds" >4.1 - 6.0 pounds</option>
+                                            </select>
+                </label>
+                
+            
+            
+            
+            
+
+            <div>
+                <input class="btn" type="submit" value="SUBMIT">
+            </div>
+
+                                                                    <div class="unit spaceT15 spaceB10">
+                <input id="showDiscontinued" class="checkBox" type="checkbox" value=""  name="show_discontinued" onclick="this.value = this.checked">
+                <label for="showDiscontinued" class="showDiscontinuedLabel">Include old or discontinued products.</label>
+            </div>
+        </div>
+    </form>
+    <div class="formToggler expand-toggler">
+        <small class="toggler"></small>
+    </div>
+</div>
+
+            <div class="mod line center">
+                <div id="rightcol_top">
+                    <script type='text/javascript'>tmntag.cmd.push(function(){tmntag.adTag('rightcol_top', false);});</script>
+                </div>
+            </div>
+
+                        
+                        <!-- SUBSCRIBE TO NL'S -->
+<div class="mod line nlSubscribe">
+    <div class="beveledBlock unit">
+        <header class="modHeaderAlt light">Subscribe</header>
+        <form class="nlMiniForm" action="/newsletter" method="post">
+            <input class="nlMod formBox unit" type="text" name="email" placeholder="enter email here ..." required>
+            <button id="nlSubmit" class="btn unit">SUBMIT</button>
+        </form>
+    </div>
+</div>
+                        <!-- FOLLOW US -->
+<div class="mod mobOff">
+    <header class="modHeaderAlt">Follow Us</header>
+    <div class="socialMod">
+        <a href="https://www.facebook.com/laptopmag?cmpid=556873" class="fa fa-facebook"></a>
+        <a href="https://twitter.com/laptopmag?cmpid=556874" class="fa fa-twitter"></a>
+        <a href="https://www.linkedin.com/company/laptop-magazine-laptopmag-com?trk=biz-companies-cym" class="fa fa-linkedin"></a>
+        <a href="https://plus.google.com/+laptopmagazine/posts?cmpid=556876" rel="publisher" class="fa fa-google-plus"></a>
+        <a href="https://feeds.feedburner.com/laptopmag" class="fa fa-rss"></a>
+    </div>
+</div>
+                        <!-- MOST POPULAR -->
+<div class="mod mostPopular">
+    <header class="modHeader"><span class="modTitle">MOST POPULAR</span></header>
+    <ol>
+                                    <li class="modItem">
+                    <span class="unit beveledBox numBox">1</span>
+
+                    <p class="modCopy"><a href="http://www.laptopmag.com/articles/laptop-brand-ratings">Best and Worst Laptop Brands - 2015 Ratings</a></p>
+
+                    <div class="percentBar" style="width: 95%;"></div>
+                </li>
+                            <li class="modItem">
+                    <span class="unit beveledBox numBox">2</span>
+
+                    <p class="modCopy"><a href="http://www.laptopmag.com/articles/delete-windows-old-folder">How to Delete the Windows.old Folder in Windows 10</a></p>
+
+                    <div class="percentBar" style="width: 74.363498387403%;"></div>
+                </li>
+                            <li class="modItem">
+                    <span class="unit beveledBox numBox">3</span>
+
+                    <p class="modCopy"><a href="http://www.laptopmag.com/articles/best-windows-browser">Edge vs. Chrome vs. Firefox: Battle of the Windows 10 Browsers</a></p>
+
+                    <div class="percentBar" style="width: 69.199867197875%;"></div>
+                </li>
+                            <li class="modItem">
+                    <span class="unit beveledBox numBox">4</span>
+
+                    <p class="modCopy"><a href="http://www.laptopmag.com/reviews/laptops/dell-xps-13-non-touch-2015">Dell XPS 13 (2015, Nontouch) - Full Review & Benchmarks</a></p>
+
+                    <div class="percentBar" style="width: 58.304875735155%;"></div>
+                </li>
+                            <li class="modItem">
+                    <span class="unit beveledBox numBox">5</span>
+
+                    <p class="modCopy"><a href="http://www.laptopmag.com/articles/windows-10-vs-os-x">Windows 10 vs. OS X El Capitan: Why Microsoft Wins</a></p>
+
+                    <div class="percentBar" style="width: 56.872035666856%;"></div>
+                </li>
+                        </ol>
+</div>
+
+                                        <!-- LATEST HEADLINES -->
+        <div class="mod latestHeadlines mobOff">
+            <header class="modHeader"><span class="modTitle">LATEST HEADLINES</span></header>
+            <ul>
+                                    <li class="modItem">
+                                                    <a href="https://www.laptopmag.com/articles/best-cheap-external-drives"><img src="https://www.laptopmag.com/images/wp/laptop-landing/thumb/314735.jpg"></a>
+                        
+                        <p class="modCopy">
+                            <a href="https://www.laptopmag.com/articles/best-cheap-external-drives">6 Cheap External Hard Drives (Under $60), Ranked Best to Worst</a>
+                        </p>
+                    </li>
+                                    <li class="modItem">
+                                                    <a href="https://www.laptopmag.com/articles/best-deals"><img src="https://www.laptopmag.com/images/wp/laptop-landing/thumb/269930.jpg"></a>
+                        
+                        <p class="modCopy">
+                            <a href="https://www.laptopmag.com/articles/best-deals">The Best Laptop Deals of Today: Laptops, Tablets and More</a>
+                        </p>
+                    </li>
+                                    <li class="modItem">
+                                                    <a href="https://www.laptopmag.com/articles/windows-10-support-atom-cpus"><img src="https://www.laptopmag.com/images/wp/laptop-landing/thumb/314768.jpg"></a>
+                        
+                        <p class="modCopy">
+                            <a href="https://www.laptopmag.com/articles/windows-10-support-atom-cpus">Microsoft Smashes Windows 10 Support for These CPUs</a>
+                        </p>
+                    </li>
+                                    <li class="modItem">
+                                                    <a href="https://www.laptopmag.com/articles/yoga-book-new-colors"><img src="https://www.laptopmag.com/images/wp/laptop-landing/thumb/314751.jpg"></a>
+                        
+                        <p class="modCopy">
+                            <a href="https://www.laptopmag.com/articles/yoga-book-new-colors">The Wildest Laptop Ever Now Comes in New Colors</a>
+                        </p>
+                    </li>
+                                    <li class="modItem">
+                                                    <a href="https://www.laptopmag.com/articles/back-school-deal-alert-surface-pro-4-618"><img src="https://www.laptopmag.com/images/wp/laptop-landing/thumb/314721.jpg"></a>
+                        
+                        <p class="modCopy">
+                            <a href="https://www.laptopmag.com/articles/back-school-deal-alert-surface-pro-4-618">Back-to-School Deal Alert: Surface Pro 4 from $605</a>
+                        </p>
+                    </li>
+                            </ul>
+        </div>
+    
+
+            <div class="mod line center">
+                <div id="rightcol_middle">
+                    <script type='text/javascript'>tmntag.cmd.push(function(){tmntag.adTag('rightcol_middle', false);});</script>
+                </div>
+            </div>
+
+            <div class="mod line center">
+                <div id="rightcol_bottom">
+                    <script type='text/javascript'>tmntag.cmd.push(function(){tmntag.adTag('rightcol_bottom', false);});</script>
+                </div>
+            </div>
+
+        </aside>
+    </div>
+
+    
+    <div id="mobile-anchor">
+        <script type="text/javascript">
+                            if (window.tmntag && tmntag.adTag) {
+                    tmntag.adTag('mobile-anchor',false);
+                }
+            
+                    </script>
+    </div>
+
+    <script type="text/javascript">
+        Purch = Purch || {};
+        Purch.Omniture = Purch.Omniture || {};
+        Purch.Omniture.BBTrackingConf = {
+            bbSelector: '[data-omniture="true"]'
+        };
+        Purch.Omniture.BBTracking.initModule();
+    </script>
+
+    <script type="text/javascript">
+        pageSetup(channel_id);
+        addFullGallery(galleryJson);
+    </script>
+
+            </div><!-- end overAll -->
+        </div><!-- end ctBoc -->
+        
+
+                                <footer class="footer cf">
+	<div class="wrap mobOff">
+		    <div class="unit size1of5 netLinks">
+		        <header class="footerTitle">COMPANY</header>
+		        <ul>
+		            <li class="netLink"><a href="//purch.com" target="_blank">Company Info</a></li>
+		            <li class="netLink"><a href="//www.laptopmag.com/articles/about-us" target="_blank">About Us</a></li>
+		            <li class="netLink"><a href="//purch.com/#contact" target="_blank">Contact Us</a></li>
+		            <li class="netLink"><a href="//purch.com/advertise/" target="_blank">Advertise with Us</a></li>
+		            <li class="netLink"><a href="//purch.com/#contact" target="_blank">Using Our Content</a></li>
+		            <li class="netLink"><a href="//purch.com/#contact" target="_blank">Licensing &amp; Reprints</a></li>
+		            <li class="netLink"><a href="//purch.com/copyright-policy/" target="_blank">Copyright Policy</a></li>
+		            <li class="netLink"><a href="//purch.com/terms-of-use-and-sale/" target="_blank">Terms of Use and Sale</a></li>
+		            <li class="netLink"><a href="//purch.com/privacy-policy/" target="_blank">Privacy Policy</a></li>
+		        </ul>
+		    </div>
+		    
+		    <div class="unit size1of5 netLinks">
+		        <header class="footerTitle">NETWORK</header>
+		        <ul>
+		            <li class="netLink"><a href="http://www.toptenreviews.com/">Top Ten Reviews</a></li>
+		            <li class="netLink"><a href="http://www.tomsguide.com/">Tom's Guide</a></li>
+		            <li class="netLink"><a href="http://www.laptopmag.com/">Laptop Mag</a></li>
+		            <li class="netLink"><a href="http://www.tomshardware.com/">Tom's Hardware</a></li>
+		            <li class="netLink"><a href="http://www.businessnewsdaily.com/">Business News Daily</a></li>
+		            <li class="netLink"><a href="http://www.tomsitpro.com/">Tom's IT Pro</a></li>
+		            <li class="netLink"><a href="http://www.space.com/">Space.com</a></li>
+		            <li class="netLink"><a href="http://www.livescience.com/">Live Science</a></li>
+								<li class="netLink"><a href="http://activejunky.com/">Active Junky</a></li>
+								<li class="netLink"><a href="http://shopsavvy.com/">ShopSavvy</a></li>
+								<li class="netLink"><a href="http://www.anandtech.com/">Anand Tech</a></li>
+						</ul>
+		    </div>
+		    <div class="unitExt menus">
+		        <div class="follow mod topMod">
+		            <header class="footerTitle">FOLLOW US</header>
+		            <div class="footerSocial">
+		                <a href="https://www.facebook.com/laptopmag?cmpid=556873"><i class="fa fa-facebook fa-3x"></i></a>
+		                <a href="https://twitter.com/laptopmag?cmpid=556874"><i class="fa fa-twitter fa-3x"></i></a>
+		                <a href="https://www.linkedin.com/company/laptop-magazine-laptopmag-com?trk=biz-companies-cym"><i class="fa fa-linkedin fa-3x"></i></a>
+		                <a href="https://plus.google.com/+laptopmagazine/posts?cmpid=556876" rel="publisher"><i class="fa fa-google-plus fa-3x"></i></a>
+		                <a href="//feeds.feedburner.com/laptopmag"><i class="fa fa-rss fa-3x"></i></a>
+		            </div>
+		        </div>
+		        <div class="mod line">
+		            <header class="footerTitle">SUBSCRIBE TO LAPTOP</header>
+		            <form class="nlMiniForm" action="https://www.laptopmag.com/newsletter" method="post">
+		                <input class="subscribe formBox unit" type="text" name="email" placeholder="enter email here ..." required>
+		                <button id="nlSubmit" class="btn btnAlt unit mobOff">SUBMIT</button>
+		            </form>
+		        </div>
+		        <div class="mod brand">
+		            <a href="//purch.com">
+		                		                    <img src="https://www.laptopmag.com/resources/img/purch-logo.png?95f3a79f" width="135" height="41" alt="Purch">
+		                    
+		            </a>
+		            <p class="copyRight">Copyright &copy; <script type="text/javascript">document.write(new Date().getFullYear());</script> All Rights Reserved.</p>
+		           </div> 
+		       </div>
+		   </div>
+		   <div class="wrap mobOn">
+					<div class="follow mod topMod">
+							<div class="mblinks">
+								  <a href="https://www.laptopmag.com/" class="footerTitle">Home</a>
+								  <a href="//purch.com/advertise/#brands" class="footerTitle">About us</a>
+							</div>
+		          <div class="footerSocial">
+		              <a href="https://www.facebook.com/laptopmag?cmpid=556873"><i class="fa fa-facebook fa-3x"></i></a>
+		              <a href="https://twitter.com/laptopmag?cmpid=556874"><i class="fa fa-twitter fa-3x"></i></a>
+		              <a href="https://www.linkedin.com/company/laptop-magazine-laptopmag-com?trk=biz-companies-cym"><i class="fa fa-linkedin fa-3x"></i></a>
+		              <a href="https://plus.google.com/+laptopmagazine/posts?cmpid=556876" rel="publisher"><i class="fa fa-google-plus fa-3x"></i></a>
+		              <a href="//feeds.feedburner.com/laptopmag"><i class="fa fa-rss fa-3x"></i></a>
+		          </div>
+		        </div>
+		        <div class="mod line">
+		            <header class="footerTitle">SUBSCRIBE TO LAPTOP</header>
+		            <form class="nlMiniForm" action="https://www.laptopmag.com/newsletter" method="post">
+		                <input class="subscribe formBox unit" type="text" name="email" placeholder="enter email here ..." required>
+		            </form>
+		        </div>
+		        <div class="mod brand">
+		            <a href="//purch.com">
+		                		                    <img src="https://www.laptopmag.com/resources/img/purch-logo.png?95f3a79f" width="135" height="41" alt="Purch">
+		                    
+		            </a>
+		            <p class="copyRight">Copyright &copy; <script type="text/javascript">document.write(new Date().getFullYear());</script> All Rights Reserved.</p>
+		           </div> 
+		       </div>
+		   </div>
+		   <div class="mqCheck"></div>
+		<div class="mqCheck-Med"></div>
+</footer>
+        
+                            
+        
+                    <div id="1x1">
+                <script type='text/javascript'>tmntag.cmd.push(function(){tmntag.adTag('1x1', false);});</script>
+            </div>
+        
+
+        <script type="text/javascript">
+            var Purch = Purch || {};
+            requirejs.config({
+                waitSeconds: 0,
+                baseUrl: '/resources/js',
+                urlArgs: 'v=2017-07-20-11',
+                paths: {
+                    jquery: '/js/vendor/jquery/jquery.min'
+                }
+            });
+
+            define('jQuery', [], function() { return jQuery; });
+            define('jquery', [], function() { return jQuery; });
+
+            require(['Purch/Utils/Tracking'], function(Tracking) {
+                Tracking.initModule({
+                    targets: '.rightCol #nlSubmit',
+                    onEvent: 'mousedown',
+                    gtmDataLayerName: 'dataLayer',
+                    gtmPushData: {
+                        "event": "newsletter",
+                        "location": "right-rail"
+                    }
+                });
+            });
+            var domInteractive = function() {
+                
+    if (typeof tmntag !== 'undefined') {
+    tmntag.cmd.push(function(){tmntag.adTag('incontent', false);});
+    }
+
+    
+            
+require(['Purch/Comments/CreateForm'], function(CreateForm) {
+    var createForm = new CreateForm({
+        countCommentRoute : 'https\x3A\x2F\x2Fwww.laptopmag.com\x2Fcomments\x2Fcount'
+    });
+    createForm.init();
+});        
+
+
+require(['Purch/Comments/Moderation'], function(Moderation) {
+    var moderation = new Moderation({
+        accessor          : '.moderation-action-form',
+        deleteFormAccessor: '.moderation-delete-action',
+        confirmOnDelete   : true,
+        deleteConfirmMsg  : 'Are\x20your\x20sure\x20you\x20want\x20to\x20delete\x20this\x20comment\x3F',
+        updateCount       : true,
+        countAccessor     : '#nb-comments',
+        countUrl          : 'https\x3A\x2F\x2Fwww.laptopmag.com\x2Fcomments\x2Fcount'
+    });
+    moderation.init();
+});
+
+require(['Purch/Comments/Pagination'], function(Pagination) {
+    var pagination = new Pagination({
+        'accessor': '.comments-show-more > a',
+        'nbElementsPerPage': 50,
+        'root': '#comments-widget'
+    });
+    pagination.init();
+});
+    
+    require(['PURCH/Common/Slideshow'], function(Slideshow) {
+        Slideshow.initModule();
+    });
+            };
+            document.addEventListener('readystatechange', function() {
+                if (document.readyState === 'interactive') { domInteractive(); }
+            }, false);
+        </script>
+                    <script type="text/javascript">
+            var tmnramp = {"key_vals":[],"http_cookies":{"cm_4894":"1"},"ts":1500564698920,"server":"us-east1-rtb-adserver7","page":"https:\/\/www.laptopmag.com\/articles\/windows-10-support-atom-cpus","page_id":"ee6a8a27","user_agent":{"device":"COMPUTER","os":"Windows","browser":"Firefox"},"pixels":[{"content":"\n(function(){var c=window.gtmDataLayer||window.dataLayer||[];window.refreshWidget=function(a){var b=a.choices&&a.choices.length?a.choices[a.choices.length-1]:{},d={event:\"product_finder_nav\",\"product_finder_nav.datas\":{id:a.id,question:b.question||\"\",option:b.choice||\"\",page:a.page}};a=function(){c.push(d)};setTimeout(a,400)};window.widgetTrackReviewUrl=function(a){c.push({event:\"product_finder_review\",\"product_finder_review.datas\":{id:a.sheetId,action:\"click\",button:\"review-\"+a.id}})};var d=(new Date).getTime(),\nb=(window.Purch&&window.Purch.Omniture&&window.Purch.Omniture&&window.Purch.Omniture.params&&window.Purch.Omniture.params.pageName||window.s&&window.s.pageName||\"\").split(\":\"),b=b.length?b[0]:\"\";window.widgetTrackShoppingBtn=function(a){a={event:\"purch.shopclick\",\"purch.shopclick.datas\":{event:\"10\",evars:{eVar18:b+\"-\"+a.id,eVar23:\"Product_finder\",eVar34:a.offerMerchant,eVar43:a.floatedPrice,transactionID:d}}};c.push(a)};window.widgetTrackImpression=function(a){c.push({event:\"product_finder_impression\",\n\"product_finder_impression.datas\":{id:a.id,action:\"impression\",status:a.status}})};window.widgetTrackFallback=function(a){c.push({event:\"product_finder_fallback\",\"product_finder_fallback.datas\":{id:a.id}})};window.widgetTrackVisibility=function(a){c.push({event:\"product_finder_visible\",\"product_finder_visible.datas\":{id:a}})}})();\n","onready":false,"donotrender":false,"campaign":"4893","refreshable":false},{"content":"\n(function(f,d,g){for(var a=[],b=document.querySelectorAll(\".pfinder\"),c=0;c<b.length;c++){var h=b[c].className.split(\"pfinder-\")[1]||\"\";if(!b[c].hasAttribute(\"data-pfinder\"))b[c].setAttribute(\"data-pfinder\",h)}try{a=a.concat([].slice.call(document.querySelectorAll(d)))}catch(k){}a=a.concat([].slice.call(document.querySelectorAll(\"[data-pfinder]\")));if(!a.length)return;var e=function(a,c){var b=document.createElement(\"script\");b.type=\"text\/javascript\";b.onload=c||function(){};document.head.appendChild(b);\nb.src=a},a=function(){window.PFINDER.base=\"https:\/\/assets.purch.com\/creative-templates\/\"+window.creativeRevision+\"\/\";window.PFINDER.cb=\"\";e(window.PFINDER.base+\"js\/min\/product_finder\/i.js\")};window.PFINDER=window.PFINDER||{};window.PFINDER.widgets=window.PFINDER.widgets||[];window.PFINDER.widgets.push({id:f,target:d,position:g});e(\"https:\/\/assets.purch.com\/creative-templates\/REVISION.js?t=\"+(new Date).getTime(),a)})(\"${PAGE:PFINDER_ID}\",\"${PAGE:PFINDER_SELECTOR}\",\"${PAGE:PFINDER_POSITION}\");\n","onready":false,"donotrender":false,"campaign":"4893","refreshable":false},{"content":"\ntmntag.incontent = tmntag.incontent || function(divId, selector, position) {\r\n   if (!divId || !selector) { return false; }\r\n   var target = document.querySelector(selector);\r\n   if (target) {\r\n\t   var newDiv = document.getElementById(divId);\r\n       if (!newDiv) {\r\n          newDiv = document.createElement('div');\r\n          newDiv.id = divId;\r\n       }\r\n       if (typeof position=='undefined') position = 'afterend';\r\n       \r\n       if (position === 'prepend') {\r\n         target.insertBefore(newDiv, target.firstChild);\r\n       } else {     \r\n         target.insertAdjacentElement(position, newDiv);\r\n       }\r\n       return newDiv;\r\n   }\r\n   return false;\r\n};\n","onready":false,"donotrender":false,"campaign":"4873","refreshable":false},{"content":"\n!(function(){\r\n      console.log('laptopmag popup');\r\n      var pageToTest = document.createElement('a');\r\n      pageToTest.href = window.location.href;\r\n      console.log('pathname: ' + pageToTest.pathname);\r\n      var bestPicksRegExp = \/best-*\/;\r\n      var reviewsRegExp = \/review*\/;\r\n      var hierarchyRegExp = \/hierarchy\/;\r\n      var pathName = pageToTest.pathname;\r\n      var match;\r\n  \r\n      if( pathName.search(bestPicksRegExp) > -1 || pathName.search(reviewsRegExp) > -1 || pathName.search(hierarchyRegExp) > -1) {\r\n          match = 1;          \r\n          console.log('found match');\r\n      }else {\r\n          match = -1; \r\n          console.log('no match found');\r\n      }\r\n  \r\n\/\/ Create cookie\r\nfunction createCookie(name, value, days) {\r\n    var expires;\r\n    if (days) {\r\n        var date = new Date();\r\n        date.setTime(date.getTime()+(days*24*60*60*1000));\r\n        expires = \"; expires=\"+date.toGMTString();\r\n    }\r\n    else {\r\n        expires = \"\";\r\n    }\r\n    document.cookie = name+\"=\"+value+expires+\"; path=\/\";\r\n}\r\n\r\n\/\/ Read cookie\r\nfunction readCookie(name) {\r\n    var nameEQ = name + \"=\";\r\n    var ca = document.cookie.split(';');\r\n    for(var i=0;i < ca.length;i++) {\r\n        var c = ca[i];\r\n        while (c.charAt(0) === ' ') {\r\n            c = c.substring(1,c.length);\r\n        }\r\n        if (c.indexOf(nameEQ) === 0) {\r\n            return c.substring(nameEQ.length,c.length);\r\n        }\r\n    }\r\n    return null;\r\n}\r\n\r\n\r\n\r\nwindow.dataLayer = dataLayer || [];\r\n\tfunction trackingGtm(action) {\r\n        dataLayer.push({'event':'email-popup', 'action':action});\r\n    }\r\n\r\n\tif(window.jQuery){\r\n        if(match == -1) {\r\n\t\tconsole.log(\"Start 1\");\r\n\t\tstart();\r\n        }    \r\n\t}else if(window.require && window.requirejs){\r\n        if(match == -1) {\r\n            console.log(\"Start 2\");\r\n            require(['jquery'], function($) {\r\n                console.log(\"Start 2 ok\");\r\n                start();\r\n            })\r\n        }\r\n    }\r\n\r\n\t\r\nfunction start(){\r\n\r\n    var sCookie = readCookie(\"newsletterpopup\");\r\n\r\n    \/\/Set var & attributes\r\n    var modalBox = document.createElement(\"div\");\r\n    modalBox.id = 'ec-popup-modal';\r\n    modalBox.setAttribute('class', 'ec-popup-modal');\r\n    modalBox.setAttribute('style', 'display:none');\r\n    var currentUrl = window.location.href;\r\n    var style = '<style> .ec-popup-modal {position: fixed; width: 100%; height: 100%; z-index: 2147483648; background-color: rgba(0,0,0,.6); top: 0; left: 0; } .ec-popup-modal-content {width: 600px; background-color: #fff; position: absolute; top: 150px; left: 50%; margin-left: -300px; text-align: center; border-top:7px solid #ffcc00; } .ec-popup-modal-content .top-text {background-color: white; color: black; font-family: \"Open Sans\",Arial,sans-serif; } .ec-popup-modal-content .top-text h3 {    margin-top: 20px; font-size:16px; } .ec-popup-modal-content .top-text h2 {    margin-top: 20px; font-size:24px; font-weight:bold; } .ec-popup-modal-content .email-submit {cursor: pointer; padding: 10px 30px; background: #ffcc00; border-radius: none; color:white; border: none; font-size: 16px; margin-top: 15px; } .ec-popup-modal-content .close-btn {position: absolute; right: 0; padding: 5px 7px; color: #777; font-size: 150%; cursor:pointer; } .close-btn:hover {color: #808080; } .ec-popup-modal-content #email {margin: 15px 0 0; padding: 5px; font-family: Arial, sans-serif; font-size: 16px; width: 80%; } .ec-popup-modal-content .modal-fineprint {font-size: 12px; margin-bottom: 15px; margin-top: 35px; color: #767676 } .ec-popup-modal-content .modal-fineprint a {text-decoration:underline; } <\/style>';\r\n    $('head').append(style);\r\n    var modalText =\r\n            '<div class=\"ec-popup-modal-content\" id=\"ec-popup-modal-content\">' +\r\n\t\t\t\t'<div class=\"close-btn\">'+\r\n\t\t\t\t\t'<i class=\"fa fa-times\" aria-hidden=\"true\"><\/i>'+\r\n\t\t\t\t'<\/div>'+\r\n\t\t\t\t'<div class=\"top-text\">' +\r\n\t\t\t\t\t'<h2 class=\"space-t40\">Join Laptop Mag<\/h2>' +\r\n\t\t\t\t\t'<h3 class=\"space-t15\">Your membership helps us deliver great news and content.<\/h3>' +\r\n\t\t\t\t'<\/div>' +\r\n\t\t\t\t'<form class=\"p-form pure-form\" action=\"\/newsletter\" method=\"POST\" name=\"theForm\">' +\r\n\t\t\t\t\t'<input type=hidden id=\"redirectUrl\" name=\"goto\" value=\"' + currentUrl + '\" \/>' +\r\n\t\t\t\t\t'<input type=\"email\" id=\"email\" name=\"email\" placeholder=\"Enter Your Email\" required \/>' +\r\n\t\t\t\t\t'<br\/>'+\r\n\t\t\t\t\t'<input type=\"submit\" id=\"form-submit\" class=\"p-button pure-button button-fifth email-submit\" value=\"Join Now >\"\/>' +\r\n\t\t\t\t\t'<i id=\"form-spinner\" class=\"fa fa-refresh fa-spin fa-2x fa-fw\" style=\"display:none;\"><\/i>'+\r\n\t\t\t\t\t'<div class=\"modal-fineprint\">' +\r\n\t\t\t\t\t'By creating my account, I agree to the site\\'s <a href=\"http:\/\/purch.com\/terms-of-use\/\" target=\"_blank\">terms of use<\/a>' +\r\n\t\t\t\t\t' and <a href=\"http:\/\/purch.com\/privacy-policy\/\" target=\"_blank\">privacy policy<\/a>.'+\r\n\t\t\t\t\t'<\/div>'+\r\n\t\t\t\t'<\/form>'+\r\n\t\t\t'<\/div>';\r\n\r\n    modalBox.innerHTML = modalText;\r\n\r\n\r\n\r\n    \/\/submit by id function : add whatcounts to retrieve email\r\n    function submit_by_id(e) {\r\n\t\t\t\/\/validate data submited\r\n\t\t\t\/\/console.log(\"EC: submit\");\r\n\t\t\tcreateCookie(\"newsletterpopup\", true);\r\n\t\t\ttrackingGtm('submit');\r\n\t\t\tvar $form = $('#ec-popup-modal form');\r\n\t\t\tvar $submit = $('#form-submit', $form);\r\n\t\t\tvar $spinner = $('#form-spinner', $form);\r\n\t\t\t$submit.hide();\r\n\t\t\t$spinner.show();\r\n\t\t\tvar post_url = $form.attr(\"action\"); \/\/get form action url\r\n\t\t\tvar form_data = $form.serialize(); \/\/Encode form elements for submission\r\n\t\t\t$.post( post_url, form_data, function( response ) {\r\n\t\t\t  window.document.location.href = $('#redirectUrl',$form).attr('value');\r\n\t\t\t  $submit.show();\r\n\t\t\t  $spinner.hide();\r\n\t\t\t});\r\n\t\r\n\t\t}\r\n\r\n    \/\/Closes Modal Popup when X button is clicked and tracking\r\n\r\n\tfunction close_email() {\r\n\t\tvar $form = $('#ec-popup-modal form');\r\n\t\tvar overlayElement = document.getElementById(\"ec-popup-modal\");\r\n\t\toverlayElement.setAttribute('style', 'display:none');\r\n\t\tdocument.body.style.overflow = '';\r\n\t\ttrackingGtm('close');\r\n\t\twindow.document.location.href = $('#redirectUrl',$form).attr('value');\r\n\t}\r\n\r\n\r\n    \/\/ajoute l'\u00e9l\u00e9ment \u00e0 la fin du node\r\n    document.body.appendChild(modalBox);\r\n    \/\/addEventListener on close-btn to close the pop-up\r\n    $(\".ec-popup-modal-content .close-btn\").on(\"click\", function () {\r\n        close_email();\r\n    });\r\n\r\n\t$(\"#ec-popup-modal form\").submit(function(ev){\r\n\t\tev.preventDefault();\r\n\t\tsubmit_by_id(ev);\r\n\t});\r\n\r\n\r\n    $(document).on('mousedown', 'a', function (e) {\r\n        var sCookie = readCookie(\"newsletterpopup\");\r\n\t\tvar $link = $(e.target).closest('a');\r\n        \/\/check position in website\r\n        if ((!sCookie || sCookie == '') && $link.attr('href') && ($link.attr('href').indexOf(\"www.laptopmag.com\") !== -1 || $link.attr('href').indexOf(\"\/\") === 0)) {\r\n            e.preventDefault();\r\n            createCookie(\"newsletterpopup\", true, 7);\r\n            e.stopPropagation();\r\n            document.getElementById(\"redirectUrl\").value = $link.attr('href');\r\n            document.getElementById('ec-popup-modal').setAttribute('style', 'display:block');\r\n\r\n\t\t\ttrackingGtm('display');\r\n        }\r\n    });\r\n    \r\n}\r\n})();\r\n\n","onready":false,"donotrender":false,"campaign":"5431","refreshable":false},{"content":"\nvar mostPopularContent = '<header class=\"modHeader\"><span class=\"modTitle\">Top Rated Laptops<\/span><\/header><ol><li class=\"modItem\"><span class=\"unit beveledBox numBox\">1<\/span><div class=\"flexContainer\"><span class=\"subHeading\">Best Overall<\/span><p class=\"modCopy\"><a href=\"https:\/\/www.laptopmag.com\/reviews\/laptops\/dell-xps-13\">Dell XPS 13 (Kaby Lake CPU)<\/a><\/p><\/div><div class=\"percentBar\" style=\"width: 110%;\"><\/div><\/li><li class=\"modItem\"><span class=\"unit beveledBox numBox\">2<\/span><div class=\"flexContainer\"><span class=\"subHeading\">Best Gaming Laptop<\/span><p class=\"modCopy\"><a href=\"https:\/\/www.laptopmag.com\/reviews\/laptops\/asus-g752v\">Asus ROG G752VS OC Edition<\/a><\/p><\/div><div class=\"percentBar\" style=\"width: 100%;\"><\/div><\/li><li class=\"modItem\"><span class=\"unit beveledBox numBox\">3<\/span><div class=\"flexContainer\"><span class=\"subHeading\">Best College Laptop<\/span><p class=\"modCopy\"><a href=\"https:\/\/www.laptopmag.com\/reviews\/laptops\/lenovo-thinkpad-13\">Lenovo ThinkPad 13<\/a><\/p><\/div><div class=\"percentBar\" style=\"width: 95%;\"><\/div><\/li><li class=\"modItem\"><span class=\"unit beveledBox numBox\">4<\/span><div class=\"flexContainer\"><span class=\"subHeading\">Best Laptop Under $500<\/span><p class=\"modCopy\"><a href=\"https:\/\/www.laptopmag.com\/reviews\/laptops\/asus-vivobook-e403sa\">Asus VivoBook E403SA<\/a><\/p><\/div><div class=\"percentBar\" style=\"width: 69%;\"><\/div><\/li><li class=\"modItem\"><span class=\"unit beveledBox numBox\">5<\/span><div class=\"flexContainer\"><span class=\"subHeading\">Best 2-in-1<\/span><p class=\"modCopy\"><a href=\"https:\/\/www.laptopmag.com\/reviews\/laptops\/hp-spectre-x360-13-inch\">HP Spectre x360<\/a><\/p><\/div><div class=\"percentBar\" style=\"width: 59%;\"><\/div><\/li><\/ol>'\r\n\r\n\r\nvar mostPopularDiv = $('.mostPopular')[0];\r\n\r\nif(mostPopularDiv){\r\nmostPopularDiv.innerHTML = mostPopularContent;\r\n}\r\n\r\n$(window).scroll(function() {\r\nvar elTop, elHeight, windowHeight, windowScroll;\r\n\r\nelTop = mostPopularDiv ? $(mostPopularDiv).offset().top : 'none';\r\nelHeight = $(mostPopularDiv).outerHeight() ? $(mostPopularDiv).outerHeight() : 'none';\r\nwindowHeight = $(window).height();\r\nwindowScroll = $(window).scrollTop();\r\n  if(windowScroll > (elTop + elHeight - windowHeight)){\r\n    dataLayer.push({'event':'best_laptops_widget', 'action':'impression'});\r\n    $(window).unbind('scroll');\r\n      }\r\n});\r\n\r\n\r\n\/\/Attach event listener on div parent of best laptops modal\r\nvar bestLaptopDiv = document.querySelector('div.mostPopular');\r\nif(bestLaptopDiv){\r\n  bestLaptopDiv.addEventListener('click', function(e){\r\n    if (e.target !== e.currentTarget) {\r\n      var linkUrl = e.target.href;\r\n      if(dataLayer){\r\n        dataLayer.push({'event':'best_laptops_widget','action':'click', 'link':linkUrl});\r\n      }\r\n    }\r\n    e.stopPropagation();\r\n    return false;\r\n  });\r\n}\r\n\n","onready":false,"donotrender":false,"campaign":"4900","refreshable":false}],"placement":"2225","ip":"114.44.245.117","geo":{"countryAlpha3":"TW","latitude":23.5,"longitude":121,"ctr":"TW","dma":0,"ac":0,"tz":"Asia\/Taipei"},"creatives":[],"latency":3,"html_pre_body":"","html_post_body":"","id":"7342017670033327"};
+            /* RAAS JS Renderer 1.15 */
+var TMNRAAS_VERSION="1.15";
+var tmntag = tmntag || {};
+tmntag.isab = false;
+!function(t){function e(){if(!o){o=!0;for(var t=0;t<a.length;t++)a[t].fn.call(window,a[t].ctx);a=[]}}function n(){"complete"===document.readyState&&e()}baseObj=window;var a=[],o=!1,d=!1;baseObj[t]=function(t,c){return o?void setTimeout(function(){t(c)},1):(a.push({fn:t,ctx:c}),void("complete"===document.readyState||!document.attachEvent&&"interactive"===document.readyState?setTimeout(e,1):d||(document.addEventListener?(document.addEventListener("DOMContentLoaded",e,!1),window.addEventListener("load",e,!1)):(document.attachEvent("onreadystatechange",n),window.attachEvent("onload",e)),d=!0)))}}("tmntag_ready_2");
+tmntag.onAB = function(callback) {
+	if (typeof callback!=='function') return; 
+	var abcheck = document.createElement('div');
+	var KLASS = "adsbox";
+	abcheck.innerHTML = "&nbsp;"
+	abcheck.className = KLASS;
+	document.body.appendChild(abcheck);
+	window.setTimeout(function() {
+	  var isab = false;
+	  if (abcheck.offsetHeight === 0) {
+		  isab=true;
+		  abcheck.remove();
+	  } else {
+		  e = document.querySelector("."+KLASS);
+		  if (!e) {
+			  isab=true;
+		  } else {
+			  var open = false;
+			  for (var i in document.scripts) {
+				  if (document.scripts[i].src && document.scripts[i].src.indexOf("googletagservices.com")>=0) {
+					  open = true;
+					  break;
+				  }
+		      }
+			  if (typeof tmnraas_nonadblock!='undefined' && tmnraas_nonadblock) {
+			      open = true;
+			  } else {
+				  open = false;
+			  }
+			  if (!open) {
+				isab=true;
+			  } else {
+				  if (typeof jQuery!='undefined' && jQuery && jQuery('#header_leaderboard')) isab = 'none'==jQuery('#header_leaderboard').css('display');
+			  }
+		  }
+	  }
+	  if (isab) {
+		  tmntag.isab = true;
+		  callback();
+	  }
+	}, 2000);
+}
+var tmntag_raascallback = function() {
+  var p = ('https:'==document.location.protocol)?'https://':'http://';
+  var whenAB = function() {
+	console.log("-RAAS- "+TMNRAAS_VERSION+" AB detected");
+	if (document.location.href.indexOf("tomsguide.com")<0 
+		&& document.location.href.indexOf("tomsguide.fr")<0
+		&& document.location.href.indexOf("tomshardware.com")<0
+		&& document.location.href.indexOf("tomshardware.co.uk")<0
+		&& document.location.href.indexOf("tomshardware.de")<0
+		) {
+      var rnd = Math.floor(Math.random() * 11000);
+      var e   = document.createElement('script');
+      e.type  = 'text/javascript';
+      e.src = p+'ramp.purch.com/event.js?t=AB&id=0&bid=&cp=0&bdrid=&crid=&ad=&r='+rnd+'l='+encodeURIComponent(window.top.document.location.href);
+      var scripts = document.getElementsByTagName('script')[0];
+      if (scripts) scripts.parentNode.insertBefore(e, scripts);
+	}
+    if (typeof tmnramp!='undefined') {
+      window.top.tmntag_redirect = function(e, urlormacro, macro) {
+	   var joinKeys = function(macro){
+		      var ret = '';
+			  if (macro && keys) for (var k in keys) {
+		         if (keys.hasOwnProperty(k)) {
+				    if (macro.hasOwnProperty(keys[k])) {
+		               if (k==='pd') ret += '&'+k+'=|'+macro[keys[k]]+'|';
+		               else ret += '&'+k+'='+macro[keys[k]];
+		            }
+				 }
+		      }
+		      return ret;
+		   }
+		   if (!e) return false;
+		   var keys = {'cp':'__CP__', 'bdrid':'__BDRID__', 'crid':'__CRID__', 'ad':'__AD__', 'pd':'__PRODUCT_ID__', 'tid':'__TID__'};
+		   var url = ((typeof urlormacro)==='object')?e.href:urlormacro;
+		   macro = ((typeof urlormacro)==='object')?urlormacro:macro;
+		   var rnd = Math.floor(Math.random() * 11000);
+		   var proto = ('https:'==document.location.protocol)?'https://':'http://';
+		   var tr = proto+'ramp.purch.com/event.js?t=CL&id='+((top.window.requestid)?top.window.requestid:0)+'&r='+rnd+joinKeys(macro);
+		   var s = document.createElement('script');
+		   s.type = 'text/javascript';
+		   s.src = tr;
+		   var r = document.getElementsByTagName('script')[0];
+		   if (r) r.parentNode.insertBefore(s, r);
+		   var win = window.open(url, '_blank');
+		   win.focus();
+		   return false;
+		}
+      if(tmnramp.creatives) {
+        for (var i in tmnramp.creatives) {
+          var markupinfo = tmnramp.creatives[i];
+          if (markupinfo && markupinfo.div && markupinfo.markup) {
+            var markup = markupinfo.markup.replace(/\\n|\\r/g, '');
+			markup = markup.replace(/\\/g, '');
+			var div = markupinfo.div;
+			var e = document.getElementById(div);
+			if (typeof tmntag.incontent!='undefined' && markupinfo['ad_params'] && markupinfo['ad_params']['incontent_css_selector']) {
+				e = tmntag.incontent(div, markupinfo['ad_params']['incontent_css_selector'], markupinfo['ad_params']['incontent_position']);
+			};
+			if (!e) continue;
+			if (markupinfo['iframe']) {
+			  var iframe = document.createElement("iframe");
+				iframe.frameBorder=0;
+				iframe.name=markupinfo.campaign_id+"/"+markupinfo.creative_id;
+				iframe.scrolling="no";
+				iframe.marginwidth=0;
+				iframe.marginheight=0;
+				iframe.style.width=(markupinfo.width || 0)+"px";
+				iframe.style.height=(markupinfo.height || 0)+"px";
+				iframe.style.border="0pt none";
+				iframe.style.margin="0px 0 0";
+				iframe.width = markupinfo.width || 0;
+				iframe.height = markupinfo.height || 0;
+				e.appendChild(iframe);
+				var content = '<!DOCTYPE ht'+'ml><bo'+'dy marginheight="0" marginwidth="0">'+markup+'</bo'+'dy></ht'+'ml>';
+				iframe.contentWindow.contents = content;
+				iframe.src = 'javascript:window["contents"]';
+			} else {
+				var rnd = Math.floor(Math.random() * 11000);
+				e.id = btoa(rnd+div+rnd).replace(/[^a-zA-Z]/g, '');
+				e.innerHTML = markup;
+			}
+		  }
+		}
+      }
+  	}
+    if (typeof tmnramp!='undefined' && tmnramp.pixels) {
+      for (var i in tmnramp.pixels) {
+        var pixel = tmnramp.pixels[i];
+        if (pixel && !pixel.donotrender && pixel.content && pixel.onready) {
+          eval(pixel.content);
+        }
+      }
+    }
+  }
+  tmntag.onAB(whenAB);
+}
+tmntag_ready_2(tmntag_raascallback);
+(function() {
+	if (typeof tmnramp!='undefined' && tmnramp) {
+	  if (typeof tmnramp.pixels!='undefined' && tmnramp.pixels) for (var i in tmnramp.pixels) {
+	    var pixel = tmnramp.pixels[i];
+		if (pixel && !pixel.donotrender && pixel.content && !pixel.onready) {
+		  eval(pixel.content);
+		}
+	  }
+	  if (typeof tmnramp.http_cookies!='undefined' && tmnramp.http_cookies) for (var key in tmnramp.http_cookies) {
+	    var value = tmnramp.http_cookies[key];
+	    document.cookie = key+"="+value;
+	  }
+	}
+})();
+/* /RAAS JS Renderer 1.15 */
+        </script>
+    
+            <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"6ef1e23532","applicationID":"15254917","transactionName":"YFRQMkdRDBZSBxJRDFkecwVBWQ0LHCgHSBdYQX8HUnMNCEMLCF0NQ3NHCFFcB19wCwtIDFlUXBIPVwcRewEHXAZF","queueTime":0,"applicationTime":95,"atts":"TBNTRA9LHxg=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

@@ -1,0 +1,26 @@
+Ancient Siberian’s skeleton yields links to Europe and Native Americans
+Our ancestors intermingled in complicated ways and did not sit still.
+
+All the evidence indicates that the Americas were populated by people who migrated across the Bering Sea at a time when the ice age lowered ocean levels enough to do it. Well, almost all the evidence. Some of the oldest skeletons found in the new world have features that look somewhat European, a link supported by a few pieces of DNA found in some Native American populations. Now, a 20,000-year-old skeleton from Siberia may help clear up the confusion.
+
+The skeleton indicates that the confusion may be caused by a combination of migration and population structure within Asia at the time. The end result is that some exchanges of DNA only went in one direction—and the donors then moved on to other locations.
+
+Genetically, Native Americans share a strong affinity with East Asian peoples. There are a couple of exceptions, however, such as a somewhat European-looking mitochondrial DNA sequence found in some Native American populations. But that could be viewed as a product of later contamination by European visitors. What's harder to understand is the presence of features in skeletons such as Kennewick Man, who died over 7,000 years ago in what's now Washington state. Kennewick Man didn't look very much like modern Native American populations, raising questions about how he ended up in the Pacific Northwest at that time.
+
+A skeleton called MA-1, found in the Altai region of Siberia, may provide a way to tidy up this confusion. MA-1 lived in an area northwest of Lake Baikal (north of Mongolia) roughly 24,000 years ago. This was in the heart of the most recent ice age shortly before a period called the Last Glacial Maximum. Despite the undoubtedly harsh conditions that prevailed, the area was producing some of the earliest known artwork based on human figures at the time.
+
+DNA work yielded a mitochondrial genome from the individual, as well as a 1X coverage of the entire nuclear genome. (That means that every base is, on average, sequenced once. But since the sequences are random, some areas don't actually get sequenced at all, while a few will end up being sequenced dozens of times.) It's not enough to say anything about what this individual's genes were doing, but it is enough to figure out who he's related to.
+
+And that turns out to be a rather complicated story. Despite his location near Mongolia, the MA-1 sequence looks like it branched off from the group that eventually populated Europe and Western Asia. The mitochondrial genome, although it belongs to a lineage that seems to have died out, looks similar to those of the Paleolithic hunter-gatherers who populated Europe at the time. The Y chromosome also looks like it split off near the base of the tree that includes modern Europeans.
+
+But it also looks like it resides near the root of Native American populations, while it doesn't show up in any modern East Asian population we've looked at.
+
+The same thing happened when the researchers looked at the full nuclear genome. The sequences typically looked like they were near the base of the modern Eurasian family tree, but a few also had strong links to a native Brazilian population. Statistically, the authors find that somewhere between 20 to 40 percent of MA-1's genome contributed to the people who populated the Americas. Again, the nearby cultures of East Asia, such as the Chinese, do not share these sequences.
+
+How is all of this explained? The authors turn to the concept of population structure, which occurs when groups of the same species end up reproductively isolated from each other. For example, MA-1's population, despite being rather close to China, did not seem to have interbred with the ancestors of the Han Chinese (the Gobi desert possibly having something to do with that). However, the ancestral population of the East Asians split off a group that did interbreed with MA-1's relatives but then promptly left Asia for the Americas. This genetic intermingling seems to have taken place very early, given that all Native American populations tested seem to be about equally distant to MA-1's genome.
+
+To confuse matters further, MA-1's population seems to have wandered in the opposite direction, settling in Western Asia and Europe. A bit of sequence from a 14,000-year-old skeleton from the region, however, suggests that the population was tough enough to ride out the Last Glacial Maximum in Siberia.
+
+The work is another great indication of how our ability to work with ancient DNA is completely revolutionizing how we understand humanity's past. And, as in the case with the Denisovans and Neanderthals, that past is a complicated mix of interbreeding, migration, and population structure.
+
+Nature, 2013. DOI: 10.1038/nature12736  (About DOIs).

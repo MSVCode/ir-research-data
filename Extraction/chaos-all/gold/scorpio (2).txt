@@ -1,0 +1,28 @@
+Field in View: Which VR Headset(s) Will Scorpio Support?
+
+Nearly a year after its announcement at E3 and Microsoft’s Project Scorpio reared its head once more this month. We finally saw specs for the kit revealed late last week, though there’s still a lot to learn about the upgraded Xbox One. The promised VR support, for example, remains one of its biggest mysteries.
+
+Microsoft has said VR is coming to Scorpio, but what does that really mean? More importantly, what device or devices will end up supporting the box? Below, we’ve looked over the possible contenders to support the Scorpio.
+HTC Vive
+
+Right now HTC and Valve seem to have a more distant relationship with Microsoft than Oculus does, though still strong. Back at E3 2015 the company announced on-stage at its press conference that it would be partnering with “Valve VR” to help “make Windows 10 the best platform for VR gaming.” Two years later and exactly what that means is still anyone’s guess; we haven’t seen any Xbox/Vive integration so far, though the fact that the one VR game confirmed for Scorpio, Bethesda’s Fallout 4, is currently only confirmed for Vive does raise an eyebrow.
+
+vIt’s also easy to forget that, before Microsoft announced its own line of headsets, it used Vive to help envision a virtual connected future where people are able to meet up and collaborate across virtual, augmented and mixed realities. The video above was released just a few months before Microsoft revealed its Windows 10 devices; does the company still have plans to work closely with HTC and, if so, could Vive support be in the cards for Scorpio?
+Oculus Rift
+
+When it was revealed at E3 2016, Rift support on Project Scorpio seemed like a certainty. The previous year Xbox boss Phil Spencer had taken the stage of Oculus’ own E3 conference to announce that every consumer Rift would be bundled with the Xbox One gamepad, and that remains the case today. He also revealed game streaming inside Windows 10 for VR, allowing you to play console titles on a giant virtual screen. That app finally materialized last year, though it didn’t cause much of a splash.
+
+Oculus was also very keen to get Minecraft onto the Rift and Gear VR, and it did so with Microsoft’s help. That seemed to perfectly set the stage for a VR-ready console that the Rift could just plug into and, hey presto, you were in VR. But then Microsoft announced VR headsets it is partnering to bring to market.
+
+As we’ll go into in a second, Microsoft’s own devices are radically different from both the Rift and Vive, but their mere existence throws a wrench in the works of the all-too-perfect Oculus plan. I’ve asked Oculus’ Nate Mitchell about a possible partnership before and never been able to get a straight answer, which suggested there’s something in the pipeline but, unless Scorpio is platform agnostic (we can only dream), it is difficult to picture Microsoft favoring Oculus’ headset over its own.
+Windows Headsets
+
+Which leads us to the most obvious and likely answer, even if it’s still the most unproven in many ways. Windows headsets, made by the likes of Acer, Dell and Lenovo, were announced late last year and feature one key innovation over the Rift and Vive — inside-out tracking. They’re set to start arriving later this year and Microsoft says that they’re more immersive than the Rift or Vive, but don’t require as powerful PCs thanks to the company’s control over the wider Windows 10 operating system.
+
+The prospect of having to plug just one or two wires into a Scorpio and then have Vive-level tracking without the need for external sensors seems almost too good to be true, any maybe it is. Just how far the cable’s length will take us remains to be seen, as does the controller support for Xbox One, and Microsoft’s willingness to let gamers stand up and charge around their environments.
+
+But the crucial factor here is that Microsoft has said Scorpio will get ‘mixed reality software’ in 2018. To the company, the freedom of inside-out tracking defines the term mixed reality, which is a big hint that its own headsets will be the ones to support Scorpio.
+
+—
+
+Whichever headsets Scorpio ends up supporting, we’ll likely have to wait until at least E3 2017 in June to find our official answer. It’s an event we can’t wait for.

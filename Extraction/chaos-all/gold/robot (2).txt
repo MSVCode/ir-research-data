@@ -1,0 +1,25 @@
+Robots Are Already Replacing Human Workers at an Alarming Rate
+
+We all know, or at least suspect, that robots are taking people’s jobs, but new research shows the dramatic degree to which industrial robots are replacing human workers and forcing down wages.
+
+Each additional robot in the US economy reduces employment by 5.6 workers, and every robot that is added to the workforce per 1,000 human workers causes wages to drop by as much as 0.25 to 0.5 percent. Such are the conclusions reached by MIT’s Daron Acemoglu and Boston University’s Pascual Restrepo, who published their findings at the National Bureau of Economic Research.
+
+No doubt, robots are having a transformative effect on the labor market in the US and elsewhere, and it’s a trend that’s likely to continue. This form of automation could soon be joined by another driver of technological unemployment: artificial intelligence. According to an analysis by the International Data Corporation, virtually no job is safe.
+
+For the new study, Acemoglu and Restrepo looked at the effect of industrial robots on local labor markets from 1993 to 2007, defining an industrial robot as “an automatically controlled, reprogrammable, and multipurpose [machine].” They specifically looked at fully autonomous machines that don’t require a human operator, and can be programmed to perform multiple manual tasks such as welding, painting, assembling, handling materials, and packaging.
+
+The impacts of these robots on the US job market was offset against other factors, such as imports from China and Mexico, the decline of routine jobs, offshoring of other types of work, and so on.
+
+Acemoglu and Restrepo estimate that overall, for every 1,000 workers, an additional robot reduces the employment-to-population ratio by 0.18 to 0.34 percentage points, while also reducing wages by 0.25 to 0.5 percent. For context, the stock of industrial robots in the US increased fourfold during the period studied.
+
+“Because there are relatively few robots in the US economy, the number of jobs lost due to robots has been limited so far (ranging between 360,000 and 670,000 jobs),” the authors write. “However, if the spread of robots proceeds as expected by experts over the next two decades, the future aggregate implications of the spread of robots could be much more sizeable.” The researchers saw negative effects on virtually every occupation, with managers being the exception. “Predictably, the major categories experiencing substantial declines are routine manual occupations, blue-collar workers, operators and assembly workers, and machinists and transport workers,” write the authors.
+
+Experts predict that the stock of robots in the US will quadruple by 2025, jumping to 5.25 more robots per thousand workers (there are currently about 1.75 industrial robots in the US per 1,000 workers). This will serve to reduce the employment-to-population ratio by 0.94 to 1.76 percentage points, while resulting in 1.3 to 2.6 percent lower wage growth between 2015 and 2025. The addition of 5.25 more robots per thousand workers could also amount to a staggering 1.9 to 3.4 million additional job losses in just a decade. All of this, of course, is assuming the economies of the future behave the same way as our economy does today in response to additional automatons in the workforce.
+
+Automation can’t be stopped, but there are ways to mitigate its effects. Bill Gates has proposed that robots be taxed; the funds could be used to retrain and financially support displaced workers, who could transition to jobs in health care, education, or other areas. A similar idea is to have robotics companies help the workers they displace.
+
+But there’s also the long game to consider, and the rise of technological unemployment caused by advances in artificial intelligence. If things get bad enough, governments may have to re-jig the economy on a scale similar to the changes made both during the Great Depression (i.e. the rise of the so-called welfare state). Eventually, governments could step in and implement a guaranteed basic income.
+
+And just maybe, this science-fictional future welfare state won’t be so terrible, particularly if our machines replace dangerous, menial, and degrading work. We humans are an adaptable bunch, and we’ll surely find ways to occupy ourselves while the robots are off doing the heavy lifting.
+
+[National Bureau of Economic Research]

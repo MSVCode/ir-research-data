@@ -1,0 +1,11 @@
+Microsoft Smashes Windows 10 Support for These CPUs
+
+It's official: Microsoft has ended Windows 10 support for PCs with older Intel Atom Clover Trail CPUs. Specifically, machines with those chips can't upgrade to the Creators Update.
+
+“Recognizing that a combination of hardware, driver and firmware support is required to have a good Windows 10 experience, we updated our support lifecycle policy to align with the hardware support period for a given device,” Microsoft told multiple outlets in a statement. “If a hardware partner stops supporting a given device or one of its key components and stops providing driver updates, firmware updates, or fixes, it may mean that device will not be able to properly run a future Windows 10 feature update.”
+
+Atom Clover Trail CPUs are from the tablet-based days of Windows 8 (they all launched in 2012 and 2013), but they were able to update to Windows 10 when it launched. The four processors, (Z2760, Z2580, Z2560 and Z2520) are no longer supported by Intel, and Microsoft suggests that without support and new drivers that they won't be able to handle upgrades without a performance hit.
+
+Laptops with these chips will get the Windows 10 Anniversary update and security patches through January 2023.
+
+The big question here is if this will be specific to these Atom CPUs, or if other chips will also be booted off of the upgrade cycle as Intel or AMD drop support. Microsoft's statement also mentions a broad "key components," so it's unclear what happens if you stop getting drivers for something like your webcam. But if Windows 10 truly is the final version of Windows, we do have to expect it to leave older machines in the dust eventually.

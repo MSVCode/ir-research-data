@@ -1,0 +1,23 @@
+
+Closing the books on Microsoft’s Windows Phone
+Android and iOS are the last major smartphone platforms standing.
+
+Reports of Microsoft’s smartphone demise have been ... pretty much on point.
+
+Last week, the company announced it was ending support for Windows Phone 8.1, the latest in a series of moves marking the end of the Windows Phone. These have also included saying the company was no longer focusing on phones and laying off mobile phone staff last year after its disastrous acquisition of Nokia and general inability to compete with Google Android for handset deals and consumer interest.
+
+The writing was on the wall, with Microsoft’s smartphone platform market share nearing zero — 0.1 percent globally in the first quarter of 2017, according to research firm Gartner. In the past six years, operating systems like BlackBerry and Symbian have also gone under as smartphones ceded ground to Apple and Google.
+
+Google’s Android now owns about 86 percent of the global smartphone market share. Apple’s iOS iPhone has a smaller market share, though its phones are much more expensive and thus take an outsized chunk of revenue. 
+
+It’s worth noting that Microsoft wasn’t late to the smartphone market.
+
+Its Windows Mobile was one of the first touch-based mobile operating systems in the early 2000s, used by handset makers like Motorola, Palm and Samsung. But like other mobile platforms of the era, it lacked power and sophistication, designed for an era of poky PDAs and “pocket PC” devices. When Apple unveiled the iPhone in 2007, with desktop-class software capabilities and multi-touch controls, Microsoft was nowhere near competitive.
+
+Microsoft announced its first iteration of the Windows Phone at the Mobile World Congress trade show in 2010, when Android was already taking off. The Windows Phone was visually compelling and critically applauded, and some thought it could be big. Research firm IDC even predicted in 2011 that Microsoft’s phone would overtake the iPhone by 2015.
+
+That didn’t happen. Windows Phone’s market share peaked at just over 3 percent in 2013, according to Gartner. The following year, as market share slid, Microsoft acquired Nokia for $7.2 billion in a last-ditch effort to save Microsoft’s smartphone business with an integrated hardware-software business model like Apple’s.
+
+But it was too late, as were all Windows Phone advances.
+
+At Recode’s Code conference this year, former Microsoft CEO Steve Ballmer said he regretted that the company was “too slow in cases to recognize the need for new capability, particularly in hardware.” The iPhone did just that, and revolutionized the smartphone and the world in general. Google’s Android took the smartphone to the masses — the real “pocket PC.” And now Microsoft, once the world’s dominant platform company, has retreated.

@@ -1,0 +1,13 @@
+Lack Of Exclusives May Not Necessarily Hurt Xbox Scorpio, Says Mothergunship Developer
+
+‘The “parity game” isn’t something new.’
+
+
+
+The Xbox One Scorpio will be an incredibly powerful console– but ultimately, it is still a part of the existing Xbox One ecosystem, and it will be tied inextricably to the base Xbox One console. This is reflected in everything about the Scorpio’s design, and in the fact that it will have no exclusives- all of its games must run on the base Xbox One, too?
+
+Given this, does the Scorpio actually stand a chance of appealing to a market the original Xbox One already failed to appeal to, much? Will the lack of exclusives end up hurting the system? When we got the chance to talk to Jakub Mikyska of grip-digital, the folks behind Mothergunship, we asked him if he thought the lack of exclusives may hurt the system’s chances on the market.
+
+“Exclusives always help sell systems, that’s true,” Mikyska mused. “Microsoft knows that, but I’m sure they also have calculated the cost/benefits of this release extensively. The “parity game” isn’t a new one though. Between opposing consoles there are often requirements that games have certain parity—original Xbox developers had to reconcile their gameplay with that on the PS2, PS3 and the 360 had their differences, PS4 and XB1 do as well. The fact that this is intra-brand and mid generation doesn’t mean it isn’t something developers aren’t used to. Additionally, engines allow for a lot more scalability these days, making the logistics of this branching slightly less painful.”
+
+Microsoft’s unique UWP scalability means that developing for the Scorpio should be rather easy and trivial for the developers in the end, especially given the massive gains in performance and graphics that they will see. Still, I imagine that if Scorpio had some exclusive games of its own, Microsoft may have sold more of it than they will now, where it is just a higher priced Xbox for those who own a 4KTV.

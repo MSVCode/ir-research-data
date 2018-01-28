@@ -1,0 +1,14 @@
+
+Windows Phone dies today
+An end of an era
+
+
+
+Microsoft is killing off Windows Phone 8.1 support today, more than three years after the company first introduced the update. The end of support marks an end to the Windows Phone era, and the millions of devices still running the operating system. While most have accepted that the death of Windows Phone occurred more than a year ago, AdDuplex estimates that nearly 80 percent of all Windows-powered phones are still running Windows Phone 7, Windows Phone 8, or Windows Phone 8.1. All of these handsets are now officially unsupported, and only 20 percent of all Windows phones are running the latest Windows 10 Mobile OS.
+
+Windows Phone 8.1 was a big update to Microsoft’s Windows Phone 8 operating system, and included the company’s Cortana digital assistant, a new notification center, UI changes, and updates to the core mobile OS. It marked one of Microsoft’s biggest efforts with its Windows Phone work, but it wasn't successful at competing with Android and iOS. 99.6 percent of all new smartphones now run Android or iOS, and Microsoft has given up producing its own Lumia-branded hardware as a result.
+"Windows 10 Mobile still exists, but with not much support"
+
+While Microsoft still supports Windows 10 Mobile, it’s not clear what that support will include in the future. Microsoft pushed updates to Windows Phone 8 devices, but the software giant barely included any feature updates in the recent Windows 10 Mobile Creators Update. Microsoft is adding a number of features to the upcoming Windows 10 Fall Creators Update for PCs, but the company has not extended these to the mobile version in testing. Some rumors suggest that Microsoft has forked its Windows Mobile development into a “feature2” branch that will simply maintain the operating system until support ends in 2018.
+
+Microsoft has shied away from officially killing off its phone OS efforts, but it’s been evident over the past year that the company is no longer focusing its efforts on Windows for phones. Microsoft gutted its phone business last year, resulting in thousands of job cuts. During Microsoft’s recent Build and Inspire conferences, CEO Satya Nadella dropped the company’s mantra of “mobile-first, cloud-first” in favor of a focus on what he describes as the intelligent cloud and intelligent edge. This new area of focus means Microsoft is now working on multi-device scenarios and cloud-powered technologies that don’t always involve Windows. Microsoft’s new mobile strategy now appears to involve making iOS and Android devices better.

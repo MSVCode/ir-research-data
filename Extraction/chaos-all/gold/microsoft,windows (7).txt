@@ -1,0 +1,9 @@
+
+Microsoft unveils a beautiful Cortana-powered thermostat
+Built by Johnson Controls
+
+Microsoft is partnering with Johnson Controls to build a thermostat. The software giant unveiled the new GLAS thermostat in a YouTube video today. It’s built by Johnson Controls, makers of the first electric room thermostat. It appears that GLAS will include a translucent touchscreen display that will allow owners to alter room temperatures, check energy usage and air quality, and see calendar information.
+
+GLAS will run on Microsoft’s Windows 10 IoT Core operating system, and will have Cortana voice services built into the thermostat. It’s one of the first thermostats to include Cortana integration, after Microsoft revealed its plans to bring its digital assistant to fridges, toasters, and thermostats. Microsoft notes that GLAS has sensors that detect when you’re in the room or not, and the thermostat will constantly monitor indoor and outdoor air quality. All of these sensors are designed to save energy by changing settings on the fly, much like a Nest thermostat or the Ecobee4. Johnson Controls’ GLAS thermostat differs from the Nest by including Cortana voice controls, but competitors like the Ecobee4 do include Alexa built straight in.
+
+Microsoft’s promotional video appears to market this as a thermostat for businesses and commercial properties, thanks to the fact it’s designed to be powered by the company’s Azure cloud services. It’s not clear if GLAS will be available to consumers, or when the thermostat will launch. We’ve reached out to Microsoft for more information, and we’ll update you accordingly.

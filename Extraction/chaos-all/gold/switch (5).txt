@@ -1,0 +1,49 @@
+Review: Nintendo Switch
+Sub Title: Foul Play
+
+Nintendo’s Switch comes out on Friday. I’ve been playing with the Switch—an all-in-one gaming machine that works as both a handheld device and a TV game console—for the last two weeks. Nintendo says we can publish a review of it right now, though I have no idea why Nintendo would want us to. The company’s new toy isn’t finished yet. I’ll give you my day-zero impressions of the Switch, but I’ll come back and update this review (and the rating) when the bugs are ironed out, when the software runs properly, and when the machine actually functions as intended.
+Nintendo Switch
+5/10
+Learn How We Rate
+Wired
+
+Gaming anywhere you want. Joy-Cons are marvelous, versatile controllers. Amazing graphic quality from a relatively small tablet; Not as powerful as a PS4, but Nintendo got out of that game a decade ago. Sleek UI.
+Tired
+
+Left Joy-Con doesn't work when I play on the TV, making TV play impossible. Can't charge controllers while playing on TV. Can't charge the tablet in kickstand mode. Review unit has no online functionality at all yet.
+Buy It Now
+  |  Nintendo
+
+I want to love the Switch. I do love the Switch when it works. Ever since 1989, when Nintendo introduced the first Game Boy, it’s been taken for granted that your Nintendo home console and your Nintendo portable machine are separate devices, playing separate libraries of games, and never the twain shall meet. But in an age when mobile graphics are making Mario-sized leaps in quality, why should that always have to be the case?
+
+The Switch bridges the gap. At its core, it’s a mini tablet with a 6.2-inch screen. You could in theory use this by itself to play touchscreen-only games, although none exist right now. But included in the $300 box are two small game controllers that slide easily onto grooves in the sides of the tablet, turning it into a fully-functional traditional game machine, with a full complement of joysticks and buttons.
+
+Also included in the box is a small plastic dock that connects to your television set via HDMI. Set the Switch in the dock, and the game immediately pops up on your television set. Now you can snap the controllers off of the tablet, and they’ll work wirelessly so you can sit back on your couch and play the game. There’s even a halfway measure: The tablet has a little kickstand, so you can prop it up on a table and play with the controllers in your hands, so you don’t need to hold the whole setup.
+
+The Joy-Cons, as Nintendo has dubbed these accessories, are quite simply the most versatile and clever controllers that it has ever shipped with a machine. You can snap them on the tablet. You can hold one in each hand, as if you’re playing with Wii Remotes (and they have motion control and force feedback, too). Or you can slide them into the included Joy-Con Grip, which holds the two pieces together in a shape relatively close to (but not quite as comfortable as) a standard gaming controller.
+
+You can even hand a single Joy-Con to two players and play multiplayer games, right out of the box. This is a pretty big deal—if my math is right, the last game console to ship with two controllers as a standard feature was the Super Nintendo in 1991. Sure, using a single Joy-Con by itself to play a game can be a little awkward since they’re so small, but it works.
+Left Hanging
+
+Or, well, it’s supposed to work. This brings us to a major problem with the Switch: it doesn’t live up to its name. I can’t switch. I can play the device just fine in handheld mode, where I’ve logged at least a dozen hours into launch title The Legend of Zelda: Breath of the Wild—usually in batches of three hours at a time, because that’s about how much battery life I get while playing this expansive, gorgeous adventure.
+
+But when I want to seriously put in some play time with Zelda on the television at home, free from the constraints of battery life, I can’t. The left half of the Joy-Con controller simply won’t stay synced to the console. Either it’s connected but severely laggy, so button presses either register late or not at all, or it simply drops the connection. It’s a total showstopper. I cannot play Switch on the television—not unless I buy an optional “Pro Controller” for $70, that is.
+
+At first, I thought I had been sent a bum unit, but it turns out many, many early Switch players have the exact same issue, all with the left Joy-Con. At this point, with Nintendo not having commented on or fixeds the issue, I can only go forward assuming the Switch consoles going on sale this Friday will all potentially have this problem, and that Nintendo is about to sell you a $300 game system requiring some kind of fix before it performs its basic functions.
+
+Another WIRED editor pulled his Switch out of his backpack after a mellow commute to find it off, unresponsive, and unable to turn on. A hard reset brought it back to life, but that’s still worrisome.
+
+There are a couple other things the Switch can’t do. You can’t charge the Joy-Cons while playing in TV mode. You’ll need to buy a separate Charging Grip ($30) for that. And since the USB-C power outlet is on the bottom of the tablet, you can’t play it in the “kickstand” configuration while it’s plugged in—the cord gets in the way. Switch includes one AC adapter, but this has to be used both by the dock and while on the go. So if you want to set the dock up in your entertainment center and run the plug behind the cabinet and never touch it again, you’ll probably want a second adapter ($30).
+
+And yes, if you want to really live that Switch life, you can buy another dock ($90) and hook it up to another TV inside your house, and then you can just pop the Switch into either dock to play on whatever TV you like.
+Get Connected
+
+A game console in 2017 is more than just a piece of hardware that runs game software. It’s also the gateway to an online service. The Switch I tested doesn’t go online yet, which stops me from being able to review fundamental aspects of the system.
+
+What’s it like to set up a Nintendo account online, or migrate your existing account over to Switch? Don’t know. How’s the experience of buying software digitally? Can’t say. What about finding online friends and communicating with them? No idea. Online multiplayer gaming? Haven’t the foggiest.
+
+All of these things are quite germane to a review of a piece of personal technology in 2017, but Switch doesn’t do them yet. Nintendo says it will add these features in a software update that will be released “just prior” to launch, which users will have to download before they can experience all the online features.
+
+From what I’ve seen, I have high hopes: The user interface currently installed on the device is clean, fast, responsive, well-designed. You can tap the Power button to send the unit into sleep mode immediately during gameplay, and pick up your game of Zelda right where you left off. It seems like it’s a thousand times better than Wii U’s slow, clunky interface. You just can’t do anything with it yet besides start and stop a game of Zelda.
+
+And right now, that’s about all one can say about Switch: It has a new Zelda, you can definitely play it in handheld mode, and you might be able to play it in TV mode if you’re lucky. Switch has the potential to be all things to all people: TV console, next-gen Game Boy, wacky motion controls, traditional hardcore game machine, even multiplayer-in-a-box. But today, with just hours to go before launch, Switch is lacking some basic functionality.

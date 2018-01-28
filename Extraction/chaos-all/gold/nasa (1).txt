@@ -1,0 +1,13 @@
+NASA Wants to Get the Mars Rover Digging Again
+
+NASA officials hope to get the industrious Curiosity Mars Rover robotic vehicle digging again on the surface of the red planet.
+
+The Curiosity landed in Mars’ Gale Crater in 2012 and was able to dig out rock samples more than a dozen times between 2013 and 2016 when the drill mechanism stopped working.
+
+But now there’s hope for further work. During a test on October 17, technicians at NASA’s Jet Propulsion Lab were able to get the drill bit to touch the ground for the first time in almost a year and hope they can get it working again using a modified drilling process, according to a JPL press release. 
+
+The new “feed-extended drilling” technique would use the rig’s 7-foot robotic arm to push the extended drill bit into the rock. Previously, the craft would place two stabilizers on either side of the drill bit itself, on the ground before extending the drill bit itself into the surface.
+
+During the test, a sensor on the bit measured how much movement, and pressure might be needed for the unassisted drill bit to obtain rock samples.
+
+“This is the first time we’ve ever placed the drill bit directly on a Martian rock without stabilizers,” said Douglas Klein, chief engineer at the JPL in the statement. “The test is to gain better understanding of how the force/torque sensor on the arm provides information about side forces.”

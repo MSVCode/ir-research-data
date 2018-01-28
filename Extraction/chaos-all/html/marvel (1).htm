@@ -1,0 +1,1122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+    <title>Take Two | Marvel's metrics: Are superhero publishers super out of touch? | 89.3 KPCC</title>
+
+    <!-- Meta tags which are the same across all pages -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"3a7254ec4f","applicationID":"446356","transactionName":"JV4MRkQMDVRTRUlIRQlWEFNbEE5LU1ALXVkS","queueTime":0,"applicationTime":95,"agent":""}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UwcDWFBADAcGV1RU"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{c.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(12),c={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(c.console=!0,o.indexOf("dev")!==-1&&(c.dev=!0),o.indexOf("nr_dev")!==-1&&(c.nrDev=!0))}catch(s){}c.nrDev&&i.on("internal-error",function(t){r(t.stack)}),c.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),c.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(c,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(c){try{i("ierr",[c,s.now(),!0])}catch(u){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,s.now()])}var i=t("handle"),a=t(13),c=t("ee"),s=t("loader"),f=window.onerror,u=!1,d=0;s.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(5),t(4),"addEventListener"in window&&t(3),s.xhrWrappable&&t(6),u=!0)}c.on("fn-start",function(t,e,n){u&&(d+=1)}),c.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),c.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),c.on("internal-error",function(t){i("ierr",[t,s.now(),!0])})},{}],3:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){c.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),c=t(15)(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],4:[function(t,e,n){var r=t("ee").get("raf"),o=t(15)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],5:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(15)(i),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[c,"setImmediate"],c+d),a.inPlace(window,[s],s+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(s+u,r),i.on(c+u,o)},{}],6:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",c)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,v,"fn-",c)}function i(t){y.push(t),h&&(g=-g,x.data=g)}function a(){for(var t=0;t<y.length;t++)r([],y[t]);y.length&&(y=[])}function c(t,e){return e}function s(t,e){for(var n in t)e[n]=t[n];return e}t(3);var f=t("ee"),u=f.get("xhr"),d=t(15)(u),l=NREUM.o,p=l.XHR,h=l.MO,m="readystatechange",v=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],y=[];e.exports=u;var w=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(m,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(s(p,w),w.prototype=p.prototype,d.inPlace(w.prototype,["open","send"],"-xhr-",c),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var g=1,x=document.createTextNode(g);new h(a).observe(x,{characterData:!0})}else f.on("fn-end",function(t){t[0]&&t[0].type===m||a()})},{}],7:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=a.now()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var s=t.getResponseHeader("X-NewRelic-App-Data");s&&(e.cat=s.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return h(r)}function i(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var c=t("handle"),s=t(8),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(11),h=t(10),m=window.XMLHttpRequest;a.features.xhr=!0,t(6),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=h(r);i&&(n.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var c=0;c<d;c++)e.addEventListener(u[c],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)})}},{}],8:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],9:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[f.now()].concat(c(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(12),c=t(13),s=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,e){u[e]=o(l+e,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),e.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(p+"tracer",[f.now(),t,n],r),function(){if(s.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{s.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){h[e]=o(p+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],10:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],11:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],12:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],13:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],14:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],15:[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(13),a="nr@original",c=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t,e){function n(t,e,n,o){function nrWrapper(){var r,a,c,s;try{a=this,r=i(arguments),c="function"==typeof n?n(r,a):n||{}}catch(f){l([f,"",[r,a,o],c])}u(e+"start",[r,a,o],c);try{return s=t.apply(a,r)}catch(d){throw u(e+"err",[r,a,d],c),d}finally{u(e+"end",[r,a,s],c)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o="");var a,c,s,f="-"===o.charAt(0);for(s=0;s<e.length;s++)c=e[s],a=t[c],r(a)||(t[c]=n(a,f?c+o:o,i,c))}function u(n,r,o){if(!s||e){var i=s;s=!0;try{t.emit(n,r,o,e)}catch(a){l([a,n,r,o])}s=i}}function d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){l([r])}for(var o in t)c.call(t,o)&&(e[o]=t[o]);return e}function l(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,c,i):i()}function n(n,r,o,i){if(!l.aborted||i){t&&t(n,r,o);for(var a=e(o),c=h(n),s=c.length,f=0;f<s;f++)c[f].apply(a,r);var d=u[w[n]];return d&&d.push([g,n,r,a]),a}}function p(t,e){y[t]=h(t).concat(e)}function h(t){return y[t]||[]}function m(t){return d[t]=d[t]||o(n)}function v(t,e){f(t,function(t,n){e=e||"feature",w[n]=e,e in u||(u[e]=[])})}var y={},w={},g={on:p,emit:n,get:m,listeners:h,context:e,buffer:v,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var c="nr@context",s=t("gos"),f=t(12),u={},d={},l=e.exports=o();l.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!b++){var t=x.info=NREUM.info,e=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(w,function(e,n){t[e]||(t[e]=n)}),s("mark",["onload",a()+x.offset],null,"api");var n=l.createElement("script");n.src="https://"+t.agent,e.parentNode.insertBefore(n,e)}}function o(){"complete"===l.readyState&&i()}function i(){s("mark",["domContent",a()+x.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(c=Math.max((new Date).getTime(),c))-x.offset}var c=(new Date).getTime(),s=t("handle"),f=t(12),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,v=m&&m.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var y=""+location,w={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},g=m&&v&&v[p]&&!/CriOS/.test(navigator.userAgent),x=e.exports={offset:c,now:a,origin:y,features:{},xhrWrappable:g};t(9),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),s("mark",["firstbyte",c],null,"api");var b=0,E=t(14)},{}]},{},["loader",2,7]);</script>
+    <meta property="fb:app_id" content="129848480405753" />
+    <link rel="publisher" href="https://plus.google.com/108872361044769229886/" />
+
+    <meta name="keywords" content="KPCC, California, Southern California, Los Angeles, Pasadena, SCPR, Southern California Public Radio" />
+    <meta name="author" content="Southern California Public Radio" />
+
+    <meta property="og:site_name" content="Southern California Public Radio" />
+    <meta name="twitter:domain" content="http://scpr.org" />
+    <meta name="twitter:site" content="@kpcc"/>
+      
+
+  <meta property="og:description" content="Marvel VP of Sales David Gabriel recently said that their numbers indicate diversity in comics has hurt sales. But those numbers are based on a flawed metric.">
+  <meta property="og:title" content="Is superhero publisher Marvel super out of touch?">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="http://www.scpr.org/programs/take-two/2017/04/07/56036/marvel-s-metrics-are-superhero-publishers-super-ou/"/>
+  <meta name="twitter:card" value="summary_large_image">
+  <meta name="twitter:site" value="@kpcc">
+  <meta name="twitter:url" value="http://www.scpr.org/programs/take-two/2017/04/07/56036/marvel-s-metrics-are-superhero-publishers-super-ou/">
+  <meta name="twitter:title" value="Is superhero publisher Marvel super out of touch?">
+  <meta name="twitter:description" value="Marvel VP of Sales David Gabriel recently said that their numbers indicate diversity in comics has hurt sales. But those numbers are based on a flawed metric.">
+  <meta property="article:published_time" content="2017-04-07 11:24:21 -0700" />
+  <meta property="article:modified_time" content="2017-04-07 15:48:33 -0700" />
+
+    <meta property="article:section" content="Arts &amp; Entertainment" />
+
+      <meta property="og:image" content="https://a.scpr.org/i/844adb158c06d935e8a514d4fc015aaa/155571-full.jpg" />
+      <meta property="og:image:type" content="image/jpeg" />
+      <meta property="og:image:width" content="1024" />
+      <meta property="og:image:height" content="720" />
+     
+    <link rel="image_src" href="https://a.scpr.org/i/844adb158c06d935e8a514d4fc015aaa/155571-full.jpg" />
+    <meta name="twitter:image" content="https://a.scpr.org/i/844adb158c06d935e8a514d4fc015aaa/155571-full.jpg">
+
+
+
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="FSXSqQemoazKY8CgFDzV3a3u5uY/my/eHofyGEbFETJjpE1+KBjAgXMuPy9CBJQYOQOxspGe9S7cRlKxiEDanA==" />
+
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="http://scpr.org/feeds/all_news" />
+    <link rel="amphtml" href="http://www.scpr.org/programs/take-two/2017/04/07/56036/marvel-s-metrics-are-superhero-publishers-super-ou.amp" />
+    
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+
+    <!-- Start Visual Website Optimizer Asynchronous Code -->
+    <script type='text/javascript'>
+    var _vwo_code=(function(){
+    var account_id=195536,
+    settings_tolerance=2000,
+    library_tolerance=2500,
+    use_existing_jquery=false,
+    // DO NOT EDIT BELOW THIS LINE
+    f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
+    </script>
+    <!-- End Visual Website Optimizer Asynchronous Code -->
+
+    <link rel="stylesheet" media="screen" href="/assets/new/application-c5f9db7f15a9e6609382b149e7d03924.css" />
+    <script src="/assets/shared-06fce7549013fdae7636019b3ca67e2f.js"></script>
+<script src="/assets/application-972fb71735dfccf9a7879f66c5989e35.js"></script>
+    <script type="text/javascript" src="http://a.scpr.org/assets/client.js?bust=20130523"></script>
+    <script src="/assets/new/application-6b374f4836a3f1d301909bbdc65f16ea.js"></script>
+
+    <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <link rel="stylesheet" media="screen" href="/assets/new/ie-lt9-08b011fa65f26c36254e57f16635822a.css" />
+        <script src="/assets/new/ie-lt9-d8b46d505092f82febeed9c527a7a79b.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript" src="//use.typekit.net/vtu6xsq.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+    <script>
+      // Function for lazy loading slideshow images
+      function imgLoaded(img){
+        var $img = $(img);
+
+        $img.addClass('loaded');
+      };
+      // User agent detection to dynamically display the appropriate Apple App Banners to iPads and iPhones
+      if (navigator.userAgent.match(/iPad/i)) {
+        $('head').append('<meta name="apple-itunes-app" content="app-id=744160424"/>');
+      }
+      else if (navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i)) {
+        $('head').append('<meta name="apple-itunes-app" content="app-id=293825085"/>');
+      }
+    </script>
+
+      <!-- Start: GPT Async -->
+<script type='text/javascript'>
+  var gptadslots=[];
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+  (function(){ var gads = document.createElement('script');
+    gads.async = true; gads.type = 'text/javascript';
+    var useSSL = 'https:' == document.location.protocol;
+    gads.src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js';
+    var node = document.getElementsByTagName('script')[0];
+    node.parentNode.insertBefore(gads, node);
+  })();
+</script>
+
+    <script>
+      DFP_CATEGORY = "arts";
+
+    </script>
+
+
+<script type="text/javascript">
+  googletag.cmd.push(function() {
+
+    var keySuffix, key;
+
+    if (typeof DFP_KEY_SUFFIX_OVERRIDE !== "undefined") {
+      keySuffix = DFP_KEY_SUFFIX_OVERRIDE
+    } else {
+      keySuffix = "/" + window.location.pathname.split("/").filter(function(v){return v!==''}).splice(0, 2).join("/")
+    }
+
+    key = '/3468/ibs.scpr.scpr' + keySuffix;
+
+
+    // Only print the Ad Slots we need for the given page,
+    // or else the empty ad requests will count against us in DFP
+
+      // Position A
+      gptadslots[3]= googletag.defineSlot(key, [[300,50]],'dfp-slot_a').setTargeting('pos',['banner-top']).addService(googletag.pubads());
+
+      // Position B
+      gptadslots[1]= googletag.defineSlot(key, [[300,250]],'dfp-slot_b').setTargeting('pos',['mr-top']).addService(googletag.pubads());
+
+      // Position C
+      gptadslots[2]= googletag.defineSlot(key, [[300,250]],'dfp-slot_c').setTargeting('pos',['mr-bottom']).addService(googletag.pubads());
+
+
+    googletag.pubads().enableSingleRequest();
+
+    // If this page is an article and has a category, add in the targeting tag
+    if (typeof DFP_CATEGORY !== "undefined") {
+      googletag.pubads().setTargeting('category',[DFP_CATEGORY]);
+    }
+
+
+    googletag.pubads().enableAsyncRendering();
+    googletag.enableServices();
+  });
+</script>
+<!-- End: GPT -->
+
+<!-- chartbeat timing for load start -->
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+
+
+    
+</head>
+
+
+<body class="interior single segment">
+
+    <div id="global-pushdown"></div>
+
+    <header class="masthead ">
+    <div class="inner bound">
+
+              <section class="titling clearfix">
+    <h1><a href="/programs/take-two/">Take Two</a></h1>
+    <p><span>News and culture through the lens of Southern California.</span> <mark>Hosted by A Martínez</mark></p>
+  </section><!--/ .titling -->
+
+
+
+        <section class="station clearfix">
+    <h4><a href="/" rel="author" class="track-event" data-ga-category="Menu" data-ga-action="Clickthrough" data-ga-label="Home">89.3 KPCC</a></h4>
+    <nav class="kpcc-links">
+        <ul>
+            <li><a href="javascript:void(0)" onclick="open_popup('/listen_live/');" id="listen-live" class="track-event" data-ga-category="Menu" data-ga-action="Clickthrough" data-ga-label="Listen Live">Listen Live</a></li>
+            <li><a href="/news/" class="track-event" data-ga-category="Menu" data-ga-action="Clickthrough" data-ga-label="News">News</a></li>
+            <li><a href="/programs/" class="track-event" data-ga-category="Menu" data-ga-action="Clickthrough" data-ga-label="Programs">Programs</a></li>
+            <li><a href="/events/" class="track-event" data-ga-category="Menu" data-ga-action="Clickthrough" data-ga-label="Events">Events</a></li>
+            <li><a href="/support/" class="track-event" data-ga-category="Menu" data-ga-action="Clickthrough" data-ga-label="Support Us">Support Us</a></li>
+            <li><a href="/about/" class="track-event" data-ga-category="Menu" data-ga-action="Clickthrough" data-ga-label="About Us">About Us</a></li>
+        </ul>
+    </nav>
+    <ul class="follow-us clearfix">
+        <li><a href="http://twitter.com/kpcc" title="Follow KPCC on Twitter" class="tw">KPCC on Twitter</a></li>
+        <li><a href="http://facebook.com/kpcc" title="Like KPCC on Facebook" class="fb">KPCC on Facebook</a></li>
+        <li><a href="https://plus.google.com/108872361044769229886/" title="Join with KPCC on Google Plus" class="gp">KPCC on Google+</a></li>
+    </ul>
+    <button class="search-trigger" value="Activate search tool">Search KPCC</button>
+    <h5 class="donate track-event" data-ga-category="Menu" data-ga-action="Donate" data-ga-label="Donate"><a href="https://scprcontribute.publicradio.org/contribute.php">Donate Now</a></h5>
+    <button class="shownav" aria-hidden="true">Show Nav</button>
+</section><!--/ .station -->
+
+<nav class="kpcc-ledge pane" aria-hidden="true">
+    <h1><a href="http://kpcc.org" rel="author">89.3 KPCC</a></h1>
+    <button class="close" value="close">Close</button>
+    <ul class="links">
+        <li><a href="javascript:void(0)" onclick="open_popup('/listen_live/');" id="listen-live">Listen Live</a></li>
+        <li><a href="/news/">News</a></li>
+        <li><a href="/programs/">Programs</a></li>
+        <li><a href="/events/">Events</a></li>
+        <li><a href="/support/">Support Us</a></li>
+        <li><a href="/about/">About Us</a></li>
+    </ul>
+    <h2>Follow KPCC</h2>
+    <ul class="follow-us clearfix">
+        <li><a href="http://twitter.com/kpcc" title="Follow KPCC on Twitter" class="tw">KPCC on Twitter</a></li>
+        <li><a href="http://facebook.com/kpcc" title="Like KPCC on Facebook" class="fb">KPCC on Facebook</a></li>
+        <li><a href="https://plus.google.com/108872361044769229886/" title="Join with KPCC on Google Plus" class="gp">KPCC on Google+</a></li>
+    </ul>
+</nav><!--/ .kpcc-ledge -->
+
+<aside class="kpcc-search pane">
+    <h1><a href="http://kpcc.org" rel="author">89.3 KPCC</a></h1>
+    <button class="close" value="close">Close</button>
+    <form method="get" action="/search/">
+        <label for="q">Search:</label>
+        <div class="search-wrap"><input class="search" id="q" type="text" placeholder="Search" name="q" /></div>
+        <input id="submit" class="submit" type="submit" value="">
+        <input class="toggle-search" type="button">
+    </form>
+</aside>
+
+
+    </div>
+</header><!--/ .masthead -->
+
+
+    
+
+
+
+
+
+    <div class="appellation bound">
+  <h1>Marvel&#39;s metrics: Are superhero publishers super out of touch?</h1>
+  <p><span>by <b><a href="/about/people/staff/lori-galarreta">Lori Galarreta</a> and <a href="/about/people/staff/a-martinez">A Martínez</a> | Take Two</b></span> <time class=" smart smarttime" data-unixtime="1491589461"></time></p>
+</div><!--/ .appellation -->
+
+<div class="report">
+    <div class="inner bound clearfix">
+
+
+        <article class="prose">
+
+            <figure class="lead-asset ">
+  <b><img src="https://a.scpr.org/i/844adb158c06d935e8a514d4fc015aaa/155571-full.jpg" alt="155571 full" /></b>
+  <figcaption class="clearfix">
+    <div>
+      <span class="brief">An image from Marvel&#39;s upcoming Generations crossover, showing the older generation of heroes with the younger, more diverse lineup.</span>
+      <span class="credit">Marvel</span>
+    </div>
+  </figcaption>
+</figure>
+
+
+
+
+            
+  
+  <aside class="audio-actuator story-audio">
+    <a href="https://media.scpr.org/audio/upload/2017/04/07/Marvel_web-82a3a69b.mp3?context=take-two&amp;via=website" class="play-btn audio-toggler" title="Is superhero publisher Marvel super out of touch?" data-duration="426">
+      <mark class="flourish"><img src="/assets/icons/vector-triangle-white-cecae91fc35b65873aa2f1b08dfdfe3b.svg" alt="Vector triangle white" /></mark>
+      <div><span class="prompt"><b>Listen to this story</b></span> <span class="duration">7 min 6 sec</span></div>
+    </a>
+  </aside>
+  
+
+
+
+            
+<aside class="buddy disseminate pinned clearfix" aria-hidden="true">
+    <h1>Share</h1>
+    <ul class="clearfix">
+        <li class="email">
+            <a href="#" class="social_email track-event email" data-ga-category="Article" data-ga-action="Share" data-ga-label="Email" data-key="show_segment-56036"><span>Share via Email</span><mark>email</mark></a>
+        </li>
+        <li class="twitter" data-url="http://www.scpr.org/programs/take-two/2017/04/07/56036/marvel-s-metrics-are-superhero-publishers-super-ou/">
+            <a href="#" class="social_twit track-event twitter" data-ga-category="Article" data-ga-action="Share" data-ga-label="Twitter" data-url="http://www.scpr.org/programs/take-two/2017/04/07/56036/marvel-s-metrics-are-superhero-publishers-super-ou/" data-text="Is+superhero+publisher+Marvel+super+out+of+touch%3F"><span>Share on Twitter</span></a>
+        </li>
+        <li class="facebook" data-url="http://www.scpr.org/programs/take-two/2017/04/07/56036/marvel-s-metrics-are-superhero-publishers-super-ou/">
+            <a href="#" class="social_fb track-event facebook" data-ga-category="Article" data-ga-action="Share" data-ga-label="Facebook" data-url="http://www.scpr.org/programs/take-two/2017/04/07/56036/marvel-s-metrics-are-superhero-publishers-super-ou/"><span>Share on Facebook</span></a>
+        </li>
+    </ul>
+</aside>
+
+
+
+
+            <div class="prose-columns clearfix">
+
+              <div class="primary">
+
+              
+
+
+
+
+              <div class="prose-body">
+                  <p>The dust is still settling after Marvel Vice President of Sales David Gabriel made some unsettling comments last weekend.</p>
+
+<p>Here's part of what he said:</p>
+
+<blockquote>
+<p>"What we heard was that people didn't want any more diversity. I don't know that that's really true, but that's what we saw in sales."</p>
+</blockquote>
+
+<p>The backlash to Gabriel's comments was swift, with people across social media platforms taking apart his claim. Because L.A. is an epicenter of comic book culture, we hit one of the dozens of comic book stores near our station to hear what they had to say: Comics Factory in Pasadena. The shop's assistant manager, Stacy Hill, said Gabriel's comments that readers don't respond to diverse characters doesn't reflect her experience:</p>
+
+<blockquote>
+<p>"I've never found that to be true, 'cause people are always excited when there's any sort of diversity in comics ... 'cause comics have been a mainstay for a long time. ... You have your characters that have always been there and when you get a spin on a new character and it appeals to so many different fan bases ... because you know they have issues and stuff that are being addressed in these comics, they have somebody to relate to."</p>
+</blockquote>
+
+<p>That may be just one comic book retailer's perspective, but it was echoed online. So what about the hard numbers — those sales figures Gabriel referenced? Alex Abad-Santos wrote about <a href="http://www.vox.com/culture/2017/4/4/15169572/marvel-diversity-outrage-gabriel">this</a> for Vox and he joined A Martinez for more.</p>
+
+<h2>Context is important</h2>
+
+<p>To understand where David Gabriel's comments come from, you have to step back and look at where they took place, according to Abad-Santos: a retailers summit.</p>
+
+<blockquote>
+<p>"David Gabriel was actually repeating what retailers were saying. When I say 'retailers,' I mean the comic book shop owners that were invited to the summit. And so, they [Marvel] were saying that he was just simply reiterating what he heard, but it was taken in the context of, 'this is what Marvel believes, and this is Marvel formal policy.'"</p>
+</blockquote>
+
+<p>To gain a better understanding of where these retailers were getting this from, Abad-Santos gave a general overview of where these sales numbers come from, and it comes back to the retailers themselves.</p>
+
+<blockquote>
+<p>"Comic books have this, it's this weird esoteric market, where comic book retailers actually buy comic books three months in advance.</p>
+
+<p>"What happens is that those comic book retailers, that's a final sale for them. They can't sell back the issues that they don't sell. So you can have a situation where the comic book retailers will put in an order and this comic book becomes a bestseller ... and no one's even bought it yet. It hasn't even gotten into someone's hands. </p>
+
+<p>"And so I think what you have is a lot of retailers pre-ordering and ordering the big heroes like the Avengers, the crossovers, the X-Men, and I think you have that kind of conflict of what retailers want and what customers want."</p>
+</blockquote>
+
+<h2>Other metrics?</h2>
+<figure class="asset-inset inline portrait">
+    <b class="pic"><img alt="A cover showing several of Marvel's more diverse characters." src="https://a.scpr.org/i/12ddeaca29e0215bdf6235c30aa74ab8/105693-full.jpg"></b>
+    <figcaption>
+        <span>
+            A cover showing several of Marvel's more diverse characters.<mark> Marvel Comics</mark>
+        </span>
+    </figcaption>
+</figure>
+<p>The comic book industry has some catching up to do. Music and television have adapted and now incorporate streaming into how they calculate ratings. Books take e-book sales into consideration. But comic books aren't quite there yet.</p>
+
+<blockquote>
+<p>"The problem is that Marvel and a lot of comic book companies don't give out those numbers so freely. Like they'll say, 'Well this is a top seller,' but we don't really know what those numbers look like or exactly what the demographic is of who's buying them."</p>
+</blockquote>
+
+<p>When it comes to the actual retailers, some are actually stuck with some of these titles and it doesn't look like they're going anywhere. But if that's the case, is it safe to say that a connection between low sales and diverse characters might be real for them?</p>
+
+<blockquote>
+<p>"You could say that, but I'd be a little careful. There are a lot of reasons why comic books don't sell. It could be a price point, it could be a weird crossover, it could just be a bad writer that you don't like. </p>
+
+<p>"There are a lot of comic books from A-list heroes like Iron Man that just completely plummet into mediocrity, and no one is ever like, 'Hey, well, maybe we should stop having white guy straight superheroes because they're not selling.'</p>
+
+<p>"The problem is there's a lot of factors, and when you single out that one factor, I think you have to be very careful and just completely sure that you want to put this out there, because you're alienating a lot of your fans and a lot of work that you've been doing over the past few years."</p>
+</blockquote>
+
+<h2>Where does Marvel go from here?</h2>
+<figure class="asset-inset inline wide">
+    <b class="pic"><img alt="Marvel has put half-African-American, half-Latino teen Miles Morales in the Spider-Man suit." src="https://a.scpr.org/i/8b78a525a919c142cb4531093d350a0e/107813-full.jpg"></b>
+    <figcaption>
+        <span>
+            Marvel has put half-African-American, half-Latino teen Miles Morales in the Spider-Man suit.<mark> /Courtesy of Marvel</mark>
+        </span>
+    </figcaption>
+</figure>
+<p>These comments were a tough blow for Marvel fans that follow heroes like Miles Morales — the half-black, half-Latino Spider-Man — or Kamala Khan, a new iteration of Ms. Marvel who is a Pakistani-American teen from New Jersey.</p>
+
+<blockquote>
+<p>"Their comments hurt the whole idea of it, because you expect Marvel who has been backing these heroes to just kind of support them, right? And I think when you blame your low sales numbers on heroes that are non-white and heroes that are women, you just kind of wonder, 'Why would you say that and try to alienate your fanbase that you're trying to build?'"</p>
+</blockquote>
+
+<p>So where can Marvel and its fans go from here?</p>
+
+<blockquote>
+<p>"For Marvel, it's definitely a wake-up call. To see, well, we're not reaching the people that we should be reaching, and it gives them this gut check that ... if they're marketing to the right people, what their marketing strategy is [and] how to get fans interested.</p>
+
+<p>"And I think for fans there's also this question of ... if we really like a book, how can we support a book better? How can we go into a comic book store, tell people to go into a comic book store? If this is the way things are being counted, how can we figure out how to affect that kind of change and try to get more support for these good books?"</p>
+</blockquote>
+
+<p><em>To listen to the full segment, click the blue play button above. </em></p>
+
+                  
+              </div><!--/ .prose-body -->
+              
+                <div class="appeal-newsletter short-list ancillary" id="appeal-newsletter">
+    <div class="appeal-background">
+        <div class="appeal-content">
+            <h3 class="bound appeal-heading">The best SoCal news in your inbox, daily.</h3>
+            <p class="bound">Catch up each morning with KPCC's Short List newsletter.</p>
+            <form class="bound" method="post" name="copyOfSCPR20130130BreakingNewsSignUp-1431032392145" action="https://s1715082578.t.eloqua.com/e/f2" id="form725" >
+                <input value="copyOfSCPR20130130BreakingNewsSignUp-1431032392145" type="hidden" name="elqFormName"  />
+                <input value="1715082578" type="hidden" name="elqSiteId"  />
+                <input name="elqCampaignId" type="hidden"  />
+
+                <input class="newsletter-email" id="field0" name="emailAddress" type="email" placeholder="email@somedomain.com" value="" />
+                <input class="newsletter-hidden-input" name="SCPRShortList" type="checkbox" value="on"  />
+                <button type="submit" class="appeal-submit track-event" data-ga-category="Article" data-ga-action="Subscribe" data-ga-label="Short List Newsletter">Sign Up</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+              
+
+              <aside class="ancillary episode-contents">
+                <header>
+                  More from this episode
+                  <cite>
+                    <a href="/programs/take-two/2017/04/07/15736/">
+                      Take Two for April 07, 2017
+                    </a>
+                  </cite>
+                </header>
+                <h1><a href="/programs/take-two/2017/04/07/15736/">So Cal&#39;s Syrian community reacts to missile strike, Governor Brown gets his gas tax, Hollywood writers negotiate</a></h1>
+                <nav>
+                  <ul>
+                    
+                        <li class="">
+                          <a href="/programs/take-two/2017/04/07/56053/i-don-t-know-if-this-strike-will-put-an-end-to-our/">&#39;I don&#39;t know if this strike will put an end to our suffering&#39;</a>
+                        </li>
+                        <li class="">
+                          <a href="/programs/take-two/2017/04/07/56059/socal-trump-supporter-convinced-the-us-can-interve/">SoCal Trump supporter: US can intervene in Syria and still keep &#39;America First&#39;</a>
+                        </li>
+                        <li class="">
+                          <a href="/programs/take-two/2017/04/07/56062/state-of-affairs-ca-lawmakers-react-to-syria-strik/">State of Affairs: CA lawmakers react to Syria strike, Gov. Brown scores $54b tax victory </a>
+                        </li>
+                        <li class="">
+                          <a href="/programs/take-two/2017/04/07/56051/the-economic-ripple-effect-of-a-writers-strike/">The economic ripple effect of a writers strike </a>
+                        </li>
+                        <li class="">
+                          <a href="/programs/take-two/2017/04/07/56036/marvel-s-metrics-are-superhero-publishers-super-ou/">Is superhero publisher Marvel super out of touch?</a>
+                        </li>
+                        <li class="">
+                          <a href="/news/2017/04/06/70541/6-ways-to-spend-your-weekend-in-socal/">6 ways to spend your weekend in SoCal </a>
+                        </li>
+                  </ul>
+                </nav>
+              </aside>
+
+
+            </div><!--/ .primary -->
+
+
+
+            <div class="secondary">
+
+              
+<aside class="buddy disseminate  clearfix" aria-hidden="true">
+    <h1>Share</h1>
+    <ul class="clearfix">
+        <li class="email">
+            <a href="#" class="social_email track-event email" data-ga-category="Article" data-ga-action="Share" data-ga-label="Email" data-key="show_segment-56036"><span>Share via Email</span><mark>email</mark></a>
+        </li>
+        <li class="twitter" data-url="http://www.scpr.org/programs/take-two/2017/04/07/56036/marvel-s-metrics-are-superhero-publishers-super-ou/">
+            <a href="#" class="social_twit track-event twitter" data-ga-category="Article" data-ga-action="Share" data-ga-label="Twitter" data-url="http://www.scpr.org/programs/take-two/2017/04/07/56036/marvel-s-metrics-are-superhero-publishers-super-ou/" data-text="Is+superhero+publisher+Marvel+super+out+of+touch%3F"><span>Share on Twitter</span></a>
+        </li>
+        <li class="facebook" data-url="http://www.scpr.org/programs/take-two/2017/04/07/56036/marvel-s-metrics-are-superhero-publishers-super-ou/">
+            <a href="#" class="social_fb track-event facebook" data-ga-category="Article" data-ga-action="Share" data-ga-label="Facebook" data-url="http://www.scpr.org/programs/take-two/2017/04/07/56036/marvel-s-metrics-are-superhero-publishers-super-ou/"><span>Share on Facebook</span></a>
+        </li>
+    </ul>
+</aside>
+
+
+
+              <div class="buddy-pairing clearfix">
+                <aside class="buddy comments-plug">
+  <h1>Comments</h1>
+  <figure>
+    <mark class="count social_disq" data-objkey="shows/segment:56036"></mark>
+    <figcaption><a href="http://www.scpr.org/programs/take-two/2017/04/07/56036/marvel-s-metrics-are-superhero-publishers-super-ou/#comments">Join the discussion</a></figcaption>
+  </figure>
+</aside>
+              </div>
+
+            </div><!--/ .secondary -->
+
+
+            </div><!--/ .prose-columns -->
+
+        </article>
+
+
+    <section class="supportive">
+    <aside class="placard">
+        <div class="ad widget">
+            <!-- slot_a -->
+<div class="dfp" id='dfp-slot_a'>
+  <script type='text/javascript'>
+    googletag.cmd.push(function() { googletag.display('dfp-slot_a'); });
+  </script>
+</div>
+
+        </div>
+    </aside>
+
+    <aside class="placard">
+        <div class="ad widget">
+            <!-- slot_b -->
+<div class="dfp" id='dfp-slot_b'>
+  <script type='text/javascript'>
+    googletag.cmd.push(function() { googletag.display('dfp-slot_b'); });
+  </script>
+</div>
+
+            <p class="appeal"><a href="/support/underwriting/">Become a KPCC Sponsor</a></p>
+        </div>
+    </aside>
+
+
+
+    <aside class="see-more">
+        <header><h1>Recently on Take Two</h1></header>
+        <nav>
+              <article>
+                  <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="More Sidebar Show Segment" href="/programs/take-two/2017/04/07/56062/state-of-affairs-ca-lawmakers-react-to-syria-strik/">
+                      <time class=" smart smarttime" data-unixtime="1491601897"></time>
+                      <h1>State of Affairs: CA lawmakers react to Syria strike, Gov. Brown scores $54b tax victory </h1>
+                      <b><img alt="California Gov. Jerry Brown returns to his office after meeting with the Senate Democratic Caucus to urge them to approve a transportation plan, Thursday, April 6, 2017, in Sacramento, Calif. Brown and top legislative leaders pressed all week to convince fellow Democrats to support the measure that would place a $5-billion-a-year boost in California&#39;s gas and vehicle taxes to pay for major road repairs. (AP Photo/Rich Pedroncelli)" src="https://a.scpr.org/i/ab1b5e9132e7c06ddb61c9ee6ff3c023/155600-lsquare.jpg" /></b>
+</a>              </article>
+              <article>
+                  <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="More Sidebar Show Segment" href="/programs/take-two/2017/04/07/56059/socal-trump-supporter-convinced-the-us-can-interve/">
+                      <time class=" smart smarttime" data-unixtime="1491598474"></time>
+                      <h1>SoCal Trump supporter: US can intervene in Syria and still keep &#39;America First&#39;</h1>
+                      <b><img alt="President Donald Trump walks from the podium after speaking at Mar-a-Lago in Palm Beach, Fla., Thursday, April 6, 2017, after the U.S. fired a barrage of cruise missiles into Syria Thursday night in retaliation for this week&#39;s gruesome chemical weapons attack against civilians. (AP Photo/Alex Brandon)" src="https://a.scpr.org/i/8d17ff49b4e45cad86f24af71ec5807f/155581-lsquare.jpg" /></b>
+</a>              </article>
+              <article>
+                  <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="More Sidebar Show Segment" href="/programs/take-two/2017/04/07/56053/i-don-t-know-if-this-strike-will-put-an-end-to-our/">
+                      <time class=" smart smarttime" data-unixtime="1491595457"></time>
+                      <h1>&#39;I don&#39;t know if this strike will put an end to our suffering&#39;</h1>
+                      <b><img alt="Actor Jay Abdo speaks during the UN Women USNC L.A. Media Summit in support of #HeForShe at YouTube Space LA at YouTube Space LA on May 21, 2016 in Los Angeles, California. " src="https://a.scpr.org/i/40bc2502054fe4b28e39f5d817466b0a/142871-lsquare.jpg" /></b>
+</a>              </article>
+        </nav>
+    </aside>
+
+
+
+    <aside class="overview">
+      <header><h1>About Take Two</h1></header>
+      <div class="exposition" data-host="take-two"><!-- accepts: horn | rabe | cohenmartinez | mantle -->
+        <p>Join Take Two each weekday at 9 AM where we’ll translate the day’s headlines for Southern California, making sense of the news and cultural events that people are talking about. Find us on 89.3 KPCC, hosted by A Martinez.</p>
+        <footer><h3>Airs Weekdays 9 to 10 a.m.</h3></footer>
+      </div>
+        <div class="externals">
+          <ul>
+            <li class="facebook"><a class="facebook with-icon" href="http://www.facebook.com/pages/Take-Two/459190287458280">Facebook</a></li>
+            
+            <li class="podcast"><a class="podcast with-icon" href="http://itunes.apple.com/us/podcast/take-two/id567838996">Podcast</a></li>
+            <li class="rss"><a class="rss with-icon" href="http://feeds.scpr.org/kpcc-taketwo">RSS</a></li>
+            <li class="email"><a class="email with-icon" href="mailto:taketwoshow@scpr.org">Email</a></li>
+          </ul>
+        </div>
+    </aside>
+
+</section>
+
+  </div>
+</div><!--/ .report -->
+
+<!-- AdHost Slot: Membership Appeals -->
+<div id="article-membership-appeal"></div>
+
+<div class="placard-waystation"></div>
+
+  <div id="comments" name="comments" class="comments">
+    <div class="inner bound clearfix">
+        <section class="discussion">
+            <!-- disqus comments -->
+            <div id="disqus_thread" class=""></div>
+            <script type="text/javascript">
+                /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                var disqus_shortname = 'kpcc'; // required: replace example with your forum shortname
+                // The following are highly recommended additional parameters. Remove the slashes in front to use.
+                var disqus_identifier = 'shows/segment:56036';
+                var disqus_url = 'http://www.scpr.org/programs/take-two/2017/04/07/56036/marvel-s-metrics-are-superhero-publishers-super-ou/';
+              var disqus_title = 'Marvel&#39;s metrics: Are superhero publishers super out of touch?';
+
+                /* * * DON'T EDIT BELOW THIS LINE * * */
+                (function() {
+                    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                    dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+            <!-- end disqus comments -->
+        </section>
+            <div class="secondary">
+                <aside class="placard">
+                    <div class="ad widget">
+                        <!-- slot_c -->
+<div class="dfp" id='dfp-slot_c'>
+  <script type='text/javascript'>
+    googletag.cmd.push(function() { googletag.display('dfp-slot_c'); });
+  </script>
+</div>
+
+                        <p class="appeal"><a href="/support/underwriting/">Become a KPCC Sponsor</a></p>
+                    </div>
+                </aside>
+            </div><!--/ .secondary -->
+    </div>
+  </div>
+
+
+
+<section class="other-programs">
+  <header><h1 class="bound">Enjoy <cite>Take Two</cite>? Try KPCC’s other programs.</h1></header>
+  <div class="inner bound">
+    <div class="troupe clearfix">
+          <article>
+            <figure class="photo ratio">
+              <div class="fill"></div>
+              <b class="img-contain"><a href="/programs/airtalk/"><img src="/assets/programs/airtalk-c33e50a8cabdedd07424bb6598e662c4.jpg" alt="Airtalk" /></a></b>
+            </figure>
+            <a href="/programs/airtalk/">
+              <h1>AirTalk®</h1>
+              <h2>With Larry Mantle</h2>
+              <h3>Weekdays 10 a.m.-12 p.m.</h3>
+              <p>Lively and in-depth discussions of city news, politics, science, entertainment, the arts, and more.</p>
+            </a>
+                <a href="/programs/airtalk/2017/04/07/15738/">
+                  <dl>
+                    <dt><mark>Latest</mark> <time datetime="2017-04-07">Apr. 7</time></dt>
+                    <dd>Justice Gorsuch confirmed: What that means for the next docket of Supreme Court decisions</dd>
+                  </dl>
+                </a>
+          </article>
+          <article>
+            <figure class="photo ratio">
+              <div class="fill"></div>
+              <b class="img-contain"><a href="/programs/filmweek/"><img src="/assets/programs/filmweek-12ac9e3774db8d980a14a78c85618798.jpg" alt="Filmweek" /></a></b>
+            </figure>
+            <a href="/programs/filmweek/">
+              <h1>FilmWeek</h1>
+              <h2>With Larry Mantle</h2>
+              <h3>Friday 11 a.m. - noon</h3>
+              <p>Reviews of the week's new movies, interviews with filmmakers, and discussion.</p>
+            </a>
+                <a href="/programs/filmweek/2017/04/07/15740/">
+                  <dl>
+                    <dt><mark>Latest</mark> <time datetime="2017-04-07">Apr. 7</time></dt>
+                    <dd>FilmWeek: ‘Going in Style,’ ‘Smurfs: The Lost Village’ and more, plus the revival of swing dancing!</dd>
+                  </dl>
+                </a>
+          </article>
+          <article>
+            <figure class="photo ratio">
+              <div class="fill"></div>
+              <b class="img-contain"><a href="/programs/offramp/"><img src="/assets/programs/offramp-aa7c8b6b43a62db7358dd10a4213c505.jpg" alt="Offramp" /></a></b>
+            </figure>
+            <a href="/programs/offramp/">
+              <h1>Off-Ramp®</h1>
+              <h2>With John Rabe</h2>
+              <h3>Saturday Noon to 1 p.m. and Sunday 6 to 7 p.m.</h3>
+              <p>A weekly look at SoCal life covering news, arts and culture, and more.</p>
+            </a>
+                <a href="/programs/offramp/2017/04/08/15722/">
+                  <dl>
+                    <dt><mark>Latest</mark> <time datetime="2017-04-08">Apr. 8</time></dt>
+                    <dd>California&#39;s Gold cameraman opens up about working with Huell Howser</dd>
+                  </dl>
+                </a>
+          </article>
+          <article>
+            <figure class="photo ratio">
+              <div class="fill"></div>
+              <b class="img-contain"><a href="/programs/the-frame/"><img src="/assets/programs/the-frame-863c5542f66fecdaaaf9e7ac95e5f7c1.jpg" alt="The frame" /></a></b>
+            </figure>
+            <a href="/programs/the-frame/">
+              <h1>The Frame</h1>
+              <h2>With John Horn</h2>
+              <h3>Weekdays at 3:30 p.m.</h3>
+              <p>Movies, music, TV, arts and entertainment, straight from Southern California.</p>
+            </a>
+                <a href="/programs/the-frame/2017/04/07/15743/">
+                  <dl>
+                    <dt><mark>Latest</mark> <time datetime="2017-04-07">Apr. 7</time></dt>
+                    <dd>&#39;Crazy Ex&#39; dance guru Kat Burns; the women of HBO&#39;s Vice; is &#39;Homeland&#39; still racist?</dd>
+                  </dl>
+                </a>
+          </article>
+    </div>
+    <footer><a href="/programs">See all of our programs</a></footer>
+  </div>
+</section><!--/ .other-programs -->
+
+  <section class="but-a-walking-shadow">
+    <header><h1 class="bound">What's popular now on KPCC</h1></header>
+    <nav class="bound clearfix">
+            <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2017/04/08/70616/3-teen-girls-rescued-from-alleged-human-traffickin/">
+                <figure class="clearfix">
+                    <div class="ratio">
+                        <div class="fill"></div>
+                        <b class="img-contain"><img src="https://a.scpr.org/i/a4f0f123f6f9ddbc10abd6e89ff15327/155630-small.jpg" width="308" height="450" /></b>
+                    </div>
+                    <figcaption>
+                    <h2>3 teen girls rescued from alleged human trafficking ring in San Gabriel</h2>
+                        <time class=" smart smarttime" data-unixtime="1491675311"></time>
+                    </figcaption>
+                </figure>
+</a>            <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/news/2017/04/07/70593/california-s-middle-class-job-of-the-future-road-w/">
+                <figure class="clearfix">
+                    <div class="ratio">
+                        <div class="fill"></div>
+                        <b class="img-contain"><img src="https://a.scpr.org/i/80cff5083842a77709a31fa1a8c229be/112979-small.jpg" width="450" height="338" /></b>
+                    </div>
+                    <figcaption>
+                    <h2>California&#39;s middle-class job of the future: Road worker</h2>
+                        <time class=" smart smarttime" data-unixtime="1491605400"></time>
+                    </figcaption>
+                </figure>
+</a>            <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/programs/the-frame/2017/04/07/56048/meet-crazy-ex-girlfriend-choreographer-kat-burns-t/">
+                <figure class="clearfix">
+                    <div class="ratio">
+                        <div class="fill"></div>
+                        <b class="img-contain"><img src="https://a.scpr.org/i/a993c45f6ce5d370bed87290e922ec9c/155566-small.jpg" width="450" height="300" /></b>
+                    </div>
+                    <figcaption>
+                    <h2>&#39;Crazy Ex-Girlfriend&#39; choreographer Kat Burns: Comedy&#39;s go-to dance guru</h2>
+                        <time class=" smart smarttime" data-unixtime="1491598801"></time>
+                    </figcaption>
+                </figure>
+</a>            <a class="track-event" data-ga-category="Article" data-ga-action="Clickthrough" data-ga-label="Popular Now Quadrant" href="/programs/filmweek/2017/04/07/56039/filmweek-going-in-style-smurfs-the-lost-village-an/">
+                <figure class="clearfix">
+                    <div class="ratio">
+                        <div class="fill"></div>
+                        <b class="img-contain"><img src="https://a.scpr.org/i/f2a417ac335fa059dbc00aec31978aa4/155560-small.jpg" width="450" height="300" /></b>
+                    </div>
+                    <figcaption>
+                    <h2>FilmWeek: ‘Going in Style,’ ‘Smurfs: The Lost Village’ and more</h2>
+                        <time class=" smart smarttime" data-unixtime="1491583452"></time>
+                    </figcaption>
+                </figure>
+</a>    </nav><!--/ .bound -->
+</section><!--/ .but-a-walking-shadow -->
+
+
+
+    <aside id="audio-bar" class="audio-player">
+    <div id="jquery_jplayer_1" class="jp-jplayer"></div>
+    <div id="jp_container_1" class="jp-audio">
+        <div class="jp-type-single">
+            <div class="inner bound">
+                <div class="controls">
+                    <div class="jp-gui jp-interface">
+                        <ul class="jp-controls">
+                            <button value="play" class="jp-play track-event" data-ga-category="Article" data-ga-action="Play" data-ga-label="Player">Play</button>
+                            <button value="pause" class="jp-pause track-event" data-ga-category="Article" data-ga-action="Pause" data-ga-label="Player">Pause</button>
+                        </ul>
+                    </div>
+                </div><!--/ .controls -->
+                <div class="vitals">
+                    <header id="jplayer1_title"></header>
+                    <div class="timeline">
+                        <mark class="ticker jp-current-time"></mark>
+                        <div class="meter">
+                            <div class="jp-play-bar" style="width: 16.38%;">&nbsp;</div>
+                            <div class="jp-seek-bar">&nbsp;</div>
+                        </div>
+                        <span class="ticker jp-duration"></span>
+                    </div>
+                </div><!--/ .vitals -->
+                <div class="incidentals">
+                    <a href="#" download class="download">Download audio file</a>
+                    <button value="mute" class="jp-mute aural">Mute</button>
+                    <button value="unmute" class="jp-unmute aural">Unmute</button>
+                    <button value="close" class="jp-stop collapse">Stop and Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</aside><!--/ .audio-player -->
+
+
+    <aside class="membership">
+    <div class="inner bound">
+        <h1><a href="https://scprcontribute.publicradio.org/contribute.php">KPCC's  coverage is a Southern California resource provided by member-supported public radio. We can't do it without you.</a></h1>
+        <h2><span>Your contributions power KPCC.</span> <a href="https://scprcontribute.publicradio.org/contribute.php">Give today.</a></h2>
+        <h3 class="brand"><a href="http://kpcc.org" title="Southern California Public Radio">89.3 KPCC</a></h3>
+    </div>
+</aside><!--/ .membership -->
+
+<footer class="epilogue">
+    <header>
+        <div class="inner bound">
+            <h1><a href="http://scpr.org" title="Southern California Public Radio">89.3 KPCC</a></h1>
+            <h2>
+                    <span>89.1 KUOR</span>
+                    <span>90.3 KVLA</span>                    
+            </h2>
+            <aside class="pledge">
+                <p><span>Support the voices you trust!</span> <a href="https://scprcontribute.publicradio.org/contribute.php">Pledge Now</a></p>
+            </aside>
+        </div>
+    </header>
+    <div class="cols">
+        <div class="inner bound clearfix">
+            <div class="cols-pair primary clearfix">
+                <nav class="sections">
+                    <h1>Sections</h1>
+                    <ul>
+                        <li><a href="/local">Local</a></li>
+                        <li><a href="/world">US &amp; World</a></li>
+                        <li><a href="/politics">Politics</a></li>
+                        <li><a href="/environment">Science</a></li>
+                        <li><a href="/arts">Arts &amp; Entertainment</a></li>
+                        <li><a href="/business">Business</a></li>
+                        <li><a href="/crime">Crime &amp; Justice</a></li>
+                        <li><a href="/education">Education</a></li>
+                        <li><a href="/health">Health</a></li>
+                        <li><a href="/archive/2017/04/08/?section=news">Archive</a></li>
+                    </ul>
+                </nav>
+                <nav class="productions">
+                    <h1>Programs</h1>
+                    <ul>
+                        <li><a href="/programs/take-two/">Take Two</a></li>
+                        <li><a href="/programs/airtalk/">AirTalk</a></li>
+                        <li><a href="/programs/offramp/">Off-Ramp</a></li>
+                        <li><a href="/programs/the-frame/">The Frame</a></li>
+                        <li><a href="/programs/">Programs A&ndash;Z</a></li>
+                        <li><a href="/schedule/">Program Schedule</a></li>
+                        <li><a href="/archive/2017/04/08/?section=programs">Program Archive</a></li>
+                    </ul>
+                    <h1>Events</h1>
+                    <ul>
+                        <li><a href="/events/kpcc-in-person">KPCC In Person</a></li>
+                        <li><a href="/events/sponsored">Sponsored Events</a></li>
+                    </ul>
+                </nav>
+            </div><!--/ .primary -->
+            <div class="cols-pair secondary clearfix">
+                <nav class="outreach">
+                    <h1>Stay Connected</h1>
+                    <ul class="social">
+                        <li><a href="http://facebook.com/kpcc">Facebook</a></li>
+                        <li><a href="http://twitter.com/kpcc">Twitter</a></li>
+                        <li><a href="https://plus.google.com/108872361044769229886/">Google Plus</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="/newsletters/">Newsletters</a></li>
+                        <li><a href="/rss/">RSS</a></li>
+                        <li><a href="/podcasts/">Podcasts</a></li>
+                    </ul>
+                    <aside class="mobile">
+                      <a href="/ipad"><span>Get our new</span> <span><b>KPCC for iPad</b> app.</span></a>
+                    </aside>
+                </nav>
+                <nav class="about">
+                    <h1>About</h1>
+                    <ul>
+                        <li><a href="/about/">About KPCC</a></li>
+                        <li><a href="/about/people/">Staff</a></li>
+                        <li><a href="/contact/">Contact Us</a></li>
+                        <li><a href="/about/faq/">Help / FAQ</a></li>
+                        <li><a href="/web_site_feedback/">Feedback</a></li>
+                        <li><a href="/about/jobs/">Careers &#64; KPCC</a></li>
+                    </ul>
+                    <div class="vcard location">
+                        <h2 class="org"><b>89.3 KPCC</b> <span>Southern California Public Radio</span><h2>
+                        <div class="adr">
+                            <span class="street-address">474 S. Raymond Ave.</span><br />
+                            <span class="locality">Pasadena</span>,
+                            <span class="region">CA</span>
+                            <span class="postal-code">91105</span>
+                        </div>
+                    </div>
+                    <aside class="call">
+                        <p>Call in: 866-893-5722</p>
+                    </aside>
+                </nav>
+            </div><!--/ .secondary -->
+        </div><!--/ .inner -->
+    </div><!--/ .cols -->
+
+    
+
+    <div class="lastwords bound">
+        <aside class="partners">
+            <h1>Our Partners</h1>
+            <ul class="clearfix">
+                <li class="apm"><a href="http://publicradio.org">American Public Media</a></li>
+                <li class="npr"><a href="http://npr.org">National Public Radio</a></li>
+                <li class="bbc"><a href="http://bbc.co.uk">BBC</a></li>
+                <li class="pri"><a href="http://pri.org">Public Radio International</a></li>
+                <li class="nbc"><a href="http://nbclosangeles.com">NBC 4</a></li>
+                <li class="pcc"><a href="http://pasadena.edu">Pasadena City College</a></li>
+            </ul>
+        </aside>
+        <nav class="fineprint">
+            <ul>
+                <li><a href="/terms/">Terms &amp; Conditions</a></li>
+                <li><a href="/privacy/">Privacy</a></li>
+                <li><a href="/web_site_feedback/">Feedback</a></li>
+                <li>&copy; 2017 <a href="http://scpr.org">Southern California Public Radio</a></li>
+            </ul>
+        </nav>
+    </div>
+</footer><!--/ .epilogue -->
+
+        <script>
+        scpr.Behaviors.loadBehaviors(['Layout', 'Single']);
+
+        // Load In-Article Membership Appeal from AdHost
+        scpr.VisualCampaign.enqueue('article-appeal', $('#article-membership-appeal'));
+
+        // Load Embeditor
+        embeditor = new Embeditor.Base({
+          Embedly: {
+            query: { key : '0cb3651dde4740db8fcb147850c6b555' }
+          }
+        })
+
+        embeditor.swap()
+    </script>
+
+
+<script type="text/javascript">
+  var smartTime;
+
+  $(function() {
+    smartTime     =       new scpr.SmartTime();
+    social        =       new scpr.SocialTools();
+    adSizer       =       new scpr.adSizer();
+    audio         =       new scpr.Audio({widgetClass: '.story-audio', audioBar: '#audio-bar'});
+    eventTracking =       new scpr.EventTracking();
+  });
+</script>
+
+
+
+<script>
+// Make sure this is last! A visual campaign
+// can be queued from anywhere.
+$(function() {
+  // Handle any queued visual campaigns.
+ scpr.VisualCampaign.enqueue('pushdown-global', $('#global-pushdown'));
+ scpr.VisualCampaign.fetchQueue();
+});
+</script>
+
+<script>
+  // ### Array.prototype.indexOf polyfill ###
+  // Production steps of ECMA-262, Edition 5, 15.4.4.14
+  // Reference: http://es5.github.io/#x15.4.4.14
+  if (!Array.prototype.indexOf) {
+    Array.prototype.indexOf = function(searchElement, fromIndex) {
+      var k;
+      if (this == null) {
+        throw new TypeError('"this" is null or not defined');
+      }
+      var o = Object(this);
+      var len = o.length >>> 0;
+      if (len === 0) {
+        return -1;
+      }
+      var n = +fromIndex || 0;
+      if (Math.abs(n) === Infinity) {
+        n = 0;
+      }
+      if (n >= len) {
+        return -1;
+      }
+      k = Math.max(n >= 0 ? n : len - Math.abs(n), 0);
+      while (k < len) {
+        if (k in o && o[k] === searchElement) {
+          return k;
+        }
+        k++;
+      }
+      return -1;
+    };
+  }
+</script>
+<!-- BEGIN Comscore -->
+<script>
+var _comscore = _comscore || [];
+_comscore.push({ c1: "2", c2: "6035974", c3: "", c4: "" });
+(function() {
+var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+el.parentNode.insertBefore(s, el);
+})();
+</script>
+<noscript>
+<img src="http://b.scorecardresearch.com/p?c1=2&c2=6035974&c3=&c4=&c5=&c6=&c15=&cv=2.0&cj=1" />
+</noscript>
+<!-- /Comscore -->
+
+<!-- ChartBeat -->
+<script type="text/javascript">
+    var _sf_async_config = { uid: 33583, domain: 'scpr.org', useCanonical:true };
+    (function() {
+        function loadChartbeat() {
+            window._sf_endpt = (new Date()).getTime();
+            var e = document.createElement('script');
+            e.setAttribute('language', 'javascript');
+            e.setAttribute('type', 'text/javascript');
+            e.setAttribute('src','//static.chartbeat.com/js/chartbeat.js');
+            document.body.appendChild(e);
+        };
+        var oldonload = window.onload;
+        window.onload = (typeof window.onload != 'function') ? loadChartbeat : function() { oldonload(); loadChartbeat(); };
+    })();
+</script>
+<!-- /ChartBeat -->
+
+<!-- Google Analytics -->
+<script>
+
+  // Set the pageType to push to GA
+  var _gaq_pageType = _.find(scpr.GA_PAGE_MAPPING, function(v, k) {
+      return window.location.pathname.match(new RegExp(k)) !== null;
+  });
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  // Tracker for SCPR GA Account
+  ga('create', 'UA-624724-1', 'auto', {'allowLinker': true});
+  // Tracker for NPR Digital Services Station Analytics
+  ga('create', 'UA-18188937-11', 'auto', {'name': 'nprDsTracker'}, {'allowLinker': true});
+
+  ga('require', 'linker'); // require plugin for cross-domain tracking
+  ga('require', 'displayfeatures'); // require plugin for Doubleclick Display Ad features
+  ga('linker:autoLink', ['scprcontribute.publicradio.org']); //set linked domain
+  if(document.cookie.indexOf("beta_opt_in") > -1){
+    ga('set', 'dimension5', 'Homepage Beta');
+  } else {
+    ga('set', 'dimension5', 'Homepage Classic');
+  }
+  ga('set', 'dimension6', 'Southern California Public Radio');
+  ga('set', 'dimension7', _gaq_pageType);
+  ga('send', 'pageview');
+  ga('nprDsTracker.send', 'pageview');
+
+</script>
+<!-- /Google Analytics -->
+
+<!-- GA tag for Media Impact Project: REMOVE WHEN PROJECT CONCLUDES -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','mipData','GTM-MNSD7D');</script>
+<!-- /GA Tag for Media Impact Project -->
+
+<!-- Mogo Pixel -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','mogoDataLayer','GTM-KVHTMW');</script>
+<!-- Mogo Pixel -->
+
+<!-- Eloqua Website Tracking -->
+<script type="text/javascript">
+    var _elqQ = _elqQ || [];
+    _elqQ.push(['elqSetSiteId', '1715082578']);
+    _elqQ.push(['elqTrackPageView']);
+    
+    (function () {
+        function async_load() {
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+            s.src = '//img.en25.com/i/elqCfg.min.js';
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+        }
+        if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+        else if (window.attachEvent) window.attachEvent('onload', async_load); 
+    })();
+</script>
+<!-- /Eloqua Website Tracking -->
+
+<!--  Quantcast Tag -->
+<script>
+  qcdata = {} || qcdata;
+       (function(){
+       var elem = document.createElement('script');
+       elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://pixel") + ".quantserve.com/aquant.js?a=p-_ZNT1e57PQPC3";
+       elem.async = true;
+       elem.type = "text/javascript";
+       var scpt = document.getElementsByTagName('script')[0];
+       scpt.parentNode.insertBefore(elem,scpt);
+     }());
+
+
+   var qcdata = {qacct: 'p-_ZNT1e57PQPC3',
+                        orderid: '',
+                        revenue: ''
+                        };
+</script>
+  <noscript>
+    <img src="//pixel.quantserve.com/pixel/p-_ZNT1e57PQPC3.gif?labels=_fp.event.Default" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
+  </noscript>
+<!-- End Quantcast Tag -->
+
+
+
+
+</body>
+</html>

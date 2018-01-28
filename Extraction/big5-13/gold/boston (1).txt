@@ -1,0 +1,33 @@
+Boston policemen complain about new plan to watch their movements
+Anon officer: “No one likes it. Who wants to be followed all over the place?”
+
+It looks like Boston’s Finest is going to be watched by its own. As the result of new contract negotiations between the City of Boston and the Boston Police Department, police cruisers will potentially be outfitted with GPS devices designed to monitor how cop cars move around the city. The contract includes some additional changes and still needs to be approved by the Boston City Council.
+
+According to the Boston Globe, this new move would put Boston “in league with small-town departments across the state and big-city agencies across the country that have installed global positioning systems in cruisers.”
+
+The Boston Police Patrolmen’s Association did not immediately respond to Ars’ request for comment.
+
+What’s the logic to putting in such a tracking system? It lets dispatchers know where officers are in real time rather than having them wait for a response via radio. Unsurprisingly, some cops don’t like the new change.
+
+“No one likes it. Who wants to be followed all over the place?” said one officer who spoke anonymously to the Globe because department rules forbid police from speaking to the media without authorization. “If I take my cruiser and I meet [reluctant witnesses] to talk, eventually they can follow me and say, 'Why were you in a back dark street for 45 minutes?' It’s going to open up a can of worms that can’t be closed.”
+The “Eye of Sauron” never sleeps?
+
+Not surprisingly, civil libertarians are relishing the rank and file's own backlash.
+
+"The irony of police objecting to GPS technology for privacy reasons is hard to miss in the aftermath of United States v. Jones," Woodrow Hartzog, a law professor at the Cumberland School of Law at Samford University, told Ars. "But the officers’ concerns about privacy illustrate just how revealing GPS technology can be. Departments are going to have to confront the chilling effect this surveillance might have on police behavior. On one hand, police departments are likely to see a reduction in many kinds of undesirable behaviors involving an abuse of discretion. However, as we’ve seen in other areas involving continuous and precise surveillance, individuals are likely to refrain from any activities that could be perceived the wrong way, even if they are ultimately legal and socially desirable. Police departments should be very clear about how the GPS technology is to be used and what administrators expect from police officers."
+
+Neil Richards, a law professor at Washington University in St. Louis, said he hadn't heard of other police departments tracking their own like this but that Boston police's reaction was not surprising.
+
+"We change our behavior to reflect what won’t get us in trouble, whether that’s being more gentle with suspects, not rioting, or not stealing from the till," he told Ars by e-mail.
+
+"We also know that surveillance inclines citizens toward the mainstream, the ordinary, and the boring. The challenge for our digital society is to use surveillance to deter law-breaking and other seriously anti-social acts while not deterring individuality, political dissent, or [a] trip to Dunkin Donuts. It’s also less threatening to our civil liberties when it’s the watchers getting watched rather than ordinary people. After all, in a democracy, the people are in charge, and the police are the public servants. In an age of police surveillance cameras and drones, it’s ironic that police officers are now complaining that they feel their privacy is threatened when they are watched. Perhaps having the Eye of Sauron focused on them for a while will help our public servants to understand that privacy is a human need, and one that we can’t just trade away for a little better electronic management of society."
+
+The American Civil Liberties Union of Massachusetts said that it agrees with the anonymous BPD officer and others like him or her.
+
+“While on-duty tracking of public employees raises different questions than does the warrantless tracking of innocent civilians, concerned officers at the Boston Police Department are exactly right when they warn about the sensitivity of this information,” wrote Kade Crockford on the ACLU’s website on Monday.
+
+“As these anonymous officers and their union official argue, tracking someone’s location as they go about their day-to-day life is incredibly invasive. That's why we hope police officers will join us in demanding that the state legislature pass forward-looking privacy protections to ensure that if the government wants to track a private citizen—by license plate reader, GPS device, or cell phone—it needs to first get a warrant.”
+
+UPDATE Tuesday 8:49am CT: Sid Heal, a recently-retired commander who evaluated technology during his decades-long tenure at the Los Angeles County Sheriff's Department, told Ars by e-mail that his colleagues in Southern California have "a lot" of patrol cars with GPS.
+
+"It is just starting, but we weren't first either," he said. "It is coming whether they see the advantage of not. The issues they raised I also had to deal with ALADS (Association of Los Angeles Deputy Sherriffs.) Long story but the advantages WAY outweigh the concerns."

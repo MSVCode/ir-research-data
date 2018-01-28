@@ -1,0 +1,15 @@
+Robot has eyes designed to follow you around like the Mona Lisa
+
+It’s looking at you. And you. And you. This robot has eyes that appear to follow you around the room.
+
+Called Transgazer, the robot was designed by researchers at the Nippon Telegraph and Telephone Corporation in Japan, who think that eye contact could be the key to improving human-robot interactions. The robot has a concave eye design that makes it appear to stare at you even if you are not standing directly in front of it.
+
+“We thought ‘why be restricted by human eyes?’ Robot eyes could be very different,” says Yuki Kinoshita, one of Transgazer’s creators.
+
+Human eyes only give the impression of looking at someone when we actually are. Unless we look at someone directly, it is clear we are directing our gaze elsewhere. This is also true of robot eyes modelled on the same shape. “So we thought in reverse and came up with an idea to gaze better than human eyes by changing the shape,” says Kinoshita.
+
+The researchers added concave eyes onto the back of Transgazer’s regular convex eyes. It can switch between the two by rolling its eyes 180 degrees, effectively flipping them inside out.
+
+When Transgazer used its concave eyes, volunteers within a 32-degree-wide arc said they felt the robot was looking at them. Audience members who watched the robot give a lecture said they felt the robot was more attentive and showed more warmth when it used its concave eyes than when it used its convex eyes and switched its gaze between people. The team presented Transgazer at the Conference on Human-Robot Interaction in Vienna, Austria, this month.
+
+Gaze is an important part of engaging with a robot, says Alessandra Sciutti at the Italian Institute of Technology. “By playing with the very shape of the robot eyes it is possible to influence significantly the human perception of the interaction,” she says.

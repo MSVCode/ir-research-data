@@ -1,0 +1,59 @@
+Discovering Life-Saving Medicines in Coral Reefs
+
+At first, Arden O'Connor didn't pay much attention to the fatigue and bruising she experienced early in April 2004. A 25-year-old Bostonian in great physical condition, she had just run a triathlon and figured she had probably overtrained.
+
+"And then I almost fell off an elliptical," she says. "That was too strange. I decided I'd better go see a doctor."
+
+O'Connor's mother urged her to ask for a blood test. That turned out to be good advice. A few days later, O'Connor was out drinking with friends at the start of Easter weekend when her phone rang. Her doctors had just gotten preliminary results on her blood work.
+
+"They said 'you need to come in right now,'" O'Connor says.
+
+As more blood test results came in over the next few days, O'Connor learned she had Acute Myeloid Leukemia. That's a particularly aggressive form of leukemia with a somber prognosis: three quarters of those diagnosed with AML die within five years.
+
+Today, 13 years after that terrifying diagnosis, O'Connor — who works with families struggling with mental health and addiction issues — has been cancer-free for 11 years. She credits her recovery to a handful of factors. There was her general good health and youth at the time of diagnosis. There was the fact that her younger brother, who donated stem cells for a bone marrow transplant, was a close genetic match.
+
+And then there was the Ara-C, the chemotherapy drug that knocked the leukemia back enough to let the bone marrow transplant work. Also called cytarabine, Ara-C owes its existence to chemicals found in a sea sponge commonly found on coral reefs in the Caribbean Sea.
+
+Coral reefs are often hailed as a potential source for new miracle drugs. It’s no hype. Just about everywhere researchers look in coral reefs, they find new complex substances that offer promise in fighting ailments ranging from cancer and HIV to Alzheimer's to chronic pain to wrinkles. Scientists have found more than 20,000 chemicals in coral reefs that are potentially useful as pharmaceuticals, and that list grows by more than 1,000 new compounds each year.
+
+Why are coral reefs are so rich in potential drugs?
+
+Daily life is full of threats for any wild organism, but especially for those coral reef animals that can’t just swim away: sponges, anemones, many mollusks, and the corals themselves. These critters are called “sessile,” meaning that the animal either can’t move, like a coral polyp, or can move only very slowly, like some sponges. While fish, most crustaceans, and octopi and squid can leave when they sense a threat, corals and their sessile neighbors have had to resort to other means to defend themselves from encroaching animals, diseases, parasites, and direct threats of violent harm such as being eaten.
+
+Obvious defensive measures like spines and shells and stony exoskeletons are great, but they can only do so much. Instead, many coral reef species — especially sea sponges, and corals themselves — have turned to chemical weapons to protect themselves from disease, competition, and predation.
+
+Coral reef ecosystems are thus a veritable cornucopia of chemical defense measures. Some of the defensive compounds are produced directly by the animals themselves, while others are made by microbes with which the animals enjoy symbiotic relationships. Depending on the chemical and the context, reef animals can use the compounds to keep other animals out of their personal space, to help themselves heal from injury, to protect against environmental threats such as ultraviolet radiation, to deter other animals from snacking on them, and to keep algae and other oozing microorganisms from growing a slimy coat over them, a process called “biofouling.”
+
+While present-day coral reefs are generally just 10–20,000 years old, coral reefs have been a part of our oceans since the Devonian period, around 410 million years ago. Corals existed for about 90 million years before they started building reefs, and sea sponges existed for at least 100 million years before corals came on the scene. That means that coral reef animals have had at least 600 million years to evolve a range of chemical defenses against shifting and diverse threats.
+
+How many different chemicals have reef organisms evolved in more than half a billion years? Since the late 1990s, when scientists started exploring the pharmaceutical potential of coral reefs in earnest they documented around 500 new chemicals each year. Since then that annual number has approximately doubled.
+
+Each year, scientists find new chemicals from acids and alkaloids to steroids and terpenes in coral reef organisms. Sea sponges are the most abundant source of these reef chemicals, followed by corals and microorganisms such as fungi and cyanobacteria. (Sponges, which lack circulatory and nervous systems, also rely heavily on chemical signaling to coordinate the activity of their cells.)
+
+Most of these chemicals are generally of marginal pharmaceutical use. But some coral reef drugs are already saving lives. In the mid-20th Century, researchers extracted chemicals called spongothymidine and spongouridine from a Caribbean reef sponge,Tectitethya crypta. By 1969, a derivative of spongothymidine — the cytarabine that helped save Arden O'Connor's life — was in clinical use as a chemotherapy drug for leukemia, generally in patients whose cancer had resisted other therapies. Cytarabine is credited with a number of cases of apparently complete remission in patients whose cancer had been diagnosed as terminal.
+
+A spongouridine derivative, vidarabine, is an antiviral drug effective against herpes simplex and varicella zoster, though it’s generally been replaced by acyclovir, which is easier on patients.
+
+Another anticancer drug, Eribulin, is a synthetic drug created as a slight modification of the compound Halichrondin B, which was isolated in 1986 from the sea sponge Halichondria okadai. Approved by the FDA for clinical use in 2010, Eribulin has proven helpful in treating liposarcomas and metastatic (and thus often terminal) breast cancers.
+
+Pseudopterosin, a glycoside compound found in the Caribbean coral Antillogorgia elisabethae or “sea whip,” is an effective anti-inflammatory benign enough that cosmetics companies blend it into their products.
+
+Sometimes it’s the microorganisms living among corals that offer potential new drugs. In a 2011 study, a culture of fungi sampled from the South China Sea coral Echinogorgia rebekka exhibited antimicrobial properties. In particular, one of the compounds present proved to be quite effective in killing the bacterium Micrococcus tetragenus, which causes secondary respiratory infections that can lead to blood poisoning.
+
+Another microorganism, the cyanobacterium Lyngbya, sampled from a reef off Fort Lauderdale, Florida, may offer some hope as a source for new antiretroviral drugs for combating HIV and other diseases. That’s partly because Lyngbya contains a number of potential protease inhibitor drugs, which interfere with viral reproduction. And it’s partly because a compound in Lyngbya can apparently turn that protease inhibition off, which — if scientists figure out how to reverse it — offers the possibility of more effective antiviral drugs. The protease inhibitors in Lingbya apparently suppress appetites of animals that might eat the cyanobacteria, and may have evolved as a defense against predation.
+
+It’s not just sea sponges, coral, and microbes that create potential new drugs. The crinoid Colobometra perspinosa, also known as the black feather star, produces compounds that show promise in killing cancer cells. Ziconotide, derived from the venom of a predatory reef-dwelling sea snail, is an effective last-ditch-effort painkiller for patients for whom opiates no longer work. The reef sea slug Elysia rufescens lives on a diet of Bryopsis algae, which produces a compound called kahalalide F. Kahalalide F protects both the algae and the sea slug from predation by fish. It also shows great promise in treating people with advanced melanomas.
+
+Reefs might also offer a potential way out of the mounting crisis of antibiotic resistance. Studies in the last decade of the chemical algeferin, produced by Agelas sponges, show that the chemical can seemingly switch off bacterial resistance to antibiotics, rendering the germs newly vulnerable to our increasingly obsolete arsenal of antibacterial drugs such as ciprofloxacin. Algeferin can make severely resistant pathogens such as Pseudomonas aeruginosa and MRSA succumb to antibiotics, and since algeferin itself doesn’t directly harm bacteria, researchers think the bacteria might be slow to evolve resistance to it.
+
+One big problem with turning to coral reef organisms is that coral reefs are already in big trouble. They really don’t need the pharmaceutical industry clearcutting them for miracle drugs the way poachers in the 1990s stripped forests of Pacific yews when they were found to contain a promising chemotherapy drug, taxol.
+
+Potential drugs found in coral reef organisms are often found in very low concentrations within the animals’ tissue, raising the specter of unsustainable overharvesting similar to that that afflicted the Pacific yew. If you need a couple square meters of sponges to get one dose of a drug that a person may take twice a day for the rest of her life, that person will rack up a whole lot of sponge deforestation in her lifetime.
+
+The Caribbean sea whip corals being harvested for the cosmetics trade have been gathered by clipping off an arm from the many-armed coral, then allowing it to regrow for several years before reharvesting. Some observers suggest this collection method may prove sustainable, but a 2009 study suggested that harvesting may be hurting the long-term viability of the coral.
+
+The more sustainable approaches will likely turn out to be higher-tech, through lab culture of the organisms that produce the substances desired (not always an easy task) or by moving the genes responsible for the desired substance into an organism we can grow more easily. Or even better: learning to synthesize the new drugs from readily available material, much as is being done with Eribulin.
+
+But whether we learn how to make these reef drugs in the lab or find a way to harvest them sustainably, it’s a good idea to protect the coral reefs we have, if only to make sure we don't miss out on any promising new cures for terrifying diseases. Just ask Arden O'Connor.
+
+"I’ve grown up going to the Caribbean, and I’ve spent a good amount of time around coral reefs," O'Connor told the Nature Conservancy in 2012. "It’s ironic that I had no knowledge that these things that are so beautiful, that I felt privileged enough to experience firsthand as a scuba diver, were contributing to my health today. Knowing that coral reefs can help people in this way, it does reframe the way I think about the environment and how we should be preserving our oceans.”

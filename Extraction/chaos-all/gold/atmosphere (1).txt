@@ -1,0 +1,24 @@
+ In A First, Atmosphere Detected Around An Earth-like Planet
+The observations of GJ 1132b, which is located about 39 light-years away from Earth, suggests the planet has a thick atmosphere containing either steam and/or methane.
+
+For the first time, astronomers have detected an atmosphere around an Earth-like exoplanet. Although it is unlikely that the planet is habitable due to its scorching surface temperature of 370 degrees Celsius (698 degrees Fahrenheit), the discovery is still being hailed as a major step forward in the search for extra-terrestrial life. Why? Because it is the chemical composition of a planet’s atmosphere that scientists presently use as basis to detect whether life on that planet exists.
+
+Basically, it has to do with the chemical imbalances caused by living organisms – in our case, it’s the presence of huge amounts of oxygen. Spotting an atmosphere on a planet other than the Earth therefore brings to mind the possibility that life might or might have existed on that planet too.
+
+The exo-planet is known as Gliese 1132b (or GJ 1132b). It’s located about 39 light years away in the southern constellation Vela and is referred to as a ‘super-Earth’, with a mass and radius that’s slightly larger than our own planet.
+
+The discovery of the atmosphere was made by a research team led by John Southworth from Keele University in the U.K. and Luigi Mancini from the University of Rome Tor Vergata. Other members of the team include researchers from the University of Cambridge and the Max Planck Institute for Astronomy.
+
+To get a better idea on the size and composition of the planet, the team — using the GROND imager at the 2.2 m ESO/MPG telescope of the European Southern Observatory in Chile — measured the dip in brightness across seven wavelengths of light as the planet passed in front of its host star (red dwarf star Gliese 1132) once every 1.6 Earth days.
+
+Based on the amount of light lost, they were able to deduce the size of Gliese 1132b — 1.4 times that of the Earth.
+
+The team also made a surprising discovery. They noticed that the planet appears to be larger in one wavelength than it does in all the other wavelengths. This suggests that its atmosphere is opaque to this particular wavelength, which is what causes it to appear larger as it is able to absorb some of the host star’s light. At all the other wavelengths, however, the atmosphere appears transparent.
+
+Researchers say that one possible explanation for this is the presence of water and methane in the atmosphere. As Dr. Southworth said in a statement they issued: ‘The planet is significantly hotter and a bit larger than Earth, so one possibility is that it is a “water world” with an atmosphere of hot steam.’
+
+Another point of interest about the planet is the fact that it is orbiting a red dwarf of low mass. As it is, such stars are quite common across the universe and though they are often found to host small planets, they are believed to be extremely active that the atmosphere of any nearby planet cannot survive the harmful X-rays and ultraviolet light it produces.
+
+With the discovery of Gliese 1132b’s atmosphere, it now appears that a planet’s atmosphere can actually endure the continuous bombardment of harmful cosmic rays. This in turn suggests that there are probably more planets like Gliese 1132b. More importantly, this might be an indication that the conditions suitable for hosting life are more common in the universe than we thought. Which is why further study of Gliese 1132b has now become a priority for the world’s most powerful telescopes including the Hubble Space Telescope, ESO’s Very Large Telescope, and the James Webb Space Telescope (scheduled for launch next year).
+
+Details of the study have recently been published in the Astronomical Journal.

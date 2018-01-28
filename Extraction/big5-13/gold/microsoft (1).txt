@@ -1,0 +1,44 @@
+Why Microsoft needs three—or more—operating systems
+Microsoft may line things up behind the scenes, but for users they'll stay different.
+
+At the moment, Microsoft has a bunch of consumer-facing Windows-derived brands: Windows 8.1 for x86 and x64 PCs, Windows RT for ARM PCs, and Windows Phone for smartphones. According to research firm Canalys, that's at least one too many, with Windows Phone and Windows RT specifically named as confusing "to both developers and consumers alike." Both operating systems are used on "smart devices," so why have two?
+
+Canalys's report shows the remarkable benefit of hindsight, as just last week Julie Larson-Green, head of Microsoft's Devices and Studios Engineering Group, told the audience at a UBS investor event that Microsoft was "not going to have three" operating systems in the future. Larson-Green outlined a need for two operating systems: a locked down mobile-oriented one and a full-strength one for tasks that need full flexibility.
+
+In some quarters, this is being interpreted with joy as confirmation that Windows RT will be killed off. Rumors reported by Mary Jo Foley would seem to confirm this: Windows Phone will be expanded, first in an 8.1 release in the first half of 2014 and then in a new operating system release in the first half of 2015. This expansion of Windows Phone will give it API parity with Windows RT, enabling applications to be compatible with both phones and tablets. As such, Windows RT will be squeezed out.
+
+The ultimate conclusion is speculated to be a single operating system for more or less every role.
+
+None of this is official, however. Microsoft has offered no particular guidance or roadmap.
+
+Depending on how you slice it, Microsoft either doesn't have three operating systems already or will always have three operating systems—perhaps even more.
+A different CPU does not an operating system make
+
+In some ways, talk of three operating systems is misleading. Microsoft doesn't really have three consumer operating systems. It has three brands. Windows RT and (Intel-compatible) Windows are not really two different operating systems. They're functionally one operating system—"Windows"—compiled for two different processor architectures.
+
+ARM Windows is subject to stricter security constraints than x86 Windows. Officially, Windows on ARM only supports third-party software written using the new WinRT API. But as was swiftly discovered after Windows RT's release, when the extra security constraints are defeated, the operating system itself can run all manner of Windows software using the Win32 API as long as it's compiled for ARM. All the bits and pieces that make up Windows are there, as is the full Windows user interface. A few parts are just cordoned off.
+
+The Windows RT branding as such carries two unrelated implications. The first is the use of an ARM processor. The second is a locked-by-default software environment. Neither of these things is going to go away. While a future in which Intel processors are abundant in smartphones is plausible in a way that it once wasn't, thanks to the latest generation of Atom processors, ARM support is, for the time being, a non-negotiable feature for any smartphone or tablet operating system.
+
+And with Larson-Green explicitly indicating that Microsoft would continue to have a locked-down environment for mobile platforms, the RT restrictions are likely to be a permanent fixture for the long term.
+
+So even if the branding goes away, the implications won't.
+
+Windows and Windows RT don't represent the first time Microsoft has shipped one operating system compiled for multiple processor architectures. Windows NT at various times ran on the Alpha AXP, MIPS R4000, and PowerPC 604 processors. The different versions were not generally binary compatible: an executable for PowerPC would not run on an x86 system even if both were running Windows NT with one exception (x86 software could run on Alpha systems using an OS-integrated x86 emulator). But presumably due to the nature of the people buying (or, more often, not buying) these various Windows NT variations, Microsoft didn't feel it was necessary to give each one its own brand name.
+
+For a consumer operating system, expressing the compatibility constraints becomes more important, hence the application of different brands. Whether this attempt to make the differences clear has actually worked is an open question. Windows RT can't run x86 programs even though it looks like it should be able to—since it looks just like x86 Windows to the extent of even having a desktop, Explorer, and Office. This is likely confusing to consumers in spite of the different branding.
+
+So it might seem like splitting hairs, but in terms of development effort and trajectory, it really isn't. Microsoft isn't developing two competing, incompatible, inconsistent platforms in parallel with Windows and Windows RT. It's developing one operating system and compiling it twice. Software that runs on Windows RT will run on Windows 8 at best unaltered (for software written using .NET or HTML/JavaScript) and at worst with a recompile (for software written using C++).
+A completely different API? Now that’s a different OS
+
+The operating system that is meaningfully different is Windows Phone. Windows Phone 7 used Windows CE (Microsoft's lightweight, customizable, embedded operating system) as its kernel. At the time, Windows CE was Microsoft's only ARM-compatible operating system, and the company had considerable experience using it on smartphones (as it was also used in Windows Mobile). This seemed like a sensible decision. Third-party applications were built using a modified version of Silverlight: a .NET environment with a few extra phone-specific bits and pieces.
+
+For Windows Phone 8, Microsoft wanted to use the NT kernel. The NT kernel is more capable and is where most of Microsoft's development effort is spent, so this made sense for the company (if not for end users). Since the development of Windows RT meant that the Windows software stack ran on ARM, there was no longer any reason to stick with Windows CE. Accordingly, Windows Phone 8 shares major parts with Windows 8, with low-level components such as the network stack and security infrastructure in common between the operating systems.
+
+To support existing Windows Phone 7 apps, Windows Phone 8 included essentially the same Silverlight environment. New applications for Windows Phone 8, however, didn't use the Silverlight environment. They have a couple of options: a new .NET environment similar to the old Silverlight one (though this time built on the full .NET runtime and notably missing the XNA 3D graphics API that the Silverlight system supported) and native code C++ with Direct3D.
+
+Significantly, Windows Phone apps can't use Windows' Win32 API. Nor can they use most of the new WinRT API.
+
+Developers wanting to share code between their phone and tablet software aren't completely out of luck: it's possible to write .NET code that conforms to a common subset of functionality that's available on both Phone and regular Windows (producing what are called "Portable Class Libraries"). Windows Phone 8 also gives C++ developers access to a limited subset of the WinRT API (sometimes called WinPRT), and large parts of Direct3D. Sources speaking to Paul Thurrott claim that overall, there's about a 33 percent commonality between the phone and non-phone operating systems.
+
+This makes Windows Phone 8 a strange orphan operating system. Windows Phone 8 has few APIs in common with either Windows or Windows RT, so while iOS and Android phone apps can also be used on iOS and Android tablets, Windows Phone apps are strictly for the phone alone.

@@ -1,0 +1,26 @@
+After 15 years of llama-whipping, AOL shuts down Winamp for good
+Former Winamp employees blame AOL mismanagement that began over a decade ago.
+
+Winamp, the storied MP3 player bought by AOL in June 1999 for over $80 million, is set to shut down in exactly one month. According to a post that went live Wednesday at 12:00pm ET on the Winamp website:
+
+    Winamp.com and associated Web services will no longer be available past December 20, 2013. Additionally, Winamp Media players will no longer be available for download. Please download the latest version before that date. See release notes for latest improvements to this last release. Thanks for supporting the Winamp community for over 15 years.
+
+On Wednesday, Ars confirmed the announcement with Geno Yoham, Winamp’s general director since October 2008. He declined immediate comment but said that he would try to arrange a future interview.
+
+Ars wrote an extensive feature on the rise and fall of Winamp in June 2012, detailing AOL’s mismanagement of the property since its dotcom-boom acquisition. As we reported then, Winamp continued to receive updates and make a tiny amount of money for AOL throughout the last 15 years. AOL even released the first Android version in 2010 and a Mac version in 2011.
+
+While the company has declined to release official figures, former employees who worked on Winamp estimate its current revenue at around $6 million annually. And Winamp still has an estimated user base of millions worldwide, a small fraction of which live in the United States. All of that appears to be water under the bridge now.
+
+“There's no reason that Winamp couldn’t be in the position that iTunes is in today if not for a few layers of mismanagement by AOL that started immediately upon acquisition,” Rob Lord, the first hire and first general manager of Winamp, told Ars in 2012.
+
+Justin Frankel, Winamp's primary developer, seemed to concur in an interview he gave to BetaNews. (He declined to be interviewed by Ars in 2012.) “I'm always hoping that they will come around and realize that they're killing [Winamp] and find a better way, but AOL always seems too bogged down with all of their internal politics to get anything done.”
+
+Ars is currently reaching out to former Winamp employees and developers as this story develops. If that includes you, please get in touch.
+
+UPDATE 2:57pm ET: Doug Serton, an AOL spokesperson, told Ars: "We decline to comment beyond the note posted on the site earlier."
+
+Venture capitalist Josh Felser, who founded Spinner.com, another online music property that was acquired by AOL at the same time as Winamp, told Ars, "Such a bummer. [AOL] had been trying to sell it for months... Spinner was shut down first. It's the end of Music 1.0."
+
+Felser added that he recently seriously considered buying Winamp from AOL, too.
+
+"I spoke with the [corporate development] folks at AOL a couple times. Even reached out to [Winamp creator] Justin [Frankel], who was totally not interested. I think we talked about $5 million with some trailing equity."

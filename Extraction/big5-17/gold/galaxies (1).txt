@@ -1,0 +1,28 @@
+Millimeter telescope array spots early galaxies in “super halos” of gas
+This could be what all galaxies used to look like. 
+
+The early Universe can be studied by looking at light coming from distant galaxies. The farther away the galaxy is, the longer its light takes to reach us, so we can see extremely distant galaxies as they were billions of years ago. However, the further back in time we look through this method, the more difficult it becomes to clearly resolve any features about the galaxies we’re looking at.
+
+An easier task, and one researchers have been doing for decades, is to study the gas surrounding early galaxies. When light passes through this gas, certain wavelengths of light are absorbed, while others aren’t. The result is that there are certain gaps, or lines, in this light. But until now, that’s as far as researchers could go for the most part: they couldn’t learn much about the galaxies themselves.
+
+In a new study, researchers have directly imaged two Milky Way-like galaxies through observations from ALMA (the Atacama Large Millimeter/submillimeter Array). The galaxies seem to have the properties of massive, star-forming galaxies.
+The birth of galaxies
+
+The first galaxies are thought to have formed out of a mostly uniform distribution of gas and dark matter. This material wasn’t exactly uniform, however: there were regions that were denser than the average. These dense regions began to collapse due to the pull of gravity, ultimately forming into the galaxies we see today.
+
+Stars also form when gas contracts due to gravity, so the more gas a galaxy has, the more stars it can form at any given time. But the initial galaxies aren't expected to have enough gas to account for the star formation rate we see in them, so the galaxies must be getting more gas from their surroundings. It's possible that the earliest galaxies were surrounded by giant halos of gas, extending many tens of thousands of light-years beyond the galaxies' disks.
+
+For that reason, researchers are very interested in studying the gas clouds surrounding early galaxies. Doing so could inform our understanding of the formation and evolution of galaxies. Neutral hydrogen is the most common gas and, while its emissions are difficult to detect, it's relatively easy to spot hydrogen absorption lines when the gas sits between us and a light source. Researchers can use the light from an object, such as a quasar, that's behind the gas. The light passes through the gas to get to us, allowing us to identify the elements present in the gas.
+
+But if the gas is associated with a galaxy, it's hard to study the galaxy. That's both because any bright light sources behind it interfere with imaging and because the gas also absorbs light from the galaxy. As a result, we've mostly just studied the nearby gases.
+The search
+
+This problem can be sidestepped by looking in other wavelengths, such as the submillimeter wavelengths that ALMA specializes in. The researchers used ALMA to look for the galaxies associated with two hydrogen-filled gas halos. The particular objects were selected because of their higher-than-average metal content. (In astronomy, “metals” are just all the elements beyond hydrogen and helium on the periodic table). And, due to ALMA's capabilities, they were able to find both galaxies.
+
+The researchers were able to resolve the galaxies well enough to detect their rotation. The part of a galaxy's disk that’s moving away from us has a spectrum shifted toward the longer-wavelength, red end of the spectrum, or red-shifted; the part coming toward us is blue-shifted. Comparing these parts of the galaxy provides an idea of how fast it’s rotating.
+
+This, in turn, allowed the researchers to estimate the mass of one of the galaxies. One of the two has at least 60 billion times the Sun’s mass. (The other had more complicated dynamics going on, making it difficult to get a clear mass estimate.) They were also able to get an estimate of the star formation rates of both galaxies, determining that both rates are “moderately high.” That result is comparable to other bright, previously observed galaxies.
+
+Their results indicate that these galaxies, with their hydrogen-rich gas clouds, have a range of similar characteristics to a type of previously identified star-forming galaxies identified by their lack of ultraviolet brightness. The envelope of neutral hydrogen gas surrounding the galaxies doesn’t appear to be moving away from its host galaxies, implying that the galaxies will likely draw in the gas and ultimately convert it to stars. This can help researchers build better models of the early formation and evolution of galaxies.
+
+Science, 2017. DOI: 10.1126/science.aal1737 (About DOIs)

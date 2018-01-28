@@ -1,0 +1,19 @@
+Japan and US to share region encoding on Blu-ray
+
+In other next-gen optical format news, reports (Japanese) are surfacing that Blu-ray disc will adopt a new region encoding scheme that will put Japan and the rest of East Asia into the same region as North and South America. Currently the United States is partnered with Canada on current DVD regions, while Europe is hangin' tough with Japan in another region lock-down.
+
+Region encoding is purportedly an anti-piracy measure, allowing for DVD manufacturers to determine what regions a given DVD may play in. For instance, my family across the pond can't buy BBC DVDs for me, because the UK and Ireland are in another region, and my DVD player will refuse to play them. Of course, the pirates who engage in video swashbuckling are quite capable of removing this region encoding, meaning that the black market goods are user friendly, while the white market goods are a pain to deal with, and limit consumer choice.
+
+If the reports are correct, there will only be three regions for Blu-ray, as follows:
+
+    Region 1: North America, South America, and East Asia (excluding China)
+    Region 2: Europe (including Turkey), and Africa
+    Region 3: China, Russia and others
+
+A fourth region setting would be "null," or no region specified.
+
+If true, the news will be greeted cheerfully by all manner of North American anime fans, who have long lamented the separate region encodings for Japan and the northwestern hemisphere (those that didn't pirate content, at least). But another group may also be pleased. If this region encoding applies to Blu-ray games, this would mean that PS3 games could flow easily between Japan and North America. But a few things merit mentioning. First, Sony's PSP does not use region encoding, and there's a possibility that the company may forgo using it at all for the PS3. On the flipside, Sony could also add another layer of region encoding that is game specific, and could shut down game sharing, if they wanted to. We can't know for sure until later.
+
+ Our condolences go out to European anime fans.
+
+Briefly returning to the Big Picture™, I'd be remiss not to point out the idiocy of region encoding. It doesn't stop piracy, and piracy greatly overshadows the gray importation market. Are the content owners finally figuring this out? DVD had 6 regions that were geographically specific, and Blu-ray looks to have cut this in half. Furthermore, the joining of East Asia and the United States seems to cast the whole importation argument into the wind. Now you can go to Malaysia and buy as many Blu-ray discs as you want, apparently. If the studios aren't worried about bargain discs in East Asia, and if region encoding is always swept away by pirates to begin with, then why not drop this otherwise merely anti-consumer provision, and get on with it? 

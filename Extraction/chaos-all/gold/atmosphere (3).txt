@@ -1,0 +1,51 @@
+ An Atmosphere Has Been Detected Around an Earth-Like Exoplanet for the First Time
+
+This is pretty huge.
+
+
+
+Astronomers have detected an atmosphere around an Earth-like exoplanet called Gliese 1132b (GJ 1132b for short), which is located around 39 light-years away in the constellation Vela.
+
+This is the first time atmosphere has ever been detected around a planet with a mass and radius so similar to Earth's, and that makes it a hugely promising (and exciting) target for researchers searching for signs of extraterrestrial life.
+
+"While this is not the detection of life on another planet, it's an important step in the right direction: the detection of an atmosphere around the super-Earth GJ 1132b marks the first time that an atmosphere has been detected around an Earth-like planet other than Earth itself," said lead researcher John Southworth from Keele University in the UK.
+
+There's still a lot to learn about GJ 1132b's atmosphere, but early observations suggest it could be a "'water world' with an atmosphere of hot steam" - AKA, a pretty awesome place to go looking for life.
+
+So far, we know that GJ 1132b has a mass about 1.6 times that of Earth's, and has roughly 1.4 times its radius - which in terms of exoplanets makes it remarkably similar to our home planet. 
+
+But as with all exoplanet discoveries, the researchers are quick to remind the public that the observations to date still really don't give us much insight into how similar GJ 1132b could be to Earth - or how habitable.
+
+Some bad news upfront is it has an estimated surface temperature of 370 degrees Celsius (698 degrees Fahrenheit), which makes it unlikely that it could host life like us.
+
+And let's not forget that we've recently been burned by the detection of the TRAPPIST-1 'sister solar system' and neighbouring Earth-like planet Proxima b, both of which are unlikely to be the friendly places for life we first thought they were.
+
+But none of those planets had ever gotten as far as having an atmosphere detected, so GJ 1132b is already doing pretty well in terms of a spot that could potentially host life.
+
+Right now, the top strategy for astronomers in the search for life on another planet is to detect the chemical composition of that planet's atmosphere, looking for certain chemical imbalances that could hint at the presence of living organisms. For example, on Earth, the large amount of oxygen in our atmosphere is that 'smoking gun'.
+
+We're a long way off having that much insight into GJ 1132b, but the fact that we've detected its atmosphere at all is a good first step.
+
+The planet orbits the not-too-distant red dwarf star Gliese 1132, which Southworth and his team studied using the ESO/MPG telescope in Chile.
+
+They measured the slight dip in brightness across seven wavelengths of light as GJ1132b passed in front of its host star every 1.6 Earth days, in order to get a better idea of the size and composition of the planet.
+
+They were surprised to find that the planet appeared larger when observed in one type of infrared wavelength of light, which suggests that the planet has an atmosphere that's opaque to these wavelengths.
+
+The team went on to model different possible versions of this atmosphere, and found that an atmosphere rich in water and methane could explain what they were seeing.
+
+Prior to this, the only exoplanets that researchers have detected atmospheres around were planets that were more than eight times more massive than Earth, and gas giants similar to Jupiter.
+
+"With this research, we have taken the first tentative step into studying the atmospheres of smaller, Earth-like, planets," said Southworth. "The planet is significantly hotter and a bit larger than Earth, so one possibility is that it is a 'water world' with an atmosphere of hot steam."
+
+The type of star GJ 1132b is orbiting also makes the planet of particular interest - its host star is a low-mass red dwarf, which are incredibly common throughout the Universe and are frequently found to host small, Earth-like planets.
+
+But they've also been shown to be particularly active, often blasting huge solar flares out at their surrounding planets - something previous research has suggested would evaporate any traces of a planet's atmosphere.
+
+But the new discovery suggests that an atmosphere is possible of enduring this bombardment for billions of years without being destroyed - which opens up the possibility that thousands more planets orbiting low-mass stars could potentially harbour atmospheres.
+
+"Given the huge number of very low-mass stars and planets, this could mean that the conditions suitable for life are common in the Universe," a press release explains.
+
+We still have a lot to learn about GJ 1132b, and hopefully we'll have some more answers soon - the new discovery makes it one of the highest-priority targets to be studied by instruments such as the Hubble Space Telescope, the Very Large Telescope, and the James Webb Space Telescope, which is scheduled to launch in 2018.
+
+The research has been published in The Astronomical Journal.

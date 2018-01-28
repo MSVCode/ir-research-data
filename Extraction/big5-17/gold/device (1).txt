@@ -1,0 +1,18 @@
+Activists want to know why feds are searching more devices at the border
+"As a matter of policy, DHS does not comment on pending litigation."
+
+A free speech advocacy organization sued the Department of Homeland Security and Immigration and Customs Enforcement on Monday, seeking "statistical, policy, and assessment records regarding the government’s searches" of digital devices at the United States border.
+
+The group, the Knight First Amendment Institute based at Columbia University, said on Twitter that the lawsuit came about as a result of recent journalism on the issue.
+
+Ars and other media reported that there has been a rapid uptick in the number of such incidents: February 2017 alone had more border searches of phones, tablets, and computers than all of 2015.
+
+Gillian M. Christensen, the acting DHS press secretary, declined to comment further in an e-mail to Ars on Monday: "As a matter of policy, DHS does not comment on pending litigation."
+
+Specifically, KFAI asked for a slew of data under the Freedom of Information Act. When the agency did not respond in a timely fashion, the group sued.
+
+As the lawsuit continues:
+
+    The Request seeks the following records: 1) records from Defendants’ TECS database containing information about the number and reasons for each search, detention, retention, or sharing of individuals’ electronic devices or the information accessible on them since fiscal year 2012; 2) documents relating to each instance since fiscal year 2012 in which CBP or ICE searched, detained, retained, or shared an electronic device or the information accessible on it; 3) revisions of or documents supplementing or superseding the CBP and ICE Directives concerning border searches of electronic devices; 4) certain documents relating to any reviews of CBP’s or ICE’s policies or practices concerning electronic device searches; 5) documents concerning or relating to complaints filed by individuals or organizations about CBP’s or ICE’s search, review, retention, or sharing of the information on travelers’ electronic devices; 6) documents reflecting policies, practices, or procedures concerning how CBP officers handle "privileged or other sensitive materials," including "work-related information carried by journalists" as described in the CBP Directive concerning border searches of electronic devices; and 7) documents reflecting policies, practices, and procedures concerning CBP’s antidiscrimination policy as applied to discretionary electronic device searches.
+
+Earlier this month, Robert Brisley, a CBP spokesman based in Atlanta, sent Ars a lengthy statement detailing the agency’s policy regarding such searches. That statement notes that such electronic device searches remain miniscule, noting that in 2016, "CBP processed more than 390 million arrivals and performed 23,877 electronic media searches. This equates to CBP performing an electronic search on 0.0061 percent of arrivals."

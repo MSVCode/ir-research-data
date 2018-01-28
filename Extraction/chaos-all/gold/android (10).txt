@@ -1,0 +1,36 @@
+Android Nougat 7.1.2 update release date REVEALED - new upgrade landing soon
+LAUNCH date for latest Android 7.0 Nougat upgrade is just weeks away, report claims, meaning major improvements are on the way.
+
+Android 7.0 Nougat could be about to get more powerful than ever.
+
+Google’s mobile software was first revealed last August, and was followed by a significant update in the form of Android 7.1 Nougat in October with the launch of the Google Pixel and Pixel XL smartphones.
+
+However it now seems that the next generation of Android Nougat could now just be weeks away.
+
+Reports from Android Central claim that the Android 7.1.2 Nougat update will now be launched to the public on April 3rd.
+
+This date corollates with the initial beta launch of the software earlier this year, when Google suggested that a wider release would occur around the end of March.
+
+Another clue has reportedly emerged from Canadian smartphone carrier Rogers.
+
+The company has listed an upgrade to its Google Pixel and Pixel XL offerings for April 3rd which will provide a security updates and VoLTE calling.
+
+This may not sound like much, but Rogers has been testing VoLTE, which allows users to make phone calls using just their internet connection rather than relying on phone signal, on Pixel and Pixel devices using the Android 7.1.2 Nougat beta.
+
+Google initially released Android Nougat 7.1.2 as a public beta back in January, with the company’s own devices Nexus and Pixel smartphones (as well as the Pixel C laptop) initially able to download.
+
+The update gave users access to one of standout exclusive features of the newer Pixel smartphones, which were released last October.
+
+The devices were released with Android 7.1 Nougat installed, which offered a range of new improvements and advances, including an expansion on how to interact with the device’s fingerprint scanner.
+
+This new “swipe for notifications” feature allowed users to swipe across the sensor to bring up their app alerts, rather than having to do so on the device’s screen.
+
+The update also includes redesigned app shortcuts and better image keyboard support among other things.
+
+There’s no news yet on when non-Google devices will be able to download the update, with many device makers still rolling out the initial version of Android 7.0 Nougat.
+
+Samsung only just started releasing the update to users with its Galaxy S7 and S7 edge devices last month, due to the company having to test the software in order to stop any bugs.
+
+The same delays have hit other phone manufacturers with HTC and Sony both halting the upgrade to Android Nougat as they look to pack in their own unique apps, skins and services.
+
+To check if your Android phone is ready to be updated, head to Settings > About Device > Download Updates Manually.

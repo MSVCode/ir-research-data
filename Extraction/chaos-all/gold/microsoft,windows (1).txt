@@ -1,0 +1,29 @@
+Windows 10: Users need to buy new computers to access any new features, Microsoft confirms
+
+Fortunately, Microsoft has changed its stance on security patches
+
+A number of PCs have been blocked from installing all future Windows 10 updates, Microsoft has confirmed.
+
+In order to access any new features Microsoft creates and releases to improve the operating system, affected users will need to purchase new computers.
+
+It’s a major blow, which essentially places users in limbo.
+
+As reported earlier this week, the issue affects computers built around Intel's Atom Clover Trail processors.
+
+PCs featuring the Atom Z2760, Atom Z2520, Atom Z2560 and Atom Z2580 processors have been found to be incompatible with the Windows 10 Creators Update, and Microsoft has now confirmed that they will not be able to install any other future Windows 10 updates.
+
+That means they’re stuck on version 1607 of the operating system – the Anniversary Update that came out in August 2016.
+
+Under normal circumstances, where each Windows 10 update only receives security updates for 18 months, version 1607 had been due to lose support from Microsoft early next year. 
+
+That means that, while people would still have been able to use their PCs, they would have become increasingly vulnerable to potentially dangerous bugs and security holes over time. 
+
+Fortunately, Microsoft has changed its stance in a bid to appease disappointed users, and says the computers affected by this block will continue to be receive security patches through to January 2023.
+
+While this is a relief, the prospect of being stuck on the same version of an operating system for at least five more years, with no hope of accessing new features, isn’t especially appealing.
+
+“If a hardware partner stops supporting a given device or one of its key components and stops providing driver updates, firmware updates, or fixes, it may mean that device will not be able to properly run a future Windows 10 feature update,” the company told ZDNet.
+
+“This is the case with devices utilizing Intel Clover Trail Atom Processors today: they require additional hardware support to provide the best possible experience when updating to the latest Windows 10 feature update, the Windows 10 Creators Update. 
+
+“However, these systems are no longer supported by Intel (End of Interactive Support), and without the necessary driver support, they may be incapable of moving to the Windows 10 Creators Update without a potential performance impact.”

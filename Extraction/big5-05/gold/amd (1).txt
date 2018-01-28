@@ -1,0 +1,33 @@
+AMD More Fleet-Footed Than Intel
+
+NEW YORK - There's nothing like a race to break through an important computing milestone to get the semiconductor industry buzzing.
+
+Right now the race between the world's biggest chipmaker, Intel (nasdaq: INTC - news - people ), and its smaller, scrappy rival, Advanced Micro Devices (nyse: AMD - news - people ), is to be the first to release a server chip with two brains, and it appears that AMD is winning. Published reports today say that AMD will announce availability of an important technical milestone called dual-core chips, months ahead of schedule and months ahead of Intel, its most potent rival.
+
+It's the third time in the past several years that AMD has beaten Intel (which has infinitely bigger resources) to market with important technology. In 2000 AMD hit a benchmark by being first to market with a PC chip that ran at 1 gigahertz. Intel followed soon after. More important, in 2003 AMD launched its first 64-bit-capable chip, the Athlon 64. It accomplished this by adding 64-bit "extensions" to existing 32-bit processors. Intel eventually was forced to mimic this approach to 64-bit computing.
+
+AMD's official announcement about the dual-core Opteron is expected at a company event April 21 in New York.
+
+Previously, AMD had said it expected to announce dual-core Opteron server chips in mid-2005, though in recent weeks the company had been suggesting that important news on the dual-core front was imminent. An AMD spokeswoman said no changes have been made to AMD's plans to release the chip. AMD's current Opteron customers include IBM (nyse: IBM - news - people ), Hewlett-Packard (nyse: HPQ - news - people ) and Sun Microsystems (nasdaq: SUNW - news - people ).
+
+Intel has plans for its own for dual-core chips, and last week Intel President Paul Otellini said the company will release its first dual-core chips for PCs before the end of May. Its dual-core server chips, which it will sell under its Xeon brand name, will ship to computer makers by the end of the year but won't show up in servers on the market until early 2006.
+
+This high-performance chip could give AMD an important edge with computer makers that have been slowly but surely using AMD's Opteron chips in more critical server computers. Previously, AMD's chips were popular mainly in low-cost, consumer-oriented PCs. If AMD gains enough of an edge, it could put a crimp in Intel's stranglehold on the Wintel server market.
+
+A microprocessor is the central brain of any computer system. The core of that microprocessor is its cerebral cortex. Adding a second core allows the chip to split up computing tasks into small pieces to process functions faster and more efficiently. A dual-core chip accomplishes this even while running at a slightly slower speed than a single-core chip does.
+
+Adding a second core also helps beat back the negative byproducts of chip design: excessive power consumption and heat. Dual-core chips can do the same work that a single-core chip can, only faster, while consuming less power and at a cooler temperature.
+
+Nathan Brookwood, an analyst with Insight64, a Saratoga, Calif., research firm, says AMD had an easier job than Intel in modifying its single-core chips to incorporate a second core. AMD has long had plans for a second core in its designs and first hinted at the possibility back in 1999 when Fred Weber, now AMD's chief technology officer, presented the information about such a design at a semiconductor conference. Intel's single-core chips, he suggests, were not designed from the start for modification to dual-core.
+
+"Intel's dual-core design is in some ways more complicated and in other ways more simple. Intel takes two of its Pentium 4 cores and stamps them on the silicon right next to each other, but they have no idea how close they are to each other," Brookwood says.
+
+The performance difference will likely reignite speculation that Dell (nasdaq: DELL - news - people ), the only major computer maker that does not use AMD chips, will eventually fall into AMD's camp. Dell Chief Executive Kevin Rollins said this week that the company is "still looking at AMD. They have fairly good technology."
+
+But there may not be a compelling reason for Dell to make such a dramatic departure, since the company is certainly not losing market share with its Intel-only strategy.
+
+Finally, once AMD has its dual-core chip on the market, the big question becomes one of demand. Brookwood says several AMD customers like IBM stand ready to put dual-core chips into servers.
+
+Then there's the issue of the overall IT-spending environment, which is softening.
+
+"Dell is suggesting that IT spending overall is slower than last year--not that it's awful, but that it's definitely moderating," says analyst Wendy Abramowitz with Argus Research in New York. "For AMD, being ahead of plan is always positive, but just how much demand is out there at the moment remains the question."

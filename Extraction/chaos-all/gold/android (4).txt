@@ -1,0 +1,21 @@
+Gmail On Android Adds Support For Payments
+
+Gmail on Android now allows users to send money to each other directly through the app. The feature has already been available to desktop users for the last several years, but Google has added Google Wallet Support to the Android version of the app.
+
+Google Wallet support for Gmail on Android
+
+Google announced the addition of the feature in a blog post today. There’s no fee for using the service, and users can send money to anyone, regardless of whether they have a Gmail address. They can also send a request for money to someone through the app. Those who receive money, whether from someone they requested a payment from through the app or from someone who just sent money without a request, can transfer the money into their bank account. There’s also an option to set up the payments service so that the money goes directly into a bank account.
+
+At this point, payment support through Gmail on Android is only available to U.S. users, although the company might roll it out to users in other countries at some point. It didn’t state one way or the other in its blog post.
+How to send money through the Gmail on Android app
+
+It’s easy to send or request money using the Gmail on Android app. Users simply open the app and then compose an email. Then just tap on the icon that’s used to attach documents, photos or other files (which looks like a little paperclip), and select either send or request money. Users can also include a message with the payment.
+
+The entire transaction process is completed within the Android Gmail app, so users do not need to have Google Wallet installed on their devices.
+Google takes on PayPal and others
+
+The digital payments business is a hot one these days, and Google seems to be doing what it does best, which is offer services others already offer but without fees. Integrating Google Wallet with Gmail certainly makes the process easier, and moving it to the Android app means it is now mobile rather than tethered to the desktop.
+
+Mobile payments are getting even more important now, and Google Wallet hasn’t exactly been embraced with open arms. This is probably a way to get more people using Wallet in hopes that they will also adopt it for other uses like point-of-service purchases at brick-and-mortar stores. This is the company’s way of trying to take on PayPal’s Venmo and Square Cash, among the growing number of others that are trying to make it big in the digital payments space.
+
+However, the Gmail integration for Wallet is limited to Android, at least for now, while iOS users can still use these competing services. iOS users also have access to Apple’s mobile payments service and probably are more likely to use it over Google’s anyway.

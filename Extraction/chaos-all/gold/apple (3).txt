@@ -1,0 +1,18 @@
+Apple's Big iOS Update Is Here and Generating Some Buzz (AAPL, VZ)
+
+Apple (AAPL
+) has released its latest mobile operating system update iOS 10.3 for iPhone, iPad, and iPod Touch users to much fanfare, for now at least.
+
+iOS 10.3 contains some notable breakthroughs. Perhaps the most exciting new feature is a tool enabling users to locate their missing AirPods. By using the Find my Phone app, users can get these easy-to-lose small Bluetooth earbuds to play a sound, or alternatively create a map showing where the AirPods were located when they were last synced with a device. (See also: Apple's AirPods Will Cost $69 to Replace.)
+
+Tech enthusiasts were equally excited about the latest WiFi call function. With the new update, users can now make WiFi calls through iCloud connected devices, such as iMacs, Mac minis, MacBooks, iPads, iPod touches and Apple Watches, without routing calls through a phone. Previously, only iPhones on a Verizon (VZ
+) subscription plan could achieve this.
+
+The latest update also offers a new podcast app widget, developer review tool, app animation, a section breaking down iCloud storage usage and added functionality for Siri, Apple’s built-in "intelligent assistant”. With Siri, users can now build apps to achieve new tasks, including paying bills, checking payment statuses and scheduling Uber car rides.
+
+Other Siri updates include interacting with automaker apps to check fuel levels, operate lights and activate car horns and the ability to obtain answers to a variety of cricket scores and stats. The latter feature was mainly designed for India, Apple’s fastest growing market. (See also: Apple Set to Begin Manufacturing in India.)
+
+As previously warned by Apple, iOS 10.3 no longer facilitates the use of apps designed in 32-bit. The latest operating system also does not include the rumored Theater Mode feature, which reportedly can offer users the option to activate dark themes to interfaces when watching videos.
+
+Users will be hoping that iOS 10.3 encounters fewer issues than Apple's previous mobile operating system. Despite offering a boatload of new emojis, several operating problems were reported with iOS 10.2. (See also: Apple Introduces New Emojis With Latest iOS Update.)
+

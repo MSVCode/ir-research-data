@@ -1,0 +1,19 @@
+
+Microsoft: No more Windows 10 upgrades for some Atom-based PCs
+Intel dropped support for Clover Trail chips, so Microsoft is in a bind.
+
+
+
+Everyone knows that technology goes obsolete quickly, but Microsoft and Intel are taking that tenet too far for some folks. Owners of three- to four-year-old "Clover Trail" Atom-based PCs like the HP Envy X2 laptop noticed that they were unable to upgrade to the latest version of Windows 10 Creators Update. Instead, they were greeted with a message saying "Windows 10 is no longer supported on this PC," and told to "uninstall this app now."
+
+In an emailed statement, Microsoft confirmed that Clover Trail PCs won't support the latest upgrades, mainly because Intel won't provide firmware updates. "These systems are no longer supported by Intel (End of Interactive Support), and without the necessary driver support, they may be incapable of moving to the Windows 10 Creators Update without a potential performance impact," it said in an emailed statement.
+
+However, Microsoft affirmed that it will keep Clover Trail PCs secure up to the previous version of Windows 10. "We will provide security updates to these specific devices running the Windows 10 Anniversary Update until January of 2023, which aligns with the original Windows 8.1 extended support period," the company said.
+
+ Intel introduced the dual-core Clover Trail Atom as a power-sipping chip that could compete with ARM-based Snapdragon and other processors. However, while providing good battery life, the chips lacked horsepower, and Intel quickly moved on to the more powerful Bay Trail architecture. The latest Atom generation is Cherry Trail, which runs Microsoft's Surface 3, Acer Predator and other tablet-type convertibles.
+
+Unlike the later Atom chips, Clover Trail likely can't handle new features in Windows 10 Creators Update like Paint 3D, game livestreaming, Cortana and more. The update is the most significant since the launch of Windows 10, and taxes your PC's graphics and CPU correspondingly.
+
+Unfortunately, Clover Trail owners first had to download 3GB worth of setup files before discovering that the Creators Update wouldn't work, rather than being notified up front. On top of that, the "uninstall this app" message likely confused many users, as there is actually nothing to uninstall, ZDNet points out.
+
+Microsoft said that those users will be able to update to the Windows 10 Anniversary Update, but will essentially be stuck with a secure version of Windows 10, circa 2016. There's no word on whether it will change the update process to make it less confusing and stop users from downloading 3GB of useless data, but we've reached out for more information.

@@ -1,0 +1,19 @@
+Elon Musk: Self-Driving Tesla Won’t ‘Need to Ask’ for Destination
+
+Tesla’s autonomous driving mode may drive passengers to their destination without even asking where they need to go in most cases. A future Autopilot update, which will be supported by the Tesla Model 3 and other vehicles manufactured since last October, is set to bring fully autonomous driving to existing electric cars by taking advantage of the array of sensors and cameras. On Saturday, CEO Elon Musk revealed that the feature may be altogether smarter than expected.
+
+“Surely I am not the 1st to suggest this but it would be cool to get in my car and Ask it to take me somewhere,” said Twitter user James Harvey.
+
+“It won’t even need to ask you most of the time,” Musk responded.
+
+Musk’s claim that the car will navigate itself in most cases builds on Tesla’s official description of the autonomous driving feature, which explains how this feature works in detail:
+
+    All you will need to do is get in and tell your car where to go. If you don’t say anything, the car will look at your calendar and take you there as the assumed destination or just home if nothing is on the calendar.
+
+But Musk appeared to suggest the car will use a level of artificial intelligence to work out where the driver may need to go based on regular usage patterns:
+
+Tesla offers the autonomous driving feature as part of existing orders, for customers who wish to prepare in advance. In the case of the Model 3, the $35,000 vehicle that launched this summer, customers can pay $5,000 to unlock semi-autonomous “Enhanced Autopilot” capabilities, an existing feature that drives the car along highways and automatically parks. To get the full self-driving feature when it comes available at a later date, customers can choose to pay an extra $3,000 now to receive the update when it becomes available. In total, it costs $8,000 extra for a Model 3 ready for full autonomy.
+
+When this feature will come available is unclear, though. Musk originally claimed last October that autonomous cross-country road trips would be enabled by the end of 2017, a goal later clarified in June as “a demonstration drive of full autonomy, all the way from L.A. to New York.”
+
+Full autonomous driving looks to be slightly further into the future. At the June meeting, Musk said that he believes full type-in-destination driving is be around two years away, a claim that chimes with third party predictions. Toyota Research Institute chief executive Gill Pratt said earlier this year that level four autonomy, where the car can drive itself via predictable roads, will hit the streets around 2020. Tesla may have big plans for a smart autonomous car, but it could be a long time coming.

@@ -1,0 +1,13 @@
+Microsoft built an eye-catching smart thermostat featuring voice assistant Cortana
+
+Microsoft has built a smart thermostat that comes with its voice assistant Cortana, detects whether you're in the room, and tells you what the air quality is like.
+
+The thermostat, called GLAS, runs on a version of Windows for smaller devices, Windows 10 IoT Core, and features Microsoft's smart voice assistant Cortana. We first saw GLAS on The Verge.
+
+Microsoft showed off GLAS in a short YouTube video posted on July 19. You can watch the video below.
+
+GLAS's design is similar to rival smart thermostats from Google's Nest or Hive in the UK, with a touchscreen display where you can check the temperature, air quality, energy usage, and even calendar information. Its main differentiator is that it's voice activated.
+
+Microsoft has built the device with US thermostat makers Johnson Controls. But neither company has said if the thermostat will be on sale to consumers in the UK or US, or given a price.
+
+The thermostat is just the latest example of Microsoft pushing its voice assistant in the smart home. The Windows 10 Creator update in March means that any smart appliance with a screen can now run Cortana — so it's possible GLAS is just intended to show you what you can do. That means you might see a lot more smart gadgets featuring Cortana popping up over the next year.

@@ -1,0 +1,14 @@
+iPhone Game Targeted At Children Charges $99 For In-App Purchases
+Certain gaming apps are known to push their luck when it comes to recommending in-app purchases, but a platform game featuring characters ripped straight out of Pokemon and Mario Bros. asks players (read: kids of unsuspecting parents) to pay as much as $99 to enhance game-play.
+
+The game, snappily titled Super Monster Bros by Adventure Time Pocket Free Games, was discovered by IGN, which posted a video demonstrating the minefield of in-app purchase pop-ups during game play.
+
+There’s an option before the game even starts to purchase characters ranging in price from $5 to $99. Any player who wants to make a purchase would have to know the device’s iTunes password for it to go through, though.
+
+The game was posted on Feb. 23, 2013, and has consistently received one-star reviews on iTunes: “Boring for adults and could easily trick kids into spending money,” says one.
+
+Who made it? A link underneath the description section of its iTunes page points to CocoaChina, otherwise known as Chukong Technologies, China’s biggest mobile apps developer. The company received $14 million in Series B funding in 2011 from investors including Sequoia China.
+
+But this appears to be yet another ruse by the game developer. A spokesman from CocoaChina tells me that this is “absolutely not” their game, and that they have “no connection whatsoever to the named developer.”
+
+The “seller” of the game is listed as Mario Games Casas Team, which appears to have made two other similar iPhone games with saturated cartoon-like rendering, and more scammy in-app purchase options.

@@ -1,0 +1,15 @@
+Overwatch Director Explains The Problems With Putting The Game On Nintendo Switch
+
+Nintendo fans are realistic. Well, most of us are. We know not every game is going to end up on the Nintendo Switch. The system just doesn’t have as much raw horsepower as the Xbox One or PS4, so technically demanding games like Mass Effect: Andromeda and Final Fantasy XV probably aren’t on the way to the system.
+
+But what about Overwatch? The game would be right at home on the Nintendo Switch alongside colorful, cartoony multiplayer games like Splatoon 2 and Super Smash Bros!
+
+Last month Overwatch director Jeff Kaplan indicated Overwatch on Nintendo Switch could, hypothetically, happen, but that it be “very challenging” for Blizzard. Now, in a new interview with British tabloid the Daily Express, Kaplan has elaborated on exactly what those challenges are…
+
+    “I think the problem is, we've really targeted our min spec in a way that we would have to revisit performance and how to get on that platform. And also, it's already challenging right now maintaining three platforms and patching simultaneously, which is something that we've finally been able to achieve.
+
+    Our first couple of patches would come out on PC first and then later on the consoles, and a lot of that is because you're working with Microsoft and Sony, and you want to be compliant to their ecosystems. Adding a third ecosystem to that just adds a lot of complexity for us, as well, but just because we're not on a platform right now, it doesn't mean we won't reconsider it in the future, so we stay aware of all these things."
+
+In other words, “We’re not sure we can hit 60fps on the Switch, and we reeeaally don’t want to have to support a fourth system.” It seems like the latter is probably the bigger issue. I think, with some programming elbow grease, Overwatch could work on Switch. Games like Mario Kart 8 and Splatoon 2, which are about as graphically demanding as Overwatch, run on Switch at 60fps.
+
+Hopefully Blizzard can make time in their busy schedule for the Switch, but I wouldn’t hold my breath.

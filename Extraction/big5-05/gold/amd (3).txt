@@ -1,0 +1,31 @@
+In Chips, Two Cores Are Better Than One
+
+NEW YORK - Two heads may be better than one to solve tricky problems, but for computer chips, two brains are better than one.
+
+In the coming months, several chip manufacturers will be talking up their plans for dual-core and multi-core chips--chips that have two or more brains--as chip manufacturing technologies continue to improve.
+
+A core is essentially the central brain on a chip. Adding a second core allows the chip to split computing tasks up into smaller pieces, thereby getting the job done faster. Not only will this reduce computing time, but will do so while minimizing the effects of the two evil forces of chip design--power consumption and heat. Dual-core chips can do the same work that a single core chip can, only faster, on less power and while staying cooler.
+
+Earlier this year Intel (nasdaq: INTC - news - people ) disclosed its plans to build dual-core chips, and said it had ceased development on a chip codenamed "Tejas" that was to be the last of its single-core chips. It has already demonstrated a dual-core server chip codenamed "Montecito" that will eventually be added to its Intanium 2 line of chips.
+
+Meanwhile, rival Advanced Micro Devices (nyse: AMD - news - people ) has had dual-core chips on its long-range roadmaps since 1999 (see: AMD's Chip Off The Old Block), and has a dual-core desktop chip codenamed "Toledo" under development. And Freescale Semiconductor (nyse: FSL - news - people ), the chip-making subsidiary of Motorola (nyse: MOT - news - people ) has plans to demonstrate its first dual-core PowerPC processor, which has fans of Apple Computer (nasdaq: AAPL - news - people ) wondering if perhaps a dual-core chip might soon appear somewhere in Apple's product lineup.
+
+Both AMD and Freescale are expected to reveal more about their dual-core plans at the Fall Processor Forum in San Jose, Calif., in October. The chips themselves aren't expected to hit the market until mid-2005. Intel is likely to reveal more about its plans for dual- and multi-core chips at the Intel Developers Forum in Santa Clara, Calif., next month.
+
+The dawn of dual-core microprocessors represents a fundamental shift in thinking of how microprocessors are designed. For decades, designers have been following a reliable pattern of shrinking the transistors on a chip and boosting the speed at which they operate. But in recent years, those old tricks have proved less helpful in designing a chip that can accomplish more work, says analyst Tom Halfhill with Instat/MDR, the research outfit that hosts the Fall Processor Forum each year.
+
+"I think that what is actually driving this is that chip architects are becoming frustrated because they keep designing more sophisticated processor cores and aren't getting as much performance out of them," Halfhill says.
+
+The key measurement, Halfhill says, is known as instructions per clock--which means the number of commands a chip can issue with every cycle of its internal clock. At peak rates some chips can briefly issue three or four instructions per clock, but can't maintain that speed. But taken as an average, the number of instructions per clock is much lower, and more difficult to increase. "No matter what the designers seem to do, they can't seem to get past an average of 1.3 instructions per clock," he says.
+
+One new approach, Halfhill says, is to put more, but simpler cores on a chip to accomplish the same computing work more efficiently. And when a second core isn't needed, he says, it can be put to sleep. That already happens now with single-core chips. "Most people don't realize that part of the processor in their PC is going to sleep between keystrokes," he says.
+
+But while the dual-core advantage is clear in the server world, where chips are generally required to tackle heavier tasks, it's not as clear in the desktop world, says analyst Nathan Brookwood of Insight 64, Saratoga, Calif.
+
+"There is a lot of software that is not written to take advantage of multiple cores," he says.
+
+That may be changing. Intel has for the last few years been selling chips that use a technique called hyperthreading, which allows a single-core chip to act on two instructions at once, the reason being that if one instruction stalls, the chip can turn its attention to the other.
+
+"Intel in its wisdom has been encouraging companies to adapt their software for hyperthreading, and the software interface for hyperthreading is almost identical to that for multi-core chips."
+
+Brookwood compared the switch to dual- and multi-core chips with that of adding cylinders in a car engine. "One could conceivably build a single-cylinder engine. But it would have to be an awfully big cylinder, and the pistons very heavy, and it would get to the point where the weight of the engine would slow down the vehicle the bigger and more powerful you try to make it," Brookwood says. "I think with microprocessors we've reached that state now." 

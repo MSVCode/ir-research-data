@@ -1,0 +1,52 @@
+For the first time, astronomers have detected an atmosphere around an Earth-like exoplanet. Although it is unlikely that the planet is habitable due to its scorching surface temperature of 370 degrees Celsius (698 degrees Fahrenheit), the discovery is still being hailed as a major step forward in the search for extra-terrestrial life. Why? Because it is the chemical composition of a planet’s atmosphere that scientists presently use as basis to detect whether life on that planet exists.
+
+Basically, it has to do with the chemical imbalances caused by living organisms – in our case, it’s the presence of huge amounts of oxygen. Spotting an atmosphere on a planet other than the Earth therefore brings to mind the possibility that life might or might have existed on that planet too.
+
+The exo-planet is known as Gliese 1132b (or GJ 1132b). It’s located about 39 light years away in the southern constellation Vela and is referred to as a ‘super-Earth’, with a mass and radius that’s slightly larger than our own planet.
+
+The discovery of the atmosphere was made by a research team led by John Southworth from Keele University in the U.K. and Luigi Mancini from the University of Rome Tor Vergata. Other members of the team include researchers from the University of Cambridge and the Max Planck Institute for Astronomy.
+
+To get a better idea on the size and composition of the planet, the team — using the GROND imager at the 2.2 m ESO/MPG telescope of the European Southern Observatory in Chile — measured the dip in brightness across seven wavelengths of light as the planet passed in front of its host star (red dwarf star Gliese 1132) once every 1.6 Earth days.
+
+Based on the amount of light lost, they were able to deduce the size of Gliese 1132b — 1.4 times that of the Earth.
+
+The team also made a surprising discovery. They noticed that the planet appears to be larger in one wavelength than it does in all the other wavelengths. This suggests that its atmosphere is opaque to this particular wavelength, which is what causes it to appear larger as it is able to absorb some of the host star’s light. At all the other wavelengths, however, the atmosphere appears transparent.
+
+Researchers say that one possible explanation for this is the presence of water and methane in the atmosphere. As Dr. Southworth said in a statement they issued: ‘The planet is significantly hotter and a bit larger than Earth, so one possibility is that it is a “water world” with an atmosphere of hot steam.’
+
+Another point of interest about the planet is the fact that it is orbiting a red dwarf of low mass. As it is, such stars are quite common across the universe and though they are often found to host small planets, they are believed to be extremely active that the atmosphere of any nearby planet cannot survive the harmful X-rays and ultraviolet light it produces.
+
+With the discovery of Gliese 1132b’s atmosphere, it now appears that a planet’s atmosphere can actually endure the continuous bombardment of harmful cosmic rays. This in turn suggests that there are probably more planets like Gliese 1132b. More importantly, this might be an indication that the conditions suitable for hosting life are more common in the universe than we thought. Which is why further study of Gliese 1132b has now become a priority for the world’s most powerful telescopes including the Hubble Space Telescope, ESO’s Very Large Telescope, and the James Webb Space Telescope (scheduled for launch next year).
+
+Details of the study have recently been published in the Astronomical Journal.
+
+There are a lot of good reasons to be captivated by the exoplanet GJ 1132b. Located in the constellation Vela, it's a mere 39 light-years from Earth — just a hop, skip and a jump in galactic terms. It's similar to Earth in terms of size and mass, and it dances in a close-in orbit around its star, a dimly burning red dwarf.
+
+And, astronomers recently discovered, it has an atmosphere.
+
+The finding, published in the Astronomical Journal, is the first detection of an atmosphere around a terrestrial “Earth-like” planet orbiting a red dwarf star — and it suggests there could be millions more.
+
+Although the researchers call the planet “Earth-like,” the term is only applicable in its broadest sense. GJ 1132b is so close to its sun that it more likely resembles Venus than Earth. Astronomers estimate its average temperature to be about 700 degrees Fahrenheit, and that's without taking into account the potential greenhouse effect of its atmosphere. It is also probably tidally locked, meaning that gravity keeps one side of the planet constantly facing the star, while the other is cast in permanent shadow. GJ 1132b would not make a cozy home for life — at least, not life as we know it.
+
+But the presence of an atmosphere around the exoplanet could have consequences in the search for life on worlds beyond our own, according to lead author John Southworth, an astrophysicist at Keele University in the United Kingdom. Red dwarfs like the one GJ 1132b orbits are the most abundant type of star in the universe, and exoplanet surveys suggest that terrestrial planets around them are also common. If one of them has an atmosphere, then why not more?
+
+“It shows that the huge number of planets in the universe which are like this could have atmospheres themselves and maybe life,” Southworth said.
+
+GJ 1132b was detected in 2015 using the transiting method for exoplanet discovery. Astronomers at a telescope in Chile monitored the light emanating from the planet's host star, GJ 1132, for tiny dips caused by the planet passing in front of it. Their observations revealed that GJ 1132 dims by 3 percent once every 1.6 days — showing how frequently the planet orbits the star.
+
+When GJ 1132b's discovery was announced, Southworth had developed a technique for modifying the transiting method to determine whether a thin envelope of gas might surround a passing planet by separating the star's light into its component parts. He and his colleagues angled their telescope, an instrument with a 2.2-meter-wide mirror located in the high desert of Chile. They found that light in what's known as the “z-band” — a range of wavelengths in the near-infrared end of the spectrum — dimmed just slightly more than other wavelengths. This is the type of light that was being absorbed by the planet's atmosphere, while all the others passed through.
+
+
+More detailed observations will be required to determine what the atmosphere is made of. Southworth suggested that the absorption of near-infrared light suggests it could be rich in water vapor or methane.
+
+Marek Kukula, the public astronomer at the Royal Observatory Greenwich, told the BBC that Southworth's paper “is a nice proof of concept.”
+
+“If the technology can detect an atmosphere today, then it bodes well for being able to detect and study the atmospheres of even more Earth-like planets in the not-too-distant future,” Kukula said.
+
+The discovery proves not only that Southworth's technique can be used to detect atmospheres, but that it's possible for planets hosted by red dwarfs to contain them. These stars are known for high levels of activity that could potentially strip planets of their protective gases — much as the sun depleted Mars's atmosphere when the Red Planet lost its magnetic field. The discovery at GJ 1132b, Southworth said, makes him optimistic that this needn't always be the case.
+
+A statement from the Max Planck Institute for Astronomy in Germany, where several of Southworth's co-authors are based, noted that atmosphere detection is an essential component of scientists' strategy for detecting life on an exoplanet. Astronomers are on the lookout for “biosignatures” — specific ratios of certain chemicals that can best be explained by the presence of living organisms. On Earth, for example, the presence of large amounts of oxygen in our atmosphere is the signature of the photosynthetic organisms that populate our planet.
+
+But let's not get ahead of ourselves, Southworth cautioned.
+
+“Finding life is still a long way away, probably decades,” he said. “Presuming it exists.”

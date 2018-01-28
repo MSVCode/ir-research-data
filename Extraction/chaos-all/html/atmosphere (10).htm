@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US" xmlns:fb="http://ogp.me/ns/fb#" xmlns:addthis="http://www.addthis.com/help/api-spec"  prefix="og: http://ogp.me/ns#">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US" xmlns:fb="http://ogp.me/ns/fb#" xmlns:addthis="http://www.addthis.com/help/api-spec"  prefix="og: http://ogp.me/ns#">
+<![endif]-->
+<!--[if IE 9]>
+<html class="ie ie9" lang="en-US" xmlns:fb="http://ogp.me/ns/fb#" xmlns:addthis="http://www.addthis.com/help/api-spec"  prefix="og: http://ogp.me/ns#">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US" xmlns:fb="http://ogp.me/ns/fb#" xmlns:addthis="http://www.addthis.com/help/api-spec"  prefix="og: http://ogp.me/ns#">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<meta name="viewport" content="width=device-width" />
+<title>Mars Lost Atmosphere to Space - Sky &amp; Telescope</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="http://www.skyandtelescope.com/xmlrpc.php" />
+<!--[if lt IE 9]>
+<script src="http://www.skyandtelescope.com/wp-content/themes/fw-twentytwelve/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+
+<!-- Google Tag Manager for WordPress by DuracellTomi - http://duracelltomi.com -->
+<script data-cfasync="false" type="text/javascript">
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || []
+</script>
+<!-- End Google Tag Manager for WordPress by DuracellTomi -->
+<!-- This site is optimized with the Yoast SEO plugin v3.7.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="NASA’s MAVEN mission has confirmed that the solar wind stripped Mars of much of its atmosphere, based on how much argon the planet has lost over 4 billion years."/>
+<meta name="news_keywords" content="maven, atmosphere, sputtering, argon, mars, science, space, astronomy, night sky" />
+<link rel="original-source" href="http://www.skyandtelescope.com/astronomy-news/mars-lost-atmosphere-to-space-3003201723/" />
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="http://www.skyandtelescope.com/astronomy-news/mars-lost-atmosphere-to-space-3003201723/" />
+<link rel="publisher" href="https://plus.google.com/111570038166307347855/about"/>
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Mars Lost Atmosphere to Space - Sky &amp; Telescope" />
+<meta property="og:description" content="NASA’s MAVEN mission has confirmed that the solar wind stripped Mars of much of its atmosphere, based on how much argon the planet has lost over 4 billion years." />
+<meta property="og:url" content="http://www.skyandtelescope.com/astronomy-news/mars-lost-atmosphere-to-space-3003201723/" />
+<meta property="og:site_name" content="Sky &amp; Telescope" />
+<meta property="article:publisher" content="https://www.facebook.com/pages/Sky-Telescope-Magazine/66274830772" />
+<meta property="article:tag" content="Mars" />
+<meta property="article:tag" content="Maven" />
+<meta property="article:section" content="Astrobiology" />
+<meta property="article:published_time" content="2017-03-30T14:33:38-04:00" />
+<meta property="article:modified_time" content="2017-04-04T09:04:06-04:00" />
+<meta property="og:updated_time" content="2017-04-04T09:04:06-04:00" />
+<meta property="og:image" content="http://www.skyandtelescope.com/wp-content/uploads/sputtering_caseyreed_maven_marsSIP.jpg" />
+<meta property="og:image:width" content="640" />
+<meta property="og:image:height" content="1613" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="NASA’s MAVEN mission has confirmed that the solar wind stripped Mars of much of its atmosphere, based on how much argon the planet has lost over 4 billion years." />
+<meta name="twitter:title" content="Mars Lost Atmosphere to Space - Sky &amp; Telescope" />
+<meta name="twitter:site" content="@skyandtelescope" />
+<meta name="twitter:image" content="http://www.skyandtelescope.com/wp-content/uploads/sputtering_caseyreed_maven_marsSIP.jpg" />
+<meta name="twitter:creator" content="@skyandtelescope" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title="Sky &amp; Telescope &raquo; Feed" href="http://www.skyandtelescope.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Sky &amp; Telescope &raquo; Comments Feed" href="http://www.skyandtelescope.com/comments/feed/" />
+<link rel="alternate" type="text/calendar" title="Sky &amp; Telescope &raquo; iCal Feed" href="http://www.skyandtelescope.com/astronomy-events/?ical=1" />
+<link rel="alternate" type="application/rss+xml" title="Sky &amp; Telescope &raquo; Mars Lost Atmosphere to Space Comments Feed" href="http://www.skyandtelescope.com/astronomy-news/mars-lost-atmosphere-to-space-3003201723/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.skyandtelescope.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.5.7"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;if(!g||!g.fillText)return!1;switch(g.textBaseline="top",g.font="600 32px Arial",a){case"flag":return g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3;case"diversity":return g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,d=c[0]+","+c[1]+","+c[2]+","+c[3],g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e;case"simple":return g.fillText(h(55357,56835),0,0),0!==g.getImageData(16,16,1,1).data[0];case"unicode8":return g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='theme-my-login-css'  href='http://www.skyandtelescope.com/wp-content/plugins/theme-my-login/theme-my-login.css?ver=6.4.5' type='text/css' media='all' />
+<link rel='stylesheet' id='widget-calendar-pro-style-css'  href='http://www.skyandtelescope.com/wp-content/plugins/events-calendar-pro/src/resources/css/widget-calendar-full.css?ver=4.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='tribe_events-widget-calendar-pro-style-css'  href='http://www.skyandtelescope.com/wp-content/plugins/events-calendar-pro/src/resources/css/widget-calendar-theme.css?ver=4.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='tribe_events--widget-calendar-pro-override-style-css'  href='http://www.skyandtelescope.com/wp-content/plugins/events-calendar-pro/src/resources/css/widget-calendar-theme.css?ver=4.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://www.skyandtelescope.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='tribe-events-full-pro-calendar-style-css'  href='http://www.skyandtelescope.com/wp-content/plugins/events-calendar-pro/src/resources/css/tribe-events-pro-full.min.css?ver=4.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='tribe-events-calendar-pro-style-css'  href='http://www.skyandtelescope.com/wp-content/plugins/events-calendar-pro/src/resources/css/tribe-events-pro-theme.min.css?ver=4.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='tribe-events-calendar-full-pro-mobile-style-css'  href='http://www.skyandtelescope.com/wp-content/plugins/events-calendar-pro/src/resources/css/tribe-events-pro-full-mobile.min.css?ver=4.2.1' type='text/css' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='tribe-events-calendar-pro-mobile-style-css'  href='http://www.skyandtelescope.com/wp-content/plugins/events-calendar-pro/src/resources/css/tribe-events-pro-theme-mobile.min.css?ver=4.2.1' type='text/css' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='twentytwelve-fonts-css'  href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700&#038;subset=latin,latin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='twentytwelve-style-css'  href='http://www.skyandtelescope.com/wp-content/themes/fw-twentytwelve/style.css?ver=4.5.7' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentytwelve-ie-css'  href='http://www.skyandtelescope.com/wp-content/themes/fw-twentytwelve/ie.css?ver=20121010' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='widget-this-week-pro-style-css'  href='http://www.skyandtelescope.com/wp-content/plugins/events-calendar-pro/src/resources/css/widget-this-week-full.css?ver=4.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='tribe_events-widget-this-week-pro-style-css'  href='http://www.skyandtelescope.com/wp-content/plugins/events-calendar-pro/src/resources/css/widget-this-week-theme.min.css?ver=4.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='fancybox-css'  href='http://www.skyandtelescope.com/wp-content/plugins/easy-fancybox/fancybox/jquery.fancybox-1.3.7.min.css?ver=1.5.7' type='text/css' media='screen' />
+<link rel='stylesheet' id='wp-form-css'  href='http://www.skyandtelescope.com/wp-content/plugins/fw-exacttarget-forms/css/frontend.form.css?ver=0.1.0' type='text/css' media='screen' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var tribe_events_linked_posts = {"post_types":{"tribe_venue":"venue","tribe_organizer":"organizer"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.skyandtelescope.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://www.skyandtelescope.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://www.skyandtelescope.com/wp-content/plugins/usp-pro/js/usp-pro.js?ver=2.3.2'></script>
+<script type='text/javascript' src='http://www.skyandtelescope.com/wp-content/plugins/fw-embedded-media/behavior.js?ver=4.5.7'></script>
+<script type='text/javascript' src='http://www.skyandtelescope.com/wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-form-move-tracker.js?ver=1.3.2'></script>
+<script type='text/javascript' src='http://www.skyandtelescope.com/wp-content/plugins/theme-my-login/modules/themed-profiles/themed-profiles.js?ver=4.5.7'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var tribe_this_week = {"ajaxurl":"http:\/\/www.skyandtelescope.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.skyandtelescope.com/wp-content/plugins/events-calendar-pro/src/resources/js/widget-this-week.min.js?ver=4.2.1'></script>
+<script type='text/javascript' src='http://www.skyandtelescope.com/wp-content/plugins/fw-exacttarget-forms/js/et_onsubmit.js?ver=4.5.7'></script>
+<script type='text/javascript' src='https://www.google.com/recaptcha/api.js?onload=etCaptchaInit&#038;render=explicit&#038;ver=4.5.7'></script>
+<link rel='https://api.w.org/' href='http://www.skyandtelescope.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.skyandtelescope.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.skyandtelescope.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.5.7" />
+<link rel='shortlink' href='http://www.skyandtelescope.com/?p=255459842' />
+<link rel="alternate" type="application/json+oembed" href="http://www.skyandtelescope.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.skyandtelescope.com%2Fastronomy-news%2Fmars-lost-atmosphere-to-space-3003201723%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://www.skyandtelescope.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.skyandtelescope.com%2Fastronomy-news%2Fmars-lost-atmosphere-to-space-3003201723%2F&#038;format=xml" />
+<!-- OpenX header script -->
+                   <script type="text/javascript" src="http://fwmedia-d.openx.net/w/1.0/jstag"></script>
+                   <script type="text/javascript">
+                     var OX_ab68b0ad5d = OX();
+                     OX_ab68b0ad5d.addVariable("kw", "cat23,cat11,cat20,cat15,post255459842,tag711,tag1381")
+                     OX_ab68b0ad5d.addPage("537063111");
+                     OX_ab68b0ad5d.fetchAds();
+                   </script>
+                   <!-- end generated tag --><!-- Category Reference
+Category 23 = Astrobiology
+Category 11 = News
+Category 20 = Solar System
+Category 15 = Spacecraft and Space Missions
+Tag 711 = Mars
+Tag 1381 = Maven
+-->
+<script type="text/javascript"><!--
+function powerpress_pinw(pinw_url){window.open(pinw_url, 'PowerPressPlayer','toolbar=0,status=0,resizable=1,width=460,height=320');	return false;}
+//-->
+</script>
+
+<!-- Google Tag Manager for WordPress by DuracellTomi -->
+<script data-cfasync="false" type="text/javascript">
+	dataLayer.push({"pagePostType":"post","pagePostType2":"single-post","pageCategory":["astrobiology","astronomy-news","solar-system","spacecraft-and-space-missions"],"pageAttributes":["mars","maven"],"pagePostAuthor":"Camille M. Carlisle"});
+</script>
+<!-- Easy FancyBox 1.5.7 using FancyBox 1.3.7 - RavanH (http://status301.net/wordpress-plugins/easy-fancybox/) -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var fb_timeout = null;
+var fb_opts = { 'overlayShow' : true, 'hideOnOverlayClick' : true, 'showCloseButton' : true, 'centerOnScroll' : true, 'enableEscapeButton' : true, 'autoScale' : true };
+var easy_fancybox_handler = function(){
+	/* IMG */
+	var fb_IMG_select = 'a[href*=".jpg"]:not(.nofancybox,.pin-it-button), area[href*=".jpg"]:not(.nofancybox), a[href*=".jpeg"]:not(.nofancybox,.pin-it-button), area[href*=".jpeg"]:not(.nofancybox), a[href*=".png"]:not(.nofancybox,.pin-it-button), area[href*=".png"]:not(.nofancybox), a[href*=".gif"]:not(.nofancybox,.pin-it-button), area[href*=".gif"]:not(.nofancybox)';
+	jQuery(fb_IMG_select).addClass('fancybox image');
+	var fb_IMG_sections = jQuery('div.gallery');
+	fb_IMG_sections.each(function() { jQuery(this).find(fb_IMG_select).attr('rel', 'gallery-' + fb_IMG_sections.index(this)); });
+	jQuery('a.fancybox, area.fancybox, li.fancybox a:not(li.nofancybox a)').fancybox( jQuery.extend({}, fb_opts, { 'transitionIn' : 'elastic', 'easingIn' : 'easeOutBack', 'transitionOut' : 'elastic', 'easingOut' : 'easeInBack', 'opacity' : false, 'hideOnContentClick' : false, 'titleShow' : true, 'titlePosition' : 'over', 'titleFromAlt' : true, 'showNavArrows' : true, 'enableKeyboardNav' : true, 'cyclic' : false }) );
+	/* Auto-click */ 
+	jQuery('#fancybox-auto').trigger('click');
+}
+/* ]]> */
+</script>
+
+<style type="text/css">
+#fancybox-content{background-color:#fff}
+#fancybox-content{border-color:#fff}#fancybox-outer{background-color:#fff}
+#fancybox-content{color:inherit}
+</style>
+<link rel="stylesheet" type="text/css" href="/wp-content/themes/fw-twentytwelve/menu.css">
+</head>
+
+<body class="single single-post postid-255459842 single-format-standard full-width custom-font-enabled">
+
+<div id="site-wrapper">
+
+	<header id="masthead" class="site-header" role="banner">
+
+								<span id="site-title">Sky &amp; Telescope</span>
+				
+
+	<a href="/"><div class="header-image"></div></a>
+
+<div class="header-sky-chart"><a href="/observing/interactive-sky-watching-tools/interactive-sky-chart/"><img src="/wp-content/uploads/header-sky-chart1.png" alt="" /></a></div>
+
+
+	<div id="user-links">
+		<div class="container">
+
+		<div class="social"><a href="https://www.facebook.com/pages/Sky-Telescope-Magazine/66274830772" target="_blank"><img src="/wp-content/uploads/social-facebook.png" alt="facebook" /></a><a href="https://twitter.com/skyandtelescope" target="_blank"><img src="/wp-content/uploads/social-twitter.png" alt="twitter" /></a><a href="https://www.youtube.com/user/SkyandTelescope" target="_blank"><img src="/wp-content/uploads/social-youtube.png" alt="youtube" /></a><a href="https://plus.google.com/111570038166307347855/about" target="_blank"><img src="/wp-content/uploads/social-gplus.png" alt="google plus" /></a><a href="http://www.skyandtelescope.com/subscribing-sky-telescope-rss-feeds"><img src="/wp-content/uploads/social-rss.png" alt="rss" /></a>
+		</div>
+			<div class="login">
+		 	 
+ 
+                           <div class="acct-signedout"> 
+                           <a href="http://www.skyandtelescope.com/register">Register</a><a style="margin: 0 0 0 15px;" href="http://www.skyandtelescope.com/login">Log In</a>
+                           </div>                           
+                            
+			</div>	
+
+			<form method="get" id="searchform" action="http://www.skyandtelescope.com/">
+		<label for="s" class="assistive-text">Search</label>
+		<input type="text" class="field" name="s" id="s" placeholder="Search" />
+		<input type="submit" class="submit" name="submit" id="searchsubmit" value="" />
+	</form>
+
+		</div>
+	</div>
+
+	</header><!-- #masthead -->
+
+<div id="page" class="hfeed site">
+	
+	<!-- Navigation -->
+	<h3 class="menu-toggle toggleMenu">Navigate</h3>
+        <div class="menu-primary-nav-container"><ul id="nav-menu" class="nav"><li id="menu-item-246612541" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-246612541"><a href="http://www.skyandtelescope.com/">Home</a></li>
+<li id="menu-item-246613604" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-has-children menu-item-246613604"><a href="http://www.skyandtelescope.com/astronomy-news/">News</a>
+<ul class="sub-menu">
+	<li id="menu-item-246613605" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-246613605"><a title="Observing News &#038; Current Celestial Events" href="http://www.skyandtelescope.com/astronomy-news/observing-news/">Observing News</a></li>
+	<li id="menu-item-246613609" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-246613609"><a href="http://www.skyandtelescope.com/astronomy-news/solar-system/">Solar System</a></li>
+	<li id="menu-item-246613610" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-246613610"><a href="http://www.skyandtelescope.com/astronomy-news/spacecraft-and-space-missions/">Spacecraft &#038; Space Missions</a></li>
+	<li id="menu-item-246613600" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-246613600"><a href="http://www.skyandtelescope.com/astronomy-news/exoplanets/">Exoplanets</a></li>
+	<li id="menu-item-246613601" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-246613601"><a href="http://www.skyandtelescope.com/astronomy-news/galaxies/">Galaxies</a></li>
+	<li id="menu-item-246613599" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-246613599"><a href="http://www.skyandtelescope.com/astronomy-news/cosmology/">Cosmology</a></li>
+	<li id="menu-item-255438848" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-255438848"><a href="http://www.skyandtelescope.com/all-astronomy-news-categories/">All News Categories</a></li>
+</ul>
+</li>
+<li id="menu-item-246613631" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-246613631"><a title="Observing Tips &#038; Resources" href="http://www.skyandtelescope.com/observing/">Observing</a>
+<ul class="sub-menu">
+	<li id="menu-item-246613636" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-246613636"><a href="http://www.skyandtelescope.com/astronomy-information/">For Beginners</a></li>
+	<li id="menu-item-246613632" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-246613632"><a title="Observing News &#038; Current Celestial Events" href="http://www.skyandtelescope.com/astronomy-news/observing-news/">Observing News</a></li>
+	<li id="menu-item-255451831" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-255451831"><a title="The August 2017 Total Solar Eclipse" href="http://www.skyandtelescope.com/total-solar-eclipse-august-2017/">2017 Total Solar Eclipse</a></li>
+	<li id="menu-item-246613624" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-246613624"><a href="http://www.skyandtelescope.com/observing/sky-at-a-glance/">This Week&#8217;s Sky at a Glance</a></li>
+	<li id="menu-item-255181876" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-255181876"><a title="Celestial Objects to Observe" href="http://www.skyandtelescope.com/celestial-objects-observe/">Observing Guides</a></li>
+	<li id="menu-item-246613633" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-246613633"><a title="Interactive Observing Tools, Sky Chart &#038; Apps" href="http://www.skyandtelescope.com/observing/interactive-sky-watching-tools/">Interactive Tools</a></li>
+	<li id="menu-item-255436091" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-255436091"><a title="Stargazer&#8217;s Corner: Adventures Under the Night Sky" href="http://www.skyandtelescope.com/observing/stargazers-corner/">Stargazer&#8217;s Corner</a></li>
+	<li id="menu-item-246613634" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-246613634"><a title="Astronomy and Stargazing Projects" href="http://www.skyandtelescope.com/observing/astronomy-stargazing-projects/">Observing Projects</a></li>
+	<li id="menu-item-246613623" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-246613623"><a title="Sky Tour Podcasts &#8211; Discover the Night Sky" href="http://www.skyandtelescope.com/observing/astronomy-podcasts/">Sky Tour Podcasts</a></li>
+	<li id="menu-item-246613635" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-246613635"><a title="Sky &#038; Telescope Mobile Apps" href="http://www.skyandtelescope.com/sky-and-stargazing-apps/">Sky &#038; Tel Apps</a></li>
+</ul>
+</li>
+<li id="menu-item-255455719" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-255455719"><a title="Astronomy Equipment: Guides and Recommendations" href="http://www.skyandtelescope.com/astronomy-equipment-telescopes-mounts-cameras-eyepieces/">Equipment</a>
+<ul class="sub-menu">
+	<li id="menu-item-246613639" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-246613639"><a title="Choosing Your Equipment &#8211; Telescope, Binocular, and Camera Guides for Astonomers" href="http://www.skyandtelescope.com/astronomy-equipment/choosing-astronomy-equipment/">Choosing Equipment</a>
+	<ul class="sub-menu">
+		<li id="menu-item-246613646" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-246613646"><a title="Telescope Reviews, Guides &#038; Recommendations" href="http://www.skyandtelescope.com/astronomy-equipment/choosing-astronomy-equipment/telescopes/">Telescopes</a></li>
+		<li id="menu-item-246613640" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-246613640"><a title="Binocular Reviews, Guides &#038; Recommendationss" href="http://www.skyandtelescope.com/astronomy-equipment/choosing-astronomy-equipment/binoculars/">Binoculars</a></li>
+		<li id="menu-item-255455720" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-255455720"><a title="Astronomy Equipment Reviews, Guides &#038; Recommendations" href="http://www.skyandtelescope.com/astronomy-equipment/choosing-astronomy-equipment/">All Equipment</a></li>
+	</ul>
+</li>
+	<li id="menu-item-246613647" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-246613647"><a href="http://www.skyandtelescope.com/astronomy-equipment/new-products/">New Product Showcase</a></li>
+	<li id="menu-item-255181878" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-255181878"><a title="Astronomy Equipment Videos" href="/astronomy-equipment/product-videos/">Product Videos</a></li>
+	<li id="menu-item-246613642" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-246613642"><a title="Do It Yourself: Projects &#038; Guidance" href="http://www.skyandtelescope.com/astronomy-equipment/equipment-diy/">Do It Yourself</a></li>
+	<li id="menu-item-255181879" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-255181879"><a title="Astronomical Equipment Manufacturers, Suppliers, and Specialty Dealers" href="/astronomy-equipment/astronomical-equipment-manufacturers-suppliers-and-specialty-dealers/">Supplier Directories</a></li>
+	<li id="menu-item-246613648" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-246613648"><a href="http://www.marketplace.skyandtelescope.com/">MarketPlace Classifieds</a></li>
+</ul>
+</li>
+<li id="menu-item-246613649" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-246613649"><a href="http://www.skyandtelescope.com/astronomy-resources/">Resources &#038; Education</a>
+<ul class="sub-menu">
+	<li id="menu-item-246613656" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-246613656"><a href="http://www.skyandtelescope.com/astronomy-information/">Astronomy for Beginners</a>
+	<ul class="sub-menu">
+		<li id="menu-item-255432008" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-255432008"><a title="Learn the night sky" href="http://www.skyandtelescope.com/astronomy-resources/stargazing-basics/learn-the-sky/">Learn the Sky</a></li>
+		<li id="menu-item-246613657" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-246613657"><a href="http://www.skyandtelescope.com/astronomy-terms/">Astronomy Terms</a></li>
+		<li id="menu-item-246613651" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-246613651"><a title="Choosing Your Equipment &#8211; A Guide for Astonomers" href="http://www.skyandtelescope.com/astronomy-equipment/choosing-astronomy-equipment/">Telescopes and More</a></li>
+	</ul>
+</li>
+	<li id="menu-item-255447371" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-255447371"><a href="http://www.skyandtelescope.com/astronomy-resources/stargazing-basics/observar/">Observar el Cielo</a></li>
+	<li id="menu-item-255440044" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-255440044"><a title="Download Free Astronomy e-books!" href="http://www.skyandtelescope.com/free-ebook-library/">Free eBook Library</a></li>
+	<li id="menu-item-255439454" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-255439454"><a title="Astronomy Q&#038;A: Science- and Hobby-Based QueAstronomy Q&#038;A: Science- and Hobby-Based Questions and Answersstions and Answers" href="http://www.skyandtelescope.com/astronomy-qa-science-and-hobby-based-questions-and-answers/">Astronomy Q&#038;A</a></li>
+	<li id="menu-item-246613653" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-246613653"><a title="Interactive Observing Tools, Star Chart, &#038; Mobile Apps" href="http://www.skyandtelescope.com/observing/interactive-sky-watching-tools/">Interactive Tools</a></li>
+	<li id="menu-item-246613654" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-246613654"><a title="Astrophotography: Tips &#038; Examples" href="http://www.skyandtelescope.com/astronomy-resources/astrophotography-tips/">Astrophotography</a></li>
+	<li id="menu-item-246613655" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-246613655"><a title="Online Astrophotography Classes &#038; Telescope Tutorials" href="http://www.shopatsky.com/tutorials/">Online Classes</a></li>
+</ul>
+</li>
+<li id="menu-item-246613658" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-246613658"><a title="Community: Clubs, Events &#038; More" href="http://www.skyandtelescope.com/community/">Community</a>
+<ul class="sub-menu">
+	<li id="menu-item-255444600" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-255444600"><a href="http://www.skyandtelescope.com/astronomy-blogs/">Astronomy Blogs</a>
+	<ul class="sub-menu">
+		<li id="menu-item-255444603" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-255444603"><a href="http://www.skyandtelescope.com/astronomy-blogs/explore-night-bob-king/">Explore the Night with Bob King</a></li>
+		<li id="menu-item-255450443" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-255450443"><a href="http://www.skyandtelescope.com/astronomy-blogs/astrophotography-jerry-lodriguss/">Astrophotography with Jerry Lodriguss</a></li>
+		<li id="menu-item-255444601" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-255444601"><a href="http://www.skyandtelescope.com/astronomy-blogs/astronomy-space-david-dickinson/">Astronomy in Space with David Dickinson</a></li>
+		<li id="menu-item-255444602" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-255444602"><a href="http://www.skyandtelescope.com/astronomy-blogs/cosmic-relief-david-grinspoon/">Cosmic Relief with David Grinspoon</a></li>
+	</ul>
+</li>
+	<li id="menu-item-255436090" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-255436090"><a title="Stargazer&#8217;s Corner: Adventures Under the Night Sky" href="http://www.skyandtelescope.com/observing/stargazers-corner/">Stargazer&#8217;s Corner</a></li>
+	<li id="menu-item-246613659" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-246613659"><a title="Astronomy Clubs &#038; Organizations" href="http://www.skyandtelescope.com/astronomy-clubs-organizations/">Clubs &#038; Organizations</a>
+	<ul class="sub-menu">
+		<li id="menu-item-246618177" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-246618177"><a title="Astronomy Clubs &#038; Organizations &#8211; Submission Form" href="http://www.skyandtelescope.com/astronomy-clubs-organizations/clubs-organizations-submission/">Submit Your Club</a></li>
+	</ul>
+</li>
+	<li id="menu-item-246613661" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-246613661"><a title="Astronomy Events Calendar" href="http://www.skyandtelescope.com/astronomy-events/">Events Calendar</a>
+	<ul class="sub-menu">
+		<li id="menu-item-246613806" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-246613806"><a title="Astronomy Events &#038; Gatherings &#8211; Submission Form" href="http://www.skyandtelescope.com/event-submission-form/">Submit Your Event</a></li>
+	</ul>
+</li>
+	<li id="menu-item-246613660" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-246613660"><a title="Astronomy Travel Opportunities" href="http://www.skyandtelescope.com/astronomy-travel/">Astronomy Travel</a></li>
+	<li id="menu-item-246613662" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-246613662"><a href="http://www.skyandtelescope.com/get-involved/">Get Involved</a>
+	<ul class="sub-menu">
+		<li id="menu-item-246613665" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-246613665"><a title="Saving Dark Skies &#8211; How to Help" href="http://www.skyandtelescope.com/get-involved/saving-dark-skies/">Saving Dark Skies</a></li>
+		<li id="menu-item-246613663" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-246613663"><a title="Citizen Science: Projects &#038; Collaboration" href="http://www.skyandtelescope.com/get-involved/citizen-science-collaboration/">Citizen Science</a></li>
+		<li id="menu-item-246613664" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-246613664"><a href="http://www.skyandtelescope.com/get-involved/pro-am-collaboration/">Pro-Am Collaboration</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-246613666" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-246613666"><a href="http://www.skyandtelescope.com/pictures-and-videos/">Multimedia</a>
+<ul class="sub-menu">
+	<li id="menu-item-246613775" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-246613775"><a href="http://www.skyandtelescope.com/astronomy-pictures/">Photo Gallery</a>
+	<ul class="sub-menu">
+		<li id="menu-item-246613673" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-246613673"><a title="Editor&#8217;s Choice from the Photo Gallery" href="http://www.skyandtelescope.com/online-gallery/editors-choice-photos/">Editor&#8217;s Choice Archive</a></li>
+		<li id="menu-item-246618175" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-246618175"><a title="Share Your Astronomy Pictures" href="http://www.skyandtelescope.com/astronomy-pictures/share-your-astronomy-pictures/">Share Your Photos</a></li>
+	</ul>
+</li>
+	<li id="menu-item-246613675" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-246613675"><a title="Astronomy Podcasts" href="http://www.skyandtelescope.com/observing/astronomy-podcasts/">Astronomy Podcasts</a>
+	<ul class="sub-menu">
+		<li id="menu-item-255452910" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-255452910"><a title="Sky Tour Podcasts &#8211; Discover the Night Sky" href="http://www.skyandtelescope.com/observing/astronomy-podcasts/">Sky Tour Podcasts</a></li>
+		<li id="menu-item-255452909" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-255452909"><a title="Orbital Path Podcasts with Michelle Thaller" href="http://www.skyandtelescope.com/astronomy-resources/orbital-path-astronomy-podcast/">Orbital Path Podcasts</a></li>
+	</ul>
+</li>
+	<li id="menu-item-246613667" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-246613667"><a title="Astronomy Videos" href="http://www.skyandtelescope.com/astronomy-videos/">Videos</a>
+	<ul class="sub-menu">
+		<li id="menu-item-246613668" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-246613668"><a title="Premium Astrophotography Classes &#038; Telescope Tutorials" href="http://www.shopatsky.com/tutorials/">Premium Tutorials</a></li>
+		<li id="menu-item-255181877" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-255181877"><a title="Product Videos &#038; Demonstrations" href="/astronomy-equipment/product-videos/">Product Videos</a></li>
+		<li id="menu-item-255456311" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-255456311"><a href="http://www.skyandtelescope.com/astronomy-videos/neaf-talks/">NEAF Talks</a></li>
+		<li id="menu-item-246613669" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-246613669"><a title="Stargazing Videos: Tips &#038; Techniques" href="http://www.skyandtelescope.com/astronomy-videos/stargazing-tips-and-techniques/">Stargazing Tips</a></li>
+		<li id="menu-item-246613670" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-246613670"><a href="http://www.skyandtelescope.com/astronomy-videos/interviews-excerpts/">Interviews &#038; Excerpts</a></li>
+		<li id="menu-item-246613697" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-246613697"><a href="http://www.skyandtelescope.com/astronomy-videos/skyweek-tv-archive/">SkyWeek TV Archive</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-246613678" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-246613678"><a title="Subscribe to Sky &#038; Telescope" href="http://www.skyandtelescope.com/subscribe/">Subscribe</a>
+<ul class="sub-menu">
+	<li id="menu-item-246613679" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-246613679"><a title="Subscribe to Sky &#038; Telescope magazine" href="https://ssl.palmcoastd.com/03401/apps/K_KEYS?ikey=I**K01">Print + Digital</a></li>
+	<li id="menu-item-246613680" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-246613680"><a href="https://secure.palmcoastd.com/pcd/eSv?iMagId=03401&#038;i4Ky=SH01">Digital Only</a></li>
+	<li id="menu-item-246613681" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-246613681"><a href="https://secure.palmcoastd.com/pcd/eSv?iMagId=03401&#038;i4Ky=IF01">Gift Subscription</a></li>
+	<li id="menu-item-255424082" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-255424082"><a href="https://ssl.palmcoastd.com/pcd/apps/index.cfm?iMagId=03401&#038;iPage=SPLASH&#038;iXz=E683C94E33C6B7CF90BD15BBCE000625">Renew</a></li>
+	<li id="menu-item-246613688" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-246613688"><a href="https://secure.palmcoastd.com/pcd/eServ?iServ=MDM0MDE0NDQwNCZpVHlwZT1NQUlO">Subscriber Services</a></li>
+	<li id="menu-item-246613682" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-246613682"><a title="SkyandTelescope.com&#8217;s Email Newsletters" href="http://www.skyandtelescope.com/newsletter/">Email Newsletter</a></li>
+</ul>
+</li>
+<li id="menu-item-246613683" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-246613683"><a title="Read Sky &#038; Telescope Magazine" href="http://www.skyandtelescope.com/sky-and-telescope-magazine/">Magazine</a>
+<ul class="sub-menu">
+	<li id="menu-item-246613684" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-246613684"><a title="What&#8217;s in this month&#8217;s issue of Sky &#038; Telescope?" href="/skytel">Current Issue Highlights</a></li>
+	<li id="menu-item-246613685" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-246613685"><a title="Access the current digital issue of Sky &#038; Telescope" href="http://www.nxtbook.com/fx/mags/lastissue.php?mp=/nxtbooks/newtrack/skytelescope">Current Digital Issue</a></li>
+	<li id="menu-item-246613686" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-246613686"><a title="Find what you&#8217;re looking for in past issues of Sky &#038; Telescope" href="/astronomy-news/sky-and-telescope-index-1941-2013">Index of Previous Issues</a></li>
+	<li id="menu-item-255429936" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-255429936"><a title="Sky &#038; Telescope&#8217;s All-Year Observing Guide" href="http://www.shopatsky.com/sky-watch-2017">SkyWatch 2017</a></li>
+	<li id="menu-item-246613687" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-246613687"><a title="Subscribe to Sky &#038; Telescope Magazine" href="http://www.skyandtelescope.com/subscribe/">Subscribe</a></li>
+</ul>
+</li>
+<li id="menu-item-246613689" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-246613689"><a target="_blank" href="http://www.shopatsky.com/?utm_source=stnavprimary&#038;utm_medium=stnav&#038;utm_campaign=stnav">Shop</a>
+<ul class="sub-menu">
+	<li id="menu-item-246613690" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-246613690"><a title="ShopatSky" target="_blank" href="http://www.shopatsky.com/?utm_source=stnavdrop&#038;utm_medium=stnav&#038;utm_campaign=stnav">Shop@Sky</a></li>
+	<li id="menu-item-246613691" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-246613691"><a title="Planet Maps &#038; Globes" target="_blank" href="http://www.shopatsky.com/maps-globes/?utm_source=stnavdrop&#038;utm_medium=stnav&#038;utm_campaign=stnav">Maps &#038; Globes</a></li>
+	<li id="menu-item-255450305" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-255450305"><a href="http://www.shopatsky.com/zenith-club">Join Our Zenith Club</a></li>
+	<li id="menu-item-246613692" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-246613692"><a title="Sky &#038; Telescope Test Reports Review Telescopes, Mounts, and More." target="_blank" href="http://www.shopatsky.com/resource-materials/test-reports/?utm_source=stnavdrop&#038;utm_medium=stnav&#038;utm_campaign=stnav">Test Reports</a></li>
+	<li id="menu-item-246613693" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-246613693"><a title="Sky &#038; Telescope Mobile Apps" href="http://www.skyandtelescope.com/sky-and-stargazing-apps/">Mobile Stargazing Apps</a></li>
+</ul>
+</li>
+</ul></div>
+		<div id="Offer"><aside id="text-2" class="widget widget_text">			<div class="textwidget"><div class="left">
+<h2>FREE eBOOK</h2>
+<h4>Astrophotography</h4>
+</div>
+
+<div class="right">
+<p>Download Your Free Astrophotography Primer Now from <em>Sky & Telescope</em>!</p>
+</div>
+</div>
+		</aside>            <div id="et_form-div-quicksubscribe-246618180" class="et-quick-subscribe et-form">
+                <form id="form-quicksubscribe-246618180"
+                      name="form-quicksubscribe-246618180" class="et_form"
+                      action="/wp-content/plugins/fw-exacttarget-client/subscribe-form.php" method="POST"
+                      onsubmit="return ET_LongFormSubmit('quicksubscribe-246618180');">
+                    <fieldset class="et_fieldset">
+                        <input id="ETSubscriberKeyThxquicksubscribe-246618180" name="ETSubscriberKey" type="hidden" /><input name="SubAction" type="hidden" value="sub_add_update" /><input name="formId" type="hidden" value="quicksubscribe-246618180" /><ul style="list-style-type:none; margin:0; padding:0;" class="et_field_list"><li><label for="EmailAddressThx"><span class='required'>*</span> </label><input type="text" autocomplete="off" id="EmailAddressThxquicksubscribe-246618180" class="et_text" name="et_emailAddress" value="Enter Email" placeholder="Enter Email" onfocus="etEmailFocus('Enter Email',this)" onblur="if (this.value == '') {this.value = 'Enter Email';}" /></li><input type="hidden" name="et2_list[1354863][]" value="Sky & Telescope Partners" /><input type="hidden" name="et2_list[1354863][]" value="Sky & Telescope Newsletter" /><input type="hidden" name="et2_list[1354863][]" value="Sky & Telescope Astro Alert" /><input type="hidden" name="et2_list[1354863][]" value="Shop at Sky" /><input type="hidden" name="et2_list[1354863][]" value="Sky & Telescope TV" /><input type="hidden" name="et2_list[1354863][]" value="Sky & Telescope Magazine Offers" /><input type="hidden" name="et2_customField[1354863][brand_skyandtel]" value="True" class="" /></ul><input type="hidden" id="thx255459842" name="thx" value="http://www.skyandtelescope.com/astrophotography-guide-free-ebook/thanks-download/"  /><input type="hidden" id="err255459842" name="err" value="http://www.skyandtelescope.com/newsletter/newsletter-error"  /><input type="hidden" name="et_emailSource" value="Main Content Site" /><input class='submit' name='submitSubscription' id='submit-quicksubscribe-246618180' type='submit' value='' /><div class="g-recaptcha" data-sitekey="6LekQCgTAAAAAL_uurePCfHR9Yo8CCaTgMFU4iPk"></div>                    </fieldset>
+                    <input type="hidden" name="action" id="quicksubscribe-246618180"
+                           value="submitSubscription"/>
+                    <input type="hidden" name="et_mid[]" value="1354863" />                </form>
+            </div>
+         </div>
+	
+	<div id="leaderboard"><div class="mobile-leaderboard"><script type="text/javascript">OX_ab68b0ad5d.showAdUnit('537250146');</script></div><div class="desktop-leaderboard"><script type="text/javascript">OX_ab68b0ad5d.showAdUnit('537073634');</script></div><div id="small-leaderboard-ad"><script type="text/javascript">OX_ab68b0ad5d.showAdUnit('537084255');</script></div> </div>
+	
+	<div id="subscribe-shadow"><img src="/wp-content/uploads/quick-subscribe-shadow.png" alt="" /></div>
+
+
+<div id="main" class="wrapper">
+
+	<div id="primary" class="site-content">
+		<div id="content" role="main">
+
+			
+				
+
+<article id="post-255459842" class="post-255459842 post type-post status-publish format-standard has-post-thumbnail hentry category-astrobiology category-astronomy-news category-solar-system category-spacecraft-and-space-missions tag-mars tag-maven">
+	<header class="entry-header">
+		<h1 class="entry-title">Mars Lost Atmosphere to Space</h1>
+
+
+		
+		<div class="entry-meta">
+
+<!-- Grab the author and the date of post -->
+<span class="byline">By: <span class="by-author"><span class="author vcard"><a class="url fn n" href="http://www.skyandtelescope.com/author/camille-m-carlisle/" title="View all posts by Camille M. Carlisle" rel="author">Camille M. Carlisle</a></span></span> | <time class="entry-date" datetime="2017-03-30T14:33:38+00:00">March 30, 2017</time></span>
+<div class="sharethis">
+<span class='st_facebook' data-st_title='Mars Lost Atmosphere to Space' data-st_url='http://www.skyandtelescope.com/astronomy-news/mars-lost-atmosphere-to-space-3003201723/'></span><span class='st_twitter' data-st_title='Mars Lost Atmosphere to Space' data-st_url='http://www.skyandtelescope.com/astronomy-news/mars-lost-atmosphere-to-space-3003201723/'></span><span class='st_linkedin' data-st_title='Mars Lost Atmosphere to Space' data-st_url='http://www.skyandtelescope.com/astronomy-news/mars-lost-atmosphere-to-space-3003201723/'></span><span class='st_email' data-st_title='Mars Lost Atmosphere to Space' data-st_url='http://www.skyandtelescope.com/astronomy-news/mars-lost-atmosphere-to-space-3003201723/'></span><span class='st_sharethis' data-st_title='Mars Lost Atmosphere to Space' data-st_url='http://www.skyandtelescope.com/astronomy-news/mars-lost-atmosphere-to-space-3003201723/'></span><span class='st_plusone' data-st_title='Mars Lost Atmosphere to Space' data-st_url='http://www.skyandtelescope.com/astronomy-news/mars-lost-atmosphere-to-space-3003201723/'></span><span class='st_pinterest' data-st_title='Mars Lost Atmosphere to Space' data-st_url='http://www.skyandtelescope.com/astronomy-news/mars-lost-atmosphere-to-space-3003201723/'></span>
+</div><!-- sharethis -->
+
+		</div><!-- .entry-meta -->
+
+		
+	
+	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<!-- AddThis Sharing Buttons above -->
+                <div class="addthis_toolbox addthis_default_style addthis_" addthis:url='http://www.skyandtelescope.com/astronomy-news/mars-lost-atmosphere-to-space-3003201723/' addthis:title='Mars Lost Atmosphere to Space' >
+                    <a class="addthis_button_preferred_1"></a>
+                    <a class="addthis_button_preferred_2"></a>
+                    <a class="addthis_button_preferred_3"></a>
+                    <a class="addthis_button_preferred_4"></a>
+                    <a class="addthis_button_compact"></a>
+                    <a class="addthis_counter addthis_bubble_style"></a>
+                </div><p><span style="color: #5274ae;"><b><i>NASA’s MAVEN mission has confirmed that the solar wind stripped the Red Planet of its atmosphere.</i></b></span></p>
+<div id="attachment_255428101" style="width: 310px" class="wp-caption alignright"><a href="http://www.skyandtelescope.com/wp-content/uploads/MAVEN_Mars_artwork.jpg"><img class="size-medium wp-image-255428101" src="http://www.skyandtelescope.com/wp-content/uploads/MAVEN_Mars_artwork-300x171.jpg" alt="This image shows an artist concept of NASA's Mars Atmosphere and Volatile Evolution (MAVEN) spacecraft, which reached the Red Planet on September 21, 2014.Lockheed Martin" width="300" height="171" srcset="http://www.skyandtelescope.com/wp-content/uploads/MAVEN_Mars_artwork-300x171.jpg 300w, http://www.skyandtelescope.com/wp-content/uploads/MAVEN_Mars_artwork.jpg 480w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">This image shows an artist concept of NASA's Mars Atmosphere and Volatile Evolution (MAVEN) spacecraft, which reached the Red Planet on September 21, 2014.<br /><i>Lockheed Martin</i></p></div>
+<p>Mars is the little planet that couldn’t. Its landscape, transformed by rivulets and lakes, has dried up. Its atmosphere is a wisp of what it once was. Based on the ratio of various elements’ isotopes — which aren’t currently what they should be if Mars always looked like this — planetary scientists suspect that the <a href="http://www.skyandtelescope.com/astronomy-news/maven-heads-to-mars/">Red Planet has lost anywhere from 25% to 90% of its atmosphere</a> over the last 4-ish billion years, with the estimates favoring at least 50%.</p>
+<p>One popular explanation among planetary scientists has been that <a href="http://www.skyandtelescope.com/astronomy-news/mars-losing-gas-to-solar-wind-0911201523/">Mars’s atmosphere was stripped away by the solar wind</a>, the barrage of charged particles that stream out from the Sun at 400 km/s (900,000 mph) and up. Now, scientists with NASA’s MAVEN orbiter mission have confirmed this hypothesis.</p>
+<p>The MAVEN spacecraft loops around Mars, dipping in and out of its upper atmosphere. Using the craft’s measurements, Bruce Jakosky (University of Colorado, Boulder) and colleagues determined the levels of two isotopes of argon, argon-36 and the heavier argon-38. Argon is a noble gas (in the rightmost column of the Periodic Table of elements), which means it doesn’t interact chemically with the surface. The only way to get rid of it is to strip it from the atmosphere into space.</p>
+<div id="attachment_255459843" style="width: 310px" class="wp-caption alignright"><a href="http://www.skyandtelescope.com/wp-content/uploads/sputtering_caseyreed_maven_marsSIP.jpg"><img class="wp-image-255459843" src="http://www.skyandtelescope.com/wp-content/uploads/sputtering_caseyreed_maven_marsSIP.jpg" alt="how sputtering works" width="300" height="756" srcset="http://www.skyandtelescope.com/wp-content/uploads/sputtering_caseyreed_maven_marsSIP.jpg 640w, http://www.skyandtelescope.com/wp-content/uploads/sputtering_caseyreed_maven_marsSIP-75x190.jpg 75w, http://www.skyandtelescope.com/wp-content/uploads/sputtering_caseyreed_maven_marsSIP-143x360.jpg 143w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">One of the ways the solar wind can steal a planet's atmosphere is by a process called sputtering. First, ultraviolet sunlight knocks electrons out of atmospheric atoms and molecules in the upper Martian atmosphere, forming electrically charged ions (top). These ions are picked up by the solar wind (middle), which is infused with the Sun's magnetic field. As the field-carrying solar wind moves by, it drags these ions with it. Some of these ions are flung back into the upper atmosphere at high velocity (bottom). There, they collide with neutral atoms and molecules and knock them every which way, like the cue ball scatters balls in a break shot in pool. Some of the atoms are knocked upward with enough velocity to escape Mars — in other words, they're "sputtered."<br /> <em>Casey Reed / Sky &amp; Telescope. All Rights Reserved.</em></p></div>
+<p>Argon’s heavier isotope naturally settles lower in the Martian air than the lighter one, creating a predictable ratio of argon-36 to argon-38 in the upper atmosphere. This differentiation leaves the lighter isotope more susceptible to being torn away by the solar wind in a process called <em>sputtering</em>.</p>
+<p>In sputtering, the atmosphere colludes with the solar wind against the planet. Ultraviolet photons from the Sun first knock electrons from the atmosphere’s atoms and molecules, forming ions. The solar wind then picks up these ions, whirling them around and flinging some of them back into the atmosphere, where they collide with neutral atoms and molecules there — such as argon-36 —and “sputter” them every which way, including out of the atmosphere entirely.</p>
+<p>MAVEN’s observations show that today’s Mars has far too little argon-36, if it started out with levels similar to Earth and other solar system objects. To explain current levels, the planet has lost roughly two-thirds of its atmospheric argon to sputtering over its history, the team concludes in the March 31st <em>Science</em>.</p>
+<p>This result agrees with previous Mars studies, including <a href="http://onlinelibrary.wiley.com/doi/10.1002/2013GL057763/full" target="_blank">a 2013 study by Sushil Atreya (University of Michigan) and others using Curiosity rover data</a>. (Incidentally, the MAVEN result incorporates Curiosity’s measurements.) The percentage itself is not the news; rather, MAVEN’s notable contribution is the evidence for how the argon isotopes separate and how the argon is lost.</p>
+<p>Although argon is a loner element, it wouldn’t have left alone. Other atmospheric constituents would have escaped Mars when it did. Jakosky’s team estimates that, based on the argon ratio, Mars has lost at least half a bar (where 1 bar is the atmospheric pressure at sea level on Earth) of its primary atmospheric molecule, carbon dioxide. That’s enough to at least partially explain the loss of the planet’s ancient warmer, wetter climate.</p>
+<p>Thus, MAVEN confirms that modern Mars is a frozen desert world in part because the solar wind blew off its insulation.</p>
+<p>&nbsp;</p>
+<p>References:</p>
+<p>Bruce M. Jakosky et al. “<a href="http://science.sciencemag.org/cgi/doi/10.1126/science.aai7721" target="_blank">Mars’ Atmospheric History Derived from Upper-atmosphere Measurements of <sup>38</sup>Ar/<sup>36</sup>Ar</a>.” <em>Science</em>. March 31, 2017.</p>
+<hr />
+<p>Learn more about <a href="http://www.shopatsky.com/sky-telescope-september-14-digital-issue?utm_source=skyandtelescope.com&amp;utm_medium=referral&amp;utm_campaign=sky-CCA-at-170330">the MAVEN mission in our September 2014 cover story</a>.</p>
+<script data-cfasync="false" type="text/javascript">
+var addthis_config = {"data_track_clickback":true,"ui_atversion":300,"ignore_server_config":true};
+var addthis_share = {};
+</script>
+                <!-- AddThis Settings Begin -->
+                <script data-cfasync="false" type="text/javascript">
+                    var addthis_product = "wpp-5.3.3";
+                    var wp_product_version = "wpp-5.3.3";
+                    var wp_blog_version = "4.5.7";
+                    var addthis_plugin_info = {"info_status":"enabled","cms_name":"WordPress","cms_version":"4.5.7","plugin_name":"Share Buttons by AddThis","plugin_version":"5.3.3","anonymous_profile_id":"wp-32de68bf39e985d9c3a40197b730dc73","plugin_mode":"WordPress","select_prefs":{"addthis_per_post_enabled":true,"addthis_above_enabled":true,"addthis_below_enabled":false,"addthis_sidebar_enabled":false,"addthis_mobile_toolbar_enabled":false,"addthis_above_showon_home":false,"addthis_above_showon_posts":true,"addthis_above_showon_pages":true,"addthis_above_showon_archives":false,"addthis_above_showon_categories":false,"addthis_above_showon_excerpts":true,"addthis_below_showon_home":true,"addthis_below_showon_posts":true,"addthis_below_showon_pages":true,"addthis_below_showon_archives":true,"addthis_below_showon_categories":true,"addthis_below_showon_excerpts":true,"addthis_sidebar_showon_home":true,"addthis_sidebar_showon_posts":true,"addthis_sidebar_showon_pages":true,"addthis_sidebar_showon_archives":true,"addthis_sidebar_showon_categories":true,"addthis_mobile_toolbar_showon_home":true,"addthis_mobile_toolbar_showon_posts":true,"addthis_mobile_toolbar_showon_pages":true,"addthis_mobile_toolbar_showon_archives":true,"addthis_mobile_toolbar_showon_categories":true,"sharing_enabled_on_post_via_metabox":true},"page_info":{"template":"posts","post_type":""}};
+                    if (typeof(addthis_config) == "undefined") {
+                        var addthis_config = {"data_track_clickback":true,"ui_atversion":300,"ignore_server_config":true};
+                    }
+                    if (typeof(addthis_share) == "undefined") {
+                        var addthis_share = {};
+                    }
+                    if (typeof(addthis_layers) == "undefined") {
+                        var addthis_layers = {};
+                    }
+                </script>
+                <script
+                    data-cfasync="false"
+                    type="text/javascript"
+                    src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55d1eec37e2152db "
+                    async="async"
+                >
+                </script>
+                <script data-cfasync="false" type="text/javascript">
+                    (function() {
+                        var at_interval = setInterval(function () {
+                            if(window.addthis) {
+                                clearInterval(at_interval);
+                                addthis.layers(addthis_layers);
+                            }
+                        },1000)
+                    }());
+                </script>
+                <!-- AddThis Sharing Buttons below -->		
+
+
+<!-- Display photo gallery custom fields -->
+
+
+
+
+<div class="sharethis">
+<span class='st_facebook' data-st_title='Mars Lost Atmosphere to Space' data-st_url='http://www.skyandtelescope.com/astronomy-news/mars-lost-atmosphere-to-space-3003201723/'></span><span class='st_twitter' data-st_title='Mars Lost Atmosphere to Space' data-st_url='http://www.skyandtelescope.com/astronomy-news/mars-lost-atmosphere-to-space-3003201723/'></span><span class='st_linkedin' data-st_title='Mars Lost Atmosphere to Space' data-st_url='http://www.skyandtelescope.com/astronomy-news/mars-lost-atmosphere-to-space-3003201723/'></span><span class='st_email' data-st_title='Mars Lost Atmosphere to Space' data-st_url='http://www.skyandtelescope.com/astronomy-news/mars-lost-atmosphere-to-space-3003201723/'></span><span class='st_sharethis' data-st_title='Mars Lost Atmosphere to Space' data-st_url='http://www.skyandtelescope.com/astronomy-news/mars-lost-atmosphere-to-space-3003201723/'></span><span class='st_plusone' data-st_title='Mars Lost Atmosphere to Space' data-st_url='http://www.skyandtelescope.com/astronomy-news/mars-lost-atmosphere-to-space-3003201723/'></span><span class='st_pinterest' data-st_title='Mars Lost Atmosphere to Space' data-st_url='http://www.skyandtelescope.com/astronomy-news/mars-lost-atmosphere-to-space-3003201723/'></span>
+</div><!-- sharethis -->
+	</div><!-- .entry-content -->
+
+	<footer class="entry-meta">
+
+
+<!-- Get the Categories -->
+CATEGORIES<br /> <a href="http://www.skyandtelescope.com/astronomy-news/astrobiology/" rel="category tag">Astrobiology</a>, <a href="http://www.skyandtelescope.com/astronomy-news/" rel="category tag">News</a>, <a href="http://www.skyandtelescope.com/astronomy-news/solar-system/" rel="category tag">Solar System</a>, <a href="http://www.skyandtelescope.com/astronomy-news/spacecraft-and-space-missions/" rel="category tag">Spacecraft and Space Missions</a>
+<!-- Get the tags -->
+<div class="tag-meta"><p>TAGS<br /> <a href="http://www.skyandtelescope.com/tag/mars/" rel="tag">Mars</a>, <a href="http://www.skyandtelescope.com/tag/maven/" rel="tag">Maven</a></p></div>
+<!-- Related Posts -->
+<div class="tag-meta">RELATED POSTS<br /><a href="http://www.skyandtelescope.com/astronomy-blogs/explore-night-bob-king/mars-meets-neptune-on-new-years-eve/" rel="bookmark" title="Permanent Link to Mars Meets Neptune on New Year&#8217;s Eve">Mars Meets Neptune on New Year&#8217;s Eve</a><br /><a href="http://www.skyandtelescope.com/astronomy-news/exomars-trace-gas-orbiter-updates/" rel="bookmark" title="Permanent Link to ExoMars Trace Gas Orbiter Gets to Work">ExoMars Trace Gas Orbiter Gets to Work</a><br /><a href="http://www.skyandtelescope.com/astronomy-news/schiaparelli-lander-mars-missing/" rel="bookmark" title="Permanent Link to ESA&#8217;s Schiaparelli Lander: Missing in Action">ESA&#8217;s Schiaparelli Lander: Missing in Action</a><br /><a href="http://www.skyandtelescope.com/astronomy-blogs/astronomy-space-david-dickinson/schiaparelli-lander-mars/" rel="bookmark" title="Permanent Link to Schiaparelli Lander to Touch Down on Mars">Schiaparelli Lander to Touch Down on Mars</a><br /><a href="http://www.skyandtelescope.com/observing/saturns-summer-show/" rel="bookmark" title="Permanent Link to Saturn&#8217;s Splendid Summer Show">Saturn&#8217;s Splendid Summer Show</a><br /></div>
+
+	
+	
+
+				<div class="author-info">
+			<div class="author-avatar">
+				<img src="http://www.skyandtelescope.com/wp-content/uploads/userphoto/16.thumbnail.jpg" alt="Camille M. Carlisle" width="80" height="80" class="photo" />			</div><!-- #author-avatar -->
+			<div class="author-description">
+				<h2>About Camille M. Carlisle</h2>
+				Science Editor Camille M. Carlisle covers science news for <i>Sky &amp; Telescope</i>. She specializes in black holes, galactic cosmology, and whatever she happens to be writing about at the time. She and Robert Naeye co-edited <i>S&amp;T</i>'s special issue <a href="http://www.shopatsky.com/mysteries-of-mars?utm_source=skyandtelescope.com&amp;utm_medium=referral&amp;utm_campaign=sky-CCA-at-150610"><i>Mars: Mysteries and Marvels of the Red Planet</i></a>.				<div class="author-link">
+					<a href="http://www.skyandtelescope.com/author/camille-m-carlisle/" rel="author">
+						View all posts by Camille M. Carlisle <span class="meta-nav">&rarr;</span>					</a>
+				</div><!-- author-link	-->
+			</div><!-- author-description -->
+		</div><!-- author-info -->
+
+		
+
+	</footer><!-- .entry-meta -->
+</article><!-- #post-255459842 -->
+				
+<div id="comments" class="comments-area">
+
+	
+			<h2 class="comments-title">
+			3 thoughts on &ldquo;<span>Mars Lost Atmosphere to Space</span>&rdquo;		</h2>
+
+		<ol class="commentlist">
+				<li class="comment byuser comment-author-geoffandmikie even thread-even depth-1" id="li-comment-112504">
+		<article id="comment-112504" class="comment">
+			<header class="comment-meta comment-author vcard">
+				<img alt='' src='http://2.gravatar.com/avatar/b4819a1d6e142108f5c629541fc68bf2?s=44&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/b4819a1d6e142108f5c629541fc68bf2?s=88&amp;d=mm&amp;r=g 2x' class='avatar avatar-44 photo' height='44' width='44' /><cite class="fn">Lindsay </cite><a href="http://www.skyandtelescope.com/astronomy-news/mars-lost-atmosphere-to-space-3003201723/#comment-112504"><time datetime="2017-03-31T16:52:14+00:00">March 31, 2017 at 4:52 pm</time></a>			</header><!-- .comment-meta -->
+
+			
+			<section class="comment-content comment">
+				<p>Great article, Camille!</p>
+							</section><!-- .comment-content -->
+
+			<div class="reply">
+				<a rel="nofollow" class="comment-reply-login" href="http://www.skyandtelescope.com/login/?redirect_to=http%3A%2F%2Fwww.skyandtelescope.com%2Fastronomy-news%2Fmars-lost-atmosphere-to-space-3003201723%2F">Log in to Reply</a> <span>&darr;</span>			</div><!-- .reply -->
+		</article><!-- #comment-## -->
+	</li><!-- #comment-## -->
+	<li class="comment byuser comment-author-dhandrews odd alt thread-odd thread-alt depth-1" id="li-comment-112540">
+		<article id="comment-112540" class="comment">
+			<header class="comment-meta comment-author vcard">
+				<img alt='' src='http://1.gravatar.com/avatar/459eee6b8f307ce051378a4d49c385fe?s=44&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/459eee6b8f307ce051378a4d49c385fe?s=88&amp;d=mm&amp;r=g 2x' class='avatar avatar-44 photo' height='44' width='44' /><cite class="fn">DHAndrews </cite><a href="http://www.skyandtelescope.com/astronomy-news/mars-lost-atmosphere-to-space-3003201723/#comment-112540"><time datetime="2017-04-01T10:01:52+00:00">April 1, 2017 at 10:01 am</time></a>			</header><!-- .comment-meta -->
+
+			
+			<section class="comment-content comment">
+				<p>I AM 72 years old!  When I was in the 4th grade (1953) I did a major project on the Solar system.  It was general knowledge at that time that Earth and Mars began their Solar life with equivalent atmospheres but solar winds and ambient planetary temperatures resulted in Mars losing most of her atmosphere.</p>
+<p>So, what have we been learning since then?</p>
+							</section><!-- .comment-content -->
+
+			<div class="reply">
+				<a rel="nofollow" class="comment-reply-login" href="http://www.skyandtelescope.com/login/?redirect_to=http%3A%2F%2Fwww.skyandtelescope.com%2Fastronomy-news%2Fmars-lost-atmosphere-to-space-3003201723%2F">Log in to Reply</a> <span>&darr;</span>			</div><!-- .reply -->
+		</article><!-- #comment-## -->
+	<ol class="children">
+	<li class="comment byuser comment-author-camille-m-carlisle bypostauthor even depth-2" id="li-comment-112658">
+		<article id="comment-112658" class="comment">
+			<header class="comment-meta comment-author vcard">
+				<img src="http://www.skyandtelescope.com/wp-content/uploads/userphoto/16.thumbnail.jpg" alt="Camille M. Carlisle" width="80" height="80" class="photo" /><cite class="fn">Camille M. Carlisle <span> Post author</span></cite><a href="http://www.skyandtelescope.com/astronomy-news/mars-lost-atmosphere-to-space-3003201723/#comment-112658"><time datetime="2017-04-03T14:02:47+00:00">April 3, 2017 at 2:02 pm</time></a>			</header><!-- .comment-meta -->
+
+			
+			<section class="comment-content comment">
+				<p>Ha, at first I reacted to this result the same way! It&#8217;s certainly true that we&#8217;ve thought for some time that the solar wind blew off Mars&#8217;s atmosphere, although there was a large segment of planetary scientists who thought the atmosphere must have reacted with/been sequestered in the Martian surface (it isn&#8217;t, we now know). More recently, we&#8217;ve begun amassing data confirming that that hypothesis is actually true &#8212; it&#8217;s one thing to suspect it, but another to have the isotope fractions chemically confirm the suspicion. The MAVEN result is a further confirmation; its contribution is not the percentage of atmosphere lost or that it was lost, but confirming the mechanism by which it happened.</p>
+							</section><!-- .comment-content -->
+
+			<div class="reply">
+				<a rel="nofollow" class="comment-reply-login" href="http://www.skyandtelescope.com/login/?redirect_to=http%3A%2F%2Fwww.skyandtelescope.com%2Fastronomy-news%2Fmars-lost-atmosphere-to-space-3003201723%2F">Log in to Reply</a> <span>&darr;</span>			</div><!-- .reply -->
+		</article><!-- #comment-## -->
+	</li><!-- #comment-## -->
+</ol><!-- .children -->
+</li><!-- #comment-## -->
+ 
+		</ol><!-- .commentlist -->
+
+		
+		
+	
+				<div>All comments must follow the Sky & Telescope <a href="http://www.skyandtelescope.com/terms-of-use-agreement/">Terms of Use</a> and will be moderated prior to posting. Please be civil in your comments. Sky & Telescope reserves the right to use the comments we receive, in whole or in part, and to use the commenter’s username, in any medium. See also the <a href="http://www.skyandtelescope.com/terms-of-use-agreement/">Terms of Use</a> and <a href="http://www.fwcommunity.com/privacy">Privacy Policy</a>.<br><br></div>
+	
+					<div id="respond" class="comment-respond">
+			<h3 id="reply-title" class="comment-reply-title">COMMENT <small><a rel="nofollow" id="cancel-comment-reply-link" href="/astronomy-news/mars-lost-atmosphere-to-space-3003201723/#respond" style="display:none;">Cancel reply</a></small></h3><p class="must-log-in">You must be <a href="http://www.skyandtelescope.com/login/?redirect_to=http%3A%2F%2Fwww.skyandtelescope.com%2Fastronomy-news%2Fmars-lost-atmosphere-to-space-3003201723%2F">logged in</a> to post a comment.</p>		</div><!-- #respond -->
+		
+</div><!-- #comments .comments-area -->
+
+			
+		</div><!-- #content -->
+	</div><!-- #primary -->
+
+<div id="sidebar">
+
+		<div id="secondary" class="" role="complementary">
+
+			<div class="ad-block">
+			<script type="text/javascript">OX_ab68b0ad5d.showAdUnit('537073636');</script> 
+			</div>
+
+			<div class="content-block special-right-block">
+			<script type="text/javascript">OX_ab68b0ad5d.showAdUnit('537074181');</script> 
+			</div>
+
+			<div class="content-block ad-block">
+			<aside id="text-11" class="widget widget_text"><h3 class="widget-title">Featured Observing Resources</h3>			<div class="textwidget"><div style="float: none; width: 300px; margin: 0 auto; font-size:12px;">
+
+<div class="magazine-block">
+<a href="http://www.shopatsky.com/sky-telescope-s-eclipse-glasses-r6747?utm_source=hmwidget&utm_medium=hmwidget&utm_campaign=hmwidget" target="_blank"><img src="http://fw.cdn.iwp.com/media/catalog/product/cache/38/image/200x/9df78eab33525d08d6e5fb8d27136e95/r/6/r6747-1.jpg" alt="Solar Eclipse Glasses" /></a>
+
+<h2><a href="http://www.shopatsky.com/sky-telescope-s-eclipse-glasses-r6747?utm_source=hmwidget&utm_medium=hmwidget&utm_campaign=hmwidget" target="_blank">Sky & Telescope's Eclipse Glasses</a></h2>
+<p>Any time you’re viewing a partially eclipsed Sun, you need to protect your eyes. These ISO and CE certified eclipse-viewing glasses filter out 100% of harmful ultraviolet and infrared. Get your pack of 25 viewers today and make sure everyone’s eyes are protected.</p>
+</div>
+<div class="more-link"><a href="http://www.shopatsky.com/?utm_source=hmwidget&utm_medium=hmwidget&utm_campaign=hmwidget" target="_blank">More Products</a></div>
+
+</div></div>
+		</aside> 
+			</div>
+
+			<div class="content-block right-block">
+			<script type="text/javascript">OX_ab68b0ad5d.showAdUnit('537074182');</script> 
+			</div>
+
+			<div class="content-block right-block">
+			<aside id="text-15" class="widget widget_text"><h3 class="widget-title">Sky &#038; Telescope Mobile Apps</h3>			<div class="textwidget"><div style="height: 206px; overflow: hidden; width: 300px; margin: 0 auto; float: none;">
+<a href="https://itunes.apple.com/us/app/saturnmoons/id606938707?mt=8" target="_blank">
+<img src="/wp-content/uploads/2014-04-10_5345e0720dd21_ExploreSaturn_STApp.jpg" alt="Sky & Telescope's SaturnMoons app reveals the weird worlds orbiting the ringed giant!" />
+</a>
+</div>
+
+<div class="more-link"><a href="/sky-and-stargazing-apps/">View All S&T Apps</a></div>
+
+</div>
+		</aside> 
+			</div>
+
+
+		</div><!-- #secondary --></div>
+	</div><!-- main wrapper -->
+	
+	<div id="sponsored-links">
+		<div class="google-ads">
+		<script type="text/javascript">OX_ab68b0ad5d.showAdUnit('537157791');</script>		</div>
+
+		<div class="featured-ads">
+		<script type="text/javascript">OX_ab68b0ad5d.showAdUnit('537157792');</script>		</div>
+
+		<div class="sponsored-ads">
+		<script type="text/javascript">OX_ab68b0ad5d.showAdUnit('537074183');</script>		</div>
+	</div>
+
+	<footer id="colophon" role="contentinfo">
+		<aside id="text-3" class="widget widget_text">			<div class="textwidget"><div class="footer-links">
+
+<div class="linkgroup">
+<h2>About S&T</h2>
+<a href="/about ">About Us</a>
+<a href="/about/meet-the-staff">Meet the Staff</a>
+<a href="/about/job-opportunities">Job Opportunities</a>
+<a href="/australian-edition-sky-telescope">Australian Edition</a>
+<a href="http://www.shopatsky.com/?utm_source=stfooter&utm_medium=stfooter&utm_campaign=stfooter" target="_blank">Shop @ Sky</a>
+</div>
+
+<div class="linkgroup">
+<h2>For Contributors</h2>
+<a href="/writing-for-sky-telescope">Writing for S&T</a>
+<a href="/submitting-photos-faq">Image Submission FAQ</a>
+<a href="/sky-telescope-photographers-guide">Tips for Submitting Images</a>
+</div>
+
+<div class="linkgroup">
+<h2>For Media</h2>
+<a href="/press-releases">S&T Press Releases</a>
+<a href="/permissions-faqs-how-to-use-sky-telescope-content/">Permission Requests</a>
+</div>
+
+<div class="linkgroup">
+<h2>For Advertisers</h2>
+<a href="http://marketplace.skyandtelescope.com/default.aspx" target="_blank">MarketPlace</a>
+<a href="/advertise">Advertising Information</a>
+<a href="/advertise/contact-information">Contact Advertising</a>
+</div>
+
+<div class="linkgroup">
+<h2>Customer Service</h2>
+<a href="https://secure.palmcoastd.com/pcd/eServ?iServ=MDM0MDE0NDQwNCZpVHlwZT1NQUlO" target="_blank">Subscriber Services</a>
+<a href="/contact-us">Contact Us</a>
+<a href="/help">Help</a>
+</div>
+
+</div>
+
+<div class="footer-bottom">
+<div class="footer-logo">
+<a href="http://www.skyandtelescope.com"><img src="/wp-content/uploads/footer-logo.png" alt="Sky & Telescope | Astronomy News, Tools & Resources" border="0" /></a>
+</div>
+<p>Sky & Telescope Media, an F+W, Content + eCommerce Company<br />
+Copyright ©<script language="JavaScript">var dteNow = new Date();
+<!--
+var intYear = dteNow.getFullYear();
+document.write(intYear);
+//-->
+</script><a name="F+W, a Content + eCommerce Company" href="http://www.fwmedia.com" target="_blank">&nbsp;F+W Media, Inc.</a> All rights reserved. | <a href="http://www.skyandtelescope.com/terms-of-use-agreement/" target="_blank">Terms of Use</a> | <a href="http://www.fwmedia.com/privacy" target="_blank">Privacy</a><br />
+Sky & Telescope, Night Sky, and SkyandTelescope.com are registered trademarks of F+W, a Content + eCommerce Company.
+</p>
+</div></div>
+		</aside>	</footer><!-- #colophon -->
+
+</div><!-- page -->
+</div><!-- site wrapper -->
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MFDSTQ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script data-cfasync="false">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MFDSTQ');</script>
+<!-- End Google Tag Manager --><link rel='stylesheet' id='addthis_output-css'  href='http://www.skyandtelescope.com/wp-content/plugins/addthis/css/output.css?ver=4.5.7' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.skyandtelescope.com/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/www.skyandtelescope.com\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}},"sending":"Sending ...","cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.skyandtelescope.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.5.1'></script>
+<script type='text/javascript' src='http://www.skyandtelescope.com/wp-includes/js/comment-reply.min.js?ver=4.5.7'></script>
+<script type='text/javascript' src='http://www.skyandtelescope.com/wp-content/themes/fw-twentytwelve/js/navigation.js?ver=1.0'></script>
+<script type='text/javascript' src='http://www.skyandtelescope.com/wp-includes/js/wp-embed.min.js?ver=4.5.7'></script>
+<script type='text/javascript' src='http://www.skyandtelescope.com/wp-content/plugins/easy-fancybox/fancybox/jquery.fancybox-1.3.7.min.js?ver=1.5.7'></script>
+<script type='text/javascript' src='http://www.skyandtelescope.com/wp-content/plugins/easy-fancybox/jquery.easing.pack.js?ver=1.3'></script>
+<script type='text/javascript' src='http://www.skyandtelescope.com/wp-content/plugins/easy-fancybox/jquery.mousewheel.min.js?ver=3.1.12'></script>
+<script type="text/css" id="tmpl-tribe_events_pro_customizer_css"></script><style type="text/css" id="tribe_events_pro_customizer_css"></style>
+<script type="text/javascript">
+jQuery(document).on('ready post-load', easy_fancybox_handler );
+</script>
+<!--wp_footer--><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"7c6878bca9","applicationID":"21343556","transactionName":"YwFSYBBQXhdVUkRYWlpLcVcWWF8KG0JZX1JYAQ==","queueTime":0,"applicationTime":563,"atts":"T0ZRFlhKTRk=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Object Caching 5455/5539 objects using apc
+
+ Served from: skyandtelescope.com @ 2017-04-09 11:06:34 by W3 Total Cache -->

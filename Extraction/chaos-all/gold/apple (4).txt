@@ -1,0 +1,17 @@
+All the Best Hidden Features in Apple’s iOS 10.3 Update
+
+Forget about the iPhone 8 hoopla for a minute. Get that speculative nonsense out of your head. Apple just launched its latest iOS update, 10.3, and quietly added a few features that should make your current iPhone (or iPad) feel like it's moving a bit faster.
+
+Alongside a slew of Siri tweaks and AirPods support, iOS 10.3 marks Apple's move to a new Apple File System. According to Business Insider's Kif Leswing, this changes how the device stores and locates data. With the upgrade from HFS+, the new Apple File System is expected to help iPhones and iPads run "more smoothly going forward."
+
+Apple engineer Renaud Lienhart tweeted Monday that the new iOS feels "snappier" because many animations had been slightly altered "for the better." For at least one early adopter, non-old phones equipped with the new update now feel "slightly more responsive" than before. The Verge's Tom Warren added that users shouldn't expect to notice an increase in speed immediately, but apps requiring high amounts of data writing may seem faster right out of the gate.
+
+Here are a few more tweaks and additions to look out for in the latest iOS update:
+
+    Support has been added for searching "parked car" in Maps, presumably for those moments in which one's parked automobile is MIA.
+    You can now delete unwanted Calendar invites and report them for what they really are: junk.
+    Find your AirPods using the Find My iPhone feature. A sound can be played on one or both AirPods while you're searching aimlessly.
+    Siri has also been equipped with additional support for ride-scheduling apps, checking the gas level in your car, and checking the status of bills paid using payment apps.
+    CarPlay has been boosted with status bar shortcuts and a sleek Apple Music Now Playing screen.
+
+Thanks Apple! 

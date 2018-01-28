@@ -1,0 +1,26 @@
+Life After The iPhone: How AT&T's Bet On Apple Mobilized The Company
+
+Steve Jobs needed some advice. It was 2006, and Apple was working on the design for its first smartphone. Jobs had questions about its radio. So he called up Ralph de la Vega, Cingular Wireless’ chief operating officer, who had helped broker the exclusive deal between Jobs and the telco, soon to be part of AT&T Inc., to carry the phone. ” ‘How do you make this device be a really good phone?’ ” de la Vega recalls Jobs asking. ‘ “ I’m not talking about how to build a keyboard and things like that. But I’m saying the innards of a radio that worked well.’ ”
+
+AT&T had a 1,000-page manual that detailed how suppliers should build a mobile radio optimized for its network.
+
+“
+He said, ‘Well, send it to me.’ So I sent him an e-mail. Thirty seconds, he calls me back. ‘Hey, what the … ? What’s going on? You’re sending me this big document, and the first 100 pages have to do with the standard keyboard,’ ” de la Vega says, laughing. ‘”Sorry we didn’t take those first 100 pages out, Steve. Forget those 100 pages. Those don’t apply to you.’ He says, ‘Okay,’ and he hangs up the phone.”
+
+News quickly spread inside Cingular that Apple didn’t have to adhere to the specs, an act deemed blasphemous by the carrier’s CTO, who rang up de la Vega and called him “ crazy” for “giving in to Apple.” De la Vega had signed a nondisclosure agreement in Jobs’ office that was so secretive it prevented him from describing the device to his bosses except in the most general terms. Board members didn’t even get to see one until after the deal was signed. “I said, ‘Trust me, this phone doesn’t need the first hundred pages.’”
+
+Trust was a big part of the story behind AT&T’s deal with Apple. The country’s biggest phone company was a sclerotic mess of assets. Its shrinking landline business produced the majority of revenue. Its play on the future was a glitchy, hodgepodge cellular network cobbled from deals past. It couldn’t pass up, as Verizon reportedly did, the chance to usher in the smartphone era with the man who had reinvented the computer and the music industry.
+
+“I told people you weren’t betting on a device. You were betting on Steve Jobs,” says AT&T CEO Randall Stephenson, talking candidly about the effect of the iPhone deal from his 37th-floor aerie atop Whitacre Tower in Dallas.
+
+That one little phone transformed the whole company. AT&T still lags Verizon on many fronts, but since the iPhone deal Ma Bell moves faster, embraces new technologies and partnerships big and small, and has decided to spend big–really, really big–to stay atop the data deluge. Since 2007 traffic on its network has doubled each year, and AT&T has spent more than $115 billion acquiring spectrum and building its network. It claims to have made a greater capital injection into the U.S. economy than any other public company in that time span.
+
+The iPhone deal, says Stephenson, “changed everything. It changed our capital allocation. It changed how we thought about spectrum. It changed how we thought about engineering and designing networks. Suddenly you go from thinking that 40,000 cell sites are sufficient to thinking it’s going to have to be multiples of that.”
+
+The fruits of its spending are still to come: Although AT&T’s new 4G network had the fewest complaints in a December Consumer Reports survey, it ranked last overall among the four big U.S. carriers for the third year in a row.
+
+And six years to the month of the iPhone launch, the late Steve Jobs’ cloak of amazingness is wearing thin. Smartphones are fast approaching saturation in the U.S., if they’re not there already. Nearly two-thirds of AT&T’s customers under contract (also known as “postpaid”) have smartphones, and almost half of those are iPhone users, compared with just over half and 20% for Verizon. In 2012 AT&T is expected to sign up 59% fewer net new postpaid customers than it did in 2010. Verizon is up 38% in that period. “In some ways AT&T is a victim of its own success,” says Craig Moffett, a telecom analyst at Sanford C. Bernstein.
+
+Mobilize Everything
+
+Stephenson’s mantra is to “mobilize” everything: pill bottles, home security systems, garbage cans, cars and dirt. AT&T is looking to work with farmers to plant wireless sensors near roots to determine when they need water and with automakers to push consumer apps into cars over its networks. It is testing a wireless home automation and security business in Atlanta and Dallas called Digital Life with an eye toward a national rollout this year. “We are sitting on top of some of the greatest demand that any industry has ever seen,” says de la Vega. “Those people who tell me we run out of revenue when we run out of humans, they just don’t get it. Data is going to surge.”

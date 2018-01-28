@@ -1,0 +1,21 @@
+Apple no longer allows developers to advertise pricing info such as ‘Free’ in app titles
+
+
+
+Apple is apparently ramping up its efforts to clean up the App Store. According to a report from VentureBeat, Apple has started rejecting applications which tout their price in the name, icons, screenshots, or previews…
+
+Apple has reportedly gradually started this practice over the last month. In the past, Apple has discouraged developers from highlighting an app’s price in titles, but it has not gone as far as to reject apps that do so.
+
+If a developer attempts to submit an application for review that contains the word “Free” in the name of the app, they will be presented with an error message. The message explains that price is not considered part of metadata and thus cannot be included in an app’s name, icons, screenshots, or previews. Instead, Apple suggests that developers highlight prices and discounts in the app’s description.
+
+Below is the full error message:
+
+    Your app’s name, icons, screenshots, or previews to be displayed on the App Store include references to your app’s price, which is not considered a part of these metadata items.
+
+    Please remove any references to your app’s price from your app’s name, including any references to your app being free or discounted. If you would like to advertise changes to your app’s price, it would be appropriate to include this information in the app description. Changes to your app’s price can be made in the Pricing and Availability section of iTunes Connect.
+
+Since the inception of the App Store, developers have regularly touted if an app is free in its title in an effort differentiate from competitors. While an Apple spokesperson has confirmed that pricing information is no longer allowed in app names, the company didn’t offer a specific reason for the policy change.
+
+Apple has been working to clean up the App Store over the last year. In September, the company started removing apps in deemed “problematic and abandoned.” It was later revealed that Apple’s purge of the App Store removed almost 50,000 applications over the course of a month – a 238 percent increase compared to how many apps are normally removed in a month.
+
+Do you think Apple is making the right move by stopping developers from touting pricing in metadata? Let us know down in the comments.

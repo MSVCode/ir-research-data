@@ -1,0 +1,33 @@
+NASA's Curiosity rover to resume drilling on Mars in search of LIFE on Red Planet
+
+The drill has been out of action for 10 months, hindering the rover's efforts to search for signs of life
+
+NASA's Curiosity rover has touched its drill to the ground for the first time in 10 months, after a mechanical fault brought drilling to an abrupt halt at the end of last year.
+
+During the test on October 17, Curiosity pressed its drill bit downward, and then applied smaller sideways forces while taking measurements with a force sensor.
+
+The sensor allows NASA to monitor how hard the drill bit is pressing down or sideways. Avoiding too much side force in drilling is crucial to avoid the bit getting stuck in the rock, according to NASA.
+
+"We're steadily proceeding with due caution to develop and test ways of using the rover differently from ever before," said Deputy Project Manager Steve Lee, of NASA's Jet Propulsion Laboratory, California.
+
+NASA's Curiosity rover has used its drill to gather sample material from Martian rocks 15 times during its five-year-old mission.
+
+On each of those occasions, the powdered rock samples were delivered to laboratory instruments inside the rover, allowing NASA to analyse their composition and search for signs of life.
+
+During the first year after Curiosity's landing near Mount Sharp, the mission accomplished a major goal by determining that, billions of years ago, a Martian lake offered conditions that would have been favourable for microbial life.
+
+Curiosity has since traversed through diverse environments where both water and wind have left their imprint.
+
+The mission is still several months away from resuming drilling into Martian rocks.
+
+In the past, Curiosity used stabilisers on either side of the drill bit to hold the target rock in place while a motorised feed mechanism within the drill extended the bit forward.
+
+However, the feed mechanism stopped working in December 2016, so NASA scientists were forced to develop an alternative method of drilling, using motion of the robotic arm to directly advance the extended bit into a rock.
+
+"This is the first time we've ever placed the drill bit directly on a Martian rock without stabilisers," said JPL's Douglas Klein, chief engineer for the mission's return-to-drilling development.
+
+"The test is to gain better understanding of how the force/torque sensor on the arm provides information about side forces."
+
+Once the drill is up and running again, Curiosity will resume drilling at the top of a 20-story-tall ridge, known as Vera Rubin Ridge.
+
+The ridge contains clay and sulfate minerals, providing tempting opportunities to learn even more about the history and habitability of ancient Mars.

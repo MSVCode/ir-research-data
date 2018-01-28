@@ -1,0 +1,32 @@
+Alleged Windows support scammer forfeits money earned by “fixing” PCs
+Victims may not get their money back, though.
+
+A man accused of tricking PC users into thinking they had viruses and then offering to "fix" their perfectly fine computers has agreed to pay back every penny he allegedly received in the scam.
+
+Navin Pasari is a defendant in one of six complaints that the Federal Trade Commission filed in September 2012 against people and entities accused of leading Windows tech support scams.
+
+"According to the complaint against Pasari and his co-defendants, the defendants placed ads with Google, which appeared when consumers searched for their computer company’s tech support telephone number," the FTC noted in an announcement today. "After getting consumers on the phone, the defendants’ telemarketers allegedly claimed they were affiliated with legitimate companies, including Dell, Microsoft, McAfee, and Norton, and told consumers they had detected malware that posed an imminent threat to their computers. The scammers then offered to rid the computer of the non-existent malware for fees ranging from $139 to $360."
+
+Pasari did not admit wrongdoing but agreed to a proposed final judgment and order in which he will forfeit $14,369, "which is the amount of money Mr. Pasari received from the other Defendants," the document states. The money is being held in escrow and will be transferred to the FTC, assuming the order is approved by a US District Court judge.
+
+"The final order also requires him to divest his ownership interest in PCCare247 Inc., another defendant in the action, and transfer any proceeds he receives from the divestiture to the FTC," the commission announcement said.
+
+It's too early to tell whether that money will make its way back to victims. Pasari is the third person to settle with the FTC, but litigation continues in all six of the complaints because each had multiple defendants.
+
+"This is just one of the defendants in that one case," FTC spokesman Jay Mayfield told Ars. While numerous defendants are overseas, "this individual is based in the US, so it was certainly easier for us to interact with him and find him."
+
+When the FTC has completed the process of recovering money, it will analyze its legal costs and the cost of disbursing money to victims before determining whether it makes sense to identify victims and reimburse them. "If the cost of conducting the redress program—actually tracking down the victims and the process of figuring out who they are and mailing them checks—if the cost of that would outweigh the benefit of distributing the checks to the people," then the money would go into the US Treasury, Mayfield said.
+
+Putting scammers out of business prevents future harm, though. The previous defendants to settle did so in May. One was Sanjay Agarwalla, also affiliated with PCCare247, who was required to pay $3,000, the amount of illicit money he allegedly received.
+
+The other party to settle was "Mikael Marczak, doing business as Virtual PC Solutions," the FTC said. While investigating Marczak's alleged tech support scam, "FTC staff discovered he was also telemarketing a debt relief program that the FTC claimed violated the Telemarketing Sales Rule." This operation was run by "Marczak’s corporation Conquest Audit."
+
+There was a judgment of $984,721 against Marczak and Conquest Audit, representing the amount lost by consumers, but it was stayed due to Marczak's inability to pay the full amount. He was forced to give up all the money in his bank accounts except $3,500, plus a 2005 Hummer SUV and a 2005 Harley Davison motorcycle. It's not clear exactly how much money he forfeited.
+
+As we reported last year, scammers convince victims that their computers are riddled with malware by pointing them to the Windows Event Viewer, a standard feature of Windows PCs that shows lots of harmless error messages. The fraudsters instruct consumers to give them remote access to their computers and then charge the victims money for bogus repairs. The FTC believes such scams have cost consumers tens of millions of dollars worldwide.
+
+Our own Nate Anderson received some of these calls, but he was too savvy to fall for it. The defendants ended up being tricked by FTC agents who called them and pretended to be helpless consumers.
+
+The scams haven't stopped entirely, however. Just today, a friend of mine e-mailed me to say, "I've gotten like three calls from Windows tech support over the past two weeks. I tell them I work for the FTC, that we know where they are that we're coming to get them, and then they hang up."
+
+Other people who receive fake tech support calls have gone to great lengths to troll the scammers, leading to some hilarious results, which we detailed in another article last year.

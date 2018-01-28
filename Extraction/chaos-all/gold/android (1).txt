@@ -1,0 +1,15 @@
+Almost 40 different Android smartphones are shipping infected with malware that has been installed during the supply chain and manufacturing process, according to analysis by security experts.
+
+Check Point Security claims the 38 phones affected aren’t from little-known manufacturers but from big names such as Samsung and Lenovo. Research by the company found "a severe infection" in 38 Android devices, belonging to a large telecommunications company and a multinational technology company," said Oren Koriat of the Check Point mobile research team.
+
+"While this is not unusual, one detail of the attacks stands out. In all instances, the malware was not downloaded to the device as a result of the users' use, it arrived with it.”
+
+The most notable malware targeting the devices is Loki. This is a complex malware that operates by using several different components, each with its own functionality and role in achieving the malware’s goal of causing as much damage as possible. Loki can steal data and take full control of a device.
+
+According to the security firm's findings, the malware was already present on the devices before the users received them. The handsets affected include Samsung's Note 2 and 8.0, the Galaxy S4, A5 and A7, the Xiaomi Mi 4i, Oppo N3, 5 Asus Zenfone 2, LenovoS90 and many more. The full list can be found here.
+
+A Samsung spokesperson said the company was currently reviewing the claims made by Check Point. WIRED has contacted the other companies listed in the report and will update this story accordingly.
+
+“The malicious apps were not part of the official ROM supplied by the vendor and were added somewhere along the supply chain,” added Koriat. "Six of the malware instances were added by a malicious actor to the device's ROM using system privileges, meaning they couldn't be removed by the user and the device had to be re-flashed." There's no suggestion that any of the smartphone companies listed in the report are installing malware, with a security lapse in the supply chain most-likely to blame.
+
+Check Point's Koriat added that standard security advice to not download apps from untrusted sources wasn't applicable in this instance. "Pre-installed malware compromise[s] the security even of the most careful users," he warned. "In addition, a user who receives a device already containing malware will not be able to notice any change in the device's activity which often occur once a malware is installed."

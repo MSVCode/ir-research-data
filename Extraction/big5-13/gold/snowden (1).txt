@@ -1,0 +1,73 @@
+Snowden leaks: NSA hacked Google and Yahoo data links
+
+A summary of US spying allegations brought about by Edward Snowdens leak of classified documents
+
+The US National Security Agency (NSA) has been hacking data links connecting Yahoo and Googles data centres, according to leaks by Edward Snowden.
+
+Millions of records were gleaned daily from the internet giants internal networks, documents published by the Washington Post indicate.
+
+The agencys director said it had not had access to the companies computers.
+
+Gen Keith Alexander told Bloomberg TV: "We are not authorised to go into a US companys servers and take data."
+
+But correspondents say this is not a direct denial of the latest claims.
+
+The documents cited in the latest Snowden leaks suggest that the NSA intercepted the data at some point as it flowed through fibre-optic cables and other network equipment connecting the companies data centres, rather than targeting the servers themselves.
+
+The data the agency obtained, which ranged from "metadata to text, audio and video, were then sifted by an NSA programme called Muscular, operated with the NSAs British counterpart, GCHQ, the documents say.
+
+The NSA already has "front-door" access to Google and Yahoo user accounts through a court-approved programme known as Prism.
+
+The revelations stem from documents leaked by fugitive ex-US intelligence contractor Edward Snowden, who now lives in Russia and is wanted in the US in connection with the unauthorised disclosures.
+'Inappropriate and unacceptable'
+
+The latest revelations come hours after a German delegation of intelligence officials arrived in Washington for talks at the White House following claims that the US monitored Chancellor Angela Merkels mobile phone.
+
+Two of Mrs Merkels most important advisers, foreign policy adviser Christoph Heusgen, and intelligence coordinator Guenter Heiss were sent to take part in the talks - a measure of how seriously Mrs Merkel takes the matter, the BBCs Stephen Evans reports from Berlin.
+
+Next week, the heads of Germanys spying agencies will go to meet their opposite numbers in Washington.
+
+How intelligence is gathered
+
+    Accessing internet company data
+    Tapping fibre optic cables
+    Eavesdropping on phones
+    Targeted spying
+
+
+This weeks meetings are more about how to rebuild trust, while next weeks agenda will be more about the detail of how the two countries agencies might or might not work more in harmony, our correspondent reports.
+
+The head of US intelligence has defended the monitoring of foreign leaders as a key goal of operations but the US is facing growing anger over reports it spied on its allies abroad.
+
+It has also been reported that the NSA monitored French diplomats in Washington and at the UN, and that it conducted surveillance on millions of French and Spanish telephone calls, among other operations against US allies.
+
+Spanish Prime Minister Mariano Rajoy said that if Spain had been a target of the NSA, this would be "inappropriate and unacceptable between partners".
+
+However Gen Alexander has said "the assertions... that NSA collected tens of millions of phone calls [in Europe] are completely false".
+
+However on Wednesday, the agency denied Italian media reports that it had targeted communications at the Vatican.
+
+The UN said it had received assurances that its communications "are not and will not be monitored" by American intelligence agencies, but refused to clarify whether they had been in the past.
+'Basic tenet'
+
+On Tuesday, Director of National Intelligence James Clapper and Gen Alexander testified before the intelligence panel of the House of Representatives.
+
+Gen Alexander said much of the data cited by non-US news outlets was actually collected by European intelligence services and later shared with the NSA.
+
+Meanwhile, Mr Clapper told lawmakers that discerning foreign leaders intentions was "a basic tenet of what we collect and analyse".
+
+He said that foreign allies spy on US officials and intelligence agencies as a matter of routine.
+
+Mr Clapper said the torrent of disclosures about American surveillance had been extremely damaging and that he anticipated more.
+
+James Clapper said knowing what foreign leaders were thinking was critical to US policymaking
+
+But he said there was no other country that had the magnitude of oversight that the US had, and that any mistakes that had been made were human or technical.
+
+Although the pair were not given a tough time by the committee, correspondents say that sentiment is turning within Congress toward tightening up the reach of American intelligence agencies.
+
+Meanwhile, a spokesman for Russian President Vladimir Putin has denied that Moscow used free USB memory sticks and mobile phone charging cables to spy on delegates attending the G20 Summit in St Petersburg last September.
+
+Reports in two Italian newspapers suggested that the USB sticks and cables had bugs on them that could steal data from the delegates.
+
+Spokesman Dmitri Peskov said the reports were an attempt to distract from the problems between European countries and the US. 

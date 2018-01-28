@@ -1,0 +1,32 @@
+Google's decision to change Gmail 'compose' feature sparks complaints
+
+After announcing a controversial decision to shut down its Reader Web feed aggregator, Google is once again drawing heat -- this time for changing the way users write emails on Gmail.
+
+With the change, users now have to compose their email in a new window that pops up on top of the inbox. Previously, users were switched to a new page to write their email.
+Google has been experimenting with the pop-up feature since October and says it is faster and simpler than the previous way of writing emails on Gmail. 
+
+"We're now ready to introduce the new compose experience as the default for everyone," Google said in a blog post announcing the change. "We're looking forward to hearing what you think!"
+
+However, many users don't think highly of the new feature. Many have taken to Twitter over the last day to complain about how much they dislike the change and are even considering trying out different email services.
+
+    OH GMAIL I HATE YOUR NEW COMPOSE BOX MORE THAN I CAN PUT INTO WORDS
+    — Colin Wyers (@cwyers) March 29, 2013
+
+    Why is Google ruining everything? First Reader, now this stupid new compose?
+    — Tim Mazurek (@LottieandDoof) March 29, 2013
+
+    Google no, don't be like Facebook. I don't want new compose. New compose is stupid.
+    — Maxwell (@mr_chun2) March 29, 2013
+
+    I might try to find an alternative to gmail when @google makes the new compose dialog mandatory. I don't like it a bit.
+    — Chuck Baggett (@ChuckBaggett) March 29, 2013
+
+    With axing Google Reader and this new stupid Gmail compose I am ready to have Google products out of my life.
+    — Jonathan Adler (@skyetetra) March 28, 2013
+
+    I detest the new compose in @gmail - Why must I write emails in a small corner of my screen? The center of the screen was just fine, thanks.
+    — Dan Blumberg (@dblums) March 29, 2013
+
+Users can still switch back to the old way of writing emails with just a few clicks. Simply press the "Compose" button on the left side of the screen. When the new compose box pops up, click on the down-arrow icon at the bottom right of the window. Select "Temporarily switch back to old compose."
+
+Google will probably make the switch permanent at some point in the future, but for now, you can enjoy switching back while it lasts.

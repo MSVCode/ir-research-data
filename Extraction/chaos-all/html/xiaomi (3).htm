@@ -1,0 +1,1169 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"Vw4EVVBUGwIGU1BaBwMD"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{c.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(15),c={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(c.console=!0,o.indexOf("dev")!==-1&&(c.dev=!0),o.indexOf("nr_dev")!==-1&&(c.nrDev=!0))}catch(s){}c.nrDev&&i.on("internal-error",function(t){r(t.stack)}),c.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),c.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(c,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(c){try{i("ierr",[c,(new Date).getTime(),!0])}catch(s){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,(new Date).getTime()])}var i=t("handle"),a=t(16),c=t("ee"),s=t("loader"),f=window.onerror,u=!1,d=0;s.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),s.xhrWrappable&&t(9),u=!0)}c.on("fn-start",function(t,e,n){u&&(d+=1)}),c.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),c.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),c.on("internal-error",function(t){i("ierr",[t,(new Date).getTime(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),c=t(7),s="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState";t("loader").features.stn=!0,t(6);var g=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof g&&(this.bstStart=Date.now())}),o.on(w,function(t,e){var n=t[0];n instanceof g&&i("bst",[n,e,this.bstStart,Date.now()])}),a.on(m,function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),a.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),this.bstType])}),c.on(m,function(){this.bstStart=Date.now()}),c.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=Date.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+s]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+s]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+s]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){c.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),c=t(17)(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,e,n){var r=t("ee").get("history"),o=t(17)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,e,n){var r=t("ee").get("raf"),o=t(17)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(17)(i),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[c,"setImmediate"],c+d),a.inPlace(window,[s],s+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(s+u,r),i.on(c+u,o)},{}],9:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",c)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",c)}function i(t){v.push(t),h&&(g=-g,b.data=g)}function a(){for(var t=0;t<v.length;t++)r([],v[t]);v.length&&(v=[])}function c(t,e){return e}function s(t,e){for(var n in t)e[n]=t[n];return e}t(5);var f=t("ee"),u=f.get("xhr"),d=t(17)(u),l=NREUM.o,p=l.XHR,h=l.MO,m="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],v=[];e.exports=u;var y=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(m,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(s(p,y),y.prototype=p.prototype,d.inPlace(y.prototype,["open","send"],"-xhr-",c),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var g=1,b=document.createTextNode(g);new h(a).observe(b,{characterData:!0})}else f.on("fn-end",function(t){t[0]&&t[0].type===m||a()})},{}],10:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var a=t.getResponseHeader("X-NewRelic-App-Data");a&&(e.cat=a.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return h(r)}function i(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var c=t("handle"),s=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=h(r);i&&(n.txSize=i)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var a=0;a<d;a++)e.addEventListener(u[a],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{}],11:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],12:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(c(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(15),c=t(16),s=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var u=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(u,function(t,e){f[e]=o(d+e,!0,"api")}),f.addPageAction=o(d+"addPageAction",!0),f.setCurrentRouteName=o(d+"routeName",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var p=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(s.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{s.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){p[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],13:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],14:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],15:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],16:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],17:[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",c=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t,e){function n(t,e,n,o){function nrWrapper(){var r,a,c,s;try{a=this,r=i(arguments),c="function"==typeof n?n(r,a):n||{}}catch(f){l([f,"",[r,a,o],c])}u(e+"start",[r,a,o],c);try{return s=t.apply(a,r)}catch(d){throw u(e+"err",[r,a,d],c),d}finally{u(e+"end",[r,a,s],c)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o="");var a,c,s,f="-"===o.charAt(0);for(s=0;s<e.length;s++)c=e[s],a=t[c],r(a)||(t[c]=n(a,f?c+o:o,i,c))}function u(n,r,o){if(!s||e){var i=s;s=!0;try{t.emit(n,r,o)}catch(a){l([a,n,r,o])}s=i}}function d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){l([r])}for(var o in t)c.call(t,o)&&(e[o]=t[o]);return e}function l(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,c,i):i()}function n(n,r,o){if(!l.aborted){t&&t(n,r,o);for(var i=e(o),a=h(n),c=a.length,s=0;s<c;s++)a[s].apply(i,r);var f=u[y[n]];return f&&f.push([g,n,r,i]),i}}function p(t,e){v[t]=h(t).concat(e)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(n)}function w(t,e){f(t,function(t,n){e=e||"feature",y[n]=e,e in u||(u[e]=[])})}var v={},y={},g={on:p,emit:n,get:m,listeners:h,context:e,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var c="nr@context",s=t("gos"),f=t(15),u={},d={},l=e.exports=o();l.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!b++){var t=g.info=NREUM.info,e=d.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return f.abort();s(v,function(e,n){t[e]||(t[e]=n)}),c("mark",["onload",a()],null,"api");var n=d.createElement("script");n.src="https://"+t.agent,e.parentNode.insertBefore(n,e)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var c=t("handle"),s=t(15),f=t("ee"),u=window,d=u.document,l="addEventListener",p="attachEvent",h=u.XMLHttpRequest,m=h&&h.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:h,REQ:u.Request,EV:u.Event,PR:u.Promise,MO:u.MutationObserver},t(12);var w=""+location,v={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1016.min.js"},y=h&&m&&m[l]&&!/CriOS/.test(navigator.userAgent),g=e.exports={offset:a(),origin:w,features:{},xhrWrappable:y};d[l]?(d[l]("DOMContentLoaded",i,!1),u[l]("load",r,!1)):(d[p]("onreadystatechange",o),u[p]("onload",r)),c("mark",["firstbyte",a()],null,"api");var b=0},{}]},{},["loader",2,10,4,3]);</script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"  />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+  
+<title>Xiaomi Mi TV 4A series, Powerline Wi-Fi adapter launched: Price, specifications, features </title>
+
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<meta name="twitter:title" content="Xiaomi Mi TV 4A series, Powerline Wi-Fi adapter launched: Price, specifications, features  " />
+<meta name="twitter:url" content="http://www.bgr.in/news/xiaomi-mi-tv-4a-series-powerline-wi-fi-adapter-launched-price-specifications-features/" />
+<meta name="twitter:app:country" content="IN" />
+<meta name="twitter:app:name:googleplay" content="BGRIndia App" />
+<meta name="twitter:app:id:googleplay" content="in.bgr" />
+<meta name="twitter:app:url:googleplay" content="http://www.bgr.in/news/xiaomi-mi-tv-4a-series-powerline-wi-fi-adapter-launched-price-specifications-features/" />
+
+<meta property="al:android:url" content="http://www.bgr.in/news/xiaomi-mi-tv-4a-series-powerline-wi-fi-adapter-launched-price-specifications-features/">
+<meta property="al:android:app_name" content="BGRIndia">
+<meta property="al:android:package" content="in.bgr">
+<meta property="al:web:url" content="http://www.bgr.in/news/xiaomi-mi-tv-4a-series-powerline-wi-fi-adapter-launched-price-specifications-features/">
+
+
+<meta name="description" content="Xiaomi’s latest Mi TV series comes with an AI voice-assistant feature. - Xiaomi Mi TV 4A series, Powerline Wi-Fi adapter launched: Price, specifications, features" />
+<meta name="news_keywords" content="Xiaomi Mi TV 4A series, Xiaomi Powerline Wi-Fi adapter" />
+<meta name="keywords" content="xiaomi,xiaomi mi tv 4a,xiaomi powecat wi-fi adapter" />
+<noscript><link rel="stylesheet" type="text/css" media="all" href="http://st1.bgr.in/wp-content/themes/vip/bgr-child/css/fonts.css" /></noscript>
+<script type="text/javascript">
+	WebFontConfig = {
+		custom: {	families: [  'apres-regular-webfont', 'apres-bold-webfont', 'itcfranklingothicstd-med', 'itcfranklingothicstd-mdcd', 'aprescondensed-regular-webfont' ],
+					urls: [ 'http://st1.bgr.in/wp-content/themes/vip/bgr-child/css/fonts.css?ver=20161102' ]
+		},
+		loading: function() {
+			if( window.jQuery ) jQuery(document.body).trigger('bgr.fontsloading');
+		},
+		fontloading: function(fontFamily, fontDescription) {
+			if( window.jQuery ) jQuery(document.body).trigger('bgr.fontloading', [fontFamily, fontDescription]);
+		},
+		fontactive: function(fontFamily, fontDescription) {
+			if( window.jQuery ) jQuery(document.body).trigger('bgr.fontactive', [fontFamily, fontDescription]);
+		},
+		fontinactive: function(fontFamily, fontDescription) {
+			if( window.jQuery ) jQuery(document.body).trigger('bgr.fontinactive', [fontFamily, fontDescription]);
+		},
+		active: function() {
+			if( window.jQuery ) jQuery(document.body).trigger('bgr.fontsactive');
+		},
+		inactive: function() {
+			// Load alternate CSS if webfonts fail to load
+			var ss = document.createElement("link");
+			ss.type = "text/css";
+			ss.rel = "stylesheet";
+			ss.href = 'http://st1.bgr.in/wp-content/themes/vip/bgr-child/css/noscript.css';
+			document.getElementsByTagName("head")[0].appendChild(ss);
+
+			if( window.jQuery ) jQuery(document.body).trigger('bgr.fontsinactive');
+		}
+
+	};
+
+	(function() {
+		var wf = document.createElement('script');
+		wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+			'://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+		wf.type = 'text/javascript';
+		wf.async = 'true';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(wf, s);
+	})();
+</script>
+<noscript><link rel="stylesheet" type="text/css" media="all" href="http://st1.bgr.in/wp-content/themes/vip/bgr-child/css/noscript.css" /></noscript>
+<link rel="pingback" href="http://www.bgr.in/xmlrpc.php" />
+
+
+<script type="text/javascript">
+  var headeranimation = false;
+  var headclass = "nav-holder .nav-wrap";
+          headeranimation = false;
+  </script>
+
+
+<!-- Begin comScore Tag -->
+<script type="text/javascript">
+    var _comscore = _comscore || [];_comscore.push({ c1: "2", c2: "9254297" });(function() {var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";el.parentNode.insertBefore(s, el);})();
+</script>
+<noscript>
+    <img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=9254297&amp;cv=2.0&amp;cj=1" alt="comscore" />
+</noscript>
+<!-- End comScore Tag -->
+
+<link rel="alternate" type="application/rss+xml" title=" &raquo; Feed" href="http://www.bgr.in/feed/" />
+<link rel="alternate" type="application/rss+xml" title=" &raquo; Comments Feed" href="http://www.bgr.in/comments/feed/" />
+<meta property="fb:pages" content="127618930636739" />
+<link rel="alternate" type="application/rss+xml" title=" &raquo; Xiaomi Mi TV 4A series, Powerline Wi-Fi adapter launched: Price, specifications, features Comments Feed" href="http://www.bgr.in/news/xiaomi-mi-tv-4a-series-powerline-wi-fi-adapter-launched-price-specifications-features/feed/" />
+        <!-- GA Code Start -->
+		<script type="text/javascript">
+        //<![CDATA[
+        var dataEventTrack=[];
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-21819872-1']);
+        _gaq.push(['_trackPageview']);
+        _gaq.push(['_trackPageLoadTime']);
+        (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                    })();
+		//]]>
+		</script>
+        <!-- GA Code End -->
+		<link rel='stylesheet' id='bgr-screen-single-css'  href='http://st1.bgr.in/wp-content/themes/vip/bgr-child/css/article.css?ver=20161102' type='text/css' media='all' />
+<script type='text/javascript' src='http://st1.bgr.in/wp-content/themes/vip/bgr-child/js/jquery-min.1.11.1.js?ver=20161102'></script>
+<meta name="generator" content="WordPress 3.8.2" />
+<link rel='shortlink' href='http://www.bgr.in/?p=449160' />
+<meta http-equiv="Content-Language" content="en">
+<script type='text/javascript'>
+                    jQuery(document).ready(function (){
+                        function chcksrc(){
+                            var tabel =  jQuery('.latest-on-tab-widget .tabcontentwrap .tabcontent.active');
+                            tabel.find('img').each(function(){
+                                var el = jQuery(this);
+                                var dsrc = el.attr('data-lazy-src');
+                                var src = el.attr('src');
+                                if(dsrc != src){
+                                    el.attr('src',dsrc);
+                                }
+                            });
+                        }
+
+                        jQuery('.latest-on-tab-widget .tabnav a').click(function(){
+                            cel = jQuery(this).parent();
+                            cc = cel.index()+1;
+                            cel.siblings('li.active').removeClass('active');
+                            cel.addClass('active');
+                            cel.parent().parent().find('.tabcontentwrap .tabcontent.active').removeClass('active');
+                            cel.parent().parent().find('.tabcontentwrap .tabcontent:nth-child('+cc+')').addClass('active');
+                            cel.removeClass('ds-act');
+                            chcksrc();
+                        });
+
+                        jQuery(document).on('click','.hdh2',function(e){
+                                jQuery(this).toggleClass('cc-active');
+                                jQuery(this).parent().find('.catNavList').slideToggle();
+                        });
+                  /*  if(jQuery('.latest-on-tab-widget .listing a').length > 0){                            
+                            jQuery('.latest-on-tab-widget .listing a').each(function(){
+                                var gEvent = jQuery(this).attr('onclick');
+                                var res = gEvent.split(',');
+                                var res3 = jQuery.trim(res[3]).substring(1);
+                                res[1] = "'News - Article'";
+                                res[3] = "'News - Article - "+res3;
+                                var newGaAttr = res.toString();
+                                jQuery(this).attr('onclick',newGaAttr);
+                            });
+                    }*/
+                    });
+                </script><style>.listing figcaption span {font-size: 11px;}</style>
+<!-- BGR Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.bgr.in/news/xiaomi-mi-tv-4a-series-powerline-wi-fi-adapter-launched-price-specifications-features/" />
+<meta property="og:title" content="Xiaomi Mi TV 4A series, Powerline Wi-Fi adapter launched: Price, specifications, features" />
+<meta property="og:description" content="Xiaomi’s latest Mi TV series comes with an AI voice-assistant feature." />
+<meta property="og:image" content="http://st1.bgr.in/wp-content/uploads/2017/03/xiaomi-mi-tv-4a-launched.jpg" />
+<meta name="twitter:site" content="@BGRIndia" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:creator" content="@bgrindia" />
+<meta name="twitter:site:id" content="937715" />
+<meta property="og:image:type" content="JPG" />
+<meta property="og:image:width" content="720" />
+<meta property="og:image:height" content="490" />
+<meta name="twitter:description" content="Xiaomi’s latest Mi TV series comes with an AI voice-assistant feature." />
+ 	<meta name="msvalidate.01" content="464AABC957AAF465CD8E4065F920D03B" />
+	<meta http-equiv="last-modified" content="2017-03-22T10:18:31+05:30" />
+	<link rel="amphtml" href="http://www.bgr.in/news/xiaomi-mi-tv-4a-series-powerline-wi-fi-adapter-launched-price-specifications-features/amp/"><meta name="robots" content="index,follow" />
+<link rel="canonical" href="http://www.bgr.in/news/xiaomi-mi-tv-4a-series-powerline-wi-fi-adapter-launched-price-specifications-features/" />
+<link rel="shortcut icon" href="http://st1.bgr.in/wp-content/themes/vip/bgr2012/images/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" href="http://st1.bgr.in/wp-content/themes/vip/bgr2012/images/apple-touch-icon-57x57-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://st1.bgr.in/wp-content/themes/vip/bgr2012/images/apple-touch-icon-72x72-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://st1.bgr.in/wp-content/themes/vip/bgr2012/images/apple-touch-icon-114x114-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://st1.bgr.in/wp-content/themes/vip/bgr2012/images/apple-touch-icon-144x144-precomposed.png" />
+			<div class="execphpwidget"><meta name="author" content="Marcia Sekhose"><meta property="article:author" content="http://www.bgr.in/author/marcia-sekhose/" /></div>
+					<div class="textwidget"><style>
+.header-holder { overflow:visible !important;}
+body { height:auto !important; }
+
+@media screen and (max-width:480px) {
+#content .text-column .contentAdsense300 iframe { height:inherit;min-height:unset}
+}
+
+body{opacity:1!important;overflow: auto !important;}
+
+#header .social{z-index:100000 !important}
+
+@media only screen and (min-width: 1009px){
+.header-holder{ height:auto;}
+#header{ position: relative;}
+#header .ad{float:none;}
+}
+</style>
+
+<script type="text/javascript">
+		
+			var googletag = googletag || {};
+			googletag.cmd = googletag.cmd || [];
+			(function() {
+				var gads = document.createElement('script');
+				gads.async = true;
+				gads.type = 'text/javascript';
+				var useSSL = 'https:' == document.location.protocol;
+				gads.src = (useSSL ? 'https:' : 'http:') +'//www.googletagservices.com/tag/js/gpt.js';
+				var node = document.getElementsByTagName('script')[0];
+				node.parentNode.insertBefore(gads, node);
+			})();
+		
+</script>
+
+
+
+<style type="text/css">#gadget-widget {clear: both;}</style></div>
+					<div class="execphpwidget">
+<script type='text/javascript'>
+		googletag.cmd.push(function() {
+		var width = window.innerWidth || document.documentElement.clientWidth;
+		var topad = googletag.sizeMapping(). addSize([1024, 550 ],[[970, 66], [970, 90], [970, 250], [728, 90]]). build();
+		var topads = googletag.sizeMapping(). addSize([1000, 550 ], [728, 90]). build();
+		//var rightATF = googletag.sizeMapping(). addSize([1024, 550 ], [300, 250]). build();
+		//var right300x100 = googletag.sizeMapping(). addSize([1024, 550 ], [300, 100]). build();
+		 
+		//var rightBTF1 = googletag.sizeMapping(). addSize([1024, 550 ], [300, 250]). build();
+		//var rightBTF2 = googletag.sizeMapping(). addSize([1024, 550 ], [300, 250]). build();
+		//var articlecontent = googletag.sizeMapping(). addSize([1024, 550 ], [300, 250]). build();
+		
+		var gutterLeft = googletag.sizeMapping(). addSize([1366, 550 ], [160, 600]). build();
+		var gutterRight = googletag.sizeMapping(). addSize([1366, 550 ], [160, 600]).build();
+		
+		var onebyone = googletag.sizeMapping(). addSize([1, 1 ], [1, 1]). build();
+
+		if (width >= 1024) {
+		googletag.defineSlot('/11440465/BGR_Article_970x90_ATF', [[970, 66], [970, 90], [970, 250], [728, 90]], 'div-gpt-ad-1430132607644-5').defineSizeMapping(topad).addService(googletag.pubads()).setTargeting("category", ["news"]);
+		} else if ((width >= 740) && (width < 1024)) {
+		googletag.defineSlot('/11440465/BGR_Article_728x90_ATF', [728, 90], 'div-gpt-ad-1460458650390-5').defineSizeMapping(topads).addService(googletag.pubads());
+		}
+		googletag.defineSlot('/11440465/BGR_Article_300x250_ATF', [[300, 250], [300, 600]], 'div-gpt-ad-1418302692609-4').addService(googletag.pubads()).setTargeting("category", ["news"]);
+		//googletag.defineSlot('/11440465/BGR_Article_300x100_ATF', [300, 100], 'div-gpt-ad-1418302692609-0').addService(googletag.pubads()).setTargeting("category", ["news"]);
+
+		googletag.defineSlot('/11440465/BGR_Article_300x250(1)_BTF', [300, 250], 'div-gpt-ad-1418302692609-1').addService(googletag.pubads()).setTargeting("category", ["news"]);
+		googletag.defineSlot('/11440465/BGR_Article_300x250(2)_BTF', [300, 250], 'div-gpt-ad-1418302692609-2').addService(googletag.pubads()).setTargeting("category", ["news"]);
+		googletag.defineSlot('/11440465/BGR_Article_Middle_300x250_BTF', [300, 250], 'div-gpt-ad-1428059755750-0').addService(googletag.pubads()).setTargeting("category", ["news"]);
+		
+		googletag.defineSlot('/11440465/BGR_ROS_OutOfPage', [1, 1], 'div-gpt-ad-1466578215691-0').defineSizeMapping(onebyone).addService(googletag.pubads()).setTargeting("category", ["news"]);
+		
+
+		googletag.defineSlot('/11440465/BGR_Article_LHS_160x600_ATF', [160, 600], 'div-gpt-ad-1418302692609-6').defineSizeMapping(gutterLeft).addService(googletag.pubads()).setTargeting("category", ["news"]);
+		googletag.defineSlot('/11440465/BGR_Article_RHS_160x600_ATF', [160, 600], 'div-gpt-ad-1418302692609-8').defineSizeMapping(gutterRight).addService(googletag.pubads()).setTargeting("category", ["news"]);
+
+		googletag.pubads().enableSingleRequest();
+     //   googletag.pubads().enableSyncRendering();
+		googletag.enableServices();
+		});
+</script>
+    
+
+</div>
+					<div class="execphpwidget"><script type="text/javascript">
+   var siteWidth = 992; 
+</script>
+</div>
+					<div class="execphpwidget">
+<!--<script type='text/javascript' async src='http://recos3.ind.sh/footprint.js?ver=06'></script>-->
+
+</div>
+					<div class="execphpwidget">
+		
+</div>
+		</head>
+
+<body class="single single-post postid-449160 single-format-standard entry-title-auto">
+    
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MBRX45"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MBRX45');</script>
+<!-- End Google Tag Manager -->
+
+<script src="//pagead2.googlesyndication.com/pagead/js/google_top_exp.js">
+<!-- Begin comScore Tag -->
+<noscript> <img src="http://b.scorecardresearch.com/p?c1=2&c2=6035310&c3=&c4=&c5=&c6=&c15=&cv=2.0&cj=1" /> </noscript>
+<!-- End comScore Tag -->
+</script>
+	<header id="header">
+		<!-- header-holder -->
+		<div class="header-holder vcard">
+            <div class="ad mobile-invisible">                        
+	            <ul>             
+	    
+	            
+	            	                    <!--Header add for ROS-->
+	                    <li id="execphp-11" class="widget widget_execphp">			<div class="execphpwidget"><style>
+@media screen and (min-width:740px) {
+#header .ad {
+    float: none;
+}
+}
+</style>
+
+
+<script type='text/javascript'>
+	var width = window.innerWidth || document.documentElement.clientWidth;
+</script>
+
+
+    
+    	
+
+	<table width="970px" cellspacing="0" cellpadding="0" border="0" class="visible-lg ">
+<tr>
+<td valign="center" align="center" style="width:970px">
+    <div class=" visible-md visible-lg ">
+         <!-- /11440465/BGR_Article_970x90_ATF -->
+	<div id='div-gpt-ad-1430132607644-5' style='height:auto; width:970px;'>
+		<script type='text/javascript'>
+		if (width >= 1024) {
+		googletag.cmd.push(function() {	googletag.display('div-gpt-ad-1430132607644-5');  });
+			}
+		</script>
+	</div>
+    </div>
+</td>
+</tr>
+</table>
+
+
+<!-- /11440465/BGR_Article_728x90_ATF -->
+<div class="ad728" id='div-gpt-ad-1460458650390-5' style='height:auto; width:728px;'>
+<script type='text/javascript'>
+if ((width >= 740) && (width < 1024)){
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1460458650390-5'); });
+}
+</script>
+</div>
+
+    
+</div>
+		</li>
+<li id="text-17" class="widget widget_text">			<div class="textwidget"><style>.royalSlidesContainer.dragme{overflow:auto !important; min-height: 450px !important;}
+.royalSlider.minimal{overflow:auto !important;}
+
+body.post-type-archive-pics #content .gallery-archive .ad-gallery-thumbs{min-height:290px;height:auto;}
+</style></div>
+		</li>
+<li id="text-29" class="widget widget_text">			<div class="textwidget"><style type="text/css">
+body{opacity:1!important;}
+</style></div>
+		</li>
+<li id="execphp-32" class="widget widget_execphp">			<div class="execphpwidget"><style>
+@media screen and (min-width:992px) and (max-width:2066px){
+.text-column.eventtracker p #IframeLaunch{height: 2380px !important;}
+.text-column p #IframeLaunch{height: 2380px !important;}
+}
+</style></div>
+		</li>
+	            	            </ul>
+            </div>
+		</div>
+
+		<!-- nav -->
+		<div id="nav-tray">
+			<div id="topnav" class="nav-holder">
+				<nav id="nav">
+					<div class="nav-wrap">
+						
+                        
+																		<div class="left eventtracker" data-event-cat="Header" data-event-sub-cat="Logo">
+						<a href="http://www.bgr.in" title="" rel="home" class="home logo fn org url">
+													</a>
+
+						</div>						
+								<style type="text/css">
+			#nav .home{margin-right:5px;}
+			.nav-wrap .left{margin-right:5px;}
+			#navigtaion{width:485px;}
+			.logo-essel{float:left;padding-right:5px; margin-right:9px;}
+			.bgr-google-search{width:175px!important;}
+		</style>
+		<a href="http://www.esselgroup.com/" target="_blank" class="logo-essel"><img src="http://st1.bgr.in/wp-content/themes/vip/bgr-child/images/essel-logo.png"></a>
+	
+						<!--ss navigation -->
+						<div id="navigtaion">
+	                        <ul id="navlinks-primary" class="links-1 eventtracker" data-event-cat="Header" data-event-sub-cat="Navigation" data-event-title="yes"><li id="menu-item-290699" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-290699"><a href="http://www.bgr.in/category/news/">News</a></li>
+<li id="menu-item-295004" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-295004"><a href="http://www.bgr.in/photo-gallery/">Photos</a></li>
+<li id="menu-item-295216" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-295216"><a href="http://www.bgr.in/category/reviews/">Reviews</a></li>
+<li id="menu-item-343082" class="bgr-hide-item menu-item menu-item-type-custom menu-item-object-custom menu-item-343082"><a href="http://www.bgr.in/gadgets/"><span>Mobiles</span></a></li>
+<li id="menu-item-421340" class="bgr-hide-item menu-item menu-item-type-custom menu-item-object-custom menu-item-421340"><a href="/hi/"><span>हिन्दी</span></a></li>
+</ul><ul id="second_nav" class="menu eventtracker" data-event-cat="Header" data-event-sub-cat="Navigation" data-event-title="yes"><li id="menu-item-361698" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-361698"><a href="http://www.bgr.in/gadgets/mobile-phones/top">Top Mobiles</a></li>
+<li id="menu-item-362645" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-362645"><a href="http://www.bgr.in/gadgets/mobile-phones/brands">Brands</a></li>
+<li id="menu-item-362647" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-362647"><a href="http://www.bgr.in/gadgets/mobile-phones/search">PHONE FINDER</a></li>
+<li id="menu-item-362648" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-362648"><a href="http://www.bgr.in/gadgets/mobile-phones/compare">Compare</a></li>
+<li id="menu-item-362649" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-362649"><a href="http://www.bgr.in/gadgets/mobile-phones/user-reviews">USER REVIEWS</a></li>
+<li id="menu-item-412240" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-412240"><a href="http://www.bgr.in/trending-topics/">Trending Topics</a></li>
+</ul>						</div>
+
+						<!-- ! navigation end -->
+												<script type="text/javascript" >
+    function chkVal()
+    {
+    var t1 = document.getElementById("t1").value;
+    if(t1=='')
+        return false;
+    return true;
+    }
+</script>
+<form action="http://www.bgr.in/results" id="cse-search-box" class="bgr-google-search eventtracker" data-event-cat="Header" data-event-sub-cat="Search" onsubmit="return chkVal()">
+        <div class="">
+          <input type="hidden" name="cx" value="partner-pub-6717584324019958:1293568646" />
+          <input type="hidden" name="cof" value="FORID:10" />
+          <input type="hidden" name="ie" value="UTF-8" />
+          <input type="text" name="q" id="t1" size="55" class="txtggsrch" />
+          <input type="submit" name="sa" id="btnggsrch" value="Go" class="btnggsrch" />
+        </div>
+    </form>
+
+	<style>
+    #nav .nav-wrap{width:100% !important;float:left}
+    .bgr-google-search{float: right;margin-top: 9px;width:195px;margin-left: 5px; }
+    .bgr-google-search .btnggsrch{color: #ccc!important; ;padding:3px 5px 2px !important;background:#333 !important;;border-left:1px solid #333 !important;;border-right:none !important;;border-top:none !important;;border-bottom:none !important;;float:left; width:40px;font-weight:bold; padding:3px 5px;line-height: normal;}
+    .bgr-google-search .txtggsrch{width: 129px !important;;background-image:none !important;;background-color:#333 !important;;padding:3px !important;border:none !important;; float: left;line-height: normal;color:#fff;}
+</style>
+    <script type="text/javascript" src="http://www.google.co.in/coop/cse/brand?form=cse-search-box&amp;lang=en"></script>
+													
+											</div>                    
+				</nav>
+				<div id="catbox">
+					<div id="cb-inner">
+						<div class="down-arrow"></div>
+							<div class="catbox-topics eventtracker" data-event-cat="Header" data-event-sub-cat="Navigation" data-event-title="yes">
+		<ul class="catbox-topics">
+						<li><a href="http://www.bgr.in/category/breaking-news/">Breaking News</a></li>
+							<li><a href="http://www.bgr.in/category/exclusives/">Exclusives</a></li>
+							<li><a href="http://www.bgr.in/category/events/">Events</a></li>
+							<li><a href="http://www.bgr.in/category/gaming/">Gaming</a></li>
+							<li><a href="http://www.bgr.in/category/cameras/">Cameras</a></li>
+			</ul><ul class="catbox-topics">				<li><a href="http://www.bgr.in/category/laptops/">Laptops</a></li>
+							<li><a href="http://www.bgr.in/category/av/">AV</a></li>
+							<li><a href="http://www.bgr.in/category/news/">News</a></li>
+							<li><a href="http://www.bgr.in/category/apps/">Apps</a></li>
+							<li><a href="http://www.bgr.in/category/reviews/">Review</a></li>
+			</ul><ul class="catbox-topics">				<li><a href="http://www.bgr.in/category/opinions/">Opinions</a></li>
+							<li><a href="http://www.bgr.in/category/accessories/">Accessories</a></li>
+							<li><a href="http://www.bgr.in/category/cars/">Cars</a></li>
+							<li><a href="http://www.bgr.in/business/">Business</a></li>
+							<li><a href="http://www.bgr.in/category/features/">Features</a></li>
+			</ul><ul class="catbox-topics">				<li><a href="http://www.bgr.in/category/hardware/">Hardware</a></li>
+							<li><a href="http://www.bgr.in/category/software/">Software</a></li>
+							<li><a href="http://www.bgr.in/category/interviews/">Interviews</a></li>
+							<li><a href="http://www.bgr.in/category/tablets/">Tablets</a></li>
+							<li><a href="http://www.bgr.in/category/mobile-sections/">Mobile</a></li>
+			</ul><ul class="catbox-topics">				<li><a href="http://www.bgr.in/category/tv/">TV</a></li>
+							<li><a href="http://www.bgr.in/category/how-to-2/">How To</a></li>
+							<li><a href="http://www.bgr.in/category/video/">Video</a></li>
+							<li><a href="http://www.bgr.in/category/wearables/">Wearables</a></li>
+							<li><a href="http://www.bgr.in/category/connected-devices-2/">Connected Devices</a></li>
+			</ul><ul class="catbox-topics">				<li><a href="http://www.bgr.in/category/wtf-2/">WTF</a></li>
+							<li><a href="http://www.bgr.in/category/legal/">Legal</a></li>
+							<li><a href="http://www.bgr.in/category/services/">Services</a></li>
+							<li><a href="http://www.bgr.in/category/internet/">Internet</a></li>
+							<li><a href="http://www.bgr.in/category/social-2/">Social</a></li>
+					</ul>
+	</div>
+
+						</div>
+				</div>
+			
+							</div>
+		</div>
+	</header>
+
+	<section class="top-panel-holder hf-page-1">
+       	</section>
+			<div class="execphpwidget">
+<style>
+    @media screen and (max-width: 1320px){
+        .adlhs, .adrhs { display:none !important;}
+        .visidesk{display:none;}
+    }
+    .adlhs{position: fixed;top: 0px;left: 0; z-index:10000}
+    .adrhs{position: fixed;top: 0px;right: 0; z-index:10000}
+
+</style>
+
+    <div class="adlhs" style='width:160px; height:auto;z-index:10000;'>
+        <!-- BGR_Article_LHS_160x600_ATF -->
+        <div id='div-gpt-ad-1418302692609-6' style='width:160px; height:600px;'>
+            <script type='text/javascript'>
+            googletag.cmd.push(function() {     googletag.display('div-gpt-ad-1418302692609-6'); });
+            </script>
+        </div>
+    </div>
+
+    <div class="adrhs" style='width:160px; height:auto;z-index:10000;'>
+        <!-- BGR_Article_RHS_160x600_ATF -->
+        <div id='div-gpt-ad-1418302692609-8' style='width:160px; height:600px;'>
+            <script type='text/javascript'>
+            googletag.cmd.push(function() {     googletag.display('div-gpt-ad-1418302692609-8'); });
+            </script>
+        </div>
+    </div>
+
+</div>
+		
+    <div id="primary">
+        		<!-- post_nav_top -->
+		<nav class="posts-nav-wrap post-top-nav">
+			<div class="posts-nav">
+								<a href="http://www.bgr.in/news/vodafone-idea-merger-ceo-vittorio-colao-kumar-birla-meet-telecom-minister/" class="prev">
+					<div class="nav-prev-line">Previous</div>
+					<div class="ellipsis mobile-invisible">Vodafone-Idea merger: CEO Vittorio Colao, Kumar Birla meet telecom minister</div>
+					<div class="ellipsis mobile-only">Previous</div>
+				</a>
+								<div class="p-sep"></div>
+								<a href="http://www.bgr.in/news/gionee-aims-to-double-marketing-budget-to-rs-750-crore-in-2017-18/" class="next">
+					<div class="nav-next-line">Next</div>
+					<div class="ellipsis mobile-invisible">Gionee aims to double marketing budget to Rs 750 crore in 2017-18</div>
+					<div class="ellipsis mobile-only">Next</div>
+				</a>
+							</div>
+		</nav>
+		
+        <div id="content" role="main">
+            <!-- article -->
+<article class="post-449160 post type-post status-publish format-standard hentry category-news category-trending tag-xiaomi-2 tag-xiaomi-mi-tv-4a tag-xiaomi-powecat-wi-fi-adapter article post no-image bgr-style-normal" itemscope itemtype="http://schema.org/NewsArticle">
+        <meta itemscope itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" itemid="http://www.bgr.in/news/xiaomi-mi-tv-4a-series-powerline-wi-fi-adapter-launched-price-specifications-features/"/>
+    <div style="display: none;" itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+        <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+          <img src="http://st1.bgr.in/wp-content/themes/vip/bgr2012/images/sprite_2x/logo-header-white.png"/>
+          <meta itemprop="url" content="http://st1.bgr.in/wp-content/themes/vip/bgr2012/images/sprite_2x/logo-header-white.png">
+          <meta itemprop="width" content="102">
+          <meta itemprop="height" content="42">
+        </div>
+        <meta itemprop="name" content="BGR India">
+    </div>
+    <span style="display:none;" itemprop="articleSection" >News</span>
+    
+    <!-- article-holder -->
+	<div class="article-holder">
+		
+		<!-- entry-content -->
+		<div class="entry-content">
+
+			<!-- article-content -->
+			<div class="article-content">
+                	<section class="breadcru eventtracker " data-event-sub-cat="Breadcrumb">
+		<span itemscope="" itemtype="http://schema.org/BreadcrumbList">
+			<span itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+		    <a itemprop="url" href="http://www.bgr.in">
+			    <span itemprop="name">Home</span>
+			    <meta itemprop="position" content="1">
+		    </a> &gt
+		</span><span itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+		    <a itemprop="url" href="http://www.bgr.in/category/news/">
+			    <span itemprop="name">News</span>
+			    <meta itemprop="position" content="2">
+		    </a> &gt
+		</span><span>Xiaomi Mi TV 4A series, Powerline Wi-Fi adapter launched: Price, specifications, features</span>		</span>
+		<div class="clear"></div>
+	</section>
+	                <!-- article-title -->
+                <header class="article-title entry-header">
+                    <h1 itemprop="headline" class="entry-title new-title ">Xiaomi Mi TV 4A series, Powerline Wi-Fi adapter launched: Price, specifications, features</h1>
+                    <h2 class="entry-subtitle" itemprop="description" >Xiaomi’s latest Mi TV series comes with an AI voice-assistant feature.</h2>      
+                </header>
+
+                <!-- Author Detail -->
+                <div class="article-meta">
+                    <div class="article-meta-left eventtracker" data-event-sub-cat="Author" data-event-title="yes">
+                        	<div class="meta single-author">		<span class="by-author">
+			<span class="sep sep-by">By</span>
+			<span itemprop="author" itemscope itemtype="https://schema.org/Person" ><span class="author vcard author-1"><a class="url fn n hu" href="http://www.bgr.in/author/marcia-sekhose/" title="View all posts by Marcia Sekhose" rel="author"><span itemprop="name">Marcia Sekhose</a></span></span></span>
+		</span>
+		<meta itemprop="datePublished" content="2017-03-22T10:18:16+05:30"/>
+		<meta itemprop="dateModified"  content="2017-03-22T10:18:31+05:30"/>
+		<span class="entry-date" > | Updated: March 22, 2017 10:18 AM IST</span>
+	</div> <!-- //.meta  -->
+	<div class="author-contact"><a href="mailto:marcia.sekhose@corp.india.com" class="author-service author-email eventtracker" data-event-sub-cat="Author-Email"><span class="icon-bgr icon-mail"></span>Email</a> <a href="https://twitter.com/marciasekhose" class="author-service author-twitter eventtracker" data-event-sub-cat="Author-Twitter"><span class="icon-bgr icon-twitter"></span>@marciasekhose</a> </div>
+                    </div>
+                    <div class="article-meta-rating"></div>
+                    <div class="clear"></div>
+                    <div class="article-meta-bottom">
+                        <div class="social">
+                            <div class="socialiconblock" >	<div class="clear"></div>
+	<div id="" class="isocial" data-url="http://www.bgr.in/news/xiaomi-mi-tv-4a-series-powerline-wi-fi-adapter-launched-price-specifications-features/" data-via="BGRIndia" data-title="Xiaomi Mi TV 4A series, Powerline Wi-Fi adapter launched: Price, specifications, features" data-size="large"></div>
+	<div class="clear"></div>
+</div>
+                            <a href="#disqus_thread" class="btncomment eventtracker" data-event-sub-cat="Comments">comments</a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="clear"></div>
+                </div>  
+                <!-- /author detail end -->
+
+				<!-- post tags -->
+                                <div class="bgrtags eventtracker" data-event-sub-cat="Tags" data-event-title="yes"> Tags: <a href="http://www.bgr.in/gadgets/mobile-phones/xiaomi" rel="tag"><span itemprop="keywords">xiaomi</span></a> <a href="http://www.bgr.in/tag/xiaomi-mi-tv-4a/" rel="tag"><span itemprop="keywords">Xiaomi Mi TV 4A</span></a> <a href="http://www.bgr.in/tag/xiaomi-powecat-wi-fi-adapter/" rel="tag"><span itemprop="keywords">Xiaomi Powecat Wi-Fi Adapter</span></a></div>                                <!-- // .post tags -->
+
+                <!-- Gist Content-->
+                                <!-- // End Gist-->
+
+				<!-- main image of post -->
+								<div class="post-img-wrap bgr-style-normal">
+                        				    <div class="visual">
+    				       	<div class="category"  style="background-color:#000000;">
+		<span class="cat-ttl eventtracker" data-event-sub-cat="ImageText" data-event-title="yes" style="color:#000000;"><a class="hu" href="http://www.bgr.in/category/general/"><strong>General</strong></a></span>
+	</div>
+
+	    				    </div>
+                                        				    <img  width="805" height="600" src="http://st1.bgr.in/wp-content/uploads/2017/03/xiaomi-mi-tv-4a-launched.jpg" class="attachment-full wp-post-image" alt="Xiaomi Mi TV 4A launched" />
+                        <div style="display: none;" itemprop="image" itemscope itemtype="https://schema.org/ImageObject" >
+        <meta itemprop="url" content="http://st1.bgr.in/wp-content/uploads/2017/03/xiaomi-mi-tv-4a-launched.jpg"><meta itemprop="width" content="805"><meta itemprop="height" content="600">    </div>
+    
+                    				</div>				
+				
+				<div class="text-column articleBody" itemprop="articleBody" >					
+					<p><a href="http://www.bgr.in/gadgets/mobile-phones/xiaomi">Xiaomi</a> has launched a new series of smart TVs at an event in Beijing. Xiaomi’s new smart TV series is dubbed Mi TV 4A, and comes in display sizes of 43-inch, 49-inch, 55-inch, and 65-inch. The Mi TV 4A series are set to go on sale in China from March 23, and prices start at RMB 2,099 (Rs 20,000 approximately). There is however no word on whether there would be a global release for Xiaomi’s latest TVs. Xiaomi has also launched another product separately which is a Powerline Wi-Fi adapter, which is priced at RMB 249 (Rs 2,400 approximately).</p>
+<p><span id="more-449160"></span></p>
+<p>The Xiaomi Mi TV 4A series is powered by a quad-core 64-bit Amlogic T962 processor clocked at 1.5GHz and paired with Mali 450 GPU. The Mi TV 4A series comes with 2GB DDR4 RAM, and flash memory of up to 32GB on all the four models. The 43-inch and 49-inch models of the Mi TV 4A series offers display with 1080p resolution. Whereas the 55-inch and 65-inch models both feature 4K display resolution, <a href="https://www.gizmochina.com/2017/03/21/xiaomi-mi-tv-4a-series-official-high-end-features-affordable-price-starting-2099-yuan-304/" rel="nofollow" target="_blank"><em>GizmoChina</em></a> reports. In addition to this, the Mi TV 4A series comes with support for HDR10, and UHD HLG along with support for Dolby Vision.</p>
+<p>Connectivity options offered by the Mi TV 4A series include dual band Wi-Fi and Bluetooth 4.2. One of the highlights in the Mi TV 4A series is the AI voice control feature which allows users to change TV channels with voice command that can be activated through the remote control. This feature is however not available on the 43-inch base model.</p>
+<p>The remote control available with the Mi TV 4A series is Xiaomi’s third-generation TV remote control, which comes with a voice control button. The Xiaomi TV remote control also supports Mi Touch function and comes with a rotational navigation button. The Xiaomi TV remote control also comes with support for Bluetooth connectivity.</p>
+<p>The 43-inch Mi TV 4A is priced at RMB 2,099. The other three models come in two variants each &#8212; standard version, and voice control version. The 49-inch standard version is priced at RMB 2,599 (Rs 24,800 approximately), while the voice control version is priced at RMB 2,899 (Rs 27,600 approximately). The 55-inch standard version comes with a price tag of RMB 3,199 (Rs 30,500 approximately), and the voice control version with RMB 3,599 (Rs 34,300 approximately). The highest 65-inch model comes at a price of RMB 5,699 (Rs 54,200 approximately) for the standard version and RMB 6,199 (Rs 59,000 approximately) for the voice control version.</p>
+<p><a href="http://st1.bgr.in/wp-content/uploads/2017/03/xiaomi-powercat-powerline-wifi-adapter.jpg"><img class="alignnone size-full wp-image-449162" alt="Xiaomi Powercat Powerline WiFi adapter" src="http://st1.bgr.in/wp-content/uploads/2017/03/xiaomi-powercat-powerline-wifi-adapter.jpg" width="805" height="600" /></a></p>
+<p>Coming to the PowerLine Wi-Fi adapter, there is no proper English name for Xiaomi’s new product as yet, but the current given name translates to Powercat. Xiaomi’s Powercat Powerline Wi-Fi adapter will be available for sale on Xiaomi’s online store. Availability details for a global sale are not known as yet.<br />
+<iframe src="https://www.youtube.com/embed/hwqoVZ8a8E8" height="315" width="560" allowfullscreen="" frameborder="0"></iframe></p>
+<p>The powerline Wi-Fi adapters utilize the electrical wiring and outlet in one’s house to provide connectivity. Powerline Wi-Fi adapters eliminate the need to use additional LAN/Ethernet cables as it is plugged into a socket. Xiaomi’s Powercat Powerline Wi-Fi adapters support transfer speeds of up to 300Mbps and feature plug-and-play option, <em><a href="https://www.gizmochina.com/2017/03/21/xiaomi-launches-new-powerline-wi-fi-adapter/" rel="nofollow" target="_blank">GizmoChina</a></em> reports. Xiaomi Powercat Wi-Fi adapters come with SSID naming and password synchronization as well. <strong>ALSO READ: <a href="http://www.bgr.in/news/xiaomi-redmi-4a-could-be-the-new-budget-champion-heres-why/">Xiaomi Redmi 4A could be the new budget champion, here’s why</a></strong></p>
+					
+                                        <div class="iwpl-social-hide" style="height:1px; width:100%; clear:both;"></div>
+      
+            <div class="nextPrevHolder">
+                                <div data-event-sub-cat="Middle Next Article" class="next-article eventtracker"> 
+                    <a href="http://www.bgr.in/news/gionee-aims-to-double-marketing-budget-to-rs-750-crore-in-2017-18/"> <i class="sprit-icon ne-artcc"></i>
+                  <div class="next-infoart">
+                    <div class="awrap">
+                        <span>
+                                                            <img alt="Gionee aims to double marketing budget to Rs 750 crore&hellip;" src="http://st1.bgr.in/wp-content/uploads/2017/03/gionee-a1-plus-mwc-150x150.jpg" class="thumb">
+
+                                                    </span>
+                      <h2>Gionee aims to double marketing budget to Rs 750 crore&hellip;</h2>
+                    </div>
+                  </div>
+                  </a>
+                  <div class="clear"></div>
+                </div>
+                                                <div data-event-sub-cat="Middle Previous Article" class="prev-article eventtracker"> 
+                    <a href="http://www.bgr.in/news/vodafone-idea-merger-ceo-vittorio-colao-kumar-birla-meet-telecom-minister/"> <i class="sprit-icon pv-artcc"></i>
+                  <div class="prev-infoart">
+                    <div class="awrap">
+                        <span>
+                                                            <img alt="Vodafone-Idea merger: CEO Vittorio Colao, Kumar Birla meet telecom minister" src="http://st1.bgr.in/wp-content/uploads/2017/03/vodafone-partner-walmart-150x150.jpg" class="thumb">
+
+                                                    </span>
+                      <h2>Vodafone-Idea merger: CEO Vittorio Colao, Kumar Birla meet telecom minister</h2>
+                    </div>
+                  </div>
+                  </a>
+                  <div class="clear"></div>
+                </div>
+                            </div>
+            
+			
+                                        
+				</div>
+                                
+
+                <!-- Foot Note -->
+                <div class="footnote">
+                                    </div>
+
+                		<div class="article-meta-left">
+		    <div class="meta single-author">
+				<span class="entry-date left">Published: March 22, 2017 10:18 AM IST | Updated:   March 22, 2017 10:18 AM IST</span>
+			</div>
+		</div>
+					<br />
+                	<div class="OUTBRAIN" data-src="http://www.bgr.in/news/xiaomi-mi-tv-4a-series-powerline-wi-fi-adapter-launched-price-specifications-features/" data-widget-id="AR_1" data-ob-template="BGR_1"></div>
+	<script type="text/javascript" async="async" src="http://widgets.outbrain.com/outbrain.js"></script>
+	                    <div id="vuukle-emote"  ></div>
+    <div id="vuukle_div"  ></div>
+    <script src="http://vuukle.com/js/vuukle.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    var UNIQUE_ARTICLE_ID = "449160";
+    var SECTION_TAGS = "xiaomi,Xiaomi Mi TV 4A,Xiaomi Powecat Wi-Fi Adapter";
+    var ARTICLE_TITLE = "Xiaomi Mi TV 4A series, Powerline Wi-Fi adapter launched: Price, specifications, features";
+    var GA_CODE = "";
+    var VUUKLE_API_KEY = "1aef4996-c67f-4857-8ec7-fc037d518060";
+    var TRANSLITERATE_LANGUAGE_CODE = "en";
+    var VUUKLE_COL_CODE = "148aa3";
+    var ARTICLE_AUTHORS = btoa(encodeURI("Marcia Sekhose"));
+    create_vuukle_platform(VUUKLE_API_KEY, UNIQUE_ARTICLE_ID, "0", SECTION_TAGS, ARTICLE_TITLE, TRANSLITERATE_LANGUAGE_CODE, "1", "", GA_CODE, VUUKLE_COL_CODE, ARTICLE_AUTHORS);
+    </script>
+				</div> <!-- // .article-content -->
+                        
+                        
+			<div id="sidebar">
+				<!-- info-col -->
+				<aside id="info-col">
+					<div class="info-col">
+											</div>
+				</aside>
+				<aside id="info-block"> <!-- #info-block -->
+					<!-- info-block -->
+					<div class="info-block">
+						                    
+                        <!-- Single post add sidebar 1 -->
+                        
+                        
+                          
+                         
+
+                        <div class="ad mobile-invisible"><ul> 
+                            <li id="execphp-15" class="widget widget_execphp">			<div class="execphpwidget">
+    <!-- BGR_Article_300x250_ATF -->
+    <div id='div-gpt-ad-1418302692609-4' style='width:300px; height:auto; position:relative; z-index:1;'>
+        <script type='text/javascript'>
+         googletag.cmd.push(function() {    googletag.display('div-gpt-ad-1418302692609-4'); });
+        </script>
+    </div>
+
+    <div style="padding-top:10px;margin-bottom:10px">
+        <!-- BGR_Article_300x100_ATF -->
+        <div id='div-gpt-ad-1418302692609-0' style='width:300px; height:auto; position:relative; z-index:1;'>
+            <script type='text/javascript'>
+             googletag.cmd.push(function() {    googletag.display('div-gpt-ad-1418302692609-0'); });
+            </script>
+        </div>
+    </div>
+
+</div>
+		</li>
+<li id="execphp-45" class="widget widget_execphp">			<div class="execphpwidget"> <!-- BGR_Article_Middle_300x250_BTF -->
+    <div id='div-gpt-ad-1428059755750-0' style='width:300px; height:auto; position:relative; z-index:1;'>
+        <script type='text/javascript'>
+       googletag.cmd.push(function() {         googletag.display('div-gpt-ad-1428059755750-0');  });
+        </script>
+    </div>
+
+</div>
+		</li>
+<li id="execphp-52" class="widget widget_execphp">			<div class="execphpwidget">
+<section class="top-picks-widget">
+<div class="titile-box">
+<h2 class="mashHd"><span >Mashable Tech</span> </h2>
+<div class="clear"></div>
+</div>
+<section class="mashablewidget eventtracker">
+<figure class="bgrmashableitem" >
+<a target="_blank" rel="nofollow" href="http://mashable.com/2017/03/21/milo-ventimiglia-apple-airpods-commercial/?utm_campaign=Mash-BD-Synd-indiacom-toptech-partial&utm_cid=Mash-BD-Synd-indiacom-toptech-partial">
+<img class="" title="Meet Milo Ventimiglia, your new favorite Apple fanboy *swoon*" alt="Meet Milo Ventimiglia, your new favorite Apple fanboy *swoon*" src="http://i.amz.mshcdn.com/LeOYYg6AuQh_IpYV80DGXqrMxfA=/720x480/https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com%2Fuploads%2Fstory%2Fthumbnail%2F40407%2F2208de4f-f5bb-4aeb-adf1-63fbf52f1156.jpg" />
+<figcaption> <a target="_blank" rel="nofollow" href="http://mashable.com/2017/03/21/milo-ventimiglia-apple-airpods-commercial/?utm_campaign=Mash-BD-Synd-indiacom-toptech-partial&utm_cid=Mash-BD-Synd-indiacom-toptech-partial"> Meet Milo Ventimiglia, your new favorite Apple fanboy *swoon* </a>
+
+</figcaption></figure>
+<figure class="bgrmashableitem" >
+<a target="_blank" rel="nofollow" href="http://mashable.com/2017/03/21/google-android-o-developer-preview-download/?utm_campaign=Mash-BD-Synd-indiacom-toptech-partial&utm_cid=Mash-BD-Synd-indiacom-toptech-partial">
+<img class="" title="7 features to look forward to in Android O" alt="7 features to look forward to in Android O" src="http://i.amz.mshcdn.com/cpzSlazXk1MEZWfJBGcK7bIAAno=/720x480/https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com%2Fuploads%2Fstory%2Fthumbnail%2F40381%2F2f30ed66-0795-4659-86d6-4b0f344e9159.jpg" />
+<figcaption> <a target="_blank" rel="nofollow" href="http://mashable.com/2017/03/21/google-android-o-developer-preview-download/?utm_campaign=Mash-BD-Synd-indiacom-toptech-partial&utm_cid=Mash-BD-Synd-indiacom-toptech-partial"> 7 features to look forward to in Android O </a>
+
+</figcaption></figure>
+<figure class="bgrmashableitem" >
+<a target="_blank" rel="nofollow" href="http://mashable.com/2017/03/21/laptop-ban-privacy-data-government-officials/?utm_campaign=Mash-BD-Synd-indiacom-toptech-partial&utm_cid=Mash-BD-Synd-indiacom-toptech-partial">
+<img class="" title="Flight electronics ban will separate passengers from their private data" alt="Flight electronics ban will separate passengers from their private data" src="http://i.amz.mshcdn.com/1ahNHNmRigTB125N6dEaJW8LNCo=/720x480/https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com%2Fuploads%2Fstory%2Fthumbnail%2F40394%2Fe27b2b9e-df56-4c19-9222-bd6dd00e29c2.jpg" />
+<figcaption> <a target="_blank" rel="nofollow" href="http://mashable.com/2017/03/21/laptop-ban-privacy-data-government-officials/?utm_campaign=Mash-BD-Synd-indiacom-toptech-partial&utm_cid=Mash-BD-Synd-indiacom-toptech-partial"> Flight electronics ban will separate passengers from their private data </a>
+
+</figcaption></figure>
+<figure class="bgrmashableitem" >
+<a target="_blank" rel="nofollow" href="http://mashable.com/2017/03/21/hackers-icloud-accounts-ransom/?utm_campaign=Mash-BD-Synd-indiacom-toptech-partial&utm_cid=Mash-BD-Synd-indiacom-toptech-partial">
+<img class="" title="Hackers threaten to wipe out 200 million iCloud accounts" alt="Hackers threaten to wipe out 200 million iCloud accounts" src="http://i.amz.mshcdn.com/HFQlutG7f0fscnXvxgKaAshnUSA=/720x480/https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com%2Fuploads%2Fstory%2Fthumbnail%2F40370%2Fef4027ac-bb9a-4e5b-add9-fc935cd77418.jpg" />
+<figcaption> <a target="_blank" rel="nofollow" href="http://mashable.com/2017/03/21/hackers-icloud-accounts-ransom/?utm_campaign=Mash-BD-Synd-indiacom-toptech-partial&utm_cid=Mash-BD-Synd-indiacom-toptech-partial"> Hackers threaten to wipe out 200 million iCloud accounts </a>
+
+</figcaption></figure>
+<div class="clear"></div>
+</section></section>   
+
+<style>
+h2.mashHd {background: #0080ff;height: 16px;margin-bottom:10px;}
+h2.mashHd span{background-color: #fff;color: #0080ff;float: left;font-size: 21px;margin-left: 20px;padding: 0 7px; line-height:17px;}
+#content .mashablewidget .bgrmashableitem::after{content:" "; clear:both; display:block; float:none;}
+#content .mashablewidget .bgrmashableitem { width:100%;margin:0px 2.5% 10px 0px; padding-bottom:10px; border-bottom:1px solid #ccc;}
+#content .mashablewidget .bgrmashableitem:last-of-type { margin-right:0px;}
+#content .bgrmashableitem img{width:140px;float:left;margin:0px 0px;height:auto;display:block;}
+#content .bgrmashableitem figcaption {float:left;width:145px; padding-left:10px;}
+#content .bgrmashableitem figcaption a {color:#000;font-size:16px; font-family:apres-regular-webfont,Helvetica,Arial,sans-serif;}
+#content .bgrmashableitem figcaption a:hover {color:#000;}
+</style></div>
+		</li>
+<li id="execphp-68" class="widget widget_execphp">			<div class="execphpwidget"><section style="" class="bgr-widget-share latest-on-tab-widget tabbed-v today-share ">
+    <div class="bgrh2"><a href="http://www.bgr.in/hi/"><h3 class="tagh2">हिन्दी खबरें</h3></a></div>
+    <section class="itab">
+        <div class="tabcontentwrap">
+            <div class="tabcontent active eventtracker " data-event-sub-cat="Viral Now - Today " data-event-order="yes">
+                
+                    <figure class="listing 1 first">
+                        <a class="allimg posr" href="http://www.bgr.in/hi/mobile/tools-to-prevent-ads-with-unwanted-content-from-google-tech-news-in-hindi/">
+                        <img width="150" height="150" src="http://st1.bgr.in/wp-content/uploads/2017/02/google-app-search-image-150x150.jpg" class="left wp-post-image" alt="google-app-search-image" />                        </a>
+                        <figcaption>
+                        <a href="http://www.bgr.in/hi/mobile/tools-to-prevent-ads-with-unwanted-content-from-google-tech-news-in-hindi/">
+                            <div class="tagh3"> गूगल का अवांछित सामग्री वाले विज्ञापन रोकने के लिए टूल</div>
+                        </a>
+                        </figcaption>
+                        <div class="clear"></div>
+                    </figure>
+                
+                    <figure class="listing 1 first">
+                        <a class="allimg posr" href="http://www.bgr.in/hi/mobile/xiaomi-india-to-hold-the-first-flash-sale-of-its-cheapest-smartphone-on-march-23-tech-news-in-hindi/">
+                        <img width="150" height="150" src="http://st1.bgr.in/wp-content/uploads/2017/03/xiaomi-redmi-4a-hands-on-3-150x150.jpg" class="left wp-post-image" alt="xiaomi-redmi-4a-hands-on-3" />                        </a>
+                        <figcaption>
+                        <a href="http://www.bgr.in/hi/mobile/xiaomi-india-to-hold-the-first-flash-sale-of-its-cheapest-smartphone-on-march-23-tech-news-in-hindi/">
+                            <div class="tagh3"> कल पहली बार सेल के लिए उपलब्ध होगा शाओमी रेडमी 4A स्मार्टफोन, जानें इसके बारे में सबकुछ </div>
+                        </a>
+                        </figcaption>
+                        <div class="clear"></div>
+                    </figure>
+                
+                    <figure class="listing 1 first">
+                        <a class="allimg posr" href="http://www.bgr.in/hi/apps/samsung-pay-contactless-payment-solution-launched-in-india-heres-how-it-works-tech-news-in-hindi/">
+                        <img width="150" height="150" src="http://st1.bgr.in/wp-content/uploads/2017/03/samsung-pay-india-launch-150x150.jpg" class="left wp-post-image" alt="samsung-pay-india-launch" />                        </a>
+                        <figcaption>
+                        <a href="http://www.bgr.in/hi/apps/samsung-pay-contactless-payment-solution-launched-in-india-heres-how-it-works-tech-news-in-hindi/">
+                            <div class="tagh3"> भारत में लॉन्च हुआ सैमसंग पे, जानें कैसे करें इस्तेमाल</div>
+                        </a>
+                        </figcaption>
+                        <div class="clear"></div>
+                    </figure>
+                
+                    <figure class="listing 1 first">
+                        <a class="allimg posr" href="http://www.bgr.in/hi/mobile/flipkart-electronics-sale-deals-on-iphone-7-iphone-7-plus-lenovo-p2-apple-watch-and-more-tech-news-in-hindi/">
+                        <img width="150" height="150" src="http://st1.bgr.in/wp-content/uploads/2017/03/flipkart-electonics-sale-150x150.jpg" class="left wp-post-image" alt="Flipkart electonics sale" />                        </a>
+                        <figcaption>
+                        <a href="http://www.bgr.in/hi/mobile/flipkart-electronics-sale-deals-on-iphone-7-iphone-7-plus-lenovo-p2-apple-watch-and-more-tech-news-in-hindi/">
+                            <div class="tagh3"> फ्लिपकार्ट पर शुरू हुई इलेक्ट्रॉनिक सेल, इन स्मार्टफोन पर मिल रहा है भारी डिस्काउंट</div>
+                        </a>
+                        </figcaption>
+                        <div class="clear"></div>
+                    </figure>
+                
+                    <figure class="listing 1 first">
+                        <a class="allimg posr" href="http://www.bgr.in/hi/mobile/karbonn-aura-note-4g-aura-sleek-4g-launched-prices-start-from-rs-5290-specifications-features-tech-news-in-hindi/">
+                        <img width="150" height="150" src="http://st1.bgr.in/wp-content/uploads/2017/03/karbonn-aura-sleek-4g-150x150.jpg" class="left wp-post-image" alt="karbonn-Aura-Sleek-4G" />                        </a>
+                        <figcaption>
+                        <a href="http://www.bgr.in/hi/mobile/karbonn-aura-note-4g-aura-sleek-4g-launched-prices-start-from-rs-5290-specifications-features-tech-news-in-hindi/">
+                            <div class="tagh3"> कार्बन Aura Note 4G और Aura Sleek 4G भारत में लॉन्च, कीमत 5,290 रुपए से शुरू</div>
+                        </a>
+                        </figcaption>
+                        <div class="clear"></div>
+                    </figure>
+                            </div>
+        </div>
+    </section>
+</section></div>
+		</li>
+                        </ul></div>
+                                                
+					</div> <!-- // .info-block -->
+
+				</aside> <!-- // #info-block -->
+				<div class="sidebar-post-list trending-posts trending-b"><h4 class="sidebar-title">	<div class="c c1" style="background-color:#0080FF;"></div>	<div class="t" style="color:#0080FF;">Trending</div><div class="c c2" style="background-color:#0080FF;"></div></h4><ul class=" eventtracker" data-event-sub-cat="Trending" data-event-order="yes"><li class="i-1"><a class="hu" href="http://www.bgr.in/news/android-o-developer-preview-heres-everything-you-need-to-know/">Android O Developer Preview: Here’s everything you need to know</a></li>
+<li class="i-2"><a class="hu" href="http://www.bgr.in/news/us-uk-impose-ban-on-laptops-tablets-in-some-flights-from-middle-east-social-media-calls-out-racism/">US, UK impose ban on laptops, tablets in some flights from Middle East; social media calls out racism</a></li>
+<li class="i-3"><a class="hu" href="http://www.bgr.in/news/rbis-new-guidelines-for-wallet-services-strict-regulations-customer-security-access-to-interoperability-and-more/">RBI’s new guidelines for wallet services: Strict regulations, customer security, access to interoperability, and more</a></li>
+<li class="i-4"><a class="hu" href="http://www.bgr.in/news/reliance-jio-vs-airtel-competition-has-moved-beyond-business-into-squabbling/">Reliance Jio vs Airtel: Competition has moved beyond business, into squabbling</a></li>
+<li class="i-5"><a class="hu" href="http://www.bgr.in/news/apple-itunes-12-6-update-lets-you-watch-rented-movie-across-multiple-apple-devices/">Apple iTunes 12.6 update lets you watch rented movie across multiple Apple devices</a></li>
+</ul></div>            <div class="sidebar-post-list related-posts">
+				<h4 class="sidebar-title">
+					<div style="background-color:#90bc43;" class="c c1"></div>
+					<div style="color:#90bc43;" class="t">Related Articles</div>
+					<div style="background-color:#90bc43;" class="c c2"></div>
+				</h4>
+				<ul data-event-order="yes" data-event-sub-cat="RelatedArticles" class="eventtracker">
+									<li class="i-1">
+						<img width="60" height="60" src="http://st1.bgr.in/wp-content/uploads/2017/03/xiaomi-mi-6-white-leaked-1-60x60.jpg" class="attachment-60x60 wp-post-image" alt="Xiaomi-mi-6-white-leaked-1" />						<a href="http://www.bgr.in/news/xiaomi-mi-6-leak-hints-at-white-color-variant-dual-camera-setup-heres-what-we-know-so-far/" class="hu">
+						Xiaomi Mi 6 leak hints at white color variant, dual-camera setup; here’s what we know so far</a>
+					</li>
+											<li class="i-1">
+						<img width="60" height="60" src="http://st1.bgr.in/wp-content/uploads/2017/02/iphone-7-lead-photo-1-60x60.jpg" class="attachment-60x60 wp-post-image" alt="iphone-7-lead-photo-1" />						<a href="http://www.bgr.in/news/apple-iphone-oppo-and-vivo-founder-reveals-why-its-slipping-in-china/" class="hu">
+						Apple iPhone: OPPO and Vivo founder reveals why it&#8217;s slipping in China</a>
+					</li>
+											<li class="i-1">
+						<img width="60" height="60" src="http://st1.bgr.in/wp-content/uploads/2017/03/xiaomi-redmi-4-coming-soon-60x60.jpg" class="attachment-60x60 wp-post-image" alt="xiaomi-redmi-4-coming-soon" />						<a href="http://www.bgr.in/news/xiaomi-redmi-3s-and-redmi-3s-prime-successors-to-launch-in-india-soon-manu-kumar-jain/" class="hu">
+						Xiaomi Redmi 3S and Redmi 3S Prime successors to launch in India soon: Manu Kumar Jain</a>
+					</li>
+											<li class="i-1">
+						<img width="60" height="60" src="http://st1.bgr.in/wp-content/uploads/2017/03/xiaomi-redmi-4a-hands-on-4-60x60.jpg" class="attachment-60x60 wp-post-image" alt="xiaomi-redmi-4a-hands-on-4" />						<a href="http://www.bgr.in/news/xiaomi-redmi-4a-could-be-the-new-budget-champion-heres-why/" class="hu">
+						Xiaomi Redmi 4A could be the new budget champion, here’s why</a>
+					</li>
+											<li class="i-1">
+						<img width="60" height="60" src="http://st1.bgr.in/wp-content/uploads/2017/03/xiaomi-redmi-4a-hands-on-1-60x60.jpg" class="attachment-60x60 wp-post-image" alt="xiaomi-redmi-4a-hands-on-1" />						<a href="http://www.bgr.in/news/xiaomi-redmi-4a-first-impressions-a-refreshing-addition-in-the-budget-smartphone-segment/" class="hu">
+						Xiaomi Redmi 4A first impressions: A refreshing addition in the budget smartphone segment</a>
+					</li>
+										</ul>
+			</div>
+
+                                            
+                
+                
+                                   <div class="ad mobile-invisible"><ul> 
+                    <li id="execphp-14" class="widget widget_execphp advertise-size" style="height:auto">			<div class="execphpwidget"><!-- BGR_Article_300x250(1)_BTF -->
+    <div id='div-gpt-ad-1418302692609-1' style='width:300px; height:250px;'>
+        <script type='text/javascript'>
+       googletag.cmd.push(function() {         googletag.display('div-gpt-ad-1418302692609-1'); });
+        </script>
+    </div>
+
+
+</div>
+		</li><li id="execphp-63" class="widget widget_execphp advertise-size" style="height:auto">			<div class="execphpwidget"></div>
+		</li>                   </ul></div>
+                               
+                
+                
+                        <!-- Trending Feed -->
+                        <div class="ad mobile-invisible eventtracker" data-event-sub-cat="RHSNews"><ul> 
+                                                    <li id="text-33" class="widget widget_text">			<div class="textwidget"><div class="clear" style="margin-top:10px;"></div></div>
+		</li>
+<li id="rss-3" class="widget widget_rss"><h3 class="widgettitle"><a class='rsswidget' href='http://www.bgr.in/feed/' title='Syndicate this content'><img style='border:0' width='14' height='14' src='http://st1.bgr.in/wp-includes/images/rss.png' alt='RSS' /></a> <a class='rsswidget' href='http://www.bgr.in/' title='Technology News &amp; Mobile Reviews | Gadgets &amp; Gizmos in Video &amp; Photo Reviews at BGR India'>News</a></h3>
+<ul><li><a class='rsswidget' href='http://www.bgr.in/news/apple-itunes-12-6-update-lets-you-watch-rented-movie-across-multiple-apple-devices/' title='Apple quietly launched a new 9.7-inch iPad yesterday, along with a new red color variant for the iPhone 7 and iPhone 7 Plus. Following this launch, Apple has also released iTunes 12.6 with a new feature called ‘Rent once, watch anywhere’. This feature will essentially allow users to watch movie rentals on any Apple device regardless of which one it was rented on. Earlier, if one would rent a movie on an iPhone, the movie could be watched on that device only. The new iTunes 12.6 update will be available on Apple devices running iOS 10.3 and tvOS 10.2. However, iOS 10.3 is currently in developer and public beta, and tvOS 10.2 is in developer preview only. Both these updates'>Apple iTunes 12.6 update lets you watch rented movie across multiple Apple devices</a></li><li><a class='rsswidget' href='http://www.bgr.in/news/samsung-pay-contactless-payment-solution-launched-in-india-heres-how-it-works/' title='Samsung has officially announced the rollout of its Samsung Pay contactless payment solution. Samsung earlier this month had launched a ‘Register for Early Access’ program allowing users to be among the first ones to get started with Samsung Pay. The company has tied up with MasterCard, Visa, and American Express for the service. Samsung Pay also supports mobile wallets like Paytm, RuPay card and UPI apps. It will be available across compatible devices starting today.Samsung Pay will be initially available for select Samsung handset devices such as the Galaxy Note 5, Galaxy S7, Galaxy S7 edge, Galaxy S6 edge+, Galaxy A7 (2017), Galaxy A5 (2017), Galaxy A7 (2016), Galaxy A5 (2016). It is further compatible with the Gear S3 smartwatch.'>Samsung Pay contactless payment solution launched in India; here’s how it works</a></li><li><a class='rsswidget' href='http://www.bgr.in/news/honda-wr-v-to-start-shipping-to-overseas-market-brazil-first-on-the-list/' title='Japanese automaker, Honda which has been shipping some of its models to the overseas market, would introduce its latest product WR-V in Brazil, a top official said. The company, which launched the upgraded Sedan City last month would also bring its premium sedan “Civic” later this year, Honda Cars India, Senior VP, Jnaneswar Sen said. “Already, we are exporting few of our existing models to neighbouring countries. This product (WR-V) may be exported to Brazil..,” he told reporters. To a query on the launch of other models in India, Sen said, the company would bring in its premium sedan Civic which was earlier suspended from production. ”Earlier, when we introduced the (premium sedan) Civic, we were selling about 2,000 units a'>Honda WR-V to start shipping to overseas market; Brazil first on the list</a></li><li><a class='rsswidget' href='http://www.bgr.in/news/adobe-unveils-new-experience-cloud-services-for-enterprises-at-summit-2017/' title='In a bid to redefine customer experience, Adobe kicked off its ‘Summit 2017′ with the launch of Experience Cloud and Advertising Cloud and showcasing new platform capabilities and innovations in artificial intelligence (AI), virtual reality (VR) and internet of things (IoT). In the presence of a record 12,000 attendees, Adobe has unveiled Experience Cloud, a comprehensive set of cloud services designed to give enterprises everything they need to deliver exceptional customer experiences. Comprised of Adobe Marketing Cloud, Adobe Advertising Cloud and Adobe Analytics Cloud, Experience Cloud is built on the Adobe Cloud Platform. Experience Cloud integrates with Adobe’s Creative Cloud and Document Cloud. The company also announced new developer tools and partner integrations as well as new intelligence features for enterprises available'>Adobe unveils new Experience Cloud services for enterprises at Summit 2017</a></li><li><a class='rsswidget' href='http://www.bgr.in/news/revenue-department-turns-down-apples-tax-incentive-demand/' title='The Department of Revenue has said no to the tax incentive demand of US-based iPhone maker Apple, which wants to set up a manufacturing unit in the country. Sources said the demand of the technology major was sent by the Department of Industrial Policy and Promotion (DIPP) to its revenue counterpart. In a communication to the government, the Cupertino-based technology major has asked for incentives from the Department of Revenue and Department of Electronics and Information Technology (DeitY). Besides exemption from the Customs duty on imports of components and equipment for 15 years, Apple wants relaxation in the mandated 30 per cent local sourcing of components. Apple had earlier indicated to the government that it is ready with a blueprint to begin manufacturing iPhones in India,'>Revenue department turns down Apple&#8217;s tax incentive demand</a></li></ul></li>
+                                                </ul></div>
+
+                                
+                <!-- Mailchimp Widget -->
+                <div class="ad mobile-invisible"><ul> 
+                                    <li id="mc4wp_widget-3" class="widget widget_mc4wp_widget"><h3 class="widgettitle"><span>Newsletter</span></h3>
+
+<!-- Form by MailChimp for WordPress plugin v1.5.1 - http://dannyvankooten.com/mailchimp-for-wordpress/ -->
+<form method="post" action="http://www.bgr.in/news/xiaomi-mi-tv-4a-series-powerline-wi-fi-adapter-launched-price-specifications-features/" id="mc4wp-form-1" class="mc4wp-form form  eventtracker" data-event-sub-cat="RHSNewsletter"><p>
+	<label for="mc4wp_email">Email address: </label>
+	<input type="email" id="mc4wp_email" name="EMAIL" required placeholder="Your email address" />
+</p>
+
+<p>
+	<input type="submit" value="Sign up" />
+</p><textarea name="_mc4wp_required_but_not_really" style="display: none;"></textarea><input type="hidden" name="_mc4wp_form_submit" value="1" /><input type="hidden" name="_mc4wp_form_instance" value="1" /><input type="hidden" name="_mc4wp_form_nonce" value="43fedc5bbd" /></form>
+<!-- / MailChimp for WP Plugin -->
+</li>
+<li id="execphp-18" class="widget widget_execphp">			<div class="execphpwidget">    <!-- BGR_Article_300x250(2)_BTF -->
+    <div id='div-gpt-ad-1418302692609-2' style='width:300px; height:250px;'>
+        <script type='text/javascript'>
+            googletag.display('div-gpt-ad-1418302692609-2');
+        </script>
+    </div>
+</div>
+		</li>
+<li id="text-30" class="widget widget_text">			<div class="textwidget"><div class="clear" style="padding-bottom:10px"></div></div>
+		</li>
+<li id="execphp-66" class="widget widget_execphp">			<div class="execphpwidget"><div data-crowdynews-widget="BGR_bgr-horizontal-widget"><script src="//widget.crowdynews.com/BGR_bgr-horizontal-widget.js" async="true"></script></div></div>
+		</li>
+                                </ul></div>
+                                
+			</div> <!-- #sidebar -->
+
+			<!-- about-author -->
+			                       
+		</div><!-- // .entry-content -->
+
+	</div> <!-- // .article-holder -->
+
+			<!-- articles-pager -->
+		<nav class="articles-pager">
+						<a href="http://www.bgr.in/news/vodafone-idea-merger-ceo-vittorio-colao-kumar-birla-meet-telecom-minister/" class="prev eventtracker" data-event-sub-cat="PrevBottom">
+				<div class="arrow"></div><span class="wrap"><span class="txt mobile-invisible">Previous Article</span><span class="txt mobile-only">Previous</span><em class="ellipsis">Vodafone-Idea merger: CEO Vittorio Colao, Kumar Birla meet telecom minister</em></span>
+			</a>
+									<a href="http://www.bgr.in/news/gionee-aims-to-double-marketing-budget-to-rs-750-crore-in-2017-18/" class="next eventtracker" data-event-sub-cat="NextBottom">
+				<div class="arrow"></div><span class="wrap"><span class="txt mobile-invisible">Next Article</span><span class="txt mobile-only">Next</span><em class="ellipsis">Gionee aims to double marketing budget to Rs 750 crore in 2017-18</em></span>
+			</a>
+					</nav>
+		         
+</article><br /><br />
+
+<!-- // #post-449160 -->
+
+                    <div class="ad mobile-invisible">                        
+                        <ul style="margin-left: 12%;margin-bottom: 40px;">
+                        
+                                                  
+                                <li id="execphp-17" class="widget widget_execphp">			<div class="execphpwidget">
+
+
+</div>
+		</li>
+<li id="execphp-65" class="widget widget_execphp">			<div class="execphpwidget"></div>
+		</li>
+                           
+                                                  </ul>
+                    </div>
+		</div><!-- #content -->
+	</div><!-- #primary -->
+
+            
+    <div align="center" style="clear: both; margin:0 0 10px 0;">			<div class="execphpwidget"></div>
+		</div><footer id="footer" role="contentinfo">
+		<div class="footer-holder">
+		<div class="row">
+			<div class="follow"><strong>FOLLOW BGR</strong>
+				<ul class="social round">
+					<li class="facebook"><a class="icon-social icon-social-facebook" title="Like BGR on Facebook" href="https://www.facebook.com/BGRIndia" target="_blank"><span class="icon-bgr icon-facebook"></span>Like BGR on Facebook</a></li>
+					<li class="twitter"><a class="icon-social icon-social-twitter" title="Follow @BGR on Twitter" href="https://twitter.com/bgrindia" target="_blank"><span class="icon-bgr icon-twitter"></span>Follow @BGR on Twitter</a></li>
+					<li class="googleplus"><a class="icon-social icon-social-googleplus" title="BGR on Google Plus" href="https://plus.google.com/u/0/106104726435557576778/posts" target="_blank" rel="nofollow"><span class="icon-bgr icon-googleplus"></span>BGR on Google Plus</a></li>
+					<li class="linkedin"><a class="icon-social icon-social-linkedin" title="Follow BGR on LinkedIn" href="https://www.linkedin.com/company/bgr/" target="_blank" rel="nofollow"><span class="icon-bgr icon-linkedin"></span>Follow BGR on LinkedIn</a></li>
+					<li class=""><a class="icon-social icon-social-android" title="Download BGR App from Play store" href="https://play.google.com/store/apps/details?id=in.bgr" target="_blank" rel="nofollow"><span class="icon-bgr "></span>Download BGR App from Play store</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="row row-middle clearfix">
+							<section class="twitter-box twitter-blue">
+	<div class="twitter-feed-header"><span class="icon-bgr icon-twitter"></span>BGR ON TWITTER</div>
+	<ul>
+						<li>
+					<a href="https://twitter.com/BGRIndia" class="twitter-name">BGR India</a>
+					<a href="https://twitter.com/BGRIndia" class="twitter-username">@bgrindia</a>
+					<a href="https://twitter.com/BGRIndia/status/844473950163881984" class="tweet-time">5m</a>
+					<p class="tweet-text">US, UK impose ban on laptops in some flights from Middle East; social media calls out racism… <a class="url" href="https://t.co/xeUXAo9QgN" rel="external nofollow" target="_blank">twitter.com/i/web/status/8…</a></p>
+				</li>
+							<li>
+					<a href="https://twitter.com/BGRIndia" class="twitter-name">BGR India</a>
+					<a href="https://twitter.com/BGRIndia" class="twitter-username">@bgrindia</a>
+					<a href="https://twitter.com/BGRIndia/status/844461877367394306" class="tweet-time">53m</a>
+					<p class="tweet-text">Reliance Jio vs Airtel: Competition has moved beyond business, into squabbling <a class="url" href="https://t.co/wkxljsWEK3" rel="external nofollow" target="_blank">buff.ly/2n6cgjx</a> @<a class="username" href="https://twitter.com/reliancejio" rel="external nofollow" target="_blank">reliancejio</a>… <a class="url" href="https://t.co/roglQ8rWhm" rel="external nofollow" target="_blank">twitter.com/i/web/status/8…</a></p>
+				</li>
+							<li class="userlast">
+					<a href="https://twitter.com/BGRIndia" class="twitter-name">BGR India</a>
+					<a href="https://twitter.com/BGRIndia" class="twitter-username">@bgrindia</a>
+					<a href="https://twitter.com/BGRIndia/status/844461166411812864" class="tweet-time">56m</a>
+					<p class="tweet-text">Apple iTunes 12.6 update lets you watch rented movie across multiple Apple devices
+@<a class="username" href="https://twitter.com/Apple" rel="external nofollow" target="_blank">Apple</a> 
+ <a class="url" href="https://t.co/vrCvclJQ82" rel="external nofollow" target="_blank">buff.ly/2n6kHLI</a> <a class="url" href="https://t.co/5K6AxZqv3F" rel="external nofollow" target="_blank">https://t.co/5K6AxZqv3F</a></p>
+				</li>
+				</ul>
+</section>
+								<ul class="nav"><li id="menu-item-64826" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-64826"><a href="http://www.bgr.in/about-bgr/">About</a></li>
+<li id="menu-item-64828" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-64828"><a href="http://www.bgr.in/privacy-policy/">Privacy Policy</a></li>
+<li id="menu-item-64830" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-64830"><a href="http://www.bgr.in/contact/">Contact Us</a></li>
+</ul>		</div>
+	</div>
+	
+	<section class="bottom-row">
+
+					<div class="logos eventtracker" data-event-cat="Footer" data-event-title="yes">
+				<ul><li id="menu-item-70001" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-70001"><a href="http://www.bgr.in/gadgets/mobile-phones/apple"><span class="icon"></span>Apple</a></li>
+<li id="menu-item-70002" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-70002"><a href="http://www.bgr.in/tag/android/"><span class="icon"></span>Android</a></li>
+<li id="menu-item-70003" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-70003"><a href="http://www.bgr.in/gadgets/mobile-phones/blackberry"><span class="icon"></span>BlackBerry</a></li>
+<li id="menu-item-64823" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-64823"><a href="http://www.bgr.in/business/"><span class="icon"></span>Business</a></li>
+<li id="menu-item-70004" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-70004"><a href="http://www.bgr.in/category/exclusives/"><span class="icon"></span>Exclusives</a></li>
+<li id="menu-item-64825" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-64825"><a href="http://www.bgr.in/category/mobile-sections/"><span class="icon"></span>Mobile</a></li>
+<li id="menu-item-70005" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-70005"><a href="http://www.bgr.in/category/reviews/"><span class="icon"></span>Reviews</a></li>
+</ul>			</div>
+		
+		<div class="list credits">
+			<div class="copy">Copyright 2017 BGR Media, LLC</div>
+			 <div class="wpvip"></div>		</div>
+		<link rel='stylesheet' id='spons-ads-widget-css-css'  href='http://st1.bgr.in/wp-content/plugins/post-adds-code/css/style.css?ver=20161102' type='text/css' media='all' />
+<script type='text/javascript' src='http://st1.bgr.in/wp-content/themes/vip/bgr-child/js/article-combine.js?ver=20161102' defer='defer'></script>
+
+				<div class="tips-popup-holder">
+			<div class="tips-overlay"></div>
+			<div class="tipus-popup">
+				<div class="tipus-close">&times;</div>
+				<div class="tipus-header">Tip Us</div>
+							</div>
+		</div>
+		
+		<span id="m-normal"></span><span id="m-tablet"></span><span id="m-mobile"></span>
+
+		<!--[if lte IE 9]>
+		  <script src="http://st1.bgr.in/wp-content/themes/vip/bgr-childjs/respond/respond.min.js?ver=1.1.0"></script>
+		  <link href="http://www.bgr.in/wp-content/themes/vip/bgr-child/js/respond/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
+		  		  <link href="http://st1.bgr.in/wp-content/themes/vip/bgr-child/js/respond/respond.proxy.gif" id="respond-redirect" rel="respond-redirect" />
+		  <script src="http://st1.bgr.in/wp-content/themes/vip/bgr-child/js/respond/respond.proxy.js"></script>
+		<![endif]-->
+
+		<!-- tags-bottom -->
+<!-- Begin Google +1 -->
+<script type="text/javascript">
+  (function() {
+	var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+	po.src = 'https://apis.google.com/js/plusone.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+<!-- End Google +1 -->
+
+<!-- Begin Twitter Tweet -->
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id))
+	{js=d.createElement(s);js.async=true;js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<!-- End Twitter Tweet -->
+
+
+	</section>
+
+</footer>
+<!-- DO NOT REMOVE, comment for engineering, 4BAfe4nkpyAktm3S -->
+			<div class="execphpwidget"><style>.ind-ar{display:none;}</style></div>
+					<div class="execphpwidget"></div>
+					<div class="textwidget"><script src="http://tags.crwdcntrl.net/c/5620/cc_af.js"></script>
+
+<style>
+.bgr-widget-share.latest-on-tab-widget .itab .tabcontentwrap .tabcontent .listing .allimg {width:75px;height:75px;overflow:hidden;}
+.bgr-widget-share.latest-on-tab-widget .itab .tabcontentwrap .tabcontent .listing .allimg img{width:75px;height:75px;overflow:hidden;}
+.bgr-widget-share.latest-on-tab-widget .itab .tabcontentwrap .tabcontent .listing figcaption{width: 67%;}
+</style>
+
+</div>
+					<div class="execphpwidget"><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
+<script>(function(d, s, id) {  var js, fjs = d.getElementsByTagName(s)[0];  if (d.getElementById(id)) return;  js = d.createElement(s); js.id = id;  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";  fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script>
+
+</div>
+					<div class="execphpwidget"><script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 980984221;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" 
+src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" 
+src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/980984221/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript></div>
+					<div class="execphpwidget"></div>
+					<div class="textwidget"><style>#second_nav li a{font-size:13px !important}</style></div>
+					<div class="execphpwidget">
+ 
+ 
+<!-- /11440465/BGR_ROS_OutOfPage -->
+<div id='div-gpt-ad-1466578215691-0' style='height:1px; width:1px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1466578215691-0'); });
+</script>
+</div>
+
+</div>
+					<div class="execphpwidget">
+		
+</div>
+		<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"25ced36603","applicationID":"16718024","transactionName":"b1JSMUcHDRFSV0QLDlYYcQZBDwwMHEdZDAZUUg==","queueTime":0,"applicationTime":419,"atts":"QxVRRw8dHh8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
+
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Content Delivery Network via Amazon Web Services: S3: st1.bgr.in
+
+ Served from: www.bgr.in @ 2017-03-22 14:40:21 by W3 Total Cache -->

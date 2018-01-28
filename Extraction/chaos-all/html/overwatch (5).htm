@@ -1,0 +1,652 @@
+<!doctype html>
+<html lang="en" itemscope id="" class="no-js no-touch ">
+
+<head><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"Vg8OUFFACgYBUVZQDw=="};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,n,e)])}catch(s){try{i("ierr",[s,c.now(),!0])}catch(u){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t){i("err",[t,c.now()])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),u=!0)}s.on("fn-start",function(t,n,e){u&&(d+=1)}),s.on("fn-err",function(t,n,e){u&&(this.thrown=!0,o(e))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(w,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(18)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(18)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(18)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(18)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",s)}function i(t){v.push(t),h&&(g=-g,b.data=g)}function a(){for(var t=0;t<v.length;t++)r([],v[t]);v.length&&(v=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(18)(u),l=NREUM.o,p=l.XHR,h=l.MO,m="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],v=[];n.exports=u;var y=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(m,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,y),y.prototype=p.prototype,d.inPlace(y.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var g=1,b=document.createTextNode(g);new h(a).observe(b,{characterData:!0})}else f.on("fn-end",function(t){t[0]&&t[0].type===m||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}finally{c.emit("fn-end",[f.now()],e)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],16:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],17:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],18:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=h(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[y[e]];return d&&d.push([g,e,r,a]),a}}function p(t,n){v[t]=h(t).concat(n)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",y[e]=n,n in u||(u[n]=[])})}var v={},y={},g={on:p,emit:e,get:m,listeners:h,context:n,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(15),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!x++){var t=b.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(y,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=l.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===l.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(15),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,w=m&&m.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},g=m&&w&&w[p]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:v,features:{},xhrWrappable:g};t(12),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),c("mark",["firstbyte",s],null,"api");var x=0,E=t(17)},{}]},{},["loader",2,10,4,3]);</script>
+  
+  <title>Overwatch For Nintendo Switch Sounds Unlikely, But Not Ruled Out - GameSpot</title>
+
+  <meta name="description" content="Game director Jeff Kaplan says Blizzard may need to &quot;revisit performance&quot; to bring the game to Nintendo&#039;s console.">
+    <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <meta name="application-name" content="GameSpot"/>
+  <meta name="msapplication-TileColor" content="#26292B"/>
+  <meta name="msapplication-TileImage" content="https://static4.gamespot.com/bundles/gamespotsite/images/win8pin.png"/>
+
+  
+  
+    <meta name="userAuthState" content="noUser"/>
+
+            <meta name="modal-cdn-url" content="/js/modals.json">
+      
+    <meta name='js-sort-filter-text' content='yes'>
+
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+    <meta itemprop="cdnHost" content="static.gamespot.com">
+      <link rel="shortcut icon" href="/favicon.ico" />
+
+    <link rel="apple-touch-icon" href="https://static4.gamespot.com/bundles/gamespotsite/images/touch-icon-iphone-precomposed.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="https://static5.gamespot.com/bundles/gamespotsite/images/touch-icon-ipad.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="https://static5.gamespot.com/bundles/gamespotsite/images/touch-icon-iphone-retina-precomposed.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="https://static4.gamespot.com/bundles/gamespotsite/images/touch-icon-ipad-retina-precomposed.png">
+
+        <link rel="amphtml" href="https://www.gamespot.com/amp-articles/overwatch-for-nintendo-switch-sounds-unlikely-but-/1100-6449253/">
+  
+      <meta id="view-guid-meta" name="view-guid-meta" itemprop="view-guid" content="">
+
+
+                  
+              
+    
+        
+    
+    <meta id="ad-settings" class="js-post-render-tracking-consumer ad-settings" itemprop="ad-settings" content="{&quot;service&quot;:&quot;dart&quot;,&quot;client&quot;:&quot;xfp&quot;,&quot;deferred&quot;:true,&quot;load_in_head&quot;:&quot;gpt&quot;,&quot;single_request&quot;:true,&quot;disable_initial_load&quot;:true,&quot;enable_callback&quot;:true,&quot;enable_collapse_empty_divs&quot;:true,&quot;enable_guilt&quot;:true,&quot;script&quot;:&quot;\/\/www.googletagservices.com\/tag\/js\/gpt.js&quot;,&quot;unit_name&quot;:&quot;\/8264\/asia-gamespot\/news&quot;,&quot;target_params&quot;:{&quot;session&quot;:&quot;c&quot;,&quot;test&quot;:&quot;{abTestLabelDart}&quot;,&quot;ptype&quot;:&quot;news_article&quot;,&quot;cid&quot;:&quot;gs-1100-6449253&quot;,&quot;game&quot;:[&quot;overwatch&quot;],&quot;genre&quot;:[&quot;action&quot;,&quot;first-person&quot;,&quot;shooter&quot;,&quot;tactical&quot;],&quot;rdate&quot;:&quot;p47&quot;,&quot;con&quot;:[&quot;xbox-one&quot;,&quot;playstation-4&quot;,&quot;pc&quot;],&quot;publisher&quot;:[&quot;blizzard-entertainment&quot;,&quot;square-enix&quot;,&quot;activision&quot;],&quot;category&quot;:&quot;games&quot;,&quot;user&quot;:&quot;anon&quot;},&quot;slot_order&quot;:[&quot;leader_top&quot;,&quot;leader_plus_top&quot;,&quot;mpu_top&quot;,&quot;mpu_plus_top&quot;,&quot;skin_top&quot;,&quot;omnibar_top&quot;,&quot;nav_logo_top&quot;,&quot;logo_top&quot;,&quot;interstitial&quot;,&quot;native-top&quot;,&quot;incontent-ad&quot;,&quot;mpu_bottom&quot;,&quot;leader_bottom&quot;,&quot;companion_ad&quot;,&quot;ytembed_top&quot;,&quot;overlay_leader_top&quot;,&quot;overlay_mpu_top&quot;],&quot;mapped_units&quot;:{&quot;interstitial&quot;:{&quot;outOfPage&quot;:true},&quot;leader_plus_top&quot;:{&quot;size&quot;:[[970,66],[728,90],[970,90],[970,250]],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}},&quot;skin_top&quot;:{&quot;size&quot;:[[1600,1000]],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}},&quot;incontent-ad&quot;:{&quot;size&quot;:[[321,31],[11,11]],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;,&quot;strnativekey&quot;:&quot;wht2J3jeQyvCupX61JvMZoej&quot;}},&quot;native-top&quot;:{&quot;size&quot;:[[11,11]],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;,&quot;strnativekey&quot;:&quot;wht2J3jeQyvCupX61JvMZoej&quot;}},&quot;mpu_top&quot;:{&quot;size&quot;:[[300,250]],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}},&quot;mpu_bottom&quot;:{&quot;size&quot;:[[300,250]],&quot;target&quot;:{&quot;pos&quot;:&quot;bottom&quot;}},&quot;leader_bottom&quot;:{&quot;size&quot;:[[728,90],[970,66]],&quot;target&quot;:{&quot;pos&quot;:&quot;bottom&quot;}},&quot;companion_ad&quot;:{&quot;size&quot;:[[1,1]]},&quot;logo_top&quot;:{&quot;size&quot;:[[160,70]],&quot;target&quot;:{&quot;pos&quot;:&quot;top&quot;}}},&quot;region&quot;:&quot;as&quot;}">
+
+    
+                                  <meta id="qualtrics-settings"
+      itemprop="qualtrics-settings"
+      content="{&quot;id&quot;:&quot;ZN_aah4Vz47v491vLf&quot;,&quot;script&quot;:&quot;\/\/zn_aah4vz47v491vlf-cbs.siteintercept.qualtrics.com\/WRSiteInterceptEngine\/&quot;}" />
+        
+
+        
+    <meta name="username" id="username" content="GS|Anonymous" />
+
+    <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@GameSpot">
+      <meta name="twitter:creator" content="@GameSpot">
+  
+  		<meta property="og:image" content="https://static2.gamespot.com/uploads/screen_kubrick/536/5360430/3209747-ow_orisa_005.jpg"/>
+	
+        	<meta property="og:title" content="Overwatch For Nintendo Switch Sounds Unlikely, But Not Ruled Out"/>
+  	        <meta property="og:description" content="Game director Jeff Kaplan says Blizzard may need to &quot;revisit performance&quot; to bring the game to Nintendo&#039;s console."/>
+      
+  <meta property="og:site_name" content="GameSpot"/>
+
+      <meta property="og:type" content="article"/>
+  
+
+      <meta property="og:url" content="https://www.gamespot.com/articles/overwatch-for-nintendo-switch-sounds-unlikely-but-/1100-6449253/"/>
+              <link rel="canonical" href="https://www.gamespot.com/articles/overwatch-for-nintendo-switch-sounds-unlikely-but-/1100-6449253/" />
+      
+
+
+                            <meta id="ZeroClipBoardSwf" itemprop="ZeroClipBoardSwf" name="ZeroClipBoardSwf" content="/bundles/phoenixsite/js/libs/zeroclipboard/ZeroClipboard.swf?9124ac0f30b538af3b12cfbb4a65a974">
+      
+        <script src="https://static2.gamespot.com/js/compiled/header_js.js?9124ac0f30b538af3b12cfbb4a65a974" type="text/javascript"></script>
+  
+                <meta id="richTextEditorTheme" itemprop="richTextEditorTheme" content="white" data-themes="{&quot;white&quot;:&quot;https:\/\/static.gamespot.com\/bundles\/gamespotsite\/css\/wysiwyg_white-036672ea423ccc4c6c667acf13d0af6b.css&quot;,&quot;black&quot;:&quot;https:\/\/static.gamespot.com\/bundles\/gamespotsite\/css\/wysiwyg_black-036672ea423ccc4c6c667acf13d0af6b.css&quot;}">
+
+          
+            <!--[if !IE]> --><link id="skin-color" rel="stylesheet" href="https://static.gamespot.com/bundles/gamespotsite/css/gamespot_white-036672ea423ccc4c6c667acf13d0af6b.css"><!-- <![endif]--><!--[if IE]><link id="skin-color-0" rel="stylesheet" href="https://static.gamespot.com/bundles/gamespotsite/css/gamespot_white_split1-036672ea423ccc4c6c667acf13d0af6b.css"><link id="skin-color-1" rel="stylesheet" href="https://static.gamespot.com/bundles/gamespotsite/css/gamespot_white_split2-036672ea423ccc4c6c667acf13d0af6b.css"><![endif]-->
+  
+      	  
+    <meta id="kCode" itemprop="kCode" name="kCode" content="/contra/cheats/">
+
+    
+
+                  <script src="//js-sec.indexww.com/ht/ls-gamespot.js" async></script>
+                      <script type="text/javascript" charset="utf-8">
+        (function(G,o,O,g,L,e){G[g]=G[g]||function(){(G[g]['q']=G[g]['q']||[]).push(
+        arguments)},G[g]['t']=1*new Date;L=o.createElement(O),e=o.getElementsByTagName(
+        O)[0];L.async=1;L.src='//www.google.com/adsense/search/async-ads.js';
+        e.parentNode.insertBefore(L,e)})(window,document,'script','_googCsa');
+      </script>        <script type="text/javascript">
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+        (function () {
+          var gads = document.createElement("script");
+          gads.async = true;
+          gads.id = "ad-service-client";
+          gads.className = "js-spof";
+          gads.type = "text/javascript";
+                    gads.setAttribute('onerror',"this.setAttribute('data-is-spof','true')");
+          gads.src = "//www.googletagservices.com/tag/js/gpt.js";
+          var node = document.getElementsByTagName("script")[0];
+          node.parentNode.insertBefore(gads, node);
+                  })();
+      </script>    
+      
+              <style>
+/*
+Added By: Will
+Description: Fixes text on goty promo image
+Remove: After GOTY 2016
+*/
+.body-event--goty-hub-2016 .goty-gotm_image img {
+   width: 100%;
+}
+
+
+/* Hide the feedback button temporarily - Lark 4/22/16 */
+#qualtrics-feedback {
+  display: none;
+}
+
+body.skin-yes { overflow-x: hidden; display: block !important; }
+/* Temporary last minute on Friday fix for headers being cut off on smaller screens */
+@media only screen and (max-width: 1209px) {
+  .pod-title>h4,
+  .pod-title>h4>h4 {
+    font-size: 15px;
+    padding-right: 5px;
+  }
+}
+h4 { font-size: 1.28571rem; line-height: 1.62857rem; }
+@media only screen and (min-width: 1210px) {
+h4 { font-size: 1.28571rem; line-height: 1.72857rem; }
+}
+
+/* This is a weird one but it cuts off the 3rd game href */
+.pod--topgames.pod-filter .filter-results { position: static; }
+
+/* GROSS fix for chat ad problem */
+.has-ads .s-chat #wrapper {
+top: 90px;
+}
+
+/* fix for FF not liking width on table-cell */
+.pod-popular .media--small .media-img { width: inherit; }
+
+/* fixes custom html 5 video embeds bleeding outside container */
+[data-embed-type="html"] video { max-width: 100%; }
+
+/* Safari alignment fix */
+.no-flexbox .masthead .eyebrow-promo { display:table-cell; vertical-align:middle; width: 54px; }
+
+/* PC Chrome button whitespace fix */
+.btn,
+.fyre-button-left-inner-box { white-space: nowrap; }
+
+.pod-filter .filter-results.grid { overflow: hidden; }
+#incontent_top iframe { display:none; }
+.av-report-suck { display: none !important; }
+.content-type.content-type--review { box-shadow: none; background: none; }
+
+/* Removing at the moment because of a visual bug on prod, this will need to be reevaluated */
+.skin-yes.money-rainbows #mantle_skin:before {
+display: none;
+}
+
+/* For seamless, larger images that are broken into parts. Keep this for now! -DA */
+#infographic figure,
+#infographic p {
+    margin-bottom: 0;
+}
+
+/* Clear native ads */
+.media--sponsored {
+    clear: both;
+}
+
+/* Top Leader misaligned. Going to investigate why | DA | 1/12/2015 */
+.ad-wrap.ad-wrap-leader_plus_top > div > div > div {
+  margin: 0 auto;
+}
+
+/* !LAST-MINUTE - 3/1/2016 - DA
+    Persisting issue with incorrect logo size on mobile */
+@media only screen and (max-width: 759px) {
+  .logo-site--full {
+    width: 46px;
+    height: 46px;
+  }
+}
+
+.has-vid-countdown > .av-video-player-bg > .av-video-title {display: none !important; }
+
+/* !LAST-MINUTE - 12/09/2016 - ES
+    Best of 2016 LIs misaligning */
+.span2-5 { min-height: 170px; }
+
+/* !LAST-MINUTE - 12/13/2016 - ES
+    Best of 2016 Mobile Article Margins */
+@media (max-width: 759px) { .article-body { margin: 0 !important; } }
+
+/* !LAST-MINUTE - 12/20/2016 - ES
+    Best of 2016 Winner Thumbnail */
+.best-of-goty-winner {
+   background-image: url('http://www.gamespot.com/bundles/gamespotsite/images/events/bestof2016/kubrick.jpg') !important;
+}
+</style>      
+    <meta name='pageType' data-type='article' data-id='6449253' />
+
+            <script type="text/javascript">
+        //---------------------------------------------------------
+        // Boomtrain glue
+        !function(){function a(a){return function(){var b=Array.prototype.slice.call(arguments);return b.unshift(a),window._bt.push(b),window._bt}}window._bt=window._bt||[];for(var b=["track","identify","initialize","clear","setBsin","person.set"],c=0;c<b.length;c++){var d=window._bt,e=b[c].split("."),f=e[0],g=f;2===e.length&&(d[f]=d[f]||{},d=d[f],f=e[1],g=b[c]),d[f]=a(g)}if(!document.getElementById("analyticstrain-js")){var h=document.createElement("script");h.type="text/javascript",h.id="analyticstrain-js",h.async=!0,h.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.boomtrain.com/analyticstrain-2.min.js";var i=document.getElementsByTagName("script")[0];i.parentNode.insertBefore(h,i)}}();
+        _bt.initialize("0eddb34d4eb4be1df2b4160ec047aa73");
+        //---------------------------------------------------------
+      </script>
+      
+    
+</head>
+
+
+<body id="default-body" class="default has-nav-slim body-news has-page-events skin-no one-column seamless-article " style="display: block !important" >
+            <section id="message-block" class="message-success" style="display: none">
+                      </section>
+    
+    <div id="site-main">
+
+      
+      
+              <!-- Mast Head --><header id="masthead" role="banner" class="masthead js-show-scroll-dir is-nav-fixed"><div id="goroostcom-bell"></div><div class="container masthead-container masthead-container--flex masthead-container--cushion"><div id="masthead-logo" class="masthead-logo nav-mobile__logo"><a href=https://www.gamespot.com/ data-click-track-id=coreHeaderFrontDoor  class="logo-site"><span class="logo-site--full"></span>GameSpot
+        </a></div><a id="js-btn-mobile-nav" class="nav-mobile__menu btn-mobile btn-mobile-nav"><i><svg class="symbol symbol-reorder symbol--color-link" title="Reveal" aria-role="icon"><use xlink:href="#symbol-reorder"></use></svg></i> Menu</a><nav role="navigation" class="masthead-nav masthead-nav--platforms"><ul class="nav-bar"><li class="nav-bar__item"><a href=/pc/ data-click-track-id=eyebrow-platform-pc >PC</a></li><li class="nav-bar__item"><a href=/ps4/ data-click-track-id=eyebrow-platform-ps4 >PS4</a></li><li class="nav-bar__item"><a href=/xbox-one/ data-click-track-id=eyebrow-platform-xbox-one >Xbox One</a></li><li class="nav-bar__item"><a href=/nintendo-switch/ data-click-track-id=eyebrow-platform-nintendo-switch >Switch</a></li><li class="nav-bar__item nav-bar__item--platforms dropnav menu-hover js-dropnav"><a href="#" title="Open More Platforms Menu" >More <i><svg class="symbol symbol-caret-down symbol--color-link symbol--size-rem hide-mobile" aria-role="icon"><use xlink:href="#symbol-caret-down"></use></svg></i></a><ul class="dropnav-menu menu--small menu--arrow-top menu--has-borderRadius js-dropnav-active"><li class="dropnav-menu__item"><a href=/wii-u/ data-click-track-id=eyebrow-platform-wii-u >Wii U</a></li><li class="dropnav-menu__item"><a href=/ps3/ data-click-track-id=eyebrow-platform-ps3 >PS3</a></li><li class="dropnav-menu__item"><a href=/vita/ data-click-track-id=eyebrow-platform-vita >Vita</a></li><li class="dropnav-menu__item"><a href=/xbox-360/ data-click-track-id=eyebrow-platform-xbox-360 >Xbox 360</a></li><li class="dropnav-menu__item"><a href=/3ds/ data-click-track-id=eyebrow-platform-3ds >3DS</a></li><li class="dropnav-menu__item"><a href="/gametech/">Gametech</a></li></ul></li></ul></nav><nav role="navigation" class="masthead-nav masthead-nav--main"><ul class="nav-bar"><li class="nav-bar__item"><a href=https://www.gamespot.com/reviews/ data-click-track-id=coreHeaderReviewsList >Reviews</a></li><li class="nav-bar__item"><a href=https://www.gamespot.com/news/ data-click-track-id=coreHeaderNewsHub >News</a></li><li class="nav-bar__item"><a href=https://www.gamespot.com/universe/ data-click-track-id=coreHeaderEntertainmentDoor >Universe</a></li><li class="nav-bar__item dropnav menu-hover js-dropnav"><a href=https://www.gamespot.com/videos/ data-click-track-id=coreHeaderVideosList  title="Videos Menu Opened" >Videos <i><svg class="symbol symbol-caret-down symbol--color-link symbol--size-rem hide-mobile" aria-role="icon"><use xlink:href="#symbol-caret-down"></use></svg></i></a><span class="nav-bar__box js-dropnav-toggle"><i><svg class="symbol symbol-caret-down symbol--color-link symbol--size-rem" title="Open Videos Menu" aria-role="icon"><a  title="Open Videos Menu" href="#"><use xlink:href="#symbol-caret-down"></use></a></svg></i></span><ul id="header-video-dropnav" class="dropnav-menu menu--medium menu--arrow-top menu--has-borderRadius dropnav-video js-dropnav-active"><li class="dropnav-menu__item"><a href=https://www.gamespot.com/videos/ data-click-track-id=coreHeader/dropdownvideosVideosList ><span class="dropnav-list__img"><i><svg class="symbol symbol-youtube-play symbol--color-link symbol--size-large" aria-role="icon"><use xlink:href="#symbol-youtube-play"></use></svg></i></span>All Videos
+    </a></li><li class="dropnav-menu__item"><a href=https://www.gamespot.com/videos/trailers/ data-click-track-id=coreHeader/dropdownvideosVideoTrailers ><span class="dropnav-list__img"><i><svg class="symbol symbol-ticket symbol--color-link symbol--size-large" aria-role="icon"><use xlink:href="#symbol-ticket"></use></svg></i></span>Trailers</a></li><li class="dropnav-menu__item dropnav-menu__item--break">-----</li><li class="dropnav-menu__item dropnav-submenu__item--shows"><a href=https://www.gamespot.com/shows/reboot/ data-click-track-id=coreHeader/dropdownvideosVideoShow ><div class="img"><img src="https://static2.gamespot.com/uploads/square_mini/536/5360430/3200885-reboot_avatar.jpg" alt="Reboot" class="dropnav-submenu__image" /></div>          Reboot
+        </a></li><li class="dropnav-menu__item dropnav-submenu__item--shows"><a href=https://www.gamespot.com/shows/gsnews/ data-click-track-id=coreHeader/dropdownvideosVideoShow1 ><div class="img"><img src="https://static3.gamespot.com/uploads/square_mini/1551/15514330/2998255-news_logo.jpg" alt="GameSpot News" class="dropnav-submenu__image" /></div>          GameSpot News
+        </a></li><li class="dropnav-menu__item dropnav-submenu__item--shows"><a href=https://www.gamespot.com/shows/the-lobby/ data-click-track-id=coreHeader/dropdownvideosVideoShow2 ><div class="img"><img src="https://static2.gamespot.com/uploads/square_mini/104/1049837/3003963-thjelobby-2016-avatar.jpg" alt="The Lobby" class="dropnav-submenu__image" /></div>          The Lobby
+        </a></li><li class="dropnav-menu__item dropnav-submenu__item--shows"><a href=https://www.gamespot.com/shows/New_Releases/ data-click-track-id=coreHeader/dropdownvideosVideoShow3 ><div class="img"><img src="https://static5.gamespot.com/uploads/square_mini/104/1049837/2961853-new_releases2015-avatar.jpg" alt="New Releases" class="dropnav-submenu__image" /></div>          New Releases
+        </a></li><li class="dropnav-menu__item dropnav-submenu__item--shows"><a href=https://www.gamespot.com/shows/screenplay/ data-click-track-id=coreHeader/dropdownvideosVideoShow4 ><div class="img"><img src="https://static5.gamespot.com/uploads/square_mini/1365/13658182/3135164-avatar.jpg" alt="Screen/Play" class="dropnav-submenu__image" /></div>          Screen/Play
+        </a></li><li class="dropnav-menu__item dropnav-submenu__item--shows"><a href=https://www.gamespot.com/shows/lets-play/ data-click-track-id=coreHeader/dropdownvideosVideoShow5 ><div class="img"><img src="https://static1.gamespot.com/uploads/square_mini/1365/13658182/3142527-avatar.jpg" alt="Let&#039;s Play" class="dropnav-submenu__image" /></div>          Let&#039;s Play
+        </a></li><li class="dropnav-menu__item dropnav-submenu__item--shows"><a href=https://www.gamespot.com/shows/now-playing/ data-click-track-id=coreHeader/dropdownvideosVideoShow6 ><div class="img"><img src="https://static2.gamespot.com/uploads/square_mini/1527/15277921/2787010-nowplaying_avatar.jpg" alt="Now Playing" class="dropnav-submenu__image" /></div>          Now Playing
+        </a></li><li class="dropnav-menu__item dropnav-submenu__item--shows"><a href=https://www.gamespot.com/shows/reality-check/ data-click-track-id=coreHeader/dropdownvideosVideoShow7 ><div class="img"><img src="https://static2.gamespot.com/uploads/square_mini/1527/15277921/2798390-realitycheck_avatar.jpg" alt="Reality Check" class="dropnav-submenu__image" /></div>          Reality Check
+        </a></li><li class="dropnav-menu__item dropnav-submenu__item--shows"><a href=https://www.gamespot.com/shows/in-2-minutes/ data-click-track-id=coreHeader/dropdownvideosVideoShow8 ><div class="img"><img src="https://static1.gamespot.com/uploads/square_mini/328/3284688/2716158-avatar.jpg" alt="In 2 Minutes" class="dropnav-submenu__image" /></div>          In 2 Minutes
+        </a></li><li class="dropnav-menu__item dropnav-submenu__item--shows"><a href=https://www.gamespot.com/shows/the-gist/ data-click-track-id=coreHeader/dropdownvideosVideoShow9 ><div class="img"><img src="https://static4.gamespot.com/uploads/square_mini/469/4693985/2589700-gist.jpg" alt="The Gist" class="dropnav-submenu__image" /></div>          The Gist
+        </a></li><li class="dropnav-menu__item dropnav-submenu__item--shows"><a href=https://www.gamespot.com/shows/the-point/ data-click-track-id=coreHeader/dropdownvideosVideoShow10 ><div class="img"><img src="https://static1.gamespot.com/uploads/square_mini/469/4693985/2589571-point.jpg" alt="The Point" class="dropnav-submenu__image" /></div>          The Point
+        </a></li><li class="dropnav-menu__item dropnav-submenu__item--shows"><a href=https://www.gamespot.com/shows/quick-look/ data-click-track-id=coreHeader/dropdownvideosVideoShow11 ><div class="img"><img src="https://static5.gamespot.com/uploads/square_mini/86/864739/2787991-avatar-nolabel_gbquicklook_show_jb.jpg" alt="Quick Look" class="dropnav-submenu__image" /></div>          Quick Look
+        </a></li></ul></li><li class="nav-bar__item dropnav menu-hover js-dropnav"><a href=https://www.gamespot.com/forums/ data-click-track-id=coreHeaderForumLatestTopicList  title="Forums Menu Opened" >Forums <i><svg class="symbol symbol-caret-down symbol--color-link symbol--size-rem hide-mobile" aria-role="icon"><use xlink:href="#symbol-caret-down"></use></svg></i></a><span class="nav-bar__box js-dropnav-toggle"><i><svg class="symbol symbol-caret-down symbol--color-link symbol--size-rem" title="Open Forums Menu" aria-role="icon"><a  title="Open Forums Menu" href="#"><use xlink:href="#symbol-caret-down"></use></a></svg></i></span><ul class="dropnav-menu menu--medium menu--arrow-top menu--has-borderRadius js-dropnav-active" data-direction="left"><li class="dropnav-menu__item"><a href=/forums/games-discussion-1000000/ data-click-track-id=coreHeaderForumTopicList >Games Discussion</a></li><li class="dropnav-menu__item"><a href=/forums/pc-mac-linux-society-1000004/ data-click-track-id=coreHeaderForumTopicList1 >PC/Mac/Linux Society</a></li><li class="dropnav-menu__item"><a href=/forums/playstation-nation-1000002/ data-click-track-id=coreHeaderForumTopicList2 >PlayStation Nation</a></li><li class="dropnav-menu__item"><a href=/forums/xbox-association-1000003/ data-click-track-id=coreHeaderForumTopicList3 >Xbox Association</a></li><li class="dropnav-menu__item"><a href=/forums/nintendo-fan-club-1000001/ data-click-track-id=coreHeaderForumTopicList4 >Nintendo Fan Club</a></li><li class="dropnav-menu__item"><a href=/forums/system-wars-314159282/ data-click-track-id=coreHeaderForumTopicList5 >System Wars</a></li><li class="dropnav-menu__item"><a href=/forums/offtopic-discussion-314159273/ data-click-track-id=coreHeaderForumTopicList6 >Off-Topic Discussion</a></li><li class="dropnav-menu__item"><a href=/forums/gamespot-giveaways-909399116/ data-click-track-id=coreHeaderForumTopicList7 >GameSpot Giveaways</a></li><li class="dropnav-menu__item"><a href=/forums/bug-reporting-feedback-1000006/ data-click-track-id=coreHeaderForumTopicList8 >Bug Reporting & Feedback</a></li><li class="dropnav-menu__item"><a href=https://www.gamespot.com/forums/ data-click-track-id=core/headerForumnavstaticForumLatestTopicList >See all Forums</a></li></ul></li></ul></nav><ul class="switch skin-switch"><li id="skin-switch" class="switch__item" data-default="gamespot_white"><a href=# data-click-track-id=eyebrow-skin-white  rel="gamespot_white" data-rel-url="https://static.gamespot.com/bundles/gamespotsite/css/gamespot_white-036672ea423ccc4c6c667acf13d0af6b.css" class="skin-switch-btn white switch__btn">A</a><a href=# data-click-track-id=eyebrow-skin-black  rel="gamespot_black" data-rel-url="https://static.gamespot.com/bundles/gamespotsite/css/gamespot_black-036672ea423ccc4c6c667acf13d0af6b.css" class="skin-switch-btn black switch__btn">A</a></li></ul><ul class="masthead-userBox pull-right nav-mobile__auth"><li class="masthead-userBox__item signup"><i><svg class="symbol symbol-rocket symbol--color-link symbol--effect-highlight--secondary hide-mobile" aria-role="icon"><use xlink:href="#symbol-rocket"></use></svg></i><a href=https://auth.gamespot.com/login/ data-click-track-id=coreHeader/userinfoLogin  > Sign in</a> / <a href=https://auth.gamespot.com/signup/ data-click-track-id=coreHeader/userinfoSignUp  >Join</a></li></ul></div><div class="masthead-search-hold nav-mobile__search"><div class="container"><div class="span12"><form action="/search/" method="get" class="masthead-search search"><fieldset><span id="js-btn-mobile-search" class="search-symbol btn-mobile-search"><i><svg class="symbol symbol-search symbol--position-left-absolute symbol--position-flush symbol--size-2x symbol--size-resp--base symbol--color-link" title="Search GameSpot" aria-role="icon"><a  title="Search GameSpot" href="#"><use xlink:href="#symbol-search"></use></a></svg></i></span><input type="hidden" id="search-indice-game" name="indices[0]" value="game"/><input type="hidden" id="search-indice-hub" name="indices[1]" value="hub"/><input type="hidden" id="search-indice-videoshow" name="indices[2]" value="videoshow"/><input type="hidden" id="search-indice-platform" name="indices[3]" value="platform"/><input type="hidden" id="search-indice-franchise" name="indices[4]" value="franchise"/><input type="hidden" id="search-indice-topic" name="indices[5]" value="topic"/><input type="text" id="search-main" name="q" data-click-track-id=coreHeaderSearch-main 
+                                  placeholder="Search GameSpot"
+                              autocomplete="off" class="search-input ready" data-search-index="game" value="" /></fieldset></form></div></div><!-- /container --></div></header>
+
+      
+                                <div id="site-wrapper" >
+            <div id="mantle_skin">
+    <div id="rbSkin">
+      <span id="adSkinLeft"></span>
+      <span id="adSkinRight"></span>
+                  <div id="wrapper">
+                                        <div id="site" role="main">
+    <div id="default-content" class="js-seamless-content container row">
+                  <div class="primary-content js-seamless-content__page t-container ">
+                                      <div class="article--one-column has-pad--vert--ultra">
+        
+    
+    <article itemscope itemtype="http://schema.org/Article" class="content-body news-article js-seamless-content__page-content article article--news article--one-column content-body--bufferSocial content-body--bufferAd has-rhythm" data-type-id="1100" data-guid="1100-6449253">
+
+            
+            <section class="news-hdr js-seamless-content__page-header has-rhythm--max"><h1 class="news-title instapaper_title entry-title type-headline" itemprop="name">Overwatch For Nintendo Switch Sounds Unlikely, But Not Ruled Out</h1><h2 class="news-deck type-subheader" itemprop="description">Jeff Kaplan talks about why you shouldn&#039;t hold your breath for a Switch version.</h2><div class="news-meta has-rhythm--vert-top has-pad--top ellipseborder-top clearfix"><h3 class="news-byline pull-left text-base no-rhythm">      Last updated by
+  <a href="/profile/eddienoteddy/" rel="author">Eddie Makuch</a>
+                                on <time datetime="2017-04-09 00:23" pubdate="pubdate">April 9, 2017 at 12:23AM</time></h3><a href="#comments-block-33387295" class="comments js-seamless-content__goto-comments pull-right" rel="nofollow" data-content-guid="1100-6449253"><i><svg class="symbol symbol-comments-alt" aria-role="icon"><use xlink:href="#symbol-comments-alt"></use></svg></i> 43 Comments</a></div></section>  
+      <div id="interstitial-wrap" class="js-mapped-ad mapped-ad mapped-interstitial mapped-interstitial-dart"  data-ad-type="interstitial"><div id="interstitial" class="ad-wrap ad-wrap-interstitial"></div></div>          <div id="leader_plus_top-wrap" class="js-mapped-ad mapped-ad mapped-leader_plus_top mapped-leader_plus_top-dart has-rhythm--max"  data-ad-type="leader_plus_top"><div id="leader_plus_top" class="ad-wrap ad-wrap-leader_plus_top"></div></div><div class="js-taboola-module taboola-leader_plus_top has-rhythm--max" data-taboola-parameters="{&quot;target_type&quot;:&quot;mix&quot;,&quot;mode&quot;:&quot;thumbnails-b-abp&quot;,&quot;container&quot;:&quot;taboola-abp-leaderboard-thumbnails&quot;,&quot;placement&quot;:&quot;Above Article Leaderboard - ABP&quot;}"></div>        <div id="mpu_top-wrap" class="js-mapped-ad mapped-ad mapped-mpu_top mapped-mpu_top-dart no-bg"  data-ad-type="mpu_top"><div id="mpu_top" class="ad-wrap ad-wrap-mpu_top"></div></div>  
+      
+      <div class="pull-left">
+            
+
+  
+
+<ul class="share  share--column share--noCount" role="presentation">
+  
+    
+        <li class="share-item share-item--upvote" role="presentation">
+        
+
+  
+
+
+
+<form name="upvote" method="post" action="/vote/" class="js-upvote-form upvote-form  js-post-render-upvote" data-allow-unvote="" data-user-voted="" data-guid="1100-6449253"><button type="submit" id="upvote_upvote" name="upvote[upvote]" class=" share-item__container btn-text btn  js-upvote-btn btn-mini" data-guid="1100-6449253" data-event-name="Upvote"><i><svg class="symbol symbol-thumbs-up symbol--nudge-bottom" aria-role="icon"><use xlink:href="#symbol-thumbs-up"></use></svg></i><span class="js-upvote-btn__text upvote-btn__text" data-success-msg="" data-has-voted-msg=""></span></button><input class="js-event-tracking" type="hidden" data-event-name="Upvote"><input type="hidden" id="upvote__token" name="upvote[_token]"    data-bb="1" data-token-id="upvote_1100-6449253" autocomplete="off" data-post-render-value="upvote_1100-6449253" data-post-render-param="CmsBundle.forumTokenIds[]" value="l3TTeKxdAyCKYIAZhWCD8gAHK0BB2Thj5w/VhejgkS2foAeoHRbyyeCsVA==" /><input type="hidden" id="upvote_assocId" name="upvote[assocId]" value="6449253" /><input type="hidden" id="upvote_assocTypeId" name="upvote[assocTypeId]" value="1100" /><li class="hp-row"><label for='upvote__website_url' >Leave Blank</label><div><input type="text" id="upvote__website_url" name="upvote[_website_url]"    class="hp-url" tabindex="-1" /></div></li></form>    </li>
+
+        <li class="share-item share-item--comments" role="presentation">
+      <a  title="Comment" class="js-seamless-content__goto-comments" href="#comments-block-33387295" data-content-guid="1100-6449253" rel="nofollow"">
+        <span class="share-item__container"><i><svg class="symbol symbol-comments symbol--nudge-bottom" aria-role="icon"><use xlink:href="#symbol-comments"></use></svg></i></span>
+      </a>
+    </li>
+    <li><hr class="share-item" /></li>
+  
+    <li class="share-item share-item--facebook js-share-button-facebook" data-share-url="https://www.gamespot.com/articles/overwatch-for-nintendo-switch-sounds-unlikely-but-/1100-6449253/" data-guid="1100-6449253" role="presentation">
+    <a class="js-event-tracking" class="js-event-tracking" data-event-tracking="Tracking|news_article|SocialShare|Facebook|1100-6449253" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://www.gamespot.com/articles/overwatch-for-nintendo-switch-sounds-unlikely-but-/1100-6449253/" title="Facebook">
+      <span class="share-item__container"><i><svg class="symbol symbol-facebook symbol--color-white" aria-role="icon"><use xlink:href="#symbol-facebook"></use></svg></i></span>
+    </a>
+  </li>
+
+    <li class="share-item share-item--twitter js-share-button-twitter" data-share-url="https://www.gamespot.com/articles/overwatch-for-nintendo-switch-sounds-unlikely-but-/1100-6449253/" data-guid="1100-6449253" role="presentation">
+    <a class="js-event-tracking" class="js-event-tracking" data-event-tracking="Tracking|news_article|SocialShare|Twitter|1100-6449253" target="_blank" href="https://twitter.com/intent/tweet?text=Overwatch For Nintendo Switch Sounds Unlikely, But Not Ruled Out&related=&url=https://www.gamespot.com/articles/overwatch-for-nintendo-switch-sounds-unlikely-but-/1100-6449253/" title="Twitter">
+      <span class="share-item__container"><i><svg class="symbol symbol-twitter symbol--color-white" aria-role="icon"><use xlink:href="#symbol-twitter"></use></svg></i></span>
+    </a>
+  </li>
+
+    <li class="share-item share-item--google js-share-button-gplus" data-guid="1100-6449253" role="presentation">
+    <a class="js-event-tracking" data-event-tracking="Tracking|news_article|SocialShare|Google|1100-6449253" target="_blank" href="https://plus.google.com/share?utm_medium=share%2Bbutton&url=https://www.gamespot.com/articles/overwatch-for-nintendo-switch-sounds-unlikely-but-/1100-6449253/" title="Google Plus">
+      <span class="share-item__container"><i><svg class="symbol symbol-google-plus symbol--color-white" aria-role="icon"><use xlink:href="#symbol-google-plus"></use></svg></i></span>
+    </a>
+  </li>
+
+</ul>
+
+            
+            
+              <div class="media seamless--aside-follow">
+                      <hr />
+          <h5>Related</h5>
+                  
+          <figure class="media-figure l-item--pull ">
+            <a href="/overwatch/" class="media-img imgflare--avatar">
+              <img class="js-box-art" data-toggle="tooltip" data-original-title="Overwatch" src="https://static4.gamespot.com/uploads/square_avatar/1197/11970954/2976697-812hbc8o%2Bul._sl1500_.jpg" alt="Overwatch">
+            </a>
+          </figure>
+          <div>
+                                    <div class="stacks game-card-loading stacks--simple" data-post-render-param="GameBundle.gameIds[]" data-post-render-value="355766"><div class="js-pop-over-parent"><div class="stacks-signUp js-game-follow js-pop-over-container stacks-popup js-game-follow-unreg"
+             data-popover-game-id=355766
+             data-popover-container-name="1195904389"
+             data-click-open-offset-X="0" data-click-open-offset-Y="0"><form class="js-game-card-follow-form" action="/api/follow/followGame/355766" method="post"><div class="l-item--pull stacks-signUp__image"><div class="media-img media-img--boxart"><img class='js-game-image' alt='%gameName%'></div></div><div class="stacks-signUp__title">Can't Get Enough %gameName%?</div><p class="stacks-signUp__deck">No spam, no fuss; just the latest updates delivered right to you.</p><input type="email" name="email" placeholder="Enter Your Email Address..." required class="stacks-signUp__input" /><input type="submit" value="Sign Up" class="btn btn-success stacks-signUp__submit" /><div class="error"></div></form><div class="hidden js-game-card-follow-others stacks-signUp__success"><strong class="stacks-signUp__title">You're Good to Go!</strong><p class="stacks-signUp__deck">We'll begin emailing you updates about %gameName%.</p></div></div><div class="stacks-action"><span class="stacks-action__container js-pop-over-toggle" data-pop-over="1195904389"><span class="stacks-action__symbol"><i><svg class="symbol symbol-plus" aria-role="icon"><use xlink:href="#symbol-plus"></use></svg></i></span><span>Follow</span></span></div></div></div>          </div>
+        </div>
+      
+    </div>
+  
+
+              
+  <div class="newsletter-subscribe news-byline alert alert-info text-left">
+      <div class="stacks--simple js-pop-over-parent" style="display:inline-block">
+                <div class="stacks-signUp js-game-follow js-pop-over-container stacks-popup js-game-follow-unreg"
+             data-click-open-offset-X="0" data-click-open-offset-Y="0">
+
+          <form class="js-game-card-follow-form" action="/newsletter/subscribe" method="post">
+
+            <div class="stacks-signUp__title">Want the latest gaming news as it breaks?</div>
+            <p class="stacks-signUp__deck">All the highlights in the world of games, lovingly delivered 2-3 times/week.</p>
+            <input type="email" name="email" placeholder="Enter Your Email Address..." required class="stacks-signUp__input" />
+            <input type="submit" value="Sign Up" class="btn btn-success stacks-signUp__submit" />
+            <div class="error"></div>
+          </form>
+
+          <div class="hidden js-game-card-follow-others stacks-signUp__success">
+            <strong class="stacks-signUp__title">You're Good to Go!</strong>
+            <p class="stacks-signUp__deck">You are now subscribed</p>
+          </div>
+        </div>
+
+        <div class="stacks-action">
+
+                    <span class="stacks-action__container js-pop-over-toggle" >
+            <span>
+              Subscribe for the latest gaming news
+            </span>
+          </span>
+
+        </div>
+      </div>
+  </div>
+
+
+    
+
+        
+              <section itemprop="articleBody" class="article-body typography-format  typography-format--large">
+
+        <div class="js-content-entity-body">
+                    <p>Earlier this year, <a href="/overwatch/" data-ref-id="5000-355766">Overwatch</a> game director Jeff Kaplan talked about the<a href="/articles/overwatch-director-comments-on-nintendo-switch-ver/1100-6448699/" data-ref-id="1100-6448699"> unlikely possibility of the hero shooter coming to Nintendo Switch</a>. Now, Kaplan has said Blizzard would need to "revisit performance" to have Overwatch run the way Blizzard would want it to on Nintendo's hybrid console.</p><p>"I think the problem is, we've really targeted our min spec in a way that we would have to revisit performance and how to get on that platform," <a href="http://www.express.co.uk/entertainment/gaming/789519/Nintendo-Switch-GAMES-LIST-Blizzard-Overwatch-min-specs-performance" rel="nofollow">he told Express Online</a> (<a href="http://www.neogaf.com/forum/showthread.php?t=1359007" rel="nofollow">via NeoGAF</a>).</p><figure data-align="center" data-size="large" data-img-src="https://static4.gamespot.com/uploads/original/536/5360430/3209748-ow_orisa_006.jpg" data-ref-id="1300-3209748" data-ratio="0.5625" data-width="1920" data-embed-type="image" style="width: 1920px"><a class="fluid-height" style="padding-bottom:56.3%" href="https://static4.gamespot.com/uploads/original/536/5360430/3209748-ow_orisa_006.jpg" data-ref-id="1300-3209748"><img alt="No Caption Provided" src="https://static4.gamespot.com/uploads/scale_super/536/5360430/3209748-ow_orisa_006.jpg" srcset="https://static4.gamespot.com/uploads/original/536/5360430/3209748-ow_orisa_006.jpg 1920w, https://static4.gamespot.com/uploads/scale_super/536/5360430/3209748-ow_orisa_006.jpg 1280w, https://static2.gamespot.com/uploads/scale_medium/536/5360430/3209748-ow_orisa_006.jpg 480w" sizes="(max-width: 1280px) 100vw, 1280px" data-width="1280"></a></figure><p>In addition to that, Kaplan said it's already no small task to support Overwatch on three platforms--<a href="/pc/" data-ref-id="5005-19">PC</a>, <a href="/xbox-one/" data-ref-id="5005-121">Xbox One</a>, and <a href="/ps4/" data-ref-id="5005-120">PS4</a>--so adding a fourth isn't something Blizzard could necessarily do right now.</p><p>The game director also talked about how he's happy that his team has been able to patch Overwatch on all systems at around the same time. Bringing on a new platform in the <a href="/nintendo-switch/" data-ref-id="5005-124">Nintendo Switch</a> "would make that difficult," Express Online reported.</p><p>Overall, however, Kaplan doubled down on his earlier comment, saying Nintendo Switch remains a possibility for Overwatch sometime down the road.</p><p>"Just because we're not on a platform right now, it doesn't mean we won't reconsider it in the future, so we stay aware of all these things," he explained.</p><p>You can read the full interview with Kaplan <a href="http://www.express.co.uk/entertainment/gaming/789519/Nintendo-Switch-GAMES-LIST-Blizzard-Overwatch-min-specs-performance" rel="nofollow">here at Express Online</a>.</p><p>In other Overwatch news, Blizzard is<a href="https://www.gamespot.com/articles/overwatch-is-teasing-something-for-next-week/1100-6449152/" data-ref-id="1100-6449152"> teasing some kind of reveal for the game to come on April 11</a>. Keep checking back with GameSpot for the latest.</p><p>Additionally, you can read GameSpot's interview own interview with Kaplan below.</p><ul><li><a href="/articles/overwatch-director-talks-abandoned-cat-hero-patchi/1100-6449176/" data-ref-id="1100-6449176">Overwatch Director Talks Abandoned Cat Hero, Patching Out Genji, And More</a></li></ul>
+                                <div id="incontent-ad-wrap" class="js-mapped-ad mapped-ad mapped-incontent-ad mapped-incontent-ad-dart"  data-ad-type="incontent-ad"><div id="incontent-ad" class="ad-wrap ad-wrap-incontent-ad"></div></div>        </div>
+
+        
+        
+  
+  
+                                    <dl class="news-related">
+            <dt><i class="icon icon-tags"></i>  Filed under:</dt>
+                                                                                                                                                                    <dd>
+                                      <a href="/overwatch/">
+                                    Overwatch
+                                      </a>
+                                  </dd>
+                                                                                                                                                                                  <dd>
+                                      <a href="/xbox-one/">
+                                    Xbox One
+                                      </a>
+                                  </dd>
+                                                                                                                                                                                  <dd>
+                                      <a href="/ps4/">
+                                    PlayStation 4
+                                      </a>
+                                  </dd>
+                                                                                                                                                                                  <dd>
+                                      <a href="/pc/">
+                                    PC
+                                      </a>
+                                  </dd>
+                                    </dl>
+                  
+        
+            
+
+  
+
+        
+
+<form name="upvote" method="post" action="/vote/" class="js-upvote-form upvote-form  js-post-render-upvote" data-allow-unvote="" data-user-voted="" data-guid="1100-6449253"><button type="submit" id="upvote_upvote" name="upvote[upvote]" class="btn-primary btn-upvote btn  js-upvote-btn btn-large" data-guid="1100-6449253" data-event-name="Upvote"><i><svg class="symbol symbol-thumbs-up symbol--nudge-bottom" aria-role="icon"><use xlink:href="#symbol-thumbs-up"></use></svg></i><span class="js-upvote-btn__text upvote-btn__text" data-success-msg=" Upvoted (4)" data-has-voted-msg=" Upvoted (3)">  Upvote (3)</span></button><input class="js-event-tracking" type="hidden" data-event-name="Upvote"><input type="hidden" id="upvote__token" name="upvote[_token]"    data-bb="1" data-token-id="upvote_1100-6449253" autocomplete="off" data-post-render-value="upvote_1100-6449253" data-post-render-param="CmsBundle.forumTokenIds[]" value="l3TTeKxdAyCKYIAZhWCD8gAHK0BB2Thj5w/VhejgkS2foAeoHRbyyeCsVA==" /><input type="hidden" id="upvote_assocId" name="upvote[assocId]" value="6449253" /><input type="hidden" id="upvote_assocTypeId" name="upvote[assocTypeId]" value="1100" /><li class="hp-row"><label for='upvote__website_url' >Leave Blank</label><div><input type="text" id="upvote__website_url" name="upvote[_website_url]"    class="hp-url" tabindex="-1" /></div></li></form>    &nbsp;<a class="js-seamless-content__goto-comments btn btn-large btn-primary article-comments__delay" href="#comments-block-33387295" data-content-guid="1100-6449253" rel="nofollow"><i><svg class="symbol symbol-comments" aria-role="icon"><use xlink:href="#symbol-comments"></use></svg></i>      View Comments (43)
+    </a>
+
+      </section>
+    
+            <div id="mpu_bottom-wrap" class="js-mapped-ad mapped-ad mapped-mpu_bottom mapped-mpu_bottom-dart l-item--push l-item--push--resp no-pad"  data-ad-type="mpu_bottom"><div id="mpu_bottom" class="ad-wrap ad-wrap-mpu_bottom"></div></div>
+    </article>
+
+    
+      
+      <div class="js-taboola-module" data-taboola-parameters="{&quot;mode&quot;:&quot;thumbnails-b&quot;,&quot;container&quot;:&quot;taboola-bottom-page-thumbnails&quot;,&quot;placement&quot;:&quot;news_article Bottom Page Thumbnails&quot;,&quot;target_type&quot;:&quot;mix&quot;}"></div>
+    
+    
+  <div class="clearfix js-seamless-content__comments">
+        <div class="overflow--hidden">
+      <div class="well article-comments has-pad--max js-load-comments-container hide">
+                  <h5 class="text-center text-base text-bold text-capitalize type--xlarge has-rhythm--inc">Join the conversation</h5>
+          <div class="text-center text-emphasis text-color--light has-rhythm--min">There are <span class="text-color--tertiary text-bold">43 comments</span> about this story</div>
+              
+<div id="comments-block-33387295" class="pod pod-comments comments-block clear  no-rhythm">
+      <a class="js-load-comments btn btn-full btn-primary article-comments__delay has-pad" data-ajax-url="/forums/comments/33387295/" href="/articles/overwatch-for-nintendo-switch-sounds-unlikely-but-/1100-6449253/?comment_page=1#comments-block-33387295"><i><svg class="symbol symbol-comments" aria-role="icon"><use xlink:href="#symbol-comments"></use></svg></i>      Load Comments (43)
+    </a>
+  </div> 
+              </div>
+    </div>
+  </div>
+
+    
+        <div id="leader_bottom-wrap" class="js-mapped-ad mapped-ad mapped-leader_bottom mapped-leader_bottom-dart"  data-ad-type="leader_bottom"><div id="leader_bottom" class="ad-wrap ad-wrap-leader_bottom"></div></div>  
+</div>
+                                          </div>
+      <aside class="secondary-content  ">
+              </aside>
+        <div class="js-seamless-content__loading loading hide"></div>
+          </div>
+            <meta class="js-seamless-content__list" itemprop="seamless-content-list-items" data-list-items="[{&quot;guid&quot;:&quot;1100-6449253&quot;,&quot;url&quot;:&quot;\/articles\/overwatch-for-nintendo-switch-sounds-unlikely-but-\/1100-6449253\/&quot;},{&quot;guid&quot;:&quot;1100-6449255&quot;,&quot;url&quot;:&quot;\/articles\/el-gaming-stomps-team-efficiency-to-win-wgl-apac-s\/1100-6449255\/&quot;},{&quot;guid&quot;:&quot;1100-6449254&quot;,&quot;url&quot;:&quot;\/articles\/carrie-fisher-will-be-in-star-wars-episode-9-broth\/1100-6449254\/&quot;},{&quot;guid&quot;:&quot;1100-6449228&quot;,&quot;url&quot;:&quot;\/articles\/get-even-composer-talks-about-the-games-melancholi\/1100-6449228\/&quot;},{&quot;guid&quot;:&quot;1100-6449252&quot;,&quot;url&quot;:&quot;\/articles\/assassins-creed-3-far-cry-4-director-leaves-ubisof\/1100-6449252\/&quot;},{&quot;guid&quot;:&quot;1100-6449251&quot;,&quot;url&quot;:&quot;\/articles\/more-details-on-the-world-of-warships-anime-dlc-re\/1100-6449251\/&quot;},{&quot;guid&quot;:&quot;1100-6449250&quot;,&quot;url&quot;:&quot;\/articles\/battlefield-1-getting-monthly-updates-new-dlc-conc\/1100-6449250\/&quot;},{&quot;guid&quot;:&quot;1100-6449249&quot;,&quot;url&quot;:&quot;\/articles\/total-war-arena-dev-talks-possible-console-edition\/1100-6449249\/&quot;},{&quot;guid&quot;:&quot;1100-6449219&quot;,&quot;url&quot;:&quot;\/articles\/how-much-should-xbox-project-scorpio-cost-gamespot\/1100-6449219\/&quot;},{&quot;guid&quot;:&quot;1100-6449247&quot;,&quot;url&quot;:&quot;\/articles\/xbox-spring-sale-returns-next-week-features-350-pl\/1100-6449247\/&quot;},{&quot;guid&quot;:&quot;1100-6449246&quot;,&quot;url&quot;:&quot;\/articles\/listen-to-xbox-boss-talk-about-project-scorpio-spe\/1100-6449246\/&quot;},{&quot;guid&quot;:&quot;1100-6449242&quot;,&quot;url&quot;:&quot;\/articles\/how-to-fly-in-zelda-breath-of-the-wild\/1100-6449242\/&quot;},{&quot;guid&quot;:&quot;1100-6449245&quot;,&quot;url&quot;:&quot;\/articles\/the-last-of-us-2-adds-westworld-actor\/1100-6449245\/&quot;},{&quot;guid&quot;:&quot;1100-6449244&quot;,&quot;url&quot;:&quot;\/articles\/nintendo-switch-will-be-back-in-stock-at-toys-r-us\/1100-6449244\/&quot;},{&quot;guid&quot;:&quot;1100-6449243&quot;,&quot;url&quot;:&quot;\/articles\/pokemon-go-has-65-million-monthly-active-users-as-\/1100-6449243\/&quot;},{&quot;guid&quot;:&quot;1100-6449241&quot;,&quot;url&quot;:&quot;\/articles\/alien-meets-android-on-new-alien-covenant-poster\/1100-6449241\/&quot;},{&quot;guid&quot;:&quot;1100-6449239&quot;,&quot;url&quot;:&quot;\/articles\/hearthstone-get-three-free-packs-of-journey-to-ung\/1100-6449239\/&quot;},{&quot;guid&quot;:&quot;1100-6449238&quot;,&quot;url&quot;:&quot;\/articles\/gamestop-confirms-possible-credit-card-breach\/1100-6449238\/&quot;},{&quot;guid&quot;:&quot;1100-6449237&quot;,&quot;url&quot;:&quot;\/articles\/ghost-in-the-shell-could-lose-60-million-after-it-\/1100-6449237\/&quot;},{&quot;guid&quot;:&quot;1100-6449236&quot;,&quot;url&quot;:&quot;\/articles\/new-ghost-in-the-shell-anime-in-production\/1100-6449236\/&quot;},{&quot;guid&quot;:&quot;1100-6449235&quot;,&quot;url&quot;:&quot;\/articles\/new-pokemon-go-update-coming-soon-heres-what-it-do\/1100-6449235\/&quot;}]" />
+        </div>
+
+      </div>
+    </div>
+  </div>
+          </div>
+          <footer id="footer" class="mastfooter" role="complimentary"><div class="container row"><section class="footer-network"><span>© 2017 CBS Interactive Inc. All rights reserved.</span><a href="https://legalterms.cbsinteractive.com/privacy" >Privacy Policy</a><a href="https://legalterms.cbsinteractive.com/adchoice" >Ad Choice</a><a href="https://legalterms.cbsinteractive.com/terms-of-use" >Terms of Use</a><a href=/help/ data-click-track-id=coreBase7ab4821d5304ef493d0218e67086f202 >Help</a><a href=http://www.cbsinteractive.com/advertise data-click-track-id=coreBasef4f4584bf5208accac6e12a75b4f07be  target="_blank">Advertise</a><a href=https://cbs.avature.net/cbsinteractivecareers/SearchJobs/?3_56_3=%22260%22 data-click-track-id=coreBase447af76a9deda9c9789207aae8332639  target="_blank">Careers</a><span id="qualtrics-feedback"></span></section><section class="footer-links hide-mobile"><ul><li><span class="footer-links__header">More Sites</span></li><li><a href=http://www.giantbomb.com/ data-click-track-id=coreBase3a1bbd3fdcb01d23ace29fff795ee322 ><i class="footer-social__item footer_logo_gb"></i>giantbomb.com</a></li><li><a href=http://www.gamefaqs.com/ data-click-track-id=coreBase513afe56b1e5b1e51f8967165dd9efe1 ><i class="footer-social__item footer_logo_gf"></i>gamefaqs.com</a></li><li><a href=http://www.metacritic.com/ data-click-track-id=coreBase323cda0410385e65172fd046e150b979 ><i class="footer-social__item footer_logo_mc"></i>metacritic.com</a></li><li><a href=http://www.gamerankings.com/ data-click-track-id=coreBase43a32ff31aed1806d581fb7a905b1597 ><i class="footer-social__item footer_logo_gr"></i>gamerankings.com</a></li></ul><ul><li><span class="footer-links__header">Reviews</span></li><li><a href=https://www.gamespot.com/reviews/ data-click-track-id=footer-reviews1 >Latest Reviews</a></li><li><a href=/reviews/pc data-click-track-id=footer-reviews2 >PC</a></li><li><a href=/reviews/ps4 data-click-track-id=footer-reviews3 >PS4</a></li><li><a href=/reviews/xbox-one data-click-track-id=footer-reviews4 >Xbox One</a></li><li><a href=/reviews/nintendo-switch data-click-track-id=footer-reviews5 >Switch</a></li></ul><ul><li><span class="footer-links__header">News</span></li><li><a href=https://www.gamespot.com/news/ data-click-track-id=footer-news1 >Latest News</a></li><li><a href=/news/pc data-click-track-id=footer-news2 >PC</a></li><li><a href=/news/ps4 data-click-track-id=footer-news3 >PS4</a></li><li><a href=/news/xbox-one data-click-track-id=footer-news4 >Xbox One</a></li><li><a href=/news/nintendo-switch data-click-track-id=footer-news5 >Switch</a></li></ul><ul><li><span class="footer-links__header">Shows</span></li><li><a href=https://www.gamespot.com/shows/reboot/ data-click-track-id=coreFooterVideoShow >Reboot</a></li><li><a href=https://www.gamespot.com/shows/gsnews/ data-click-track-id=coreFooterVideoShow1 >GameSpot News</a></li><li><a href=https://www.gamespot.com/shows/the-lobby/ data-click-track-id=coreFooterVideoShow2 >The Lobby</a></li><li><a href=https://www.gamespot.com/shows/New_Releases/ data-click-track-id=coreFooterVideoShow3 >New Releases</a></li><li><a href=https://www.gamespot.com/shows/screenplay/ data-click-track-id=coreFooterVideoShow4 >Screen/Play</a></li></ul><ul><li><span class="footer-links__header">Community</span></li><li><a href=https://www.gamespot.com/forums/ data-click-track-id=coreBaseForumLatestTopicList >Forums</a></li><li><a href=https://www.gamespot.com/community/ data-click-track-id=coreBaseCommunityFrontDoor >Community Blog</a></li><li><a href=http://facebook.com/gamespot data-click-track-id=footer-facebook  target="_blank" rel="nofollow"><i><svg class="symbol symbol-facebook-sign symbol--color-facebook" aria-role="icon"><use xlink:href="#symbol-facebook-sign"></use></svg></i> facebook.com/gamespot</a></li><li><a href=http://twitter.com/gamespot data-click-track-id=footer-twitter  target="_blank" rel="nofollow"><i><svg class="symbol symbol-twitter symbol--color-twitter" aria-role="icon"><use xlink:href="#symbol-twitter"></use></svg></i> twitter.com/gamespot</a></li><li><a href=http://youtube.com/gamespot data-click-track-id=footer-youtube  target="_blank" rel="nofollow"><i><svg class="symbol symbol-youtube-play symbol--color-youtube" aria-role="icon"><use xlink:href="#symbol-youtube-play"></use></svg></i> youtube.com/gamespot</a></li><li><a href=/feeds data-click-track-id=footer-rss  title="RSS Feeds"><i><svg class="symbol symbol-rss symbol--color-rss" aria-role="icon"><use xlink:href="#symbol-rss"></use></svg></i> RSS</a></li></ul></section><section class="footer-site"><a href=https://www.gamespot.com/ data-click-track-id=coreFooterFrontDoor  class="footer-logo"><span class="ir">GameSpot</span></a></section></div></footer>    
+    </div>
+
+        <div id='mrsp-container' style='display: none;'><a id='fffo' href='/ice-tales' rel='nofollow'>Game of the Week</a></div>
+                  
+  
+      <meta name="ssbfo" data-post-render-param="CmsBundle.ssbfo" data-post-render-value="1" content="" />
+  
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script><script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script><script>
+  window.jQuery || document.write('<script src="https://static4.gamespot.com/js/compiled/jquery.local.js?9124ac0f30b538af3b12cfbb4a65a974">\x3C/script>')
+</script><script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script><script>
+  window.swfobject || document.write('<script src="https://static2.gamespot.com/js/compiled/swfobject.local.js?9124ac0f30b538af3b12cfbb4a65a974">\x3C/script>')
+</script>
+                  <script>
+/*
+Added By: David Stone
+Description: Fixes loading comments with recirc ab test running
+Remove: When this is live https://github.com/cbsi/phoenix/pull/2985
+*/
+$(window).bind('hashchange', function(e) {
+
+        var hashName = window.location.hash.substr(1);
+        $('.js-load-comments').each(function (){
+            if (this.name === hashName) {
+               $(this).trigger('click.loadComments');
+            }
+        });
+    });
+</script>          
+          <script type='text/javascript'>var ___gXlrVarId=6;</script>      <script src="https://static5.gamespot.com/js/compiled/all.js?9124ac0f30b538af3b12cfbb4a65a974" type="text/javascript"></script>
+          <script src="https://static1.gamespot.com/js/compiled/uvp.js?9124ac0f30b538af3b12cfbb4a65a974" type="text/javascript"></script>
+      <script type="text/javascript" src="https://www.gstatic.com/cv/js/sender/v1/cast_sender.js"></script>
+    
+      
+          
+    
+    <script id="imageInfoBarTemplate" type="text/template">
+      <a href="<%= profileUrl %>" class="avatar img"><img src="<%= avatar %>" /></a>
+      <div>
+        <a href="<%= profileUrl %>"><%= author %></a> uploaded on <%= dateCreated %>.
+      </div>
+    </script>
+
+    <script id="imageCommentsTemplate" type="text/template">
+      <li>
+        <a href="<%= user.url %>" class="avatar img">
+          <img src="<%= user.img %>" />
+        </a>
+        <div>
+          <a href="<%= user.url %>"><%= user.username %></a> <%= body %>
+        </div>
+      </li>
+    </script>
+
+    <script id="imageFilmstripTemplate" type="text/template">
+      <li>
+        <a href="#imageViewer<%= id %>" data-ref-id="<%= id %>"><img src="http://gs.cbsimg.net/b.gif" data-img-src="<%= thumbnail %>" /></a>
+      </li>
+    </script>
+  
+  
+        <div id="js-filmstrip" class="filmstrip filmstrip-with-ads is-hidden" itemscope tabindex="-1" ><meta id="image_view-tracking-dw"
+                    class="js-post-render-tracking-consumer image_view-tracking-settings"
+              data-tracking-service="dw"
+        itemprop="image_view-tracking-dw"
+        content="{&quot;pageParams&quot;:{&quot;siteid&quot;:&quot;6&quot;,&quot;ptid&quot;:&quot;6036&quot;,&quot;onid&quot;:null,&quot;ednm&quot;:&quot;{edition}&quot;,&quot;ursuid&quot;:&quot;{ursuid}&quot;,&quot;regSilo&quot;:&quot;2&quot;,&quot;rsid&quot;:&quot;cbsigamespotsite&quot;,&quot;prodtypid&quot;:&quot;8&quot;,&quot;pagetype&quot;:&quot;news_article&quot;,&quot;assetguid&quot;:&quot;1100-6449253&quot;,&quot;assettitle&quot;:&quot;Overwatch For Nintendo Switch Sounds Unlikely, But Not Ruled Out&quot;,&quot;assettype&quot;:&quot;Article&quot;,&quot;author&quot;:[&quot;gs-2100-11799911&quot;],&quot;pid&quot;:355766,&quot;topicbrcrm&quot;:&quot;News|News Article&quot;},&quot;cleargifSrc&quot;:&quot;http:\/\/dw.cbsi.com\/clear\/c.gif?ptid=6036&amp;ednm=%7Bedition%7D&amp;ursuid=%7Bursuid%7D&amp;regSilo=2&amp;rsid=cbsigamespotsite&amp;prodtypid=8&amp;pagetype=news_article&amp;assetguid=1100-6449253&amp;assettitle=Overwatch+For+Nintendo+Switch+Sounds+Unlikely%2C+But+Not+Ruled+Out&amp;assettype=Article&amp;author%5B0%5D=gs-2100-11799911&amp;pid=355766&amp;topicbrcrm=News%7CNews+Article&amp;sid=6&amp;ts=1491747868&quot;}"
+        ><meta id="image_view-tracking-ga"
+                    class="js-post-render-tracking-consumer image_view-tracking-settings"
+              data-tracking-service="ga"
+        itemprop="image_view-tracking-ga"
+        content="{&quot;custom&quot;:{&quot;PageType&quot;:{&quot;index&quot;:&quot;1&quot;,&quot;name&quot;:&quot;PageType&quot;,&quot;value&quot;:&quot;6036&quot;,&quot;scope&quot;:&quot;3&quot;},&quot;UserType&quot;:{&quot;index&quot;:&quot;2&quot;,&quot;name&quot;:&quot;UserType&quot;,&quot;value&quot;:&quot;{gaUserType}&quot;,&quot;scope&quot;:&quot;1&quot;}},&quot;account&quot;:&quot;UA-22577913-1&quot;}"
+        ><meta id="image_view-tracking-om"
+                    class="js-post-render-tracking-consumer image_view-tracking-settings"
+              data-tracking-service="om"
+        itemprop="image_view-tracking-om"
+        content="{&quot;brand&quot;:&quot;GameSpot&quot;,&quot;sid&quot;:&quot;gamespot&quot;,&quot;rsids&quot;:&quot;cbsigamespotsite,cbsicbsiall&quot;,&quot;user_status&quot;:&quot;{userStatus}&quot;,&quot;urs_id&quot;:&quot;{ursuid}&quot;,&quot;edition&quot;:&quot;{edition}&quot;,&quot;site_type&quot;:&quot;{siteType}&quot;,&quot;anon_id&quot;:&quot;{xclgfbrowser}&quot;,&quot;url&quot;:&quot;D=g&quot;,&quot;user_agent&quot;:&quot;D=User-Agent&quot;,&quot;page_type_id&quot;:6052,&quot;page_name&quot;:&quot;gs:\/articles\/overwatch-for-nintendo-switch-sounds-unlikely-but-\/1100-6449253\/&quot;,&quot;ab_test&quot;:&quot;{abTestLabel}&quot;,&quot;theme&quot;:&quot;{theme}&quot;,&quot;event_hierarchy&quot;:&quot;{eventHierarchy}&quot;,&quot;marketing_cloud_id&quot;:&quot;10D31225525FF5790A490D4D@AdobeOrg&quot;,&quot;session&quot;:&quot;{ad_session}&quot;,&quot;page_type&quot;:&quot;image&quot;,&quot;channel&quot;:&quot;News&quot;,&quot;hierarchy&quot;:&quot;News|News Article|Games|News|PR&quot;,&quot;platform&quot;:[&quot;Xbox One&quot;,&quot;PlayStation 4&quot;,&quot;PC&quot;],&quot;content_source&quot;:&quot;CBSi&quot;,&quot;content_title&quot;:&quot;Overwatch For Nintendo Switch Sounds Unlikely, But Not Ruled Out&quot;,&quot;author_ids&quot;:[&quot;gs-2100-11799911&quot;],&quot;product_id&quot;:&quot;gs-5000-355766&quot;,&quot;content_type&quot;:&quot;image&quot;,&quot;content_guid&quot;:&quot;gs-1100-6449253&quot;,&quot;category&quot;:[&quot;Games&quot;,&quot;News&quot;,&quot;PR&quot;],&quot;game_title&quot;:&quot;Overwatch&quot;,&quot;genre&quot;:[&quot;Action&quot;,&quot;First-Person&quot;,&quot;Shooter&quot;,&quot;Tactical&quot;]}"
+        ><meta id="image_view-ad-settings" class="js-post-render-tracking-consumer ad-settings page-event-ad-settings" itemprop="page-event-ad-settings" content="{&quot;page_event_name&quot;:&quot;image_view&quot;,&quot;mapped_units&quot;:{&quot;overlay_mpu_top&quot;:{&quot;size&quot;:[[300,250]],&quot;target&quot;:{&quot;pos&quot;:[&quot;top&quot;,&quot;top&quot;],&quot;ptype&quot;:&quot;image&quot;},&quot;on_event&quot;:&quot;image_view&quot;},&quot;overlay_leader_top&quot;:{&quot;size&quot;:[[970,66],[728,90]],&quot;target&quot;:{&quot;pos&quot;:[&quot;top&quot;,&quot;top&quot;],&quot;ptype&quot;:&quot;image&quot;},&quot;on_event&quot;:&quot;image_view&quot;}}}"><div id="js-image-mask" class="image-mask"></div><div id="js-image-ad-leader" class="image-viewer-ad image-viewer-leader"><div id="overlay_leader_top-wrap" class="js-mapped-ad mapped-ad mapped-overlay_leader_top mapped-overlay_leader_top-dart"  data-ad-type="overlay_leader_top"><div id="overlay_leader_top" class="ad-wrap ad-wrap-overlay_leader_top" data-ad-event="image_view"></div></div></div><a id="js-image-close" href="#" class="image-control image-close" title="Close Viewer"><i><svg class="symbol symbol-remove symbol--size-3x" aria-role="icon"><use xlink:href="#symbol-remove"></use></svg></i></a><div id="js-image-pane" class="image-pane"><h3 id="js-image-title" class="image-title"></h3><img tabindex="0" src="" id="imageSource" alt="" /><div id="js-image-commands-tip" class="image-commands-tip image-commands-tip-hide"><p>Use your keyboard!</p><ul class="keyboard light"><li><i><svg class="symbol symbol-arrow-left symbol--size-large" aria-role="icon"><use xlink:href="#symbol-arrow-left"></use></svg></i></li><li><i><svg class="symbol symbol-arrow-right symbol--size-large" aria-role="icon"><use xlink:href="#symbol-arrow-right"></use></svg></i></li><li><i><svg class="symbol symbol-arrow-up symbol--size-large" aria-role="icon"><use xlink:href="#symbol-arrow-up"></use></svg></i></li><li><i><svg class="symbol symbol-arrow-down symbol--size-large" aria-role="icon"><use xlink:href="#symbol-arrow-down"></use></svg></i></li><li>ESC</li></ul></div><a href="#" tabindex="0" id="js-image-prev" class="image-control image-prev hidden" title="Previous Image"><i><svg class="symbol symbol-caret-left symbol--size-2x" aria-role="icon"><use xlink:href="#symbol-caret-left"></use></svg></i></a><a href="#" tabindex="0" id="js-image-next" class="image-control image-next hidden" title="Next Image"><i><svg class="symbol symbol-caret-right symbol--size-2x" aria-role="icon"><use xlink:href="#symbol-caret-right"></use></svg></i></a></div><div id="js-side-column" class="image-comments"><div id="js-image-ad-mpu" class="image-viewer-ad image-viewer-mpu"><div id="overlay_mpu_top-wrap" class="js-mapped-ad mapped-ad mapped-overlay_mpu_top mapped-overlay_mpu_top-dart"  data-ad-type="overlay_mpu_top"><div id="overlay_mpu_top" class="ad-wrap ad-wrap-overlay_mpu_top" data-ad-event="image_view"></div></div></div><ul><li class="upload" id="imageInfo"></li><li class="box login-alert"><p><a href="//auth.gamespot.com/login/">Log in</a> to comment</p></li></ul><ul class="scroll" id="imageComments"></ul></div><div class="image-strip"><a tabindex="0" href="#" id="js-image-view-film" class="image-view-film"><span id="js-btn-message" class="caret-message"></span><i><svg class="symbol symbol-caret-down symbol--size-large" aria-role="icon"><use xlink:href="#symbol-caret-down"></use></svg></i></a><div class="number"></div><ul id="js-image-strip"><li id="js-image-strip-load-more"><a href="#" class="more-images"></a></li></ul></div></div>
+            <script src="https://static1.gamespot.com/js/compiled/imageViewer.js?9124ac0f30b538af3b12cfbb4a65a974" type="text/javascript"></script>
+      
+  
+  <script src="https://static3.gamespot.com/js/compiled/site.js?9124ac0f30b538af3b12cfbb4a65a974" type="text/javascript"></script>
+  <script src="//tru.am/scripts/custom/cbsinteractive.js"></script>
+<!-- BEG: base custom_js -->
+    
+      <script src="https://static2.gamespot.com/js/compiled/articles.js?9124ac0f30b538af3b12cfbb4a65a974" type="text/javascript"></script>
+    
+  <script type="text/javascript" async src="//www.lightboxcdn.com/vendor/c2e25955-6105-4b17-88c1-1c8e084d774b/lightbox_inline.js"></script>  <script type="text/javascript">
+    window.lightboxjsParams = {
+        gameId: '355766',
+        gameName: 'Overwatch',
+        gameBoxShot: 'https://static2.gamespot.com/uploads/scale_tiny/1197/11970954/2976697-812hbc8o%2Bul._sl1500_.jpg',
+        followUrl: 'https://www.gamespot.com/api/follow/followGame/355766'
+    };
+  </script>
+  
+              <script src="https://static2.gamespot.com/js/compiled/public/relatedVideoAutoplay.js?9124ac0f30b538af3b12cfbb4a65a974" type="text/javascript"></script>
+                    <script src="https://static4.gamespot.com/js/compiled/seamlessContent.js?9124ac0f30b538af3b12cfbb4a65a974" type="text/javascript"></script>
+    <!-- END: base custom_js -->
+
+                      <meta id="tracking-dw"
+                    class="js-post-render-tracking-consumer tracking-settings"
+              data-tracking-service="dw"
+        itemprop="tracking-dw"
+        content="{&quot;pageParams&quot;:{&quot;siteid&quot;:&quot;6&quot;,&quot;ptid&quot;:&quot;6036&quot;,&quot;onid&quot;:null,&quot;ednm&quot;:&quot;{edition}&quot;,&quot;ursuid&quot;:&quot;{ursuid}&quot;,&quot;regSilo&quot;:&quot;2&quot;,&quot;rsid&quot;:&quot;cbsigamespotsite&quot;,&quot;prodtypid&quot;:&quot;8&quot;,&quot;pagetype&quot;:&quot;news_article&quot;,&quot;assetguid&quot;:&quot;1100-6449253&quot;,&quot;assettitle&quot;:&quot;Overwatch For Nintendo Switch Sounds Unlikely, But Not Ruled Out&quot;,&quot;assettype&quot;:&quot;Article&quot;,&quot;author&quot;:[&quot;gs-2100-11799911&quot;],&quot;pid&quot;:355766,&quot;topicbrcrm&quot;:&quot;News|News Article&quot;},&quot;cleargifSrc&quot;:&quot;http:\/\/dw.cbsi.com\/clear\/c.gif?ptid=6036&amp;ednm=%7Bedition%7D&amp;ursuid=%7Bursuid%7D&amp;regSilo=2&amp;rsid=cbsigamespotsite&amp;prodtypid=8&amp;pagetype=news_article&amp;assetguid=1100-6449253&amp;assettitle=Overwatch+For+Nintendo+Switch+Sounds+Unlikely%2C+But+Not+Ruled+Out&amp;assettype=Article&amp;author%5B0%5D=gs-2100-11799911&amp;pid=355766&amp;topicbrcrm=News%7CNews+Article&amp;sid=6&amp;ts=1491747868&quot;}"
+        >
+                  <meta id="tracking-ga"
+                    class="js-post-render-tracking-consumer tracking-settings"
+              data-tracking-service="ga"
+        itemprop="tracking-ga"
+        content="{&quot;custom&quot;:{&quot;PageType&quot;:{&quot;index&quot;:&quot;1&quot;,&quot;name&quot;:&quot;PageType&quot;,&quot;value&quot;:&quot;6036&quot;,&quot;scope&quot;:&quot;3&quot;},&quot;UserType&quot;:{&quot;index&quot;:&quot;2&quot;,&quot;name&quot;:&quot;UserType&quot;,&quot;value&quot;:&quot;{gaUserType}&quot;,&quot;scope&quot;:&quot;1&quot;}},&quot;account&quot;:&quot;UA-22577913-1&quot;}"
+        >
+                  <meta id="tracking-om"
+                    class="js-post-render-tracking-consumer tracking-settings"
+              data-tracking-service="om"
+        itemprop="tracking-om"
+        content="{&quot;brand&quot;:&quot;GameSpot&quot;,&quot;sid&quot;:&quot;gamespot&quot;,&quot;rsids&quot;:&quot;cbsigamespotsite,cbsicbsiall&quot;,&quot;user_status&quot;:&quot;{userStatus}&quot;,&quot;urs_id&quot;:&quot;{ursuid}&quot;,&quot;edition&quot;:&quot;{edition}&quot;,&quot;site_type&quot;:&quot;{siteType}&quot;,&quot;anon_id&quot;:&quot;{xclgfbrowser}&quot;,&quot;url&quot;:&quot;D=g&quot;,&quot;user_agent&quot;:&quot;D=User-Agent&quot;,&quot;page_type_id&quot;:&quot;6036&quot;,&quot;page_name&quot;:&quot;gs:\/articles\/overwatch-for-nintendo-switch-sounds-unlikely-but-\/1100-6449253\/&quot;,&quot;ab_test&quot;:&quot;{abTestLabel}&quot;,&quot;theme&quot;:&quot;{theme}&quot;,&quot;event_hierarchy&quot;:&quot;{eventHierarchy}&quot;,&quot;marketing_cloud_id&quot;:&quot;10D31225525FF5790A490D4D@AdobeOrg&quot;,&quot;session&quot;:&quot;{ad_session}&quot;,&quot;page_type&quot;:&quot;news_article&quot;,&quot;channel&quot;:&quot;News&quot;,&quot;hierarchy&quot;:&quot;News|News Article|Games|News|PR&quot;,&quot;platform&quot;:[&quot;Xbox One&quot;,&quot;PlayStation 4&quot;,&quot;PC&quot;],&quot;content_source&quot;:&quot;CBSi&quot;,&quot;content_title&quot;:&quot;Overwatch For Nintendo Switch Sounds Unlikely, But Not Ruled Out&quot;,&quot;author_ids&quot;:[&quot;gs-2100-11799911&quot;],&quot;product_id&quot;:&quot;gs-5000-355766&quot;,&quot;content_type&quot;:&quot;article&quot;,&quot;content_guid&quot;:&quot;gs-1100-6449253&quot;,&quot;category&quot;:[&quot;Games&quot;,&quot;News&quot;,&quot;PR&quot;],&quot;game_title&quot;:&quot;Overwatch&quot;,&quot;genre&quot;:[&quot;Action&quot;,&quot;First-Person&quot;,&quot;Shooter&quot;,&quot;Tactical&quot;]}"
+                  data-post-render-param="TrackingBundle.page_type"
+          data-post-render-value="news_article"
+      >
+            
+      <script src="https://static1.gamespot.com/js/compiled/tracking.js?9124ac0f30b538af3b12cfbb4a65a974" type="text/javascript"></script>
+  
+  <meta name="trackingEventsLookup" content='[]' />
+  
+  
+    <noscript>
+      <img src="http://dw.cbsi.com/clear/c.gif?ptid=6036&amp;ednm=%7Bedition%7D&amp;ursuid=%7Bursuid%7D&amp;regSilo=2&amp;rsid=cbsigamespotsite&amp;prodtypid=8&amp;pagetype=news_article&amp;assetguid=1100-6449253&amp;assettitle=Overwatch+For+Nintendo+Switch+Sounds+Unlikely%2C+But+Not+Ruled+Out&amp;assettype=Article&amp;author%5B0%5D=gs-2100-11799911&amp;pid=355766&amp;topicbrcrm=News%7CNews+Article&amp;sid=6&amp;ts=1491747868" alt="" class="visuallyhidden">
+    </noscript>
+  
+
+                              
+                    <script type="text/javascript">
+          var taboola_url = '//cdn.taboola.com/libtrc/cbsinteractive-gamespot/loader.js';
+          var taboola_header_key = 'article';
+        </script>
+                  <script async src="https://static4.gamespot.com/js/compiled/6a9c2ca.js?9124ac0f30b538af3b12cfbb4a65a974" type="text/javascript"></script>
+              
+            <script async src="//js.revsci.net/gateway/gw.js?csid=F09828&amp;auto=t&amp;bpid=cbsinteractive"></script>
+        
+
+
+  
+    
+
+  
+  
+
+
+  <script type="text/javascript">
+      window.addEventListener('error', function (e) {
+    if(e.target.tagName === 'SCRIPT' && e.target.src.indexOf('asset.pagefair') !== -1) {
+      pf_notify(true);
+    }
+  }, true);
+			(function()
+	{
+		$('head').append('<meta id="_pfTracking" content="" data-event-tracking="unknown" data-status="unknown" data-processed="0"/>');
+	}());
+
+	var pf_notify = function (x)
+	{
+				$('#_pfTracking').data('event-tracking', 'Tracking|pf|' + (x ? 'true' : 'false'));
+    $('#_pfTracking').data('status', !!x);
+
+				$(document).trigger('pf_state_update');
+
+				pf_notify = function(){};
+	};
+
+</script>  
+<script type="text/javascript">
+  (function() {
+    function async_load(script_url){
+      var protocol = ('https:' == document.location.protocol ? 'https://' : 'http://');
+      var s = document.createElement('script'); s.src = protocol + script_url;
+      var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    }
+    bm_website_code = '85AA4308C8624AAB';
+    jQuery(document).ready(function(){async_load('asset.pagefair.com/measure.min.js')});
+    jQuery(document).ready(function(){async_load('asset.pagefair.net/ads.min.js')});
+  })();
+</script>
+
+<div id="liveMessageOverlay" class="live_message-overlay" style="display:none;">
+     <div id="liveMessageInner" class="live_message-container">
+          <span><i><svg class="symbol symbol-info-sign" aria-role="icon"><use xlink:href="#symbol-info-sign"></use></svg></i></span>
+          <p id="liveMessageContent"></p>
+          <a onclick="closeOverlay();" class="live_message-close btn btn-large btn-default">Close</a>
+     </div>
+</div>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"afb799a982","applicationID":"2515728","transactionName":"blVaMEAHDUdZVBYMDFcfexFBEgxZF3ADCAZKQFcQcxQXXVtbByQRTVlbCFcVIFtWQxAKD1VVSl4IAgpHSFsDHCJaRFELXE5K","queueTime":0,"applicationTime":293,"atts":"QhJNRggdHhgaVkBfGERN","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+
+ 
+</html>

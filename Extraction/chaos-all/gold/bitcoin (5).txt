@@ -1,0 +1,78 @@
+Money at Risk? Mobile Wallets Become New Battleground in Bitcoin Fork Debate
+
+Mobile bitcoin wallets users might not realize it, but their money might be at a heightened risk this November.
+
+While advertised as a tool bitcoin users can tap to achieve an experience more akin to a conventional financial product, mobile bitcoin wallets today send transactions to the bitcoin blockchain, though in a way that differs from the default wallet options. But come November this construction could cause turbulence, because that's when the bitcoin protocol is aiming to undergo yet another major change to its software.
+
+Following this summer's activation of the code upgrade SegWit, a group of businesses are now seeking to trigger a hard fork to increase bitcoin's block size and further expand its transaction capacity. The code, part of a larger upgrade called Segwit2x, could lead bitcoin to split into two (again), that is, if not everyone decides to support the upgrade.
+
+Still, the difference is that, unlike bitcoin cash, Segwit2x's developers are doing everything they can to keep all bitcoin users on the same blockchain.
+
+Segwit2x lead developer Jeff Garzik told CoinDesk:
+
+    "The design goal of Segwit2x – just like [the latest] ethereum fork – is to upgrade bitcoin, not create a new currency."
+
+To do so, developers backing the project also have made a couple of key (if controversial) design decisions that have to do with maintaining compatibility with "simplified payment verification" wallets, the technical term for smartphone-based bitcoin wallet applications.
+
+But developers argue that there are pros and cons of how they are trying to accomplish this.
+
+For one, it might not exactly be safe for mobile wallet users to make transactions immediately after the hard fork is enacted.
+Attack resistance or convenience?
+
+The first design decision is omitting so-called "replay protection."
+
+A bit of a political term, it's meant to describe what happens when a blockchain splits in two, as users suddenly have equal value on both blockchains. This means that when users move tokens on one blockchain, the tokens also move (or "replay") on the other.
+
+But this isn't visible to people who might not know that they have money on two networks during a network split. Worse case: users might lose some of their money and not even notice.
+
+"It becomes unpredictable what money you're moving and when," Bread Wallet CMO Aaron Lasher explained in conversation with CoinDesk.
+
+Since not everyone agrees with the Segwit2x hard fork – some are even going as far as to write up manifestos in opposition – it's likely to split into two competing networks, and this could be confusing for general users.
+
+However, Segwit2x developers have a reason for leaving replay protection out: to keep Segwit2x compatible with SPV mobile wallets.
+
+"'Replay protection', as you call it, splits the chain. It simply doesn't make sense. You'd suddenly be breaking [more than 10 million] SPV clients that otherwise work just fine. It is a goal of Segwit2x to help avoid this," BitGo CEO Mike Belshe wrote in an email debate between developers of the project.
+
+In other words, replay protection would cause inconvenience for mobile wallet users who want to shift over to the Segwit2x blockchain, so Segwit2x developers don't plan on adding it.
+Hard fork decisions
+
+Mobile wallets are the subject of debate in another area as well.
+
+Many providers of this wallet option, such as Electrum and Bread Wallet, rely on SPV. This does away with need to hold a full copy of the blockchain, making the data far easier to store on storage-strapped cellphones.
+
+But, they have some drawbacks. (Coinkite co-founder CEO Rodolfo Novak went as far as to quip that "the 'V' in SPV stands for Victim.")
+
+As implemented today, SPV wallets will automatically follow whatever version of bitcoin has the most miners backing it. So, if bitcoin splits into two, and Segwit2x attracts more computing power than the legacy bitcoin chain, then all of the SPV wallets will follow along. That's by design.
+
+But some mobile wallet providers aren't so happy about this, as it's hard to explain to users what's happening.
+
+"It's really tough for us because we are so direly affected," said Lasher.
+
+This also has the potential to lead to some technical problems. If there are two bitcoins, mobile wallet software might get confused about which chain to follow, especially if miners switch between blockchains over time (as happened in the aftermath of the bitcoin cash fork).
+
+"It could confuse SPV clients and result in clients switching back and forth between chains, making them lose money depending on which chain has more work at what point," Chaincode engineer Matt Corallo said.
+
+Novak painted another scenario.
+
+"With SVP you don't know if the node you are connected to is lying to you. For example, a Segwit2x node can spoof as a [bitcoin] node [on the other chain], this means that without replay protection your wallet may spend the funds in the wrong chain and lose them on the correct chain," Novak told CoinDesk.
+
+Overall, developers paint an assortment of "if-then" scenarios. Lasher admitted as much, noting that it's unclear which ones will actually play out.
+
+"It's really this decision tree of many, many things that can happen. And all of them are on the scale of somewhat annoying to downright dangerous," he said, adding that Bread Wallet plans to encourage users to stop making transactions during the hard fork, "if they can manage."
+A solution?
+
+But with disarray at the application layer, protocol developers have been arguing about how best to handle what might come.
+
+Bitcoin contributor James Hilliard, well-known for helping to prevent a bitcoin split earlier this year, suggested a change to the Segwit2x codebase that he argues would give mobile wallets more control over the which bitcoin they ultimately land on.
+
+Again, though, Segwit2x developers argue that this change would make it more difficult for users to transition to a blockchain with a block size increase – something they believe many users want to do, so that they can make cheaper transactions. (Garzik argued that is the most "neutral" metric for determining which chain SPV wallets should follow.)
+
+But, again, others believe that this will confuse users and perhaps even lead those that are unaware of the situation to lose money.
+
+Some developers even agree that there needs to be a block-size parameter increase, but simply disagree with some of Segwit2x's design decisions.
+
+As such, the statements highlight that, while often portrayed as black and white, the scaling argument still has its shades of gray.
+
+Lasher concluded:
+
+    "There might be some merits to a block-size increase. But we don't agree with the current way it's being pushed through."

@@ -1,0 +1,21 @@
+You can now send and request money in Gmail on Android
+
+Google Wallet has been integrated into Gmail on the web since 2013, but today Google is rolling out a new integration on mobile. Starting today, users of the Gmail app on Android will be able to send or request money with anyone, including those who don’t have a Gmail address, with just a tap.
+
+The user experience has been designed to make exchanging money as easy as attaching a file, Google explains in its announcement. To access the new feature, you tap the attachment icon (the paperclip), then choose either send or request money, depending on your needs. A pop-up window appears where you can input the amount and add a note, and send.
+
+The entire process takes place in the Gmail app — you don’t have to have Google Wallet installed. In addition, recipients can configure it so the money they receive through Gmail goes directly into their bank account.  There are no fees involved, notes Google.
+
+The goal, seemingly, is to take on quick payment apps like PayPal, Venmo or Square Cash, by offering a feature to move money right within Gmail’s app. This could be useful for those times where the money is already a topic of an email conversation — like when you’re planning a trip with friends, or getting the family to go in together on a gift for your parents, for example.
+
+But whether or not people would think to turn to Gmail for other uses, like splitting the dinner bill or paying friends back for drinks, is another matter.
+
+These one-off use cases are still more easily managed in standalone payment apps, where you don’t have to face the clutter of a crowded inbox just to send a friend the few dollars you owe.
+
+That said, Google is hardly alone in trying to expand the functionality of a communications app to include money exchanges. Snapchat offers the ability for friends to pay others via Snapcash, Facebook has a similar feature through Messenger and, outside the U.S., messaging app WeChat is becoming a mobile payment giant, to name a few examples. Messaging platforms, in some cases, also support third-party payment bots, like Messenger’s support for PayPal, Stripe, TransferWise and others.
+
+Gmail isn’t really a messaging app, per se, but its email app is one of the most popular on the market, given that Gmail’s user base now eclipses that of Yahoo, Microsoft, AOL and others.
+
+What is interesting is that it took this long to bring the functionality introduced in 2013 to mobile devices — and it’s only on Android, at launch. That indicates that Gmail’s money transfer feature was not likely heavily adopted, or there would have been more user demand for a mobile experience by now.
+
+Google says the money exchange feature is live now in the U.S. on web and Android.

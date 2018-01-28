@@ -1,0 +1,18 @@
+
+Google Voice to finally take GrandCentral's place
+
+Google is finally reintroducing GrandCentral, a unified phone service it bought over two years ago, as Google Voice. Offering a centralized number that e-mails message transcripts, plays personalized greetings, and even allows for making Web-based calls, Google Voice is the search giant's new tool for conquering our phone calls.
+
+
+
+Google has finally revealed what it's doing with GrandCentral, a company it bought over two years ago, relaunching it Thursday as Google Voice. GrandCentral first appeared in 2005, offering a single phone number that can ring multiple phones, collect messages, and generally act as your own private switchboard operator. Now, as Google Voice, the service is gaining a number of new features and finally being inducted into the Google family.
+
+Announced on the Official Google Blog, Google Voice is billed as "an application that helps you better manage your voice communications." Current GrandCentral users will gain access to the new service first, and a notification e-mail should arrive soon with instructions for converting one's account. For GrandCentral's rebirth, Google has taken the opportunity to not just redesign the service's site, but to also add a number of useful new features. Now that Google has conquered e-mail, it appears to be going after the rest of our communications.
+
+Google Voice brings new features like voicemail transcripts and the ability to search all of your incoming and outbound text messages. According to the new features page, users will also be able to make calls from the Google Voice site and even create conference calls by dragging and dropping contacts together. In a move that may irk some VoIP companies like Skype, Google Voice will also allow users to make free calls to any US phone number, though Google will charge fees for international calls. A few of Google Voice's features also step on the toes of some startups, such as the communication aggregator Skydeck, which we checked out in January.
+
+These new features complement GrandCentral's existing capabilities, such as ringing multiple phones at once and offering embeddable call widgets. GrandCentral users have also been able to personalize their voicemail and ringer greetings, block calls, and screen calls based on contacts and groups in one's address book.
+
+So far, Google Voice invites have not arrived in any of the Ars Orbiting HQ inboxes. From the plethora of demo videos at the new site, though, it appears as though Google has applied much of the aesthetic of Gmail and Google Docs when redesigning GrandCentral. Gmail's contact organizer, for example, is present in Google Voice, and so is a similar toolbar for managing and searching one's messages.
+
+Eventually, you can expect Google to integrate Google Voice features and services throughout the rest of its products. It isn't difficult to imagine Google Voice call buttons appearing in various parts of Gmail or other Google Apps products. GrandCentral has been an invite-only service since its inception, however, so Google only offers an ETA of "soon" for opening Google Voice to the public.

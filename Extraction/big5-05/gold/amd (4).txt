@@ -1,0 +1,31 @@
+Many Cores On Many Chips
+
+SAN JOSE, CALIF. - Everywhere you look at the Fall Processor Forum, there's another chip with more than one core.
+
+At this annual industry conference where chip companies discuss the designs they're working on for their next generation of chips, microprocessor cores--the central brain of the chip--seemed to be multiplying.
+
+The list of companies announcing details surrounding chips with two cores and more was long enough that the companies presenting who weren't promoting multiple cores stuck out in the crowd. But clearly multi-core chips are going to become an important theme in the coming year in chips aimed at all manner of applications.
+
+Throwing two or more cores at computing problems is increasingly seen as the most efficient way of the moment to boost computing performance while keeping new chips within reasonable power consumption and heat-generation restrictions.
+
+Take the personal computers and servers running Microsoft (nasdaq: MSFT - news - people ) Windows and Linux. Chipmaker Advanced Micro Devices (nyse: AMD - news - people ) described how its Athlon line of chips aimed at PCs and Opteron chips aimed at servers will sprout a second core sometime next year. Kevin McGrath, manager of AMD's Opteron line, said that the firm expects to be the first to launch a dual-core chip aimed at the server market in mid-2005. And chips aimed at PCs--what he called the "client market"--will follow in the second half of 2005.
+
+The chip, he said, will boast some 205 million transistors, about 100 million more than the current Opteron generation, and will be built on a 90-nanometer process using a manufacturing technology called "silicon on insulator," a manufacturing technique developed by IBM (nyse: IBM - news - people ) that AMD has licensed.
+
+AMD's archrival Intel (nasdaq: INTC - news - people ) didn't present a chip at the conference, but has already disclosed plans to embrace dual-core chip designs in the coming year.
+
+But as both firms head down the dual-core path, another company in the business of supplying chips to personal computers--Transmeta ( nasdaq; TMTA) --is notably not looking at dual-core designs to increase its performance.
+
+Transmeta founder and Chief Technology Officer Dave Ditzel presented details on the company's next-generation processor, the Efficeon 2. Among the improvements are a doubling in performance from 1 gigahertz to 2 gigahertz and a significant cut in the chip's power consumption. When running at 1 GHz, the chip consumes only three watts of power, less than half of what the previous generation chip did at that speed. That's good news for designers of small notebook computers like Sharp and Fujitsu, which both use Transmeta chips in notebooks, and startup operations like OQO and Vulcan Ventures, which are designing handheld-sized PCs.
+
+But one thing you won't see Transmeta doing is going down the dual-core path. Ditzel thinks the dual-core craze doesn't make sense for most PCs, especially notebooks.
+
+"I think dual-core designs may make sense for some servers, but just I do not understand how it makes any sense for notebook users," he says. "When you have a large number of people that need to move around, you might do it in a bus or a van. But when I'm at home and I need to run out to the store to get a quart of milk, having two cars doesn't get me to the store any faster. And for most notebooks, they can barely keep one CPU busy. What they want is when they have one task, they want it happen quickly...What would you rather have, one car that goes 60 miles per hour or two cars that go 30 miles per hour? Which is going to get you to your destination faster?"
+
+AMD's McGrath said dual-core chips aimed at notebooks are on AMD's roadmap of future products, but he wasn't prepared to discuss them yet.
+
+"I think notebooks would be the last place that dual-core chips would appear," he says.
+
+Other chip companies disclosing multi-core chip designs included Freescale Semiconductor (nyse: FSL - news - people ), the former chip-making unit of Motorola (nyse: MOT - news - people ), Sun Microsystems (nasdaq: SUNW - news - people ) and Fujitsu, which detailed the UltraSPARC IV+ processor, which is a dual-core design.
+
+Meanwhile, a venture-backed startup called Cavium Networks of Santa Clara, Calif., unveiled a chip called the Octeon processor aimed at security applications like controlling spam and e-mail viruses. Different versions of that chip will have as few as two but as many as 16 cores. Its cores are based on designs licensed from MIPS Technologies (nasdaq: MIPS - news - people ), a semiconductor intellectual-property house. 

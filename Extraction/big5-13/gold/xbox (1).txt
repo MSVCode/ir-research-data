@@ -1,0 +1,32 @@
+Head-to-head: Everything you need to know in the PS4 vs. Xbox One battle
+After months of coverage, we pick a console with a tale-of-the-tape launch evaluation.
+
+Our comprehensive reviews of the PlayStation 4 and the Xbox One from the last week total more than 10,000 words combined. Add in coverage of various games, developer thoughts on the features of both systems, and various bits of news, opinion, and historical analysis, and that's probably 10,000 more words about these newcomers in the last month alone... and that doesn't even get into the pre-launch coverage we've been running since Sony officially kicked things off in February.
+
+All that should hopefully satisfy people who want a comprehensive take on what both systems bring to the table. But other would-be gamers may just want a quick, comparative take on which console they should get. If that's you, you're in luck—we've summarized the competing features and attractions of both the Xbox One and PlayStation 4 in a relatively concise (but still detailed) format.
+
+Hardware
+
+Judged purely as a black box, the PS4 is the clear winner. The system is significantly smaller than the Xbox One and about three pounds lighter, which is nice if you care about taking it out of your entertainment center to travel with it. The PS4 just plain looks better, too, with striking angles and a front ridge that elegantly hides ports and the disc slot. It's a huge improvement over the industrial boxiness of the Xbox One.
+
+The Xbox One is generally less power hungry than the PS4, running a good 20 to 30 Watts lower whether sitting idle on menus, displaying streaming video, or running at maximum gaming performance. The PS4 wins out in standby mode, though, saving seven or eight Watts when the systems are "off" but still awake enough to download content or start up quickly (both systems can be turned off completely to avoid almost all power draw).
+
+Neither system is exactly loud when in full operation, but while the PS4 is quiet, the Xbox One is practically silent. Close your eyes and you'd be hard pressed to tell if the Xbox One is on unless you get right up next to it. The Xbox One got noticeably hotter after continued operation, though; our IR thermometer measured a top temperature of 115 degrees Fahrenheit coming off its top vents compared to about 100 degrees for the PS4.
+Hardware power
+
+This time around, the top two contenders for the console power crown are closer than they've ever been in terms of raw processing power. We took a deep-dive look at the internals recently, but the long and short of it is that the basic system specs are nearly identical. The CPUs share the same architecture and multi-core design, the GPUs vary only slightly in clock speed and number of compute units, and while the PS4 has a faster unified pool of GDDR5 RAM, the Xbox One makes up for this (at least partially) with a small cache of ultra-fast ESRAM.
+
+Specs aside, the proof of a console's power is in the pudding of its graphical output, and thus far the PS4 and Xbox One are practically indistinguishable in this regard. Others have posted detailed breakdowns of the precise number of pixels being pushed on each system (as seen above). While we have no reason to doubt their analysis, the difference just isn't all that apparent when you're playing in a standard living room setup on a 1080p TV.
+
+Switching between inputs while running a game like Battlefield 4 on both systems, the only apparent difference to my eyes was a somewhat duller color palette on the Xbox One. Both versions showed the same noticeable-but-not-jaw-dropping general level of improvement in lighting effects, texture detail, and character animation when compared to the last generation of consoles. Going over to exclusive games, it's hard to compare the graphics of the Xbox One's Forza 5 to the PS4's Killzone: Shadow Fall and declare one the undisputed winner or loser.
+
+We're going to give this one to the PS4 based on the higher resolution it manages on some cross-platform launch titles, but we're loath to count it as a significant negative for the Xbox One. So far the Xbox One generates images that are just as nice for all practical purposes.
+Controller
+
+This is a tough category to pick an unequivocal winner in, which is saying something. The Xbox 360 controller was head-and-shoulders more comfortable and functional than the PS3's DualShock 3 (save for the D-pad). The fact that the PS4's DualShock 4 is largely comparable to the Xbox One controller is a feat in and of itself for Sony's design department.
+
+That said, the Xbox One controller feels a bit more ergonomic. This is primarily due to the rounded sides and vertical ridges on the shoulder buttons, which let your index fingers rest comfortably in the groove right between the front buttons and rear triggers. The cross-hatched textured ridge on the lip of the analog sticks also helps with the grip on the Xbox One controller. The impulse triggers that send rumbles straight into your fingertips are a nice touch, and Microsoft managed to replace the squishy, circular D-pad on the Xbox 360 with a nice, snappy plus-sign this time around.
+
+The PS4 makes up for its slightly less polished ergonomics with features like a headphone jack that supports any standard single-plug headset, plus the ability to pass all game audio through the controller to that headset on the system level. It's also nice that the PS4 has a rechargeable battery built in, but this advantage is kind of blunted by the fact that it only takes about seven hours for the controller to need a recharge (the AA batteries in our Xbox One remote have yet to run down after a few weeks of heavy play).
+
+We're leaning toward the Xbox One in this important category, but really it's a lot closer than it has any right to be given the disparity in the last generation.

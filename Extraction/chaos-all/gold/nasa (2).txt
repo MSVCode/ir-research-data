@@ -1,0 +1,13 @@
+Mars’ Electrically Charged Moons Could Mess Up NASA’s Plans
+
+Mars has two garbage moons, Phobos and Deimos. They’re small and uninspiring, and one is literally falling apart under the weight of its own stress. Still, NASA had planned to use these moons to assist with future missions to the red planet — but a study by the space agency reveals these landing sites might not work out after all.
+
+New research published earlier this month in Advances in Space Research suggests that parts of Mars’ moon, Phobos, might be electrically charged due to solar wind. Solar wind is a stream of charged particles that the sun spews off into space. Since Phobos doesn’t have an atmosphere to shield it from solar wind, the plasma comes into direct contact with the moon’s surface. According to models of solar wind over Phobos created by the researchers, could seriously interfere with robotics that NASA might send to Phobos in the future.
+
+“We found that astronauts or rovers could accumulate significant electric charges when traversing the night side of Phobos – the side facing Mars during the Martian day,” William Farrell of NASA’s Goddard Space Flight Center said in a statement. “While we don’t expect these charges to be large enough to injure an astronaut, they are potentially large enough to affect sensitive equipment, so we would need to design spacesuits and equipment that minimizes any charging hazard.”
+
+According to the researchers’ model, solar wind would be directly absorbed by the side of Phobos facing the sun, AKA the dayside. This creates a void in the nightside, and thus, negatively charged electrons will charge this unlit side of the moon, creating potentially dangerous conditions for NASA equipment. It doesn’t sound like a good time.
+
+NASA had considered Phobos as a landing site for gear and astronauts primarily because it has weak gravity, which would make it an ideal spot for landing spacecraft. But with this newly discovered risk, landing expensive gear on Phobos might not be a great idea. Since Mars’ other moon, Deimos, also doesn’t have an atmosphere to protect it from solar wind, it’s possible that neither Martian moon will work for landing.
+
+Hopefully, NASA will figure out another plan that doesn’t involve landing on an inhospitable satellite. Mars seems like Eden compared to its grease fire moons.

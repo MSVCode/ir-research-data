@@ -1,0 +1,18 @@
+Google deploys flamethrower on Android ad-fraud apps
+Stand by for 'targeted marketing'
+
+Google has dumped a class of applications that employed a fraud botnet on its Android Play Store - the apps tapped malware that tried to game Google’s advertising network.
+
+Engineers at the search firm identified a spike in traffic to its ad servers and dubbed the concealed malware “Chamois”, it explained this week. Chamois used various techniques to conceal itself and didn’t show up in a user’s application list.
+
+Google didn’t name any apps it had expelled, or explain their source, but merely stated it had “kicked out bad actors who were trying to game our ad systems” and had been “distributed through multiple channels”.
+
+Chamois-dependent apps threw up deceptive popups, could download further apps and use premium services without the user realising.
+
+Click-fraud is a common characteristic of ad fraud. The device generates page views on an advertisement, often without the device owner realising it.
+
+And it has become increasingly subtle and sophisticated, even mirroring the “precision targeting” of the legitimate advertising business. CheckPoint last week identified a new strain of adware, Skinner, that exhibited a new tactic: a kind of tailored “marketing” only hitherto seen in banking apps.
+
+Skinner only infected around 10,000 devices, but researchers expect the targeted marketing trick to be more widely adopted.
+
+Ad fraud apps can be pretty crude, as last week's Hiddad-BZ demonstrated.

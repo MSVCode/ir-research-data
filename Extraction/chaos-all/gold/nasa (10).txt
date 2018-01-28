@@ -1,0 +1,33 @@
+SpaceX, ULA win NASA contracts to launch Earth observation satellites 
+
+NASA has selected SpaceX and United Launch Alliance to deliver to orbit a joint U.S.-European oceanography mission and the next land imaging satellite in the Landsat series on Falcon 9 and Atlas 5 rockets.
+
+The space agency announced the contracts Thursday, splitting awards between the two U.S. companies certified to launch NASA’s large robotic space missions. NASA’s Launch Services Program at the Kennedy Space Center made the selections after separate competitive procurements.
+
+A SpaceX Falcon 9 rocket will loft the next satellite in a line of oceanography missions extending back to 1992. Known as Sentinel 6A, or Jason Continuity of Service (Jason-CS), the satellite will measure sea level and wave height on the world’s oceans, collecting data scientists will use in long-term climate change research and shorter-term weather forecasting.
+
+The Sentinel 6A/Jason-CS mission is scheduled for launch into an inclined 830-mile-high (1,336-kilometer) orbit in November 2020 from Space Launch Complex 4-East at Vandenberg Air Force Base, California. SpaceX’s contract award is valued at $97 million, including the launch service and other mission-related costs, NASA said in a statement.
+
+NASA is responsible for providing the launcher for the European-built 3,174-pound (1,440-kilogram) oceanography satellite, which is under development in partnership with NOAA, the European Space Agency and Eumetsat, the European weather satellite agency. The satellite is part of the European Commission’s Copernicus program, a multibillion-dollar fleet of so-called Sentinel spacecraft gathering data on Earth’s land masses, oceans, ice caps and atmosphere.
+
+The Sentinel 6A/Jason-CS satellite, manufactured by Airbus Defense and Space, will also host a radio occultation instrument designed to measure temperature and humidity in the atmosphere using GPS signals.
+
+SpaceX launched the most recent satellite in the Jason series of ocean topography missions in January 2016.
+
+The Landsat 9 satellite will lift off on a United Launch Alliance Atlas 5 rocket as soon as December 2020, NASA announced last week. The contracted launch date is in June 2021, but ULA will be ready to launch six months earlier, assuming the spacecraft is ready.
+
+The $153.8 million launch contract encompasses ULA’s Atlas 5 rocket, which will fly in its basic 401 configuration without any solid rocket boosters, and other mission-related costs.
+
+Landsat 9 will launch into a polar orbit from Space Launch Complex 3-East at Vandenberg.
+
+An Atlas 5 rocket deployed Landsat 8, the newest Landsat satellite, into orbit in February 2013. Landsat 9 is designed to be a near-copy of Landsat 8, joining the Landsat fleet in polar orbit 438 miles (705 kilometers) above Earth.
+
+“We are honored that NASA has entrusted ULA with launching this critical land imaging satellite,” said Tory Bruno, ULA’s president and chief executive. “ULA’s world-leading performance and reliability, paired with the tremendous heritage of 74 consecutive successful Atlas 5 launches, provides the optimal value for our customer.
+
+“We look forward to working together again with our mission partners at NASA’s Launch Services Program, Goddard Space Flight Center and the U.S. Geological Survey in the integration and launch of this significant mission, contributing to the international strategy for examining the health and state of the Earth,” Bruno said in a statement.
+
+The Landsat series has amassed an uninterrupted record of moderate-resolution imagery since 1972, helping scientists, surveyors and the public track changes in crop patterns, forests, urban sprawl and water usage.
+
+Built by Orbital ATK, Landsat 9 will be operated by the U.S. Geological Survey once in orbit. The mission is expected to cost approximately $900 million, according to a NASA budget document published earlier this year.
+
+Landsat 9 will carry two instruments — an operational land imager and a thermal infrared sensor — similar to Landsat 8. Additional funding for the project in NASA and USGS budgets last year helped move forward Landsat 9’s target launch date from 2023 to the end of 2020.

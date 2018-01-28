@@ -1,0 +1,25 @@
+SpaceX Reuses A Rocket To Launch A Satellite
+
+Updated 7:55 p.m. ET
+
+The most expensive part of doing business in outer space is getting there. The private space flight company SpaceX thinks it can change all that, and Thursday's successful reuse of a rocket was a big test of its business model.
+
+SpaceX launched a communications satellite from the Kennedy Space Center in Florida using a rocket stage that had already been to space and back. SpaceX is betting that this kind of recycling will lower its costs and revolutionize space flight.
+
+The rocket landed vertically on a barge in the Atlantic Ocean a few minutes after the launch.
+
+The aerospace industry essentially has been throwing away its hefty rockets. Partway into orbit, the big, expensive first stage falls off and plunges back to Earth.
+
+It's a unique business model within the transportation sector, says Bobby Braun, the dean of the College of Engineering and Applied Science at the University of Colorado, Boulder. He says to see how strange it is, imagine flying from Denver to Washington, D.C.: "When I got there, the airline wouldn't throw away that airplane and put me on a new one to bring me back a few days later," he says.
+
+Braun says there have been attempts to reuse rockets before, most notably the space shuttle, which could be relaunched multiple times. But he says the shuttle was a complex machine that was expensive to run. "It required a standing army of people to keep it operational," he says.
+
+SpaceX founder Elon Musk thinks that reusing the much simpler stages from his Falcon 9 rockets will also save money: "I try to tell my team to imagine that there was a pallet of cash that was plummeting through the atmosphere, and it was going to burn up and smash into tiny pieces, would you try to save it? Probably yes," he told attendees of last year's Code Conference.
+
+That philosophy is why SpaceX rockets don't crash back to Earth. Instead, they come back and land vertically on a ship in the middle of the ocean (the rockets also can land at the launch site). The company's first ocean landing happened almost exactly a year ago, and Thursday it took that exact same rocket and launched it again.
+
+"This is indeed a first," says Michele Franci, the chief technology officer of Inmarsat, a London company that runs a satellite network for tracking ships and planes. Inmarsat is a SpaceX customer, and Franci says if launch costs come down, companies like his could launch more satellites, more often, and build a better network.
+
+But he says that to really bring prices down, SpaceX will have to recycle each rocket more than just once.
+
+"The question is how many times they can reuse each individual rocket, and how often they can do it," he says.

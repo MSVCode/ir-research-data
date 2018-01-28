@@ -1,0 +1,824 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html lang="en"><head><script type="text/javascript" src="/static/js/wbhack.js?v=1488332647.12" charset="utf-8"></script>
+
+<script type="text/javascript">
+__wbhack.init('');
+</script>
+<link rel="stylesheet" type="text/css" href="/static/css/banner-styles.css?v=1488332647.11" />
+<link rel="stylesheet" type="text/css" href="/static/css/iconochive.css?v=1488332647.1" />
+
+<!-- End Wayback Rewrite JS Include --><script type="text/javascript" language="JavaScript1.1" src="https://web-beta.archive.org/web/20050924182433js_/http://ar.atwola.com/file/adsWrapper.js"></script>
+<style type="text/css">
+<!--
+.aoltextad { text-align: justify; font-size: 12px; color: black; font-family: Georgia, sans-serif }
+-->
+</style>
+<script language="JavaScript1.1" type="text/javascript" src="https://web-beta.archive.org/web/20050924182433js_/http://ar.atwola.com/file/adsPopup2.js"></script>
+<script language="JavaScript1.2" type="text/javascript">
+
+function CNN_getCookies() {
+	var hash = new Array;
+	if ( document.cookie ) {
+		var cookies = document.cookie.split( '; ' );
+		for ( var i = 0; i < cookies.length; i++ ) {
+			var namevaluePairs = cookies[i].split( '=' );
+			hash[namevaluePairs[0]] = unescape( namevaluePairs[1] ) || null;
+		}
+	}
+	return hash;
+}
+
+function CNN_parseCookieData( cookieDataString ) {
+	var cookieValues = new Object();
+	var separatePairs = cookieDataString.split( '&' );
+	for ( var i = 0; i < separatePairs.length; i++  ) {
+		var separateValues = separatePairs[i].split( ':' );
+		cookieValues[separateValues[0]] = separateValues[1] || null;
+	}
+	return cookieValues;
+}
+
+// default values
+var adHeadOffset = 0;
+var adHeadClass = "us.low";
+
+var allCookies = CNN_getCookies();
+var adHeadCookie = allCookies[ "Target" ] || null;
+var isClassAndOffsetValid = false;
+var alreadySwappedTargetImage = false;
+var alreadySwappedCookieCrumb = false;
+
+if ( adHeadCookie ) {	// got milk?
+	var adHeadHash = CNN_parseCookieData( adHeadCookie );
+	//alert("o=" +  adHeadHash[ "o" ] + "\nclass=" + adHeadHash[ "class"]);
+	if ( adHeadHash[ "o" ] && adHeadHash[ "class" ] ) {
+		var validClassesAndOffsets = [ 'us.low', 0, 'us.high', 1, 'intl', 2, 'intl', 3, 'us.edu', 0, 'us.gov', 0, 'us.mil', 0, 'us.org', 0 ];
+		for ( var i = 0; i < validClassesAndOffsets.length; i+=2 ) {
+			if ( validClassesAndOffsets[i] == adHeadHash[ "class" ] && validClassesAndOffsets[i+1] == adHeadHash[ "o" ] ) {
+				isClassAndOffsetValid = true;
+				break;
+			}
+		}
+	}
+	if ( isClassAndOffsetValid ) {
+		adHeadOffset = adHeadHash[ "o" ];
+		adHeadClass = adHeadHash[ "class" ];
+	}
+}
+
+document.adoffset = adHeadOffset;
+document.adPopupDomain = window.location.hostname;
+document.adPopupFile = '/cnn_adspaces/adsPopup2.html';
+document.adPopupInterval = 'P24';
+document.adPopunderInterval = 'P24';
+adSetOther('&TVAR='+escape('class=' + adHeadClass));
+
+//alert( "GLOBAL\nalreadySwappedTargetImage=" + alreadySwappedTargetImage + "\nisClassAndOffsetValid=" + isClassAndOffsetValid );
+
+function getAdHeadCookie( imageRef ) {
+	//alert( "isClassAndOffsetValid=" + isClassAndOffsetValid + "\nadHeadOffset=" + adHeadOffset + "\nadHeadClass=" + adHeadClass);
+	var newSrc = "https://web-beta.archive.org/web/20050924182433/http://cnn.dyn.cnn.com/1.gif" + new Date().getTime();
+	if ( !alreadySwappedTargetImage && !isClassAndOffsetValid && WM_browserAcceptsCookies() ) {
+		//alert( "getAdHeadCookie\nalreadySwappedTargetImage=" + alreadySwappedTargetImage + "\nisClassAndOffsetValid=" + isClassAndOffsetValid );
+		imageRef.src = newSrc;
+		alreadySwappedTargetImage = true;
+	}
+}
+
+</script>
+<title>CNN.com - Lessons learned from Katrina - Sep 22, 2005</title><meta name="TITLE" content="CNN.com - Lessons learned from Katrina - Sep 22, 2005"><meta name="DESCRIPTION" content="As Category 4 Hurricane Rita headed toward the Gulf Coast, thousands of residents in the greater Houston area jammed highways Thursday only to sit in traffic that moved no faster than a pedestrian's gait."><meta name="AUTHOR" content=""><meta name="SECTION" content="US"><meta name="SUBSECTION" content=""><meta name="KEYWORDS" content="Storm , Gulf Coast , Texas , Louisiana , Florida , Bahama Islands , Cuba , Mexico , Weather">	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+	<link rel="Start" href="/">
+	<link rel="Search" href="/web/20050924182433/http://us.cnn.com/search/">
+	<link rel="stylesheet" href="https://web-beta.archive.org/web/20050924182433cs_/http://i.cnn.net/cnn/.element/ssi/css/1.3/common.css" type="text/css">
+	<link rel="stylesheet" href="https://web-beta.archive.org/web/20050924182433cs_/http://i.cnn.net/cnn/.element/ssi/css/1.3/story.css" type="text/css">
+	<script language="JavaScript1.2" src="https://web-beta.archive.org/web/20050924182433js_/http://i.cnn.net/cnn/.element/ssi/js/1.3/main.js" type="text/javascript"></script>
+	<script language="JavaScript" type="text/javascript">cnnSiteWideCurrDate = new Date(2005, 8, 24);</script>
+</head><body id="contentArea" onload="cnnHandleCSIs()"><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script type="text/javascript" src="/static/js/timestamp.js?v=1488332647.12" charset="utf-8"></script>
+<script type="text/javascript" src="/static/js/graph-calc.js?v=1488332647.11" charset="utf-8"></script>
+<script type="text/javascript" src="/static/js/auto-complete.js?v=1488332647.12" charset="utf-8"></script>
+<script type="text/javascript" src="/static/js/toolbar.js?v=1488332647.12" charset="utf-8"></script>
+
+<style type="text/css">
+body {
+  margin-top:0 !important;
+  padding-top:0 !important;
+  min-width:800px !important;
+}
+.wb-autocomplete-suggestions {
+    text-align: left; cursor: default; border: 1px solid #ccc; border-top: 0; background: #fff; box-shadow: -1px 1px 3px rgba(0,0,0,.1);
+    position: absolute; display: none; z-index: 2147483647; max-height: 254px; overflow: hidden; overflow-y: auto; box-sizing: border-box;
+}
+.wb-autocomplete-suggestion { position: relative; padding: 0 .6em; line-height: 23px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 1.02em; color: #333; }
+.wb-autocomplete-suggestion b { font-weight: bold; }
+.wb-autocomplete-suggestion.selected { background: #f0f0f0; }
+</style>
+<div id="wm-ipp" lang="en" style="display:none;direction:ltr;">
+<div style="position:fixed;left:0;top:0;width:100%!important">
+<div id="wm-ipp-inside">
+  <table style="width:100%;">
+    <tbody>
+      <tr>
+	<td id="wm-logo">
+	  <a href="/web/" title="Wayback Machine home page"><img src="/static/images/toolbar/wayback-toolbar-logo.png" alt="Wayback Machine" width="110" height="39" border="0" /></a>
+	</td>
+	<td class="c">
+	  <table style="margin:0 auto;">
+	    <tbody>
+	      <tr>
+		<td class="u" colspan="2">
+		  <form target="_top" method="get" action="/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="http://us.cnn.com/2005/US/09/22/rita.preps/index.html" style="width:400px;" onfocus="this.focus();this.select();" /><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20050924182433" /><input type="submit" value="Go" /></form>
+		</td>
+		<td class="n" rowspan="2">
+		  <table>
+		    <tbody>
+		      <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+		      <tr class="m">
+			<td class="b" nowrap="nowrap">Aug</td>
+			<td class="c" id="displayMonthEl" title="You are here: 18:24:33 Sep 24, 2005">SEP</td>
+			<td class="f" nowrap="nowrap"><a href="https://web-beta.archive.org/web/20060721185759/http://us.cnn.com:80/2005/US/09/22/rita.preps/index.html" title="21 Jul 2006"><strong>Jul</strong></a></td>
+		      </tr>
+		      <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+		      <tr class="d">
+			<td class="b" nowrap="nowrap"><img src="/static/images/toolbar/wm_tb_prv_off.png" alt="Previous capture" width="14" height="16" border="0" /></td>
+			<td class="c" id="displayDayEl" style="width:34px;font-size:24px;" title="You are here: 18:24:33 Sep 24, 2005">24</td>
+			<td class="f" nowrap="nowrap"><a href="https://web-beta.archive.org/web/20060721185759/http://us.cnn.com:80/2005/US/09/22/rita.preps/index.html" title="18:57:59 Jul 21, 2006"><img src="/static/images/toolbar/wm_tb_nxt_on.png" alt="Next capture" width="14" height="16" border="0" /></a></td>
+		      </tr>
+		      <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+		      <tr class="y">
+			<td class="b" nowrap="nowrap">2004</td>
+			<td class="c" id="displayYearEl" title="You are here: 18:24:33 Sep 24, 2005">2005</td>
+			<td class="f" nowrap="nowrap"><a href="https://web-beta.archive.org/web/20070808094737/http://us.cnn.com:80/2005/US/09/22/rita.preps/index.html" title="08 Aug 2007"><strong>2007</strong></a></td>
+		      </tr>
+		    </tbody>
+		  </table>
+		</td>
+	      </tr>
+	      <tr>
+		<td class="s">
+		  		  <div id="wm-nav-captures">
+		    		    <a class="t" href="/web/20050924182433*/http://us.cnn.com/2005/US/09/22/rita.preps/index.html" title="See a list of every capture for this URL">3 captures</a>
+		    <div class="r" title="Timespan for captures of this URL">24 Sep 2005 - 08 Aug 2007</div>
+		    </div>
+		</td>
+		<td class="k">
+		  <a href="" id="wm-graph-anchor">
+		    <div id="wm-ipp-sparkline" title="Explore captures for this URL" style="position: relative">
+		      <canvas id="wm-sparkline-canvas" width="550" height="27" border="0"></canvas>
+		    </div>
+		  </a>
+		</td>
+	      </tr>
+	    </tbody>
+	  </table>
+	</td>
+	<td class="r">
+	  <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://web-beta.archive.org/web/20050924182433/http://us.cnn.com/2005/US/09/22/rita.preps/index.html', '', 'height=400,width=600'); return false;" title="Share on Facebook" style="top: 4px; right: 16px;" target="_blank"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
+	  <a href="#" onclick="window.open('https://twitter.com/intent/tweet?text=https://web-beta.archive.org/web/20050924182433/http://us.cnn.com/2005/US/09/22/rita.preps/index.html&amp;via=internetarchive', '', 'height=400,width=600'); return false;" title="Share on Twitter" style="bottom:14px;right:16px;" target="_blank"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
+	  <a href="http://faq.web.archive.org/" title="Get some help using the Wayback Machine" style="bottom:14px;right:5px;padding-right:0;"><span class="iconochive-question" style="color:rgb(87,186,244);font-size:160%;"></span></a>
+	  <a href="#close" onclick="__wm.h(event);return false;" style="top:-2px;right:0;padding-right:0;" title="Close the toolbar"><span class="iconochive-remove-circle" style="color:#888888;font-size:240%;"></span></a>
+	  <a id="wm-expand" class="wm-btn" href="#expand" onclick="__wm.ex(event);return false;"><span class="iconochive-down-solid"></span> <span style="font-size:80%">About this capture</span></a>
+	</td>
+      </tr>
+    </tbody>
+  </table>
+    <div id="wm-capinfo" style="border-top:1px solid #777;display:none;">
+            <div style="background-color:#353535;color:#aaa;font-weight:bold;text-align:center;"><a class="wm-selector selected" href="javascript:void(0)">COLLECTED BY</a></div>
+    <div style="padding:3px;position:relative;">
+            <div style="display:inline-block;vertical-align:top;width:50%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/webwidecrawl);"></span>
+		Organization: <a style="color:#33f;" href="https://archive.org/details/webwidecrawl" target="_new"><span class="wm-title">Internet Archive</span></a>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  The Internet Archive discovers and captures web pages through many different web crawls.
+
+At any given time several distinct crawls are running, some for months, and some every day or longer.
+
+View the web archive through the <a href="http://archive.org/web/web.php">Wayback Machine</a>.
+	</div>
+	      </div>
+      <div style="display:inline-block;vertical-align:top;width:49%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/hurricane_katrina)"></span>
+		<div>Collection: <a style="color:#33f;" href="https://archive.org/details/hurricane_katrina" target="_new"><span class="wm-title">Hurricane Katrina</span></a></div>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Data related to Hurricane Katrina collected in 2005 by Internet Archive.  This data is currently not publicly accessible.
+<br /><br />
+from <a href="https://en.wikipedia.org/wiki/Hurricane_Katrina">Wikipedia</a>:
+<br />
+Hurricane Katrina was the deadliest and most destructive Atlantic hurricane of the 2005 Atlantic hurricane season. It was the costliest natural disaster, as well as one of the five deadliest hurricanes, in the history of the United States. Among recorded Atlantic hurricanes, it was the sixth strongest overall. At least 1,833 people died in the hurricane and subsequent floods, making it the deadliest U.S. hurricane since the 1928 Okeechobee hurricane; total property damage was estimated at $81 billion (2005 USD), nearly triple the damage brought by Hurricane Andrew in 1992.
+	</div>
+	      </div>
+    </div></div></div></div></div><script type="text/javascript">
+__wm.bt(550,27,25,2,"web","http://us.cnn.com/2005/US/09/22/rita.preps/index.html","2005-09-24",1996);
+</script>
+<!-- END WAYBACK TOOLBAR INSERT --><a name="top_of_page"></a><a href="#ContentArea"><img src="https://web-beta.archive.org/web/20050924182433im_/http://i.cnn.net/cnn/images/1.gif" alt="Skip to main content" align="right" width="10" height="1" border="0" hspace="0" vspace="0"></a><div><table width="770" cellpadding="0" cellspacing="0" border="0" id="cnnCeil">
+	<tr>
+		<td width="218" rowspan="2" valign="bottom"><a href="/web/20050924182433/http://us.cnn.com/"><img src="https://web-beta.archive.org/web/20050924182433im_/http://i.a.cnn.net/cnn/.element/img/1.3/ceiling/logo.cnn.com.gif" width="218" height="45" hspace="0" vspace="0" border="0"></a></td>
+		<td width="552" height="18" align="right" colspan="2">
+			<table cellpadding="0" cellspacing="0" border="0" align="right">
+				<tr valign="middle">
+					<td class="cnnCeilB"><a href="/web/20050924182433/http://us.cnn.com/linkto/intl.html" onclick="clickEdLink()">International Edition</a>&nbsp;&nbsp;|</td>
+					<td><script type="text/javascript" language="JavaScript1.2">
+<!--
+displayHat( 'white' );
+//-->
+					</script></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr height="27">
+		<td class="cnnCeilW"><a href="https://web-beta.archive.org/web/20050924182433/http://audience.cnn.com/services/cnn/memberservices/regwall/member_profile.jsp?source=cnn">Member Services</a></td>	
+		<td class="cnnCeilW" align="right"><a href="javascript:CNN_openPopup('/feedback/help/homepage/frameset.exclude.html','620x364','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=auto,resizable=no,width=620,height=430');"><img src="https://web-beta.archive.org/web/20050924182433im_/http://i.a.cnn.net/cnn/.element/img/1.3/ceiling/homepage.btn.gif" width="185" height="17" border="0" hspace="0" vspace="0"></a></td>
+	</tr>
+</table>
+<div class="cnnNoCeilAd"><div><img src="https://web-beta.archive.org/web/20050924182433im_/http://i.cnn.net/cnn/images/1.gif" alt="" width="1" height="1" border="0" vspace="0" hspace="0"></div></div>
+<div id="cnnBreakingNewsBanner"></div><script type="text/javascript">if(location.hostname.indexOf('edition.')>-1) {cnnAddCSI('cnnBreakingNewsBanner','/.element/ssi/intl/breaking_news/1.1/banner.exclude.html');} else {cnnAddCSI('cnnBreakingNewsBanner','/.element/ssi/www/breaking_news/1.1/banner.exclude.html');}</script><table width="770" cellpadding="0" cellspacing="0" border="0" id="cnnCeilSearch">
+		<colgroup>
+			<col width="8">
+			<col width="572">
+			<col width="32">
+			<col width="158">
+		</colgroup>
+		<tr>
+			<td class="cnnGrad"><img src="https://web-beta.archive.org/web/20050924182433im_/http://i.a.cnn.net/cnn/.element/img/1.3/searchbar/nav.gradient.gif" width="8" height="30" alt=""></td>
+			<td><div class="cnnNoWrap">
+				<form action="https://web-beta.archive.org/web/20050924182433/http://search.cnn.com/cnn/search" method="get" onsubmit="return CNN_validateSearchForm(this);">
+					<input type="hidden" name="source" value="cnn"><input type="hidden" name="invocationType" value="search/top"><img src="https://web-beta.archive.org/web/20050924182433im_/http://i.a.cnn.net/cnn/.element/img/1.3/searchbar/hdr.gif" width="63" height="12" alt="Search" class="cnnSrch"><img src="https://web-beta.archive.org/web/20050924182433im_/http://i.a.cnn.net/cnn/.element/img/1.3/searchbar/vert.divider.gif" width="2" height="29" style="margin: 0 15px" alt=""><input type="radio" name="sites" value="web" checked class="cnnR"><img src="https://web-beta.archive.org/web/20050924182433im_/http://i.a.cnn.net/cnn/.element/img/1.3/searchbar/the.web.gif" width="44" height="7" alt="" class="cnnWeb"><input type="radio" name="sites" value="cnn" class="cnnR"><img src="https://web-beta.archive.org/web/20050924182433im_/http://i.a.cnn.net/cnn/.element/img/1.3/searchbar/cnn.com.gif" width="41" height="7" alt="" class="cnnCNN"><input type="text" name="query" value="" title="Enter text to search for and click 'Search'" size="30" maxlength="40" class="cnnInput"><input type="submit" value="SEARCH" class="cnnFormButtonSearch">
+				</form></div>
+			</td>
+			<td><img src="https://web-beta.archive.org/web/20050924182433im_/http://i.a.cnn.net/cnn/.element/img/1.3/searchbar/vert.divider.gif" width="2" height="29" style="margin: 0 15px" alt=""></td>
+			<td><img src="https://web-beta.archive.org/web/20050924182433im_/http://i.a.cnn.net/cnn/.element/img/1.3/searchbar/yahoo.logo.gif" width="158" height="29" alt=""></td>
+		</tr>
+	</table><!--ClickabilityRefresh=30m--><table width="770" cellpadding="0" cellspacing="0" border="0" id="cnnArticleWireFrame"><colgroup><col width="126"><col width="484"><col width="160"></colgroup><tr valign="top"><td id="cnnNavBar" rowspan="2"><ul id="nav">
+	<li><div><a href="/web/20050924182433/http://us.cnn.com/">Home Page</a></div></li>
+	<li><div><a href="/web/20050924182433/http://us.cnn.com/WORLD/">World</a></div></li>
+	<li class="current"><div><a href="/web/20050924182433/http://us.cnn.com/US/">U.S.</a></div></li>	
+	<li><div><a href="/web/20050924182433/http://us.cnn.com/WEATHER/">Weather</a></div></li>
+	<li class="money"><div><a href="/web/20050924182433/http://us.cnn.com/money/index.html?cnn=yes">Business</a></div></li>
+	<li class="sports"><div><a href="/web/20050924182433/http://us.cnn.com/si/index.html?cnn=yes">Sports</a></div></li>
+	<li><div><a href="/web/20050924182433/http://us.cnn.com/POLITICS/">Politics</a></div></li>
+	<li><div><a href="/web/20050924182433/http://us.cnn.com/LAW/">Law</a></div></li>
+	<li><div><a href="/web/20050924182433/http://us.cnn.com/TECH/">Technology</a></div></li>
+	<li><div><a href="/web/20050924182433/http://us.cnn.com/TECH/space/">Science &amp; Space</a></div></li>
+	<li><div><a href="/web/20050924182433/http://us.cnn.com/HEALTH/">Health</a></div></li>
+	<li><div><a href="/web/20050924182433/http://us.cnn.com/SHOWBIZ/">Entertainment</a></div></li>
+	<li><div><a href="/web/20050924182433/http://us.cnn.com/TRAVEL/">Travel</a></div></li>
+	<li><div><a href="/web/20050924182433/http://us.cnn.com/EDUCATION/">Education</a></div></li>
+	<li><div><a href="/web/20050924182433/http://us.cnn.com/SPECIALS/">Special Reports</a></div></li>
+	<li class="cnnFreeVideo"><div><a href="/web/20050924182433/http://us.cnn.com/video/">Video</a></div></li>	
+	<li class="autos"><div><a href="/web/20050924182433/http://us.cnn.com/AUTOS/">Autos</a></div></li>	
+</ul>
+<div class="cnnNavAd" align="center"><!-- special_reports/hurricanes/article/left.120x90 -->
+<script language="JavaScript1.1">
+<!--
+adSetTarget('_blank');
+htmlAdWH( (new Array(93213883,93213883,93182795,93182795))[document.adoffset||0] , 120, 90);
+//-->
+</script><noscript><a href="https://web-beta.archive.org/web/20050924182433/http://ar.atwola.com/link/93213883/aol" target="_blank"><img src="https://web-beta.archive.org/web/20050924182433im_/http://ar.atwola.com/image/93213883/aol" alt="Click here for our advertiser" width="120" height="90" border="0"></a></noscript>
+</div>
+<div class="cnnNavHeader"><img src="https://web-beta.archive.org/web/20050924182433im_/http://i.a.cnn.net/cnn/.element/img/1.3/nav/hdr.services.gif" height="18" width="126" hspace="0" vspace="0" border="0"></div>
+<div class="cnnNavBot">
+	<div><img src="https://web-beta.archive.org/web/20050924182433im_/http://i.a.cnn.net/cnn/.element/img/1.3/nav/gray.top.gif" height="1" width="126" hspace="0" vspace="0" border="0"></div>
+	<div onmouseover="cnnSetHoverClass(this,'cnnHover',1)" onmouseout="cnnSetHoverClass(this,'cnnHover',0)"><a href="/web/20050924182433/http://us.cnn.com/EMAIL/">E-mail Newsletters</a></div>
+	<div class="cnnDiv">&nbsp;</div>
+	<div onmouseover="cnnSetHoverClass(this,'cnnHover',1)" onmouseout="cnnSetHoverClass(this,'cnnHover',0)"><a href="/web/20050924182433/http://us.cnn.com/youralerts/">Your E-mail Alerts</a></div>
+	<div class="cnnDiv">&nbsp;</div>
+	<div onmouseover="cnnSetHoverClass(this,'cnnHover',1)" onmouseout="cnnSetHoverClass(this,'cnnHover',0)" style="height:16px;"><a href="/web/20050924182433/http://us.cnn.com/services/rss/">RSS <img src="https://web-beta.archive.org/web/20050924182433im_/http://i.cnn.net/cnn/.element/img/1.3/nav/xml.icon.navbar.2.gif" height="16" width="24" hspace="1" vspace="0" border="0" align="absbottom"></a></div>
+	<div class="cnnDiv">&nbsp;</div>
+	<div onmouseover="cnnSetHoverClass(this,'cnnHover',1)" onmouseout="cnnSetHoverClass(this,'cnnHover',0)"><a href="/web/20050924182433/http://us.cnn.com/togo/">CNNtoGO</a></div>
+	<div class="cnnDiv">&nbsp;</div>
+	<div onmouseover="cnnSetHoverClass(this,'cnnHover',1)" onmouseout="cnnSetHoverClass(this,'cnnHover',0)"><a href="/web/20050924182433/http://us.cnn.com/feedback/">Contact Us</a></div>
+	<div><img src="https://web-beta.archive.org/web/20050924182433im_/http://i.a.cnn.net/cnn/.element/img/1.3/nav/gray.bot.gif" height="1" width="126" hspace="0" vspace="0" border="0"></div>
+</div>
+<div class="cnnNavHeader"><img src="https://web-beta.archive.org/web/20050924182433im_/http://i.a.cnn.net/cnn/.element/img/1.3/nav/search.hdr.gif" height="18" width="126" hspace="0" vspace="0" border="0"></div>
+<div class="cnnNavSearch">
+	<form action="https://web-beta.archive.org/web/20050924182433/http://search.cnn.com/cnn/search" method="get" name="nav_bottom_search" onsubmit="return CNN_validateSearchForm(this)">
+		<input type="hidden" name="sites" value="cnn">
+		<input type="hidden" name="source" value="cnn">
+		<input type="hidden" name="invocationType" value="side/home">
+		<div><input type="radio" name="sites" value="web" checked class="cnnRB"><img src="https://web-beta.archive.org/web/20050924182433im_/http://i.a.cnn.net/cnn/.element/img/1.3/searchbar/web.gif" width="23" height="7" hspace="0" vspace="0" border="0" alt="WEB" class="cnnWeb"><input type="radio" name="sites" value="cnn" class="cnnRB"><img src="https://web-beta.archive.org/web/20050924182433im_/http://i.a.cnn.net/cnn/.element/img/1.3/searchbar/cnn.com.gif" width="41" height="7" hspace="0" vspace="0" border="0" alt="CNN.com" class="cnnCNN"></div><div><input type="text" name="query" class="cnnInput" value="" title="Enter text to search for and click 'Search'" size="7" maxlength="40"></div>
+		<div style="margin-left:2px"><input type="submit" value="SEARCH" class="cnnFormButtonNavSearch" style="max-width:60px;"><img src="https://web-beta.archive.org/web/20050924182433im_/http://i.a.cnn.net/cnn/.element/img/1.3/searchbar/nav.powered.gif" width="45" height="9" hspace="2" vspace="0" border="0" alt="Powered by:"></div>
+		<div style="margin-left:2px"><img src="https://web-beta.archive.org/web/20050924182433im_/http://i.a.cnn.net/cnn/.element/img/1.3/searchbar/nav.yahoo.gif" width="101" height="13" hspace="0" vspace="5" border="0" alt="CNN.com"></div>
+	</form>
+</div>
+<div><img src="https://web-beta.archive.org/web/20050924182433im_/http://i.a.cnn.net/cnn/.element/img/1.3/nav/search.bot.gif" height="1" width="126" hspace="0" vspace="0" border="0"></div>
+</td><td id="cnnArticleHeader" colspan="2"><div><a href="/web/20050924182433/http://us.cnn.com/US"><img src="https://web-beta.archive.org/web/20050924182433im_/http://i.a.cnn.net/cnn/.element/img/1.0/sect/US/header.us.gif" alt="U.S." width="64" height="32" hspace="2" vspace="0" border="0"></a>
+</div></td></tr><tr valign="top"><td id="cnnArticleContent"><a name="ContentArea"></a><!-- ================== content ================== --><!--========================================================--><!--===============Paste story between here=================--><!--========================================================--><style type="text/css">
+<!--
+.blue{
+	font-family: verdana;
+	font-size:11px;
+	color: #000099;
+	text-decoration: none
+	font-weight: normal
+}
+.bluelink, .bluelink:active, .bluelink:link, .bluelink:visited{
+	font-family: verdana;
+	font-size:11px;
+	color: #000099;
+	text-decoration: underline
+	font-weight: normal
+}
+.red{
+	font-family: verdana;
+	font-size:11px;
+	color: #990000;
+	font-weight: bold
+}
+-->
+</style>
+
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr valign="top">
+<td>
+<a href="/web/20050924182433/http://us.cnn.com/SPECIALS/2005/katrina/"><img src="https://web-beta.archive.org/web/20050924182433im_/http://i.a.cnn.net/cnn/SPECIALS/2005/katrina/images/cobranded.hur.katrina.jpg" width="464" height="31" border="0" hspace="0" vspace="0"></a></td></tr><tr valign="top"><td width="100%" align="left"><span class="red">&nbsp;&raquo;&nbsp;</span><span class="blue"><a href="/web/20050924182433/http://us.cnn.com/SPECIALS/2005/katrina/people/">People</a> &nbsp;|&nbsp; <a href="/web/20050924182433/http://us.cnn.com/SPECIALS/2005/katrina/rescue.relief/">Rescue &amp; Relief</a> &nbsp;|&nbsp; <a href="/web/20050924182433/http://us.cnn.com/SPECIALS/2005/katrina/help.center/">Help Center</a> &nbsp;|&nbsp; <a href="/web/20050924182433/http://us.cnn.com/SPECIALS/2005/hurricanes/interactive/fullpage.nola.flood/katrina.html">Satellite images</a></span></td></tr>
+</table>
+<div><img src="https://web-beta.archive.org/web/20050924182433im_/http://i.cnn.net/cnn/images/1.gif" alt="" width="200" height="10" border="0"></div> <!--startclickprintinclude--><h1>Lessons learned from Katrina</h1><h3>Officials in place, focusing on communications, quick response</h3><p>
+
+
+
+
+
+
+	<div class="cnnStoryTime">
+	<!-- date -->
+	<script language="JavaScript" type="text/javascript">
+	<!--
+	if ( location.hostname.toLowerCase().indexOf( "edition." ) != -1 ) {
+			document.write('Friday, September 23, 2005 Posted: 0407 GMT (1207 HKT)');
+		}else {
+			document.write('Friday, September 23, 2005; Posted: 12:07 a.m. EDT (04:07 GMT)');
+		}
+	//-->
+	</script>
+	<!-- /date -->
+	</div>
+
+
+</p><script language="JavaScript" type="text/javascript">var clickExpire = "-1";</script><!--startclickprintexclude--> <div class="cnnIEFloatRight"><div class="cnnInterActiveElementsContainer" style="margin-top:0;"> <div id="imageChanger0">    <!-- REAP --><!-- PURGE: /2005/US/09/22/rita.preps/story.evacthurs.ap.jpg --><!-- KEEP --><div align="right" style="padding-bottom: 10px"><!--===========IMAGE============--><img src="https://web-beta.archive.org/web/20050924182433im_/http://i.a.cnn.net/cnn/2005/US/09/22/rita.preps/story.evacthurs.ap.jpg" alt="story.evacthurs.ap.jpg" width="220" height="168" border="0"><!--===========/IMAGE===========--><div align="left" class="cnnStoryCaption"><!--===========CAPTION==========-->Galveston resident Frances Alvarez is helped onto a bus Thursday as Hurricane Rita heads for Texas.<!--===========/CAPTION=========--></div></div><!-- /PURGE: /2005/US/09/22/rita.preps/story.evacthurs.ap.jpg --><!-- /REAP --> </div><script type="text/javascript">if(!cnnUseDelayedCSI){cnnAddCSI('imageChanger0','/2005/US/09/22/rita.preps/imgChng/p0-0.exclude.html','pNo=0');}</script></div><div class="cnnInterActiveElementsContainer"><div id="contextualLinks"></div><script type="text/javascript">if(cnnEnableCL){if(!(location.hostname.indexOf('cnn.com')>-1)) {cnnAddCSI('contextualLinks','/.element/ssi/sect/1.1/misc/contextual/story.html','');}else{ cnnAddCSI('contextualLinks','http:/\/cl.cnn.com/ctxtlink/jsp/cnn/cl/1.3/cnn-story.jsp','category=cnnus&origin=cnnsafe&url=http:/\/robots.cnn.com/2005/US/09/22/rita.preps/index.html&site=cnn_us_dyn_ctxt');}}</script>  </div><div class="cnnInterActiveElementsContainer"> <!-- VIDEOREAP --><div class="cnnIEVideoBox"><div class="cnnIEHeader"><table cellpadding="0" cellspacing="0" border="0" width="212"><tr><td><h3>WATCH</h3></td><td align="right" valign="middle"><a href="javascript:cnnVideo('browse','/ALL');">Browse/Search</a></td></tr></table></div><div class="cnnIEBox"><div class="cnnIEBoxContent">  <!-- VIDEOPURGE:20050928:/video/us/2005/09/21/huntington.rita.evacuations.affl -->  <table border="0" cellspacing="0" cellpadding="0" width="192">
+<tr>
+<td><a href="javascript:cnnVideo('play','/video/us/2005/09/21/huntington.rita.evacuations.affl','2005/09/28');">Texas, Louisiana residents flee as Rita nears</a> (1:25)</td><td><a href="javascript:cnnVideo('play','/video/us/2005/09/21/huntington.rita.evacuations.affl','2005/09/28');"><img alt="" vspace="0" hspace="2" border="0" height="49" width="65" src="https://web-beta.archive.org/web/20050924182433im_/http://i.a.cnn.net/cnn/video/us/2005/09/21/ch.rita.evacs.vs.jpg"></a></td>
+</tr>
+</table>
+<!-- /VIDEOPURGE:20050928:/video/us/2005/09/21/huntington.rita.evacuations.affl --><!-- VIDEOPURGE:20050930:/video/us/2005/09/21/huntington.rita.evacuations.affl --></div><div class="cnnIELineCont">
+<div class="cnnIELine"></div>
+</div><div class="cnnIEBoxContent">
+<!-- /VIDEOPURGE:20050930:/video/us/2005/09/21/huntington.rita.evacuations.affl -->  <!-- VIDEOPURGE:20050928:/video/us/2005/09/21/morton.galveston.hurricane.cnn -->  <table border="0" cellspacing="0" cellpadding="0" width="192">
+<tr>
+<td><a href="javascript:cnnVideo('play','/video/us/2005/09/21/morton.galveston.hurricane.cnn','2005/09/28');">The storm of the century crushed Galveston</a> (2:00)</td><td><a href="javascript:cnnVideo('play','/video/us/2005/09/21/morton.galveston.hurricane.cnn','2005/09/28');"><img alt="" vspace="0" hspace="2" border="0" height="49" width="65" src="https://web-beta.archive.org/web/20050924182433im_/http://i.a.cnn.net/cnn/video/us/2005/09/21/bm.galveston.vs.jpg"></a></td>
+</tr>
+</table>
+<!-- /VIDEOPURGE:20050928:/video/us/2005/09/21/morton.galveston.hurricane.cnn --></div></div></div><!-- /VIDEOREAP --> </div><div class="cnnInterActiveElementsContainer"> <div class="cnnIEHeader"><h3>RELATED</h3></div><div class="cnnIEBox"><div class="cnnIEBoxContent"><table border="0" cellspacing="0" cellpadding="0" width="192">
+<tr>
+<td class="cnnStoryRelatedsLinks" width="121">Gallery: <a href="javascript:CNN_openPopup('/interactive/us/0509/gallery.1900.storm/frameset.exclude.html','620x430','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=no,width=620,height=430')">Galveston hurricane of 1900</a></td><td width="71"><a href="javascript:CNN_openPopup('/interactive/us/0509/gallery.1900.storm/frameset.exclude.html','620x430','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=no,width=620,height=430')"><img align="right" alt="" vspace="0" hspace="0" border="0" height="49" width="65" src="https://web-beta.archive.org/web/20050924182433im_/http://i.a.cnn.net/cnn/interactive/us/0509/gallery.1900.storm/images/tz.01.03.flood.noaa.jpg"></a></td>
+</tr>
+</table>
+</div><div class="cnnIELineCont">
+<div class="cnnIELine"></div>
+</div><div class="cnnIEBoxContent">
+<table border="0" cellspacing="0" cellpadding="0" width="192">
+<tr>
+<td class="cnnStoryRelatedsLinks" width="121">Map:&nbsp;<a href="/web/20050924182433/http://us.cnn.com/SPECIALS/2005/hurricanes/interactive/fullpage.hurricanes/rita.html">Tracking Rita </a></td><td width="71"><a href="/web/20050924182433/http://us.cnn.com/SPECIALS/2005/hurricanes/interactive/fullpage.hurricanes/rita.html"><img align="right" alt="" vspace="0" hspace="0" border="0" height="49" width="65" src="https://web-beta.archive.org/web/20050924182433im_/http://i.a.cnn.net/cnn/SPECIALS/2005/hurricanes/interactive/fullpage.hurricanes/tz.gif"></a></td>
+</tr>
+</table>
+</div><div class="cnnIELineCont">
+<div class="cnnIELine"></div>
+</div><div class="cnnIEBoxContent">
+<table border="0" cellspacing="0" cellpadding="0" width="192">
+<tr>
+<td class="cnnStoryRelatedsLinks"> Gallery: <a href="javascript:CNN_openPopup('/interactive/weather/0509/gallery.texas.evac/frameset.exclude.html','620x430','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=no,width=620,height=430')">Texans evacuate</a></td>
+</tr>
+</table>
+<table border="0" cellspacing="0" cellpadding="0" width="192">
+<tr>
+<td class="cnnStoryRelatedsLinks"> <a href="/web/20050924182433/http://us.cnn.com/2005/POLITICS/09/21/rita.federalresponse.ap/index.html">Bush readies for Rita</a></td>
+</tr>
+</table>
+<table border="0" cellspacing="0" cellpadding="0" width="192">
+<tr>
+<td class="cnnStoryRelatedsLinks"> <a href="/web/20050924182433/http://us.cnn.com/2005/WEATHER/09/19/storm.names/index.html">Storm names may go Greek</a></td>
+</tr>
+</table>
+</div></div> </div><div class="cnnInterActiveElementsContainer"> <div class="cnnIEHeader"><h3>HURRICANE RITA</h3></div><div class="cnnIEBox"><div class="cnnIEBoxContent"><strong>2 p.m. ET <br>Location: </strong>460 miles SE of Galveston, Texas<br><strong>Latitude:</strong> 25.5 North <br><strong>Longitude:</strong> 89.2 West <br><strong>Movement:</strong> West-northwest at 9 mph <br><strong>Winds: </strong>150 mph <br>
+</div></div> </div><div class="cnnInterActiveElementsContainer"> <div class="cnnIEHeader"><h3>QUICKVOTE</h3></div><div class="cnnIEBox"><div class="cnnIEBoxContent"><form target="popuppoll" method="post" action="https://web-beta.archive.org/web/20050924182433/http://polls.cnn.com/poll">
+<input type="HIDDEN" name="poll_id" value="20242">
+<table cellpadding="0" cellspacing="0" border="0" class="cnnPoll">
+	<tr>
+		<td colspan="2" class="cnnPollQ">If you were living in the projected path of Hurricane Rita, would you evacuate?</td>
+	</tr>
+	<tr>
+		<td>Yes</td>
+		<td class="cnnPollR"><input value="1" type="radio" name="question_1"></td>
+	</tr>
+	<tr>
+		<td>No</td>
+		<td class="cnnPollR"><input value="2" type="radio" name="question_1"></td>
+	</tr>
+<!-- /end Question 1 -->
+	<tr>
+		<td colspan="2" align="center"><input class="cnnFormButton" onclick="CNN_openPopup('','popuppoll','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=no,width=620,height=430')" value="VOTE" type="SUBMIT"> or <a href="javascript:CNN_openPopup('/POLLSERVER/results/20242.exclude.html','popuppoll','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=no,width=620,height=430')">View Results</a></td>
+	</tr>
+</table>
+</form>
+
+</div></div> </div><div class="cnnInterActiveElementsContainer"> <div class="cnnIEHeader"><h3>SPECIAL REPORT</h3></div><div class="cnnIEBox"><a href="/web/20050924182433/http://us.cnn.com/SPECIALS/2005/hurricanes/"><img src="https://web-beta.archive.org/web/20050924182433im_/http://i.cnn.net/cnn/SPECIALS/2004/hurricanes/images/include.hurricanes.jpg" width="204" height="50" alt="" border="0" vspace="1" align="middle"></a>
+<div class="cnnIEBoxContent cnn6pxPad">
+<div class="cnnbotBullets">&nbsp;<b>Interactive:</b> <a href="javascript:CNN_openPopup('/SPECIALS/2004/hurricanes/interactive/tips/frameset.exclude.html','620x430','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=no,width=620,height=430')">Safety Tips</a></div>
+<div class="cnnbotBullets">&nbsp;<b>Gallery:</b> <a href="javascript:CNN_openPopup('/SPECIALS/2004/hurricanes/interactive/hurricanes.topten/frameset.exclude.html','620x430','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=no,width=620,height=430')">Top 10 worst hurricanes</a></div>
+<div class="cnnbotBullets">&nbsp;<b>Flash:</b> <a href="javascript:CNN_openPopup('/SPECIALS/2004/hurricanes/interactive/forms/frameset.exclude.html','620x430','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=no,width=620,height=430')">How hurricanes form</a></div>
+<div class="cnnbotBullets">&nbsp;<b>Gallery:</b> <a href="javascript:CNN_openPopup('/SPECIALS/2004/hurricanes/interactive/gallery.saffir/frameset.exclude.html','620x430','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=no,width=620,height=430')">Saffir-Simpson scale</a></div>
+<div class="cnnbotBullets">&nbsp;<a href="/web/20050924182433/http://us.cnn.com/SPECIALS/2005/hurricanes/">Special Report</a></div>
+</div>
+
+
+
+</div> </div><div class="cnnInterActiveElementsContainer"> <div class="cnnIEHeader"><h3>YOUR E-MAIL ALERTS</h3></div><div class="cnnIEBox"><script language="javascript"><!--
+WM_setCookie( "msreturn", document.URL, "", "/", ".cnn.com" );
+	function getSelectedButton() 
+	{
+		if (document.alertbox.alertradio.length)
+			{
+			for (var i = 0; i < document.alertbox.alertradio.length; i++) {
+			if (document.alertbox.alertradio[i].checked)
+				{
+				var newArray = (document.alertbox.alertradio[i].value).split("|");
+				document.alertbox.type.value = newArray[0];
+				document.alertbox.value.value = newArray[1];
+				return true;
+				}
+			}
+	}
+		else
+		{
+			// there is only one alertradio button so the browser does not treat it as an array.
+			if (document.alertbox.alertradio.checked)
+			{
+			var newArray = (document.alertbox.alertradio.value).split("|");
+			document.alertbox.type.value = newArray[0];
+			document.alertbox.value.value = newArray[1];
+			return true;
+			}
+
+		}
+
+		alert("Please choose an alert to create.");
+
+		return false;
+}
+	//--></script>
+<form onsubmit="return getSelectedButton()" name="alertbox" action="https://web-beta.archive.org/web/20050924182433/http://audience.cnn.com/services/cnn/alerts/activateAlert.jsp">
+<input value="cnn" name="source" type="hidden"><input name="type" type="hidden"><input name="value" type="hidden">
+<div class="cnnIEBoxContent">
+<div class="cnnEmailAlertOptionRow">
+<input name="alertradio" type="radio" value="category|Storm">
+		Storm
+	</div>
+</div>
+<div class="cnnIEBoxContentHR"></div>
+<div class="cnnIEBoxContent">
+<div class="cnnEmailAlertOptionRow">
+<input name="alertradio" type="radio" value="body|Gulf Coast">
+		Gulf Coast
+	</div>
+</div>
+<div class="cnnIEBoxContentHR"></div>
+<div class="cnnIEBoxContent">
+<div class="cnnEmailAlertOptionRow">
+<input name="alertradio" type="radio" value="body|Texas">
+		Texas
+	</div>
+</div>
+<div class="cnnIEBoxContentHR"></div>
+<div class="cnnIEBoxContent">
+<div class="cnnEmailAlertOptionRow">
+<input name="alertradio" type="radio" value="body|Louisiana">
+		Louisiana
+	</div>
+</div>
+<div class="cnnIEBoxContentHR"></div>
+<div class="cnnIEBoxContent">
+<div class="cnnAlertsButtonRow">
+<input type="submit" name="activate" value="ACTIVATE" class="cnnFormButtonNm"> or <a href="https://web-beta.archive.org/web/20050924182433/http://audience.cnn.com/services/cnn/alerts/createAlert.jsp?source=cnn">Create Your Own</a>
+</div>
+</div>
+<div class="cnnIEBoxContent cnnAlertsFooterRow">
+<a href="https://web-beta.archive.org/web/20050924182433/http://audience.cnn.com/services/cnn/alerts/manageAlerts.jsp?source=cnn">Manage Alerts</a> | <a href="javascript:CNN_openPopup('/youralerts/popups/tour_cnn/frameset.exclude.html','620x430','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=no,width=620,height=430');">What Is This?</a>
+</div>
+</form>
+</div> </div></div><!--endclickprintexclude--><p><b style="font-size:14px">GALVESTON, Texas (CNN) -- As Category 4 Hurricane Rita headed toward the Gulf Coast, thousands of residents in the greater Houston area jammed highways Thursday only to sit in traffic that moved no faster than a pedestrian's gait.</b></p><p>One man trying to flee the city with his wife and two dogs described I-45 as &quot;a parking lot&quot; and that they had been on the highway nine hours -- and covered only 20 miles.</p><p>Forecasters say Rita could make landfall in Texas somewhere between Galveston and Port Arthur. </p><p>The hurricane &quot;will have a very large impact over a very large area of Texas, Louisiana, and even ... into Mississippi and Alabama,&quot; said National Hurricane Center director Max Mayfield. (<a href="/web/20050924182433/http://us.cnn.com/2005/WEATHER/09/22/rita/index.html/">Full story</a>)</p><p>Katrina devastated southeastern Louisiana and coastal Mississippi as a Category 4 hurricane less than a month ago.</p><p>Local, state and military leaders said Thursday they were implementing emergency response plans with valuable lessons learned from Hurricane Katrina.</p><p>Officials said they were working to round up fuel trucks to deliver gasoline to fleeing motorists who'd run out . And efforts were being made to turn southbound lanes into northbound ones.</p><p>Texas Gov. Rick Perry tried to soothe motorists who found themselves in massive gridlock. &quot;Stay calm. Stay patient. You've done the right thing,&quot; he said. </p><p>And FEMA's acting director, R. David Paulson, urged drivers not to turn around. </p><p>&quot;If they stay on the road now, they're going to have enough time to get out of harm's way,&quot; he said.</p><p>People trying to flee by air faced lengthy snarls at Houston's two airports, when as many as 100 security screeners failed to report for work. </p><p>To replace them, 110 Transportation Security Administration personnel were being reassigned from Dallas, but their arrival was being delayed, Houston Mayor Bill White said. </p><p>Commercial flights out of Houston will be stopped at noon Friday.</p><p>By contrast, most of Houston's 72 hospitals, with some 16,000 beds, were planning to stay open. </p><p>About 9,000 special-needs residents are expected to be evacuated by air from Houston and Beaumont by Friday morning.</p><p>Standing by in San Antonio and Fort Worth were rapid-response teams and 78 tractor-trailer rigs of ice and water, said Jack Cooley, the coordinator of Texas' state division of emergency management. </p><p>Many relief agencies, government officials, shippers, reporters, oil rig workers and others, whose ability to communicate was lost when Katrina toppled cell-phone towers, have switched to satellite phones. </p><p>But on Thursday those communications were disrupted when the Inmarsat M4 satellite system became overloaded, an Inmarsat employee told CNN.</p><p>The Texas National Guard expects communications between officials to have improved after Katrina, said Maj. Gen. Charles Rodriguez.</p><p>Officials learned two primary lessons from Katrina, he said: &quot;Quick response, get in there, establish order and assist people immediately who may need it. And then the second thing is coordination -- coordination between the military and ... the civil authorities, especially those who are the elected officials who hold ultimate responsibility.&quot; </p><p>The State Department has reached out to governments with consulates and nationals in Houston to offer assistance.</p><p>No plans were being made to evacuate inmates, said Harris County Sheriff Tommy Thomas. In fact, about 900 inmates from Galveston were set to arrive in Houston jails.</p><a name="1"></a><a name="rv2"></a><h3>Pets to be evacuated, too</h3><p>In the days after Katrina, officials were accused of not moving fast enough to help victims in New Orleans and elsewhere along the Gulf Coast. </p><p>Many people waited days to be rescued from flooded areas, or found themselves stranded without food or water, a situation that has not been lost on Galveston Mayor Lyda Ann Thomas.</p><p>&quot;The city of Galveston has plans to exist without outside help at all for at least three days, because New Orleans was cut off for so long,&quot; she said.</p><p>Thomas also has taken note of New Orleans victims who found themselves in jeopardy because they refused to evacuate without their pets.</p><p>&quot;Our buses took around 2,400 people -- and probably more -- out of here yesterday, [and evacuees] were allowed to take their pets,&quot; Thomas said. &quot;That was one lesson learned: that people will not leave their pets.&quot;</p><p>In 1900 Galveston lost at least 6,000 residents after a hurricane flattened the city, which is built on an island in the Gulf of Mexico. </p><p>This time, about 90 percent of Galveston's nearly 58,000 residents already had left, said City Manager Steve LeBlanc. &quot;It feels like a ghost town to me,&quot; he told reporters. </p><p>Emergency officials, however, were planning to ride out the storm, he said. They've booked more than 200 rooms at the San Luis Resort, which includes some of the 8-foot-thick walls of the fort formerly on the site. </p><a name="2"></a><a name="rv1"></a><h3>Requests for help</h3><p>After Katrina, Louisiana officials were accused of not asking federal officials for specific help to deal with the storm. Texas' chief of homeland security, Steve McCraw, said Thursday his department was &quot;on record&quot; with specific requests to Washington.</p><p>&quot;We're not afraid to ask our federal partners for extra resources,&quot; McCraw said.</p><p>Perry, Texas' governor, said he has asked President Bush, a former Texas governor,  for 10,000 federal troops to help with search-and-rescue efforts after Rita makes landfall. Perry already has activated 5,000 National Guard troops. In addition, more than 1,000 state troopers were awaiting the arrival of the storm. (<a href="javascript:cnnVideo('play','/video/us/2005/09/21/feyerick.galveston.preps.for.rita.affl');">Watch Galveston residents prepare for Rita -- 1:22</a>)</p><p>Federal Homeland Security Secretary Michael Chertoff said he has designated Rear Adm. Larry Hereth, the U.S. Coast Guard's director of port security, as the primary federal official for Rita response efforts.</p><p>&quot;It's really all hands on deck to deal with this storm,&quot; Chertoff said. &quot;We've now prepositioned or are in the process of prepositioning a lot of supplies. We've got helicopters on standby.&quot; (<a href="javascript:cnnVideo('play','/video/politics/2005/09/21/obrien.chertoff.ready.for.rita.cnn/');">Watch Chertoff explain what's been learned since Katrina -- 3:50</a>)</p><p>Mayor Henry Garrett said Corpus Christi residents also have learned from Katrina.</p><p>&quot;I think what took place in New Orleans got their attention big time,&quot; Garrett said Thursday. &quot;I think the level of awareness is a lot higher today than it would have been maybe a month ago. So we're very pleased with the way they're responding.&quot; (<a href="javascript:cnnVideo('play','/video/us/2005/09/22/franken.tx.rita.corpus.christi.ktbc'/');">Watch Corpus Christi's mayor discuss lessons learned -- 2:07</a>)</p><!--endclickprintinclude--><!--========================================================--><!--===============Paste story between here=================--><!--========================================================--> <!-- ================== /content ================== --><div><img src="https://web-beta.archive.org/web/20050924182433im_/http://i.a.cnn.net/cnn/.element/img/1.0/misc/clickability.time.gif" alt="" width="464" height="7" hspace="0" vspace="0" border="0"></div>
+
+<table width="464" cellpadding="0" cellspacing="0" border="0" id="cnnStoryToolsBox">
+	<tr valign="top">
+		<td width="227">
+			<div class="cnnStoryTools">Story Tools</div>
+				<div>
+						<script language="JavaScript" src="https://web-beta.archive.org/web/20050924182433js_/http://i.a.cnn.net/cnn/.element/ssi/js/1.1/clickability/button2006_1.js" type="text/javascript"></script>
+				</div>
+				<div>
+						<script language="JavaScript" src="https://web-beta.archive.org/web/20050924182433js_/http://i.a.cnn.net/cnn/.element/ssi/js/1.1/clickability/button2006_2.js" type="text/javascript"></script>
+				</div>
+		</td>
+		<td class="spacer"></td>
+		<td width="227"><table width="100%" border="0" cellspacing="0" cellpadding="0" id="cnnStoryToolsTimeBox">
+	<tr>
+		<td width="150">
+			<a href="/web/20050924182433/http://us.cnn.com/linkto/time.us.html">Click Here to try 4 Free Trial 
+Issues of Time!</a>
+		</td>
+		<td align="right"><a href="/web/20050924182433/http://us.cnn.com/linkto/time.us.html"><img src="https://web-beta.archive.org/web/20050924182433im_/http://i.a.cnn.net/cnn/images/time/cover_cnn.jpg" alt="cover" height="74" width="56" border="0" hspace="0" vspace="0"></a></td>
+	</tr>  
+</table></td>
+	</tr>
+</table>
+
+	
+<table width="464" cellpadding="0" cellspacing="0" border="0" id="cnnStoryRelatedsBox">
+	<tr valign="top">
+		<td width="227"><a href="/web/20050924182433/http://us.cnn.com/US"><img class="header" alt="Top Stories" width="227" height="16" hspace="0" vspace="0" border="0" src="https://web-beta.archive.org/web/20050924182433im_/http://i.a.cnn.net/cnn/.element/img/1.3/story/relateds.headers/US.gif"></a><div class="cnnBinNav"><img class="cnnBinGrad" border="0" alt="" vspace="0" hspace="0" height="15" width="6" src="https://web-beta.archive.org/web/20050924182433im_/http://i.a.cnn.net/cnn/.element/img/1.3/misc/bbin.gray.gradient.gif"><a href="/web/20050924182433/http://us.cnn.com/US">Section Page</a><img border="0" alt="" vspace="0" hspace="4" height="15" width="2" src="https://web-beta.archive.org/web/20050924182433im_/http://i.a.cnn.net/cnn/.element/img/1.3/misc/bbin.vert.div.gif"><a href="javascript:cnnVideo('browse','/us');">Video</a><img border="0" alt="" vspace="0" hspace="4" height="15" width="2" src="https://web-beta.archive.org/web/20050924182433im_/http://i.a.cnn.net/cnn/.element/img/1.3/misc/bbin.vert.div.gif"><a href="javascript:cnnFlipDisplayIdNode('cnnLocalDHTML','130px');">Local News</a><img align="absmiddle" border="0" alt="" vspace="0" hspace="2" height="4" width="6" src="https://web-beta.archive.org/web/20050924182433im_/http://i.a.cnn.net/cnn/.element/img/1.3/misc/bbin.gray.arrow.gif"><div id="cnnLocalDHTML"><div class="cnnDHTMLnav"><div onmouseout="cnnSetHoverClass(this,'cnnHover',0)" onmouseover="cnnSetHoverClass(this,'cnnHover',1)"><a href="/web/20050924182433/http://us.cnn.com/LOCAL/northeast/">Northeast</a></div><div onmouseout="cnnSetHoverClass(this,'cnnHover',0)" onmouseover="cnnSetHoverClass(this,'cnnHover',1)"><a href="/web/20050924182433/http://us.cnn.com/LOCAL/west/">West</a></div><div onmouseout="cnnSetHoverClass(this,'cnnHover',0)" onmouseover="cnnSetHoverClass(this,'cnnHover',1)"><a href="/web/20050924182433/http://us.cnn.com/LOCAL/south/">South</a></div><div onmouseout="cnnSetHoverClass(this,'cnnHover',0)" onmouseover="cnnSetHoverClass(this,'cnnHover',1)"><a href="/web/20050924182433/http://us.cnn.com/LOCAL/midwest/">Midwest</a></div><div onmouseout="cnnSetHoverClass(this,'cnnHover',0)" onmouseover="cnnSetHoverClass(this,'cnnHover',1)"><a href="/web/20050924182433/http://us.cnn.com/LOCAL/southwest/">Southwest</a></div><div onmouseout="cnnSetHoverClass(this,'cnnHover',0)" onmouseover="cnnSetHoverClass(this,'cnnHover',1)"><a href="/web/20050924182433/http://us.cnn.com/LOCAL/central/">Central</a></div></div></div></div><table class="cnnStoryRelatedsTopStory" cellspacing="0" cellpadding="0" border="0" width="227"><tr><td width="226"><a href="/web/20050924182433/http://us.cnn.com/2005/WEATHER/09/24/rita/index.html">Rita hits Gulf Coast</a></td><td width="1"><a href="/web/20050924182433/http://us.cnn.com/2005/WEATHER/09/24/rita/index.html"><img align="right" border="0" hspace="0" vspace="0" height="49" width="65" alt="" src="https://web-beta.archive.org/web/20050924182433im_/http://i.a.cnn.net/cnn/2005/WEATHER/09/24/rita/tz.landfall.map.jpg"></a></td></tr></table><div class="cnnStoryBinSubLk"><div>&nbsp;<a href="/web/20050924182433/http://us.cnn.com/2005/US/09/24/antiwar.ap/index.html">Thousands rally against Iraq war</a></div><div>&nbsp;<a href="/web/20050924182433/http://us.cnn.com/2005/US/09/24/rita.neworleans.ap/index.html">Rita strains New Orleans levees</a></div><div>&nbsp;<a href="/web/20050924182433/http://us.cnn.com/2005/LAW/09/24/abuse.england.ap/index.html">Psychologist: England 'like a little kid' </a></div></div></td>
+		<td><img src="https://web-beta.archive.org/web/20050924182433im_/http://i.cnn.net/cnn/images/1.gif" width="10" height="2" alt=""></td>
+		<td width="227"><a href="/web/20050924182433/http://us.cnn.com/"><img class="header" alt="Top Stories" width="227" height="16" hspace="0" vspace="0" border="0" src="https://web-beta.archive.org/web/20050924182433im_/http://i.a.cnn.net/cnn/.element/img/1.3/story/relateds.headers/top.stories.gif"></a><div class="cnnBinNav"><img class="cnnBinGrad" border="0" alt="" vspace="0" hspace="0" height="15" width="6" src="https://web-beta.archive.org/web/20050924182433im_/http://i.a.cnn.net/cnn/.element/img/1.3/misc/bbin.gray.gradient.gif"><a href="/web/20050924182433/http://us.cnn.com/">Home Page</a><img border="0" alt="" vspace="0" hspace="4" height="15" width="2" src="https://web-beta.archive.org/web/20050924182433im_/http://i.a.cnn.net/cnn/.element/img/1.3/misc/bbin.vert.div.gif"><a href="javascript:cnnVideo('browse','/ALL');">Video</a><img border="0" alt="" vspace="0" hspace="4" height="15" width="2" src="https://web-beta.archive.org/web/20050924182433im_/http://i.a.cnn.net/cnn/.element/img/1.3/misc/bbin.vert.div.gif"><a href="/web/20050924182433/http://us.cnn.com/mostpopular">Most Popular</a></div><table class="cnnStoryRelatedsTopStory" cellspacing="0" cellpadding="0" border="0" width="227"><tr><td width="226"><a href="/web/20050924182433/http://us.cnn.com/2005/WEATHER/09/24/rita/index.html">Bush: Lake Charles 'hit hard'</a></td><td width="1"><a href="/web/20050924182433/http://us.cnn.com/2005/WEATHER/09/24/rita/index.html"><img align="right" border="0" hspace="0" vspace="0" height="49" width="65" alt="" src="https://web-beta.archive.org/web/20050924182433im_/http://i.a.cnn.net/cnn/2005/WEATHER/09/24/rita/tz.lkcharles.park.ap.jpg"></a></td></tr></table><div class="cnnStoryBinSubLk"><div>&nbsp;<a href="/web/20050924182433/http://us.cnn.com/2005/US/09/24/antiwar.ap/index.html">Thousands rally against Iraq war</a></div><div>&nbsp;<a href="/web/20050924182433/http://us.cnn.com/2005/WORLD/meast/09/24/iraq.basra.ap/index.html">Iraq issues arrest warrant for British troops</a></div><div>&nbsp;<a href="/web/20050924182433/http://us.cnn.com/2005/WORLD/meast/09/24/mideast/index.html">Palestinians say 4 militants killed by missiles</a></div></div></td>
+	</tr>
+</table>
+
+
+</td><td><script language="JavaScript1.1">
+var agt=navigator.userAgent.toLowerCase();
+var is_ie = ((agt.indexOf("msie") != -1) && (agt.indexOf("opera") == -1));
+var is_mac = (agt.indexOf("mac")!=-1);
+var is_nav4 = (((agt.indexOf('mozilla')!=-1) && (agt.indexOf('spoofer')==-1)
+                && (agt.indexOf('compatible') == -1) && (agt.indexOf('opera')==-1)
+                && (agt.indexOf('webtv')==-1) && (agt.indexOf('hotjava')==-1)) && parseInt(navigator.appVersion) <5);
+
+if (!is_nav4) {
+	var stylesheet = '<style type="text/css">'
+		+ '\n\t.keyword{font:9px arial, helvetica, sans-serif;';
+	if (is_ie && is_mac) {
+		stylesheet += 'width:135px;}';
+	}else{
+		stylesheet += 'width:140px;}';
+	}
+	stylesheet += '\n\t.city{font:9px arial, helvetica, sans-serif;';
+	if (is_ie && is_mac) {
+		stylesheet += 'width:85px;}';
+	}else{
+		stylesheet += 'width:90px;}';
+	}
+	stylesheet += '\n\t.state{font:9px arial, helvetica, sans-serif;';
+	if (is_ie && is_mac) {
+		stylesheet += 'width:40px;}';
+	}else{
+		stylesheet += 'width:45px;}';
+	}
+	stylesheet += '\n</style>';
+	document.write(stylesheet);
+}
+</script>
+<table width="160" cellspacing="0" cellpadding="0" border="0">
+<form action="https://web-beta.archive.org/web/20050924182433/http://www.CareerBuilder.com/PLI/QuickSrchV2.asp" method="get" target="_top" onsubmit="if(this.QSKWD.value=='Enter Keywords') this.QSKWD.value=''; if(this.QSCTY.value=='Enter City') this.QSCTY.value='';">
+<input type="hidden" name="SiteID" value="cbcnn160">
+<input type="hidden" name="lr" value="cbcnn">
+<tr>
+    <td colspan="5"><img src="https://web-beta.archive.org/web/20050924182433im_/http://i.cnn.net/cnn/.element/img/1.1/misc/cb/search_jobs.gif" alt="Search Jobs" width="81" height="20" border="0"><a href="https://web-beta.archive.org/web/20050924182433/http://www.careerbuilder.com/PLI/R/AdvSearch.htm?lr=cbcnn&amp;siteid=cbcnn160" target="_top"><img src="https://web-beta.archive.org/web/20050924182433im_/http://i.cnn.net/cnn/.element/img/1.1/misc/cb/more_options.gif" alt="MORE OPTIONS" width="79" height="20" border="0"></a></td>
+</tr>
+<tr>
+	<td bgcolor="#FFCC66"><img src="https://web-beta.archive.org/web/20050924182433im_/http://i.cnn.net/cnn/.element/img/1.1/misc/cb/spacer.gif" alt="" width="1" height="63" border="0"></td>
+	<td bgcolor="#FFFFCC"><img src="https://web-beta.archive.org/web/20050924182433im_/http://i.cnn.net/cnn/.element/img/1.1/misc/cb/spacer.gif" alt="" width="8" height="63" border="0"></td>
+    <td bgcolor="#FFFFCC" style="font:10px arial, helvetica, sans-serif;" nowrap><img src="https://web-beta.archive.org/web/20050924182433im_/http://i.cnn.net/cnn/.element/img/1.1/misc/cb/spacer.gif" alt="" width="1" height="4" border="0"><br>
+	<input name="QSKWD" value="Enter Keywords" size="15" class="keyword" onfocus="if(this.value=='Enter Keywords') {this.value='';}" onblur="if(this.value=='') {this.value='Enter Keywords';}"><br>
+	<nobr><input name="QSCTY" value="Enter City" size="4" class="city" onfocus="if(this.value=='Enter City') {this.value='';}" onblur="if(this.value=='') {this.value='Enter City';}">&nbsp;
+	<select name="QSSTS" size="1" class="state">
+			<option value="ALL,US">ALL
+			<option value="AL,US">AL
+			<option value="AK,US">AK
+			<option value="AZ,US">AZ
+			<option value="AR,US">AR
+			<option value="CA,US">CA
+			<option value="CO,US">CO
+			<option value="CT,US">CT
+			<option value="DE,US">DE
+			<option value="DC,US">DC
+			<option value="FL,US">FL
+			<option value="GA,US">GA
+			<option value="HI,US">HI
+			<option value="ID,US">ID
+			<option value="IL,US">IL
+			<option value="IN,US">IN
+			<option value="IA,US">IA
+			<option value="KS,US">KS
+			<option value="KY,US">KY
+			<option value="LA,US">LA
+			<option value="ME,US">ME
+			<option value="MD,US">MD
+			<option value="MA,US">MA
+			<option value="MI,US">MI
+			<option value="MN,US">MN
+			<option value="MS,US">MS
+			<option value="MO,US">MO
+			<option value="MT,US">MT
+			<option value="NE,US">NE
+			<option value="NV,US">NV
+			<option value="NH,US">NH
+			<option value="NJ,US">NJ
+			<option value="NM,US">NM
+			<option value="NY,US">NY
+			<option value="NC,US">NC
+			<option value="ND,US">ND
+			<option value="OH,US">OH
+			<option value="OK,US">OK
+			<option value="OR,US">OR
+			<option value="PA,US">PA
+			<option value="RI,US">RI
+			<option value="SC,US">SC
+			<option value="SD,US">SD
+			<option value="TN,US">TN
+			<option value="TX,US">TX
+			<option value="UT,US">UT
+			<option value="VT,US">VT
+			<option value="VA,US">VA
+			<option value="WA,US">WA
+			<option value="WV,US">WV
+			<option value="WI,US">WI
+			<option value="WY,US">WY
+		</select></nobr><br>
+	<img src="https://web-beta.archive.org/web/20050924182433im_/http://i.cnn.net/cnn/.element/img/1.1/misc/cb/cb_logo.gif" alt="" width="95" height="20" border="0"><input type="image" src="https://web-beta.archive.org/web/20050924182433im_/http://i.cnn.net/cnn/.element/img/1.1/misc/cb/search_button.gif" width="46" height="20" border="0"></td>
+    <td bgcolor="#FFFFCC"><img src="https://web-beta.archive.org/web/20050924182433im_/http://i.cnn.net/cnn/.element/img/1.1/misc/cb/spacer.gif" alt="" width="9" height="63" border="0"></td>
+	<td bgcolor="#FFCC66"><img src="https://web-beta.archive.org/web/20050924182433im_/http://i.cnn.net/cnn/.element/img/1.1/misc/cb/spacer.gif" alt="" width="1" height="63" border="0"></td>
+</tr>
+<tr>
+	<td bgcolor="#FFCC66"><img src="https://web-beta.archive.org/web/20050924182433im_/http://i.cnn.net/cnn/.element/img/1.1/misc/cb/spacer.gif" alt="" width="1" height="3" border="0"></td>
+	<td bgcolor="#FFFFCC"><img src="https://web-beta.archive.org/web/20050924182433im_/http://i.cnn.net/cnn/.element/img/1.1/misc/cb/spacer.gif" alt="" width="8" height="3" border="0"></td>
+    <td bgcolor="#FFFFCC"><img src="https://web-beta.archive.org/web/20050924182433im_/http://i.cnn.net/cnn/.element/img/1.1/misc/cb/spacer.gif" alt="" width="9" height="3" border="0"></td>
+    <td bgcolor="#FFFFCC"><img src="https://web-beta.archive.org/web/20050924182433im_/http://i.cnn.net/cnn/.element/img/1.1/misc/cb/spacer.gif" alt="" width="9" height="3" border="0"></td>
+	<td bgcolor="#FFCC66"><img src="https://web-beta.archive.org/web/20050924182433im_/http://i.cnn.net/cnn/.element/img/1.1/misc/cb/spacer.gif" alt="" width="1" height="3" border="0"></td>
+</tr>
+<tr>
+    <td bgcolor="#FFCC66" colspan="5"><img src="https://web-beta.archive.org/web/20050924182433im_/http://i.cnn.net/cnn/.element/img/1.1/misc/cb/spacer.gif" alt="" width="1" height="1" border="0"></td>
+</tr>
+</form>
+</table>
+               
+<div><img src="https://web-beta.archive.org/web/20050924182433im_/http://i.cnn.net/cnn/images/1.gif" alt="" width="1" height="4"></div>
+
+<div><img src="https://web-beta.archive.org/web/20050924182433im_/http://i.cnn.net/cnn/images/1.gif" alt="" width="1" height="4"></div>
+<div><!-- special_reports/hurricanes/article/right.160x600 -->
+<script language="JavaScript1.1">
+<!--
+adSetTarget('_blank');
+htmlAdWH( (new Array(93213882,93213882,93182775,93182775))[document.adoffset||0] , 160, 600);
+//-->
+</script><noscript><a href="https://web-beta.archive.org/web/20050924182433/http://ar.atwola.com/link/93213882/aol" target="_blank"><img src="https://web-beta.archive.org/web/20050924182433im_/http://ar.atwola.com/image/93213882/aol" alt="Click here for our advertiser" width="160" height="600" border="0"></a></noscript>
+</div>
+</td></tr> </table><div id="cnnFootBox"><div id="cnnFootNav">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td><div class="cnn4pxLpad"><a href="https://web-beta.archive.org/web/20050924182433/http://edition.cnn.com" onclick="clickEdLink()">International Edition</a></div></td>
+		<td>
+			<form>
+				<select title="CNN.com is available in different languages" name="languages" size="1" onchange="if (this.options[selectedIndex].value != '') location.href=this.options[selectedIndex].value" class="cnnFormSelectSm">
+					<option value="" disabled selected>Languages</option>
+					<option value="" disabled>---------</option>
+					<option value="http://arabic.cnn.com/">Arabic</option>				
+					<option value="http://www.CNN.co.jp/">Japanese</option>
+					<option value="http://www.joins.com/cnn/">Korean</option>
+					<option value="http://cnnturk.com/">Turkish</option>				
+				</select>
+			</form>
+		</td>
+		<td><a href="/web/20050924182433/http://us.cnn.com/CNN/Programs/">CNN TV</a></td>
+		<td><a href="/web/20050924182433/http://us.cnn.com/CNNI/">CNN International</a></td>
+		<td><a href="/web/20050924182433/http://us.cnn.com/HLN/">Headline News</a></td>
+		<td><a href="/web/20050924182433/http://us.cnn.com/TRANSCRIPTS/">Transcripts</a></td>
+		<td><a href="/web/20050924182433/http://us.cnn.com/services/advertise/">Advertise with Us</a></td>
+		<td align="right" class="cnn7pxRpad"><a href="/web/20050924182433/http://us.cnn.com/INDEX/about.us/">About Us</a></td>
+	</tr>
+</table>
+</div>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" id="cnnFootSearch">
+	<colgroup>
+		<col width="572">
+		<col width="32">
+		<col width="158">
+	</colgroup>
+	<tr valign="middle">
+		<td><form action="https://web-beta.archive.org/web/20050924182433/http://search.cnn.com/cnn/search" method="get" onsubmit="return CNN_validateSearchForm(this);"><input type="hidden" name="source" value="cnn"><input type="hidden" name="invocationType" value="search/bottom"><img src="https://web-beta.archive.org/web/20050924182433im_/http://i.a.cnn.net/cnn/.element/img/1.3/searchbar/hdr.gif" width="63" height="12" hspace="0" vspace="9" border="0" alt="Search" class="cnnSrch"><img src="https://web-beta.archive.org/web/20050924182433im_/http://i.a.cnn.net/cnn/.element/img/1.3/searchbar/vert.divider.floor.gif" width="2" height="30" hspace="15" vspace="0" border="0" alt=""><input type="radio" name="sites" value="web" checked class="cnnR"><img src="https://web-beta.archive.org/web/20050924182433im_/http://i.a.cnn.net/cnn/.element/img/1.3/searchbar/the.web.gif" width="44" height="7" hspace="0" vspace="0" border="0" alt="" class="cnnWeb"><input type="radio" name="sites" value="cnn" class="cnnR"><img src="https://web-beta.archive.org/web/20050924182433im_/http://i.a.cnn.net/cnn/.element/img/1.3/searchbar/cnn.com.gif" width="41" height="7" hspace="0" vspace="0" border="0" alt="" class="cnnCNN"><input type="text" name="query" value="" title="Enter text to search for and click 'Search'" size="30" maxlength="40" class="cnnInput"><input type="submit" value="SEARCH" class="cnnFormButtonSearch"></form>
+		</td>
+		<td><img src="https://web-beta.archive.org/web/20050924182433im_/http://i.a.cnn.net/cnn/.element/img/1.3/searchbar/vert.divider.floor.gif" width="2" height="30" hspace="15" vspace="0" border="0" alt=""></td>
+		<td><img src="https://web-beta.archive.org/web/20050924182433im_/http://i.a.cnn.net/cnn/.element/img/1.3/searchbar/yahoo.logo.gif" width="158" height="29" hspace="0" vspace="0" border="0" alt=""></td>
+	</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="10" id="cnnFoot">
+	<colgroup>
+		<col width="440">
+		<col width="270">
+	</colgroup>
+	<tr valign="top">
+		<td><b>&copy; 2005 Cable News Network LP, LLLP.</b><br>A Time Warner Company. All Rights Reserved.<br><a href="/web/20050924182433/http://us.cnn.com/interactive_legal.html">Terms</a> under which this service is provided to you.<br>Read our <a href="/web/20050924182433/http://us.cnn.com/privacy.html">privacy guidelines</a>. <a href="/web/20050924182433/http://us.cnn.com/feedback/">Contact us</a>.</td>
+		<td align="right">
+			<table border="0" cellpadding="0" cellspacing="0" id="cnnIconMap">
+				<tr>
+					<td width="11"><img src="https://web-beta.archive.org/web/20050924182433im_/http://i.a.cnn.net/cnn/.element/img/1.3/floor/dots.gif" width="1" height="64" hspace="0" vspace="0" border="0" alt=""></td>
+					<td valign="top">
+						<table cellpadding="0" cellspacing="0" border="0">
+							<tr>
+								<td valign="top" class="cnn4pxRpad"><img src="https://web-beta.archive.org/web/20050924182433im_/http://i.a.cnn.net/cnn/.element/img/1.3/floor/offsite.gif" alt="Offsite Icon" width="28" height="13" border="0"></td>
+								<td valign="top">All external sites will open in a new browser.<br>CNN.com does not endorse external sites.</td>
+							</tr>
+							<tr class="cnnNoPad">
+								<td valign="middle" class="cnn4pxRpad"><a href="/web/20050924182433/http://us.cnn.com/services/rss/"><img src="https://web-beta.archive.org/web/20050924182433im_/http://i.a.cnn.net/cnn/.element/img/1.3/floor/xml.gif" alt="RSS Feed" width="28" height="13" border="0"></a></td>
+								<td><a href="/web/20050924182433/http://us.cnn.com/services/rss/">Add RSS Headlines</a></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table></div><div id="csiIframe" style="visibility:hidden;height:0px;width:0px;"></div><img src="https://web-beta.archive.org/web/20050924182433im_/http://cnn.dyn.cnn.com/cookie.crumb" alt="" width="1" height="1">
+<!-- popunder ad run_of_site/popunder.720x300 -->
+<script language="JavaScript1.1" type="text/javascript">
+<!--
+
+if (document.adPopupFile) {
+	if (document.adPopupInterval == null) {
+		document.adPopupInterval = '0';
+	}
+	if (document.adPopunderInterval == null) {
+		document.adPopunderInterval = document.adPopupInterval;
+	}
+	if (document.adPopupDomain != null) {
+		adSetPopDm(document.adPopupDomain);
+	}
+	adSetPopupWH('93162673', '720', '300', document.adPopupFile, document.adPopunderInterval, 20, 50, -1);
+}
+
+// -->
+</script>
+
+<!-- home/top_layer.101x1 -->
+<script language="JavaScript1.1" type="text/javascript"><!--
+var MacPPC = (navigator.platform == 'MacPPC') ? true : false;
+if (!MacPPC) {
+adSetType('J');
+htmlAdWH( (new Array(93137910,93137910,93182827,93182827))[document.adoffset||0], 101, 1);
+adSetType('');
+}
+// --></script>
+
+<script language="javascript" type="text/javascript"> var cnnBrandingValue = "sprj.kat05";</script> <img src="https://web-beta.archive.org/web/20050924182433im_/http://i.a.cnn.net/cnn/1.gif" alt="" id="TargetImage" name="TargetImage" width="1" height="1" onload="getAdHeadCookie(this)">
+
+<script language="JavaScript1.1" src="https://web-beta.archive.org/web/20050924182433js_/http://ar.atwola.com/file/adsEnd.js"></script>
+<script language="JavaScript1.2" src="https://web-beta.archive.org/web/20050924182433js_/http://i.cnn.net/cnn/.element/ssi/js/1.3/omniture.js"></script>
+<!-- SiteCatalyst code version: H.1.
+Copyright 1997-2005 Omniture, Inc. More info available at
+http://www.omniture.com -->
+<script language="JavaScript" src="https://web-beta.archive.org/web/20050924182433js_/http://i.cnn.net/cnn/.element/ssi/js/1.3/s_code.js"></script>
+<script language="JavaScript"><!--
+/* You may give each page an identifying name, server, and channel on
+the next lines. */
+s.pageName=pageName;
+s.server=""
+s.channel=channel;
+s.pageType=""
+if (typeof(cnnAuthor) != "undefined") {
+    s.prop1=cnnAuthor;
+} else {
+    s.prop1="";
+}
+s.prop2=location.hostname;
+if (typeof(cnnBrandingValue) != "undefined") {
+    s.prop3=cnnBrandingValue;
+} else {
+    s.prop3="";
+}
+if (typeof(cnnStoryDate) != "undefined") {
+    s.prop4=cnnStoryDate;
+} else {
+    s.prop4="";
+}
+if (typeof(cnnStoryHeadline) != "undefined") {
+    s.prop5=cnnStoryHeadline;
+} else {
+    s.prop5="";
+}
+s.prop6="";
+s.prop7="";
+s.prop8="";
+s.prop9="";
+s.prop10="";
+s.prop11="";
+s.prop12="";
+s.prop13="";
+s.prop14="";
+s.prop15="";
+s.prop16="";
+s.prop17="";
+s.prop18="";
+s.prop19="";
+s.prop20="";
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)//--></script>
+<script language="JavaScript"><!--
+if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+//--></script><noscript><img src="https://web-beta.archive.org/web/20050924182433im_/http://cnnglobal.122.2O7.net/b/ss/cnnglobal/1/H.1--NS/0" height="1" width="1" border="0" alt=""/></noscript><!--/DO NOT REMOVE/-->
+<!-- End SiteCatalyst code version: H.1. --></div></body></html>

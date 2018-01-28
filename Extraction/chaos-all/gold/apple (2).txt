@@ -1,0 +1,23 @@
+ STORAGE HUNTERS How to free up iPhone storage by installing Apple’s latest iOS update
+
+The tech giant's latest operating system update also lets users track down their lost AirPods
+
+IPHONE users will be able to free up some precious space on their smartphone when they install Apple’s latest operating system update.
+
+The new iOS10.3 update features a new file system – named Apple File System (APFS) – which will replace the existing HFS+ file system and will automatically free up space on your device.
+
+The APFS has been called the “the next generation in storage” and will is available on iPhone, iPad or IPod touch, reports the Verge.
+
+The high-tech new file system will support features like snapshot and will boost encryption, reports the Express.
+
+APFS will free up space due to the way it processes data on your device.
+
+Installing the update is easy and can be done by following Settings > General > Software Update.
+
+The update’s other useful features include being able to track Apple’s controversial AirPods.
+
+The wireless earbuds were introduced by the tech giant with the iPhone 7 and iPhone 7+ which discarded the handy headphone jack.
+
+Users will now be able to locate their lost earbuds by using the Find My iPhone app which enables you to play a sound from them.
+
+And if you’re too far away from the earphones to hear the sound, you can also see the location where they were last connected to your iOS through Bluetooth.

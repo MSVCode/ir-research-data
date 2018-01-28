@@ -1,0 +1,11 @@
+Microsoft confirms it’s cutting Windows 10 updates for Atom PCs
+
+
+Microsoft has been preventing PCs with Intel Atom Clover Trail processors from obtaining the latest Windows 10 Creators Update. While many devices with Intel’s Atom Clover Trail chips were released in the Windows 8 era, Microsoft offered a free Windows 10 update to keep the tablet / laptop hybrids up-to-date. ZDNet revealed earlier this week that compatible drivers are preventing owners from updating to the Windows 10 Creators Update, and Microsoft has now confirmed to The Verge that it no longer supports Intel Atom Clover Trail processors for its latest Windows 10 updates.
+
+“They require additional hardware support to provide the best possible experience when updating to the latest Windows 10 feature update, the Windows 10 Creators Update,” explains a Microsoft spokesperson. “However, these systems are no longer supported by Intel (End of Interactive Support), and without the necessary driver support, they may be incapable of moving to the Windows 10 Creators Update without a potential performance impact.”
+"Atom devices will still get Windows 10 security patches"
+
+Microsoft says it will be offering the older Windows 10 Anniversary Update to Intel Clover Trail devices instead, and the company “will provide security updates to these specific devices running the Windows 10 Anniversary Update until January of 2023.” This date aligns with the original Windows 8.1 extended support period, which means that these older devices will still be supported with security updates but no new Windows 10 features.
+
+Intel’s Atom processors were supposed to offer better battery life for smaller and cheaper tablet / laptop devices running Windows 8.1. A lack of good performance meant most consumers decided to purchase Intel’s Core series machines, and Intel eventually gave up on Atom last year. HP’s Envy X2 was one of the more popular Atom-based devices, but not many were widely used.

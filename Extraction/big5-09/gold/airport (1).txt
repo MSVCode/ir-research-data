@@ -1,0 +1,69 @@
+ Will airports screen for body signals? Researchers hope so
+
+    Story Highlights
+    Government researching devices that would monitor body signals at checkpoints
+    Signals include heart rate, eye movement, body temperature and fidgeting
+    Devices would be used to determine who needs secondary screening
+    Some critics say project is unworkable; other say it'd be an invasion of privacy
+
+BOSTON, Massachusetts (CNN) -- The days of being able to walk through airport security checkpoints while wearing shoes and a jacket could return if an experimental program proves successful, some Department of Homeland Security officials say.
+
+ The Homeland Security-funded project is Future Attribute Screening Technology, or FAST. Instead of focusing on whether you have hidden explosives or whether you're carrying a weapon, sensors and cameras located at security checkpoints would measure the natural signals coming from your body -- your heart rate, breathing, eye movement, body temperature and fidgeting.
+
+Those physiological signs, measured together, will indicate whether you might have the desire or intent to do harm, project manager Robert Burns said.
+
+"There's been a large field of research that ties your physical reactions to your mental state, your emotional state. We're looking for those signals that your body gives off naturally," Burns said.
+
+Burns said the technology will pick up cues that may not be observed by a human and help security personnel decide more quickly whether to send someone to secondary screening for questioning. 
+
+ FAST could be used wherever there are special security concerns, including stadiums, convention centers, federal buildings, mass transit centers and airports.
+
+Some critics question the viability of the project, saying it's pie-in-the-sky science fiction. Civil libertarians also charge it's an invasion of privacy.
+
+Researchers demonstrated FAST to reporters last month at the Charles Stark Draper Laboratory in Boston.
+
+ Actors walked into a room, where the various sensors measured their responses to a series of questions from a screener. The questions included, "Is this the month of September?" and "Do you plan to detonate an explosive?" Their responses were noted on individual graphs that indicated whether their physiological cues fell within normal ranges.
+
+It's taken about $20 million to develop the technology. All but one of the sensors is commercially available.
+
+One is a thermal imaging device that measures the temperature of a face. A screener would look for temperature changes -- a possible stress response -- as a person is asked questions.
+
+Another device, an eye tracker, follows a person's gaze, checks the amount of blinking and measures pupil dilation.
+
+Two of the machines track heart and respiratory rates. They also measure the interval between heartbeats and how deeply one inhales.
+
+And there is an improvised fidgeting monitor. Researchers took a Wii balance board -- a device people stand on to interact with certain Nintendo Wii video games -- and altered it to show how someone's weight shifts. Studies are now under way to determine whether there is a level of fidgeting that would suggest the need for secondary screening.
+
+A checkpoint screener would not look at the results individually, but would consider them together when deciding whether someone should be sent for questioning, Burns said.
+
+And a screener wouldn't be targeting just people with elevated levels.
+
+"We're going to look for the elevation, but we're also going to look for the absence of signals, which is just as indicative of being something that has to be resolved," Burns said.
+
+FAST researchers are encouraged by the results so far. One of the researchers, Daniel Martin, says as each succeeding study becomes more real, the program is "doing significantly better than chance."
+
+Critics say that is not good enough.
+
+"I haven't seen any research that shows that those measures from the autonomic nervous system ... measuring blood pressure, measuring breathing, measuring heat on the face, are at all related to intent," said Stephen Fienberg, professor of statistics and social sciences at Carnegie Mellon University.
+
+Fienberg, who participated in a government study critical of the use of polygraphs, said he worries that a lot of money is being spent on a program that in the end will show "the emperor has no clothes."
+
+Civil liberties groups maintain this screening technology is an invasion of privacy.
+
+"Nobody has the right to look at my intimate bodily functions, my breathing, my perspiration rate, my heart rate, from afar," said Joe Stanley of the ACLU.
+
+Stanley says government officials need to focus on what has worked in the past.
+
+"They need to use old-fashioned, shoe-leather law enforcement investigative techniques, chase down known evidence, known suspects and get out there and do a good, competent basic job in investigating terrorist groups," he said.
+
+Stanley added the notion that terrorists "can be picked out with this kind of pseudo technological approach ... is very naive."
+
+Burns denied the project is a violation of privacy.
+
+"We're looking at signals you give off naturally. We're not asking for any personal information. We're not asking anything about you," he said.
+
+Burns acknowledges the project has a long way to go, but he insists it is valid research that's headed in the right direction. He believes their theory is backed by "a vast plethora of research over the past 40 years."
+
+Researchers hope to have the project ready for field testing in 2011. Burns' goal is to have a system within five years that is "minimized and unobtrusive."
+
+People would go through security quicker, Burns said, and "you may keep your shoes on, you don't need to take your jacket off and please keep your bottle of water."

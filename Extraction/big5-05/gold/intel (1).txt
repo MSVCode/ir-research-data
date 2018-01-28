@@ -1,0 +1,13 @@
+Intel releases new Pentium Extreme Edition 955 CPU
+
+ High-end processors are excellent marketing tools, giving PC enthusiasts something to drool over and dream about, even if the high-end prices make them unsuitable for most applications. Given this fact, it is somewhat surprising that Intel let its "Extreme Edition" line languish for nearly eight months, while all the attention focused on AMD's high-end Athlon 64 X2 line.
+
+Well, the processor giant fought back today with its official release of the Pentium Extreme Edition 955. The new chip, which replaces the Extreme Edition 840 as Intel's flagship CPU, is a dual-core design with a clock speed of 3.46 GHz. While this is only a slight bump over the 840's 3.2 GHz clock speed, there are many other improvements under the hood.
+
+The 955 doubles the amount of Level 2 (L2) cache from 2MB to 4MB, and increases the front side bus clock speed from 800MHz to 1066MHz. Like its predecessor, it features Hyperthreading, which means that the CPU can run four separate threads in parallel. The CPU supports Intel's new virtualization technology, as well as the 64-bit EMT64 extensions that first debuted with AMD's Opteron line, and supports the Execute Disable Bit to prevent against certain types of malware driven buffer-overflow attacks. The CPU contains approximately 376 million transistors and operates between 1.2 and 1.33 volts while drawing a power of 130 watts.
+
+But the big story is that the chip is manufactured on a 65 nanometer process, as opposed to the current industry standard of 90nm. The new process allows Intel to manufacture more processor cores per silicon wafer, which should eventually result in reduced prices for the entire line, as well as allowing more processing power to be generated per watt.
+
+In preliminary benchmark tests, the Pentium Extreme Edition 955 beat AMD in synthetic benchmarks, 3D rendering tests, and audio encoding tests. However, the Athlon 64 X2 4800+ still won out in most of the gaming benchmarks, content creation test, and video encoding tests.
+
+Intel says that the Pentium Extreme Edition 955 will be available on January 16, for an MSRP of US$999. This is expected to coincide with a massive new massive new marketing effort which may include a replacement for the familiar "Intel Inside" jingle and logo. 

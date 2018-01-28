@@ -1,0 +1,49 @@
+Man versus machine: Evidence that robots are winning the race for jobs 
+
+Who is winning the race for jobs between robots and humans?
+
+Last year, two leading economists described a future in which humans come out ahead. But now they've declared a different winner: the robots.
+
+The industry most affected by automation is manufacturing. For every robot per thousand workers in US factories, up to six workers lost their jobs and wages fell by as much as three-fourths of a per cent, according to a new paper by the economists, Daron Acemoglu of MIT and Pascual Restrepo of Boston University. It appears to be the first study to quantify large, direct, negative effects of robots.
+
+The paper is all the more significant because the researchers, whose work is highly regarded in their field, had been more sanguine about the effect of technology on jobs.
+
+In a paper last year, they said it was likely that increased automation would create new, better jobs, so employment and wages would eventually return to their previous levels. Just as cranes replaced dockworkers but created related jobs for engineers and financiers, the theory goes, new technology has created new jobs for software developers and data analysts.
+
+But that paper was a conceptual exercise. The new one uses real-world data - and suggests a more pessimistic future. The researchers said they were surprised to see very little employment increase in other occupations to offset the job losses in manufacturing.
+
+That increase could still happen, they said, but for now there are large numbers of people out of work, with no clear path forward - especially blue-collar men without college degrees.
+
+"The conclusion is that even if overall employment and wages recover, there will be losers in the process, and it's going to take a very long time for these communities to recover," Acemoglu said.
+
+"If you've worked in Detroit [making cars] for 10 years, you don't have the skills to go into health care," he said. "The market economy is not going to create the jobs by itself for these workers who are bearing the brunt of the change."
+
+The paper also helps explain a mystery that has been puzzling economists: why, if machines are replacing human workers, productivity hasn't been increasing. In manufacturing, productivity has been increasing more than elsewhere - and now we see evidence of it in the employment data too.
+
+The study analysed the effect of industrial robots in local labour markets in the United States. Robots are to blame for up to 670,000 lost manufacturing jobs between 1990 and 2007, it concluded, and that number will rise because industrial robots are expected to quadruple.
+
+The paper adds to the evidence that automation, more than other factors like trade and offshoring that President Donald Trump had waged his campaign on, has been the bigger long-term threat to blue-collar jobs.
+
+The researchers said the findings - "large and robust negative effects of robots on employment and wages" - remained strong even after controlling for imports, offshoring, software that displaces jobs, worker demographics and the type of industry.
+
+Robots affected both men's and women's jobs, the researchers found, but the effect on male employment was up to twice as big.
+
+The data doesn't explain why, but Acemoglu had a guess: Women are more willing than men to take a pay cut to work in a lower-status field.
+
+The economists looked at the effect of robots on local economies and also more broadly. In an isolated area, each robot per thousand workers decreased employment by 6.2 workers and wages by 0.7 per cent. But across the United States, the effects were smaller, because jobs were created in other places.
+
+Take Detroit, home to automakers, the biggest users of industrial robots. Employment was greatly affected. If automakers can charge less for cars because they employ fewer people, employment might increase elsewhere in the country, like at steel-makers or taxi operators.
+
+Meanwhile, the people in Detroit will probably spend less at stores. Including these factors, each robot per thousand workers decreased employment by three workers and wages by 0.25 per cent.
+
+The findings fuel the debate about whether technology will help people do their jobs more efficiently and create new ones, as it has in the past, or eventually displace humans.
+
+David Autor, a collaborator of Acemoglu's at MIT, has argued that machines will complement instead of replace humans, and cannot replicate human traits like common sense and empathy.
+
+"I don't think that this paper is the last word on its subject, but it's an exceedingly carefully constructed and thought-provoking first word," he said.
+
+Restrepo said the problem might be that the new jobs created by technology are not in the places that are losing jobs.
+
+"I still believe there will be jobs in the years to come, though probably not as many as we have today," he said. "But the data have made me worried about the communities directly exposed to robots."
+
+The next question is whether the coming wave of technologies, like machine learning, drones and driverless cars, will have similar effects - but on many more people.

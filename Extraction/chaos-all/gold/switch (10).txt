@@ -1,0 +1,21 @@
+The Nintendo Switch Day One Update Brings Back Friend Codes
+
+The Nintendo Switch day one update is here, including online and eShop functionality—plus a little something it seems a few weren't expecting: the return of friend codes. (The Switch, a hybrid TV/handheld game system that sells for $299, is out March 3.)
+
+What madness is this?
+
+If you're not familiar with Nintendo's handhelds or the way friend requests worked with the original Wii, the idea was that instead of adding friends through an online service, each physical game device would generate a unique alphanumeric code. The code worked sort of like a business card: if you wanted to add someone, you had to first swap codes. It was Nintendo's way of grappling with privacy concerns (and, ostensibly, predatory behavior), the idea being that you were more likely to know your virtual friends if you had to chat them up for a code first.
+
+With the Switch, friend codes are back, which in 2017 means we're definitely seeing a philosophical pushback against prevailing assumptions about online interactivity 101. This is Nintendo saying it thinks there's a better or more platform-appropriate way to approach online engagement, not unlike an Apple when it's opting to remove things like Game Center, or the internal iPhone headphone jack. Whatever else you want to say about the choice, it's not accidental, or because Nintendo lacked the technical chops to give us the kinds of lookup tools Sony's PlayStation Network or Microsoft's Xbox Live do.
+
+Two steps back? Or a tempest in a teapot? That depends whether you buy into Nintendo's conception of the Switch as, yes, a devoted gaming platform, but also a stealth strategy for revitalizing face-to-face contact. Swapping friend codes requires you interact with someone beyond passively thumbing text into a search box and firing off impersonal requests. It's an extra step in the algorithm that's a bit like a crowdsourced version of two-factor authentication, only one that in Nintendo's view is vital.
+
+But there's something else easily overlooked in the friend code hullabaloo, which is that friend codes are just one of four ways the Switch lets you pull together a coterie. With the day one update, the Switch also lets you search for physically nearby or "local" users (by swapping colored card suit symbols), or by selecting from a list of "users you played with" (after you've done so in whatever game).
+
+And most important of all? By adding "suggested friends" drawn from smartphone apps like Miitomo and Super Mario Run.
+
+That last method seems like the bellwether to me. Besides it being the easiest end-around to swapping friend codes, it's Nintendo saying "Use your smartphone to manage contacts." Because we already do. By tying the Switch and mobile devices together like this (you have to link smartphone apps with your Nintendo Account to make the magic happen), Nintendo is in essence building an extension of its meta-ecosystem—a virtual social bridge designed to encourage the flow of essential traffic—to the ubiquitous mobile-verse. There's something faintly reverse-colonization-ish about it.
+
+I doubt any of that is going to dislodge the sort of mindset that assumes there's a right and wrong way to do these things. Who can blame an Xbox Live or PlayStation Network or Steam vet used to dialing up pals with a few taps on a gamepad or keyboard for grumping? We want what we want. Whether that includes more direct interaction with our fellow travelers, or managing this stuff with a smart device, is in the hands of buyers now.
+
+Update: It appears Nintendo plans to add yet more ways to add friends down the road. For instance, in an email to TIME, the company said it plans to add social network support (so that friends on social networking services show up as candidates, as they currently do for apps like Miitomo and Super Mario Run). The company also intends to in the future let users send friend requests to friends associated with a Nintendo Network ID, as well as the Nintendo 3DS. And Nintendo notes that some games will include an in-game interface for sending friend requests.

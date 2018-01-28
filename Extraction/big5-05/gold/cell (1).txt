@@ -1,0 +1,17 @@
+Cell vs. Intel? That depends on what the meaning of "vs." is
+
+ Sony's multi-decade love affair with unwieldy, intrusive, consumer-angering DRM isn't the only thing that techies and early adopters like to slam the company for. There's also Sony's penchant for outrageous smack talk about exactly how hardnot in decibels but in kilotonsthe company's next game console will rock. (See also Sony's recent claims about what is and is not "true HD.") It's to the point now where even run-of-the-mill corporate hyperbole, the kind of which most companies are routinely guilty, makes front page headlines because reporters take it to be more Sony grandstanding.
+
+Take some recent statements by Sony's semiconductor chief, Kenshi Manabe, made in an analysts' session that was reported on by BusinessWeek:
+
+    "The Cell chip is as good as the Pentium, if not better," Manabe said, according to several people who attended the meeting.
+
+BusinessWeek takes this to be typical Sony bombast, i.e. Sony is aiming to dethrone Intel and whatnot. It may very well be such, but it just as well may not be. More on that in a moment, though.
+
+What the analyst meeting itself, along with the remarks by Manabe, does tell us is that, once again, Sony is serious about moving its premier console chip into other, non-gaming markets. We already knew this, of course, but so far most of the initiative behind the move to get Cell adopted outside the PS3 has come from IBM. This is probably because, believe it or not, IBM will be in the best position to exploit Cell's non-gaming potential in the next few years.
+
+Sure, Sony's consumer electronics division has a voracious and growing appetite for digital signal processing (DSP) horsepower, but Cell is overkill for what the great majority of non-gamers will be doing in their living rooms for some time. However, with one quick change the Cell could become a great web server chip in short order. What sort of change? If IBM changed Cell's SPE hardware from SIMD floating-point to scalar integer, they'd have something that looks a whole lot likeand possibly even performs likeSun's UltraSparc T1.
+
+The consumer demand for Cell-like levels of DSP prowess is limited to gaming right now, and probably will be for a few more years. But the demand for UltraSparc T1-levels of performance per watt is there yesterday in the datacenter. I don't have any kind of insider information at all on this, but I think it's a near certainty that IBM will announce some kind of server-specific version of Cell with an altered, integer-focused SPE architecture as soon as they reasonably can.
+
+This point brings me back to the statement quoted above, and to the issue of whether or not Cell really is "better than" the Pentium line. Manabe's claim is meaningless unless you ask, "better at what?" If Manabe means "better at DSP," then yeah, Cell is certainly better than anything in Intel's current to near-term x86 lineup for that niche. If he means "better at general purpose computing tasks," then, well, he's full of it. And if he means "better at throughput computing applications, like high-volume web servers," then he's either full of it or he's talking about some version of Cell that hasn't been made public yet. 

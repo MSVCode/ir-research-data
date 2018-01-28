@@ -1,0 +1,15 @@
+Microsoft says goodbye to Windows Phone
+
+Windows Phone 8.1, very possibly the last operating system to ever bear the name "Windows Phone," officially dies today, confirms a Microsoft support page.
+
+When Microsoft first released Windows Phone 8.1 on July 11, 2014, the company committed to providing three years of updates and patches.
+
+Now, that time is up.
+
+And, since Windows Phone 8.1 has given way to the newer Windows 10 Mobile, there's not a lot of incentive for Microsoft to recant and resume supporting the operating system.
+
+In other words, if you're one of the very few still running Windows Phone 8.1, I hope you like it, because how it is now is how it will be forever, bugs and all. And while some select handsets are eligible for an upgrade to Windows 10 Mobile, many are not, leaving them stuck on the old system.
+
+The real question: How long will Windows 10 Mobile, its successor, actually stick around? As of the end of 2016, all of the various Windows phone operating systems combined had a market share of 0.3%. And with no new flagship Windows 10 Mobile phone expected for the rest of this year, or possibly ever, that's unlikely to change.
+
+Microsoft has said that it remains committed to supporting Windows 10 Mobile. Still, Microsoft's smartphone efforts are stuck in the mud. And while speculation continues to mount that Microsoft is hard at work on a so-called Surface Phone, it's hard to see how it might make a difference amid the continuing domination of Apple iOS and Android.

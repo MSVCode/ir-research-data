@@ -1,0 +1,57 @@
+Xbox Project Scorpio: Release date, price, specs and everything you need to know
+
+Microsoft pulled a bit of a pleasant surprise during E3 2016 last June. As well as announce the Xbox One S, which has since sold in bucket loads, it revealed that an all-new Xbox is in the works; a console it called the "most powerful console yet" and capable of full 4K gaming.
+
+Since that time, Sony released its own 4K games machine, the PS4 Pro, but the Microsoft alternative is expected to be even better.
+
+It's currently going under the name Project Scorpio (although that's likely to change) and here's everything you need to know about it.
+What is Project Scorpio?
+
+Project Scorpio is the codename for Microsoft's next Xbox console. It was teased at E3 2016 but will be fully revealed at this year's event in June - including its actual name. The tease was added to the Xbox press conference we suspect because Sony was soon to announce (and release) the PS4 Pro, even though Microsoft claimed it was to get developers on board.
+
+Xbox boss, Phil Spencer said at the E3 reveal, "We're announcing Project Scorpio today to give our developers and partners the ability to take advantage of that capability now."
+
+It wasn't the first we've heard of Project Scorpio, however. Those who follow games industry news will know that the Scorpio name was bandied around from early 2016 - and many of the leaked details were effectively confirmed by Microsoft.
+MicrosoftScreen Shot 2016-06-13 at 20.48.57
+Project Scorpio hardware and specs
+
+Microsoft's mid-generation successor to the Xbox One was rumoured to be a far more powerful than Sony's new, fully 4K-capable PS4 Pro before official specs were available and now it seems that is true.
+
+The Digital Foundry was given access to the new box and specifications at Microsoft HQ in Redmond and, on paper and in practice, Scorpio is a more capable console than any we've seen before.
+
+    Official Xbox Project Scorpio specs revealed, most powerful console ever
+
+It runs on what is called the Scorpio Engine, which uses a custom SoC (System on Chip) with an enhanced version of the Jaguar core CPU adopted by the Xbox One S. Almost every other aspect is beefed up too:
+
+    Processor: Eight custom x86 cores clocked at 2.3GHz
+    Graphics: 40 customised compute units at 1,172MHz
+    RAM: 12GB DDR5
+    Memory bandwidth: 326GB/s
+    Hard drive: 1TB 2.5-inch drive
+    Optical drive: 4K Ultra HD Blu-ray player
+
+The latter inclusion is interesting because Sony decided against a 4K Blu-ray deck for its PS4 Pro. The Xbox One S does have a 4K player, however.
+
+    PS4 Pro vs Project Scorpio: What’s the difference?
+
+Digital Foundry explained more about each of the different specifications on its dedicated YouTube channel.
+Project Scorpio and virtual reality
+
+In the announcement of Project Scorpio, there was also a fair amount of talk of VR. With Bethesda already showing off plans for Fallout in VR - which we've had a chance to demo - another aim of Project Scorpio is to deliver high-fidelity VR gaming.
+
+Since then, Microsoft has confirmed that Project Scorpio will support the company's own Mixed Reality headsets in future. Devices that utilise the tech formerly known as Windows Holographic aren't quite VR, more augmented reality, but that could also open the door for other systems, such as Oculus Rift.
+
+We're bound to find out more during E3. The box is definitely technically capable, that's for sure.
+MicrosoftScreen Shot 2016-06-13 at 19.36.24
+Project Scorpio games: Does Project Scorpio replace the Xbox One?
+
+Microsoft has been clear from the first mention of Project Scorpio that it will be a part of the Xbox family. Games that run on Xbox One or Xbox One S will also run on Project Scorpio, but with better graphics, higher frame rates or resolutions. It's a similar story to the way the PS4 Pro plays PS4 games but often with enhancements and sometimes in 4K.
+
+The message pushed by Spencer is that "no one gets left behind", so as Scorpio pushes things forwards, Team Xbox is keen to ensure that the humble Xbox One gamer doesn't feel they have to go out an buy a new console to keep up. Equally, those who do get Scorpio will still be using the same services as they do now and be part of the same Xbox Live community.
+Project Scorpio release date and price
+
+It's perhaps exciting to be able to put a date on a future release. Project Scorpio is slated for a December 2017 launch, right in time for "the holiday season".
+
+Of course, there's no price yet, but we fully expect to find out during Microsoft's E3 2017 press event this June.
+
+These are exciting times.

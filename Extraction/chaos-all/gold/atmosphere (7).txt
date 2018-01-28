@@ -1,0 +1,27 @@
+Ceres’ temporary atmosphere linked to solar activity
+
+Scientists have long thought that Ceres may have a very weak, transient atmosphere, but mysteries lingered about its origin and why it’s not always present. Now, researchers suggest that this temporary atmosphere appears to be related to the behaviour of the Sun, rather than Ceres’ proximity to the Sun. The study was conducted by scientists from NASA’s Dawn mission and others who previously identified water vapor at Ceres using other observatories.
+
+“We think the occurrence of Ceres’ transient atmosphere is the product of solar activity,” said Michaela Villarreal, lead author of the new study in the Astrophysical Journal Letters and researcher at the University of California, Los Angeles.
+
+Ceres is the largest object in the asteroid belt that lies between Mars and Jupiter. When energetic particles from the Sun hit exposed ice and ice near the surface of the dwarf planet, it transfers energy to the water molecules as they collide. This frees the water molecules from the ground, allowing them to escape and create a tenuous atmosphere that may last for a week or so.
+
+“Our results also have implications for other airless, water-rich bodies of the solar system, including the polar regions of the moon and some asteroids,” said Chris Russell, principal investigator of the Dawn mission, also at UCLA. “Atmospheric releases might be expected from their surfaces, too, when solar activity erupts.”
+
+Before Dawn arrived in orbit at Ceres in 2015, evidence for an atmosphere had been detected by some observatories at certain times, but not others, suggesting that it is a transient phenomenon. In 1991, the International Ultraviolet Explorer satellite detected hydroxyl emission from Ceres, but not in 1990. Then, in 2007, the European Southern Observatory’s Very Large Telescope searched for a hydroxide emission, but came up empty. The European Space Agency’s Herschel Space Observatory detected water in the possible weak atmosphere, or “exosphere,” of Ceres on three occasions, but did not on a fourth attempt.
+
+As Dawn began its thorough study of Ceres in March 2015, scientists found ample evidence for water in the form of ice. The spacecraft’s gamma ray and neutron detector (GRaND) has found that the uppermost surface is rich in hydrogen, which is consistent with broad expanses of water ice. This ice is nearer to the surface at higher latitudes, where temperatures are lower, a 2016 study published in the journal Science found. Ice has been detected directly at the small bright crater called Oxo and in at least one of the craters that are persistently in shadow in the northern hemisphere. Other research has suggested that persistently shadowed craters are likely to harbor ice. Additionally, the shapes of craters and other features are consistent with significant water-ice content in the crust.
+
+Because of this evidence for abundant ice, many scientists think that Ceres’ exosphere is created in a process similar to what occurs on comets, even though they are much smaller. In that model, the closer Ceres gets to the Sun, the more water vapor is released because of ice sublimating near or at the surface.
+
+But the new study suggests comet-like behavior may not explain the mix of detections and non-detections of a weak atmosphere.
+
+“Sublimation probably is present, but we don’t think it’s significant enough to produce the amount of exosphere that we’re seeing,” Villarreal said.
+
+Villarreal and colleagues showed that past detections of the transient atmosphere coincided with higher concentrations of energetic protons from the Sun. Non-detections coincided with lower concentrations of these particles. What’s more, the best detections of Ceres’ atmosphere did not occur at its closest approach to the Sun. This suggests that solar activity, rather than Ceres’ proximity to the Sun, is a more important factor in generating an exosphere.
+
+The research began with a 2016 Science study led by Chris Russell. The study, using GRaND data, suggested that, during a six-day period in 2015, Ceres had accelerated electrons from the solar wind to very high energies.
+
+In its orbital path, Ceres is currently getting closer to the Sun. But the Sun is now in a particularly quiet period, expected to last for several more years. Since their results indicate Ceres’ exosphere is related to solar activity, study authors are predicting that the dwarf planet will have little to no atmosphere for some time. However, they recommend that other observatories monitor Ceres for future emissions.
+
+Dawn is now in its extended mission and studying Ceres in a highly elliptical orbit. Engineers are maneuvering the spacecraft to a different orbital plane so that Ceres can be viewed in a new geometry. The primary science objective is to measure cosmic rays to help determine which chemical elements lie near the surface of Ceres. As a bonus, in late April, the Sun will be directly behind Dawn, when the spacecraft is at an altitude of about 12,300 miles (20,000 kilometres). Ceres will appear brighter than before in that configuration, and perhaps reveal more secrets about its composition and history.

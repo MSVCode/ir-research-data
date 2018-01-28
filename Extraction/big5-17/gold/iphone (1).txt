@@ -1,0 +1,15 @@
+A Great Reason To Update Your iPhone: This Hack Breaks iOS Security With Just A Wi-Fi Connection
+
+The blurb for a presentation at the Black Hat Asia hacking conference this week would likely concern any iPhone owner: "The victim will only have to join the Wi-Fi network, and then the device will be compromised without any user interaction, bypassing all iOS mitigations and sandboxes."
+
+Marco Grassi, from the famous Keen Lab hacker crew employed by Chinese tech giant Tencent, devised the hack, though declined to talk to media this week about his research. According to the blurb, Grassi's technique was able to hack an iOS device remotely via Wi-Fi "without any user interaction, completely bypassing the iOS sandbox."
+
+The sandbox is designed to prevent apps from accessing or altering files they shouldn't, with the aim being to prevent malicious activity on the device. "We will disclose a chain of several vulnerabilities, leading to arbitrary code execution outside of the iOS sandbox and show that the device can be compromised in different ways in the post-exploitation phase," the blurb added.
+
+Fortunately for Apple users, the Cupertino giant has already fixed the bugs, so anyone not running the latest operating system should update as soon as they can. Apple told me the issue was fixed back in December to little fanfare with the release of iOS 10.2, though it appears the bug was only made public in February.
+
+In its explainer notes, Apple wrote that the issue resided in the WebSheet component of iOS that is used when iPhone owners connect to public Wi-Fi networks that require them to go through a login portal. It appears Apple wasn't doing enough validation to prevent malicious code running when that WebSheet was loaded. "A sandbox escape issue was addressed through additional restrictions," Apple added, crediting Grassi and Trend Micro's Zero Day Initiative, which rewards researchers for finding bugs before disclosing them to tech companies.
+
+Fuller details of Grassi's exploits will be revealed at the Black Hat Asia conference later this week.
+
+Late last week, Apple issued a strong statement on Wikileaks' release of Central Intelligence Agency malware targeting its iOS and Mac operating systems, saying that the tools were old and the relevant vulnerabilities patched long ago. It also said it hadn't negotiated with Julian Assange's organization for materials from the CIA leak, after Wikileaks made demands of tech firms hoping to fix any issues that were still exploitable in the Vault 7 archive.

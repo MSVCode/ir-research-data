@@ -1,0 +1,71 @@
+Project Scorpio devs have access to 8GB GDDR5 RAM
+Devs get access to 8GB of Scorpio's 12GB GDDR5 memory, and can allocate the RAM in a ton of different ways to improve in-game performance
+
+In an effort to make Project Scorpio games as mind-blowing as possible, Microsoft is giving developers even more access to the console's built-in hardware. Devs can harness the raw power of Project Scorpio's 6TFLOPs of compute power and 1172MHz of Polaris-derived GPU clock speeds, the custom 8-core x86 "Jaguar evolved" CPU, and 67% of the system's beefy 12GB of unified GDDR5 RAM to help optimize their games in a variety of different ways.
+
+ According to Digital Foundry's Richard Leadbetter, developers will have access to 67% of Project Scorpio's total unified RAM system memory, or 8GBs of Project Scorpio's total 12GB of GDDR5 RAM. For comparison's sake, devs only have access to 5GB of Xbox One's RAM, and the same amount on PS4 Pro. This extra 3GB of accessible memory is a tremendous advantage that can facilitate boosts across the board for a multitude of optimizations, including resolution enhancements, tighter frame rates, and dramatically faster loading times by treating the extra RAM as an IO cache.
+
+ 
+
+Project Scorpio's system memory isn't just brawny, at 12GB of GDDR5 RAM, but also has the bandwidth to back it up. Scorpio's 12GB of GDDR5 RAM--made up of 12x 6.8GHz modules--is clocked at a respectable 326 GB/sec bandwidth speeds over a 384-bit bus. Remember Scorpio's memory is unified, not dedicated, so both video and system RAM are running through the bandwidth pipeline.
+
+ 
+
+Project Scorpio confirmed specs
+
+ 
+
+    SoC: Highly customized 360mm² AMD System-on-Chip built on 16nm FinFET
+
+    GPU: Polaris-derived GPU with 40 Compute Units at 1172MHz, 6TFLOPs of Compute Performance
+
+    CPU: Custom x86 "Jaguar Evolved" 8-core CPU at 2.3GHz, 4MB L2 cache
+
+    Memory: 12GB GDDR5 memory with 326GB/s bandwidth (12x 6.8GHz modules on a 384-bit bus)
+
+    Storage: 1TB 2.5-inch HDD
+
+    Media: 4K UHD Blu-ray player
+
+ 
+
+But with all of these optimizations running in the background on the Scorpio Engine, combined with all of the APIs, scalers, and internal software tools, means the console's system memory reservation has increased as well. While devs have access to 8GB of RAM, the other 4GB is allocated for the operating system.
+
+ 
+
+Given the OS is built on Microsoft's ultra-flexible and quite potent Windows 10 Universal Windows Platform, developers--and Microsoft--can do some impressive things within the box itself. We've seen evidence of this with the rather eye-opening synergized harmony achieved via software and hardware, which enables some of the most flexible performance-scaling ever seen in the console realm.
+
+ 
+Take the way Project Scorpio automatically scales in-game performance, for example.
+
+ 
+
+Similar to the PlayStation 4 Pro's "Boost Mode," Project Scorpio will innately boost performance in a very real "plug and play" style in original Xbox One games without requiring updates or enhancement patches. Xbox One games with dynamic resolution will hit their frame rate targets more consistently, and the resolutions will be locked to the console's max output. Not only that, but Xbox One games will enjoy 16x anistropic texture filtering, and all screen-tearing is removed.
+
+ 
+
+These features are enabled both by the unity of enhanced hardware and software in an intelligent, flexible design. Scorpio has been customized on the silicon level, but the robust software pipeline is the yin to the console hardware's yang; the system ensures that games don't waste any power and only use the resources they need. The system marries efficiency, flexibility, scalability and raw power in such a way that facilitates surprising, almost magical results, hitting 4K 60FPS with a Polaris-grade GPU and Jaguar CPU. 
+
+The real achievement comes with Project Scorpio's ability to hit 4K 60FPS in Forza 6 with graphics running at Ultra-equivalent PC settings.
+
+ 
+
+"I've seen Microsoft's new console running a Forza Motorsport 6-level experience locked to 4K60 on the equivalent to PC's ultra settings - cranking up the quality presets to obscene levels was one of the first things developer Turn 10 did when confronted with the sheer amount of headroom it had left after a straight Xbox One port," Digital Foundry's Richard Leadbetter said during the exclusive Scorpio reveal.
+
+ 
+
+But what about native 4K? Scorpio hit native 4K 60FPS at Xbox One's High graphics preset with quite a bit of GPU power to spare.
+
+ 
+
+"Performance is remarkable. We saw a Forza Motorsport demo running on the machine at native 4K and Xbox One equivalent settings, and it hit 60 frames per second with a substantial performance overhead," Leadbetter said in the report. 
+
+So this extra 3GB of GDDR5 RAM can go a long way and be used for different things. Scorpio is all about re-organizing allocated hardware to boost performance, constantly shifting its resources to ensure optimum in-game results, whether it be frame rates or quicker loading times.
+
+ 
+
+This dynamic shifting and offloading of resources is one of the most impressive aspects of the console as a whole, and we can't wait to see what developers like Monolith Entertainment do with it in Middle-earth Shadow of War.
+
+ 
+
+Project Scorpio is slated to release Holiday 2017, likely for a price point of at least $450. Microsoft will reveal Project Scorpio's name, pricing, launch games at more during its E3 2017 showcase in June.

@@ -1,0 +1,21 @@
+Apple’s Artificial Intelligence Guru Talks About a Sci-Fi Future
+
+Artificial intelligence has made great progress in helping computers recognize images in photos and recommending products online that you're more likely to buy. But the technology still faces many challenges, especially when it comes to computers remembering things like humans do.
+
+On Tuesday, Apple’s director of AI research, Ruslan Salakhutdinov, discussed some of those limitations. However, he steered clear during his talk at an MIT Technology Review conference of how his secretive company incorporates AI into its products like Siri.
+
+Salakhutdinov, who joined Apple in October, said he is particularly interested in a type of AI known as reinforcement learning, which researchers use to teach computers to repeatedly take different actions to figure out the best possible result. Google (goog, +0.17%), for example, used reinforcement learning to help its computers find the best possible cooling and operating configurations in its data centers, thus making them more energy efficient.
+
+Researchers at Carnegie Mellon, where Salakhutdinov is also an associate professor, recently used reinforcement learning to train computers to play the 1990's era video game Doom, Salakhutdinov explained. Computers learned to quickly and accurately shoot aliens while also discovering that ducking helps with avoiding enemy fire. However, these expert Doom computer systems are not very good at remembering things like the maze's layouts, which keeps them from planning and building strategies, he said.
+
+Part of Salakhutdinov’s research involves creating AI-powered software that memorizes the layouts of virtual mazes in Doom and points of references in order to locate specific towers. During the game, the software first spots what's either a red or green torch, with the color of the torch corresponding to the color of the tower it needs to locate.
+
+Eventually, the software learned to navigate the maze to reach the correct tower. When it discovered the wrong tower, the software backtracked through the maze to find the right one. What was especially noteworthy was that the software was able to recall the color of the torch each time it spotted a tower, he explained.
+
+For more about technology and finance, watch: 
+
+However, Salakhutdinov said this type of AI software takes “a long time to train” and that it requires enormous amounts of computing power, which makes it difficult to build at large scale. “Right now it’s very brittle,” Salakhutdinov said.
+
+Another area Salakhutdinov wants to explore is teaching AI software to learn more quickly from “few examples and few experiences.” Although he did not mention it, his idea would benefit Apple in its race to create better products in less time.
+
+Some AI experts and analysts believe Apple's AI technologies are inferior to competitors like Google or Microsoft because of the company's stricter user privacy rules, which limits the amount of data it can use to train its computers. If Apple used less data for computer training, it could perhaps satisfy its privacy requirements while still improving its software as quickly as rivals.

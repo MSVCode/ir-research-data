@@ -1,0 +1,13 @@
+Intel takes wraps off new logo and post-Pentium branding
+
+ Intel is gearing up to do a full-blown unveiling of their new platform branding intiative, in which names like "Viiv," "Solo," and "Duo" will replace the venerable Pentium processor name. In anticipation of the event, Intel has announced their new logo and tag line, as well as some more details of their post-Pentium processor branding.
+
+This ABC News story has a graphic with the new Intel logo, which does away with the subscripted "e" in the company name and switches to an all lowercase font. The swooshy circle thing is retained, but the tag line "Intel Inside" will be replaced by "Leap ahead."
+
+In all the update is long overdue, and I think it's a change for the better. Now if AMD would just get rid of that weird green arrow thing, all would be well.
+
+Multiple news reports claim that the mobile processor line's name will be "Core," so instead of buying a dual-core Pentium M Ultra Low Voltage Extreme With A Twist of Lime, you'll get either a "Core Duo" (for dual-core) or a "Core Solo" (for single-core). The implication seems to be that Intel will announce some other name for the desktop and server lines (Xeon Duo/Solo?), but I'm not so sure. I wasn't able to find any press materials on Intel's site, and it's too late to contact a rep for clarification, but my guess is that the "Core Solo/Duo" names will be used in more than just the mobile line. This also squares with the previous rumors that the core architecture will be called "Intel Core."
+
+Intel is using the same core architecture across its entire product line, so I imagine that this architecture will be called "Core" whether it's in a laptop chip or a desktop chip. What will probably change according to market segment are the platform names into which the Core Duo/Solo processors are integrated. But I await further clarification from Intel on this.
+
+At any rate, I'm not so sure I like the Core Duo/Solo naming scheme, mainly because I can already see the commercials with the little dancing, computer-generated figures jitterbugging away to loud music, singly and in pairs. Why can't the ad companies responsible for the constantly inventive and entertaining barrage of beer commercials take a few technology contracts now and again? Oh well, however bad it is, it won't be as awful as this. The horror... the horror... 

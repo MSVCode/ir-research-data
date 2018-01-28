@@ -1,0 +1,34 @@
+AMD's Chip Off The Old Block
+
+NEW YORK - When Advanced Micro Devices needs to send a message to the rest of the chip industry, they turn to Fred Weber.
+
+So was the case 1999, at the Microprocessor Forum in San Jose, Calif., one of the semiconductor industry's most important agenda-setting events, where Weber threw down the gauntlet against Intel (nasdaq: INTC - news - people ) in the race to build 64-bit microprocessors.
+
+ 	
+AMD's new chief technology officer, Fred Weber.
+ 
+For years, he's been chief technology officer of AMD's (nyse: AMD - news - people ) computational products group. Now he's been promoted to chief technology officer of the entire company, a job that Weber is already uniquely suited for. In it he will become the public face of AMD's technological development.
+
+To the uninitiated, Weber's 1999 presentation may have appeared a dry scientific explanation about extending the 32-bit chips and their underlying instruction sets into the 64-bit realm. In it he described an AMD chip design codenamed "Sledgehammer." In time that chip design evolved into AMD's flagship microprocessor line Athlon 64, used by PC makers like Gateway (nyse: GTW - news - people )and Hewlett-Packard (nyse: HPQ - news - people ). It also led to the Opteron processor for servers and workstations, now used by companies like IBM (nyse: IBM - news - people ), Sun Microsystems (nasdaq: SUNW - news - people ) and Hewlett-Packard. Both chips have turned out to be partially responsible for a turnaround in AMD's fortune.
+
+Sometimes disregarded for its smaller share of the microprocessor market when compared to Intel, AMD has been winning converts in recent years for its innovative chips. Weber says some of the old AMD criticism no longer apply.
+
+"This is really a marathon that's been going on, and you can look back as far as you want, but I think ten years is a really good place to start," he says. "There's been steady progress all the way along through innovation. In what other industry would you complain about a company that has 15% to 20% market share, more than a billion dollars in revenue, and often 40 or 50% market share in important sectors like consumer retail? I think because AMD came from behind in a market so dominated by one player that the reputation for following has long outlived the reality."
+
+Still, AMD finished 2003 with a $233 million loss, but compare that with a $1.2 billion loss for 2002. Earnings have been in the black for the last three quarters, including a $32 million profit on sales of $1.2 billion for the quarter ended in June. Even more telling is the fact that the computational products group finished the year with a $23 million loss, accounting for only 10% of the overall 2003 loss, versus $661 million or 53% of the 2002 loss.
+
+Weber's promotion comes at an interesting time in the chip industry. Despite standing by its Itanium 64-bit processor for servers, Intel has recently embraced for its PC chips a 64-bit approach that differs little from the approach that Weber laid out for AMD in 1999. But now that the migration path to 64-bit computing is well understood--though Microsoft (nasdaq: MSFT - news - people ) has yet to ready its 64-bit flavor of Windows--the chip industry is now abuzz with talk of "dual cores" and "multiple cores." Earlier this year Intel abruptly ceased development (see: "Core Confusion") on what was to be the last generation of its single-core microprocessors and said that going forward all new PC microprocessors would have two cores or more.
+
+If the microprocessor is the central brain of a computer, then a core is its cerebral cortex. Adding a second core lets a chip do more work in less time. Extra cores can be called upon or turned off as needed giving PC designers more control over such factors as heat and power consumption, making them quieter and cooler than they are now.
+
+Multi-core chips have long been on AMD's roadmap, Weber says, though he says AMD's approach has been over time more cautious than Intel's seemingly sudden interest.
+
+"I remember a story back from 1985, when I got into multiprocessing while working with supercomputers. The state of affairs then was that "Moore's Law was supposedly about to end, and multiprocessing was right around the corner and everything is going to go into multiprocessing very soon," he says. "Here we are 19 years later and Moore's Law is about to end and multiprocessing [using two or more processors in a computer at once] is right around the corner. Now honestly, both those statements are truer now than they were 19 years ago, but there is a degree of caution called for."
+
+AMDs position, Weber says, has long been that multiprocessing would be accomplished by cramming two cores onto a chip, and the Athlon and Opteron were from the very beginning designed to accommodate that approach once. Now that chip features are shrinking heading toward the 60- and 45-nanometer scale (a nanometer is a billionth of a meter) it makes sense.
+
+"Technology is moving fast enough that it's now affordable to put two and four cores on a chip. The original Sledgehammer designs had all the logic for dual-core from its very first design. And we just announced that we've completed the design of our first dual-core chip." That desktop chip, codenamed "Toledo," is expected to start appearing on the market in 2005.
+
+The other fundamental problem chip design that both Intel and AMD have been struggling with has been a problem of physics called "transistor leakage." As the individual transistors on a chip get smaller, they also get closer together, which causes them to have a tendency to shed--or leak--power they aren't supposed to, meaning more power has to be piped into the chip to make up for that lost to keep it running properly. This means the chip is hotter and consumes more power than it otherwise would be. Intel says that it has solved the leakage problem using a material that it has so far declined to name. Weber demurred when asked if AMD has a solution of its own.
+
+"I don't have any particular technologies to tell you about today," he says. "The good news is that there do seem to be solutions after solutions. We've been pushing the current technology very hard for 20-odd years and every time it seems that you've hit something hopeless, the material scientists and the transistors scientists, they do find things that solve it. Leakage and power consumption are certainly at the top of our minds right now. We've got circuit tricks and transistor tricks that we're doing right now to tackle it."

@@ -1,0 +1,28 @@
+Why I use a 20-year-old IBM Model M keyboard
+They don't make them like they used to.
+
+The other day, I posted this image to show off my new MacBook Pro's multiscreen prowess. Nobody cared. But I did get a few comments on my keyboard. Which got me thinking: why do I use a keyboard that's old enough to be of legal drinking age?
+
+It must have been about ten years ago that a trip to the computer expo could still result in some cool hardware you'd never heard of or a killer deal on something more conventional. In this case, I found someone selling these enormous, old, second-hand keyboards. I thought it would be cool to have some IBM hardware, so I got one.
+
+And before long, the three cheap keyboards that had come with the three PCs I had at the time were gathering dust. So what's so special about the IBM Model M keyboard?
+
+For starters, the sound. This thing is loud, which really makes me feel like I'm getting serious work done when typing. Not so great if you share an office or participate in conference calls, though. The reason the Model M is so loud is that it uses a buckling spring mechanism, with a spring inside each key that buckles as you press it. The buckling springs also give the keyboard its distinctive feel: the keys offer fairly significant resistance up to a point, and then they go all the way down. This is also exactly the moment they activate, so you know exactly when you've typed a letter by touch alone, without the need to bottom out the keys.
+
+It helps that the Model M is incredibly sturdy, and the key caps on most keys come off for easy cleaning.
+
+This also lets you rearrange the keys as needed. For instance, I swapped the key caps for alt and control on the keyboard and then set up my Mac to use caps lock as control, the original control (now alt) as alt/option, and the original alt (now control) as command. This maps to Apple keyboards as closely as possible.
+
+Keeping the B in IBM in mind, as well as the fact that back in the 1980s—when the keyboard was designed—PCs could barely produce a beep or two, the Model M doesn't have any media keys. However, that's easily solved with Sizzling Keys, a little app that makes the keys of your choice control iTunes. (Why Apple's custom keyboard shortcut mechanism is too limited to do this is a mystery to me.)
+
+This Model M from 1992 is actually a modern one, because it has a PS/2 connector rather than the even more ancient AT connector. A PS/2-to-USB adapter takes care of the difference.
+
+Surprisingly, this 2 kg (4.4 pound) battleship of a keyboard only needs 100 mA power from the USB port.
+
+I did get two Bluetooth Apple keyboards along the way: the old white one and, later, the current aluminum one. The white one feels pretty mushy, even more so than most cheap PC keyboards. The aluminum keyboard is pretty nice, and it uses very little desk space. But if I'm going to use a laptop keyboard, I might as well just use a laptop keyboard.
+
+The Model M is more pleasant and accurate to type on than any other keyboard I've used. So behind my desk at home, where size, weight, and noise don't enter into the equation, the Model M is front and center.
+
+I guess my fingers will have to join the new millennium at some point, and I'll get one of them newfangled Unicomp keyboards, with their media keys and USB connector. But after hundreds of thousands of words, my trusty Model M still has some good years in it—if not decades. And I actually like beige.
+
+Further listening: Old-School Keyboard Makes Comeback Of Sorts (NPR)
