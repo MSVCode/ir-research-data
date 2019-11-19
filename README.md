@@ -3,7 +3,7 @@ Research dataset for web content extraction and news-search clustering.
 
 ### Paper ###
 - `Utomo, V. & Leu, J.-S., Unpublished. Subject-Assisted Extraction: Looking at Web Content Extraction from Different Side. (Extraction in-depth explanation)`
-- `Utomo, V. & Leu, J.-S., Unpublished. Automatic News-Roundup Generation using Clustering, Extraction, and Presentation. (Application using extraction and clustering)`
+- `Utomo, V. & Leu, J.-S., 2019. Automatic News-Roundup Generation using Clustering, Extraction, and Presentation. Multimedia Systems. https://doi.org/10.1007/s00530-019-00638-4 (Application using extraction and clustering)`
 
 *Will be updated when published
 
